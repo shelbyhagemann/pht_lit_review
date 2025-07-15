@@ -65,12 +65,78 @@ class OllamaLLM(LLM):
 # metrics list
 # note: adding rest later, want to run on smaller scale for proof-of-concept
 pht_framework = [
+    "What is the DOI for this paper?",
+
+    "What is the title of the paper?",
+
+    "Who is the lead author of the paper?",
+
+    "What year was this paper published?",
+
+    "How many pages long is this paper?",
+
     "Please rate on a scale of 1 to 5: is the game fun-first (1) or utility-first (5)?",
+    
     "Please rate on a scale of 1 to 5: Is the design play-first(1) or game-first (5)?",
+    
     "Please rate on a scale of 1 to 5: Is the game social (1) or solo (5)?",
+    
     "Please rate on a scale of 1 to 5: Is the game sequential (1) or simultaneous (5)?", 
+    
     "Please rate on a scale of 1 to 5: Is the game competitive (1) or collaborative (5)?",
-    "Please rate on a scale of 1 to 5: Is the game symmetrical (1) or assymetrical (5)?"
+    
+    "Please rate on a scale of 1 to 5: Is the game symmetrical (1) or assymetrical (5)?",
+    
+    """How would you classify the experiential play value: sensority (i.e. kaleidoscope), 
+    fantasy (i.e. role playing), construction (i.e. music, painting, building), 
+    challenge (testing physical or mental abilities against others or self), 
+    undisclosed/unknown, but the paper does include a game/play system or experience, not applicable""",
+
+    """Which of the following study methods applies to this paper? Please select all that apply:
+    workshop or design session, field study, usability testing, case study, focus group,
+    controlled experiment, survey, telemetry/big data/cscw, secondary analysis, no data collected,
+    other (please specify)""",
+
+    """Which of the following interview methodologies was used? Select all that apply: structured interview,
+    semi-structured interview, contextual inquiry, not applicable, other (please specifcy)""",
+
+    """Which of the following workshop methodologies were used? Select all that apply:
+     action research, cooperative method development, speculative design, persona, scenario, role playing, 
+     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,
+     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,
+     other (please specify)""",
+
+     """Which of the following field study methodologies where used? Please select all that apply: autoethnography,
+     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)""",
+
+     """Which of the following usability methodologies were used? Please select all that apply: expert analysis, think 
+     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)""",
+
+     """Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, 
+     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)""",
+
+     """What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, 
+     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)""",
+
+     """What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
+     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, 
+     general disability or accessability, other (please specifiy)""",
+
+    """What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, 
+    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)""",
+
+    """Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, 
+    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders 
+    with disabilities, no representative user involvement, not applicable""",
+
+    """Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), 
+    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)""",
+
+    """Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, 
+    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,
+    education, increasing opportunities for enrichment, other""",
+
+    """What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey"""
 ]
 
 # set up llm
@@ -126,7 +192,7 @@ def prompt(vector_store):
         full_prompt = """Use the following pieces of context to answer the question at the end.
         Answer as if you are a human-centered computer science researcher.
         If you don't know the answer, just say that you don't know, don't try to make up an answer.
-        Use three sentences maximum and keep the answer as concise as possible.
+        Please keep your response as concise as possible. Only answer the question, do not provide reasoning.
 
         {context}
 
