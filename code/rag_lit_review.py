@@ -190,9 +190,8 @@ def prompt(vector_store):
 
         # full prompt
         full_prompt = """Use the following pieces of context to answer the question at the end.
-        Answer as if you are a human-centered computer science researcher.
         If you don't know the answer, just say that you don't know, don't try to make up an answer.
-        Please keep your response as concise as possible. Only answer the question, do not provide reasoning.
+        Please keep your response as concise as possible. Only answer the question, do not provide reasoning or justification for your answer.
 
         {context}
 
