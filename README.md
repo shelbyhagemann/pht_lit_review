@@ -1,0 +1,1 @@
+In order to run this Python script locally, you first must have ollama installed. In your terminal, run "ollama serve" and then run the Python script in a separate terminal window while the server is running.
