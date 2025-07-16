@@ -38,7 +38,31 @@ from langchain_huggingface import HuggingFaceEmbeddings
 ## declare global variables
 
 # paper filepaths
-file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf"]
+file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf", "allmen09.pdf", "alsaleem19.pdf",
+"alves21.pdf", "anderson96.pdf", "andradi21.pdf", "anthony12.pdf", "aruanno19.pdf", "asakawa21.pdf", "aziz08.pdf", 
+"baloian02.pdf", "balter05.pdf", "bandukdta20.pdf", "barbeschi20.pdf", "barbeschi22.pdf", "barbel18.pdf", "batterman13.pdf",
+"bennett19.pdf", "bhatt20.pdf", "biemanns09.pdf", "bircanin20.pdf", "black11.pdf", "bondioli17.pdf", "boyd23.pdf", "boyd17.pdf",
+"breashear06.pdf", "brule16.pdf", "bushmann14.pdf", "butler19.pdf", "butler23.pdf", "capozzi12.pdf", "caro14.pdf", "carrington17.pdf",
+"carrington18.pdf", "cavasosquero18.pdf", "chang16.pdf", "chibaudel20.pdf", "cimolino21.pdf", "collins23.pdf", "conde20.pdf",
+"constantin18.pdf", "desilva23.pdf", "dragomir18.pdf", "duval18.pdf", "fan12.pdf", "fell03.pdf", "folmer09.pdf", "franz23.pdf",
+"friedman18.pdf", "fung22.pdf", "gadiraju19.pdf", "gadiraju21.pdf", "galbraith14.pdf", "galliers11.pdf", "gay20.pdf", "gelsomini16.pdf",
+"gennari08.pdf", "gerling13.pdf", "gizatdinova22.pdf", "gleason20.pdf", "gonclaves20.pdf", "gotfrid16.pdf", "hair19.pdf", "hamidi17.pdf",
+"harada07.pdf", "hine02.pdf", "hiraga06.pdf", "hoey10.pdf", "hoffman15.pdf", "hornof03.pdf", "hossain23.pdf", "hurd19.pdf", "husaan11.pdf",
+"illijima22.pdf", "ilsar20.pdf", "india21.pdf", "india19.pdf", "jack00.pdf", "jain19.pdf", "jayant11.pdf", "jiang23.pdf", "jiang22.pdf", "kamel02.pdf",
+"kamel00.pdf", "kaminer14.pdf", "karpodini22.pdf", "keate94.pdf", "khurana21.pdf", "kim11.pdf", "kim13.pdf", "koseff23.pdf", "koushik17.pdf",
+"kurze96.pdf", "kuwahara06.pdf", "kwon19.pdf", "langford21.pdf", "lehman98.pdf", "franz21.pdf", "li22.pdf", "li22_2.pdf", "lobo21.pdf",
+"lobo19.pdf", "lu22.pdf", "lu23.pdf", "luna23.pdf", "macpherson18.pdf", "madeo11.pdf", "madjaroff17.pdf", "mahmud23.pdf", "mahmud06.pdf", "maidenbaum15.pdf",
+"mai22.pdf", "malik21.pdf", "mandryk12.pdf", "martinez21.pdf", "mascetti19.pdf", "mcgowan23.pdf", "mcgowan17.pdf", "mei15.pdf", "menzies19.pdf",
+"miao17.pdf", "miller07.pdf", "milne13.pdf", "milne14.pdf", "mohammed06.pdf", "mok22.pdf", "mok23.pdf", "montague14.pdf", "moore03.pdf",
+"morales16.pdf", "morelli10.pdf", "morris10.pdf", "mott20.pdf", "moyaalcover11.pdf", "myers02.pdf", "nair22.pdf", "norte08.pdf", "obryan12.pdf",
+"ohshiro22.pdf", "omori13.pdf", "oren08.pdf", "ortega15.pdf", "ostiz-blanco18.pdf", "ostiz-blanco18-2.pdf", "pareto05.pdf", "parnandi13.pdf",
+"payne22.pdf", "payne23.pdf", "payne20.pdf", "payne19.pdf", "piedade23.pdf", "piper10.pdf", "pires19.pdf", "plaisant00.pdf", "poddar23.pdf",
+"porter13.pdf", "putnam13.pdf", "putnam08.pdf", "ragone20.pdf", "raman98.pdf", "rauschenberger15.pdf", "ravers23.pdf", "rector13.pdf", "rello15.pdf",
+"rello12.pdf", "rello14.pdf", "rello17.pdf", "ringland19.pdf", "ridngland16.pdf", "rocha 21.pdf", "rubin16.pdf", "saha17.pdf", "sanchez11.pdf", "sanchez03.pdf",
+"sanchez05.pdf", "sanchez09.pdf", "sanchez10.pdf", "seymour17.pdf", "sharma18.pdf", "shamra16.pdf", "shin20.pdf", "smeddink15.pdf", "smeddink13.pdf",
+"sporka13.pdf", "sporka06.pdf", "stangl15.pdf", "sturm17.pdf", "swaminathan18.pdf", "tamburro20.pdf", "torrente12.pdf", "torrente12-2.pdf", "trewin18.pdf",
+"trinh11.pdf", "tzanidou22.pdf", "tzovaras02.pdf", "uchida17.pdf", "uchida18.pdf", "usui10.pdf", "valencia19.pdf", "vuijk21.pdf", "wilkerson10.pdf", "wilson17.pdf",
+"yairi12.pdf", "ye12.pdf", "yuan08.pdf", "zhang22.pdf", "zhang23.pdf", "zhang23-2.pdf"]
 
 
 # metrics list
