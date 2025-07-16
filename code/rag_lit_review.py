@@ -31,39 +31,17 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.vectorstores import InMemoryVectorStore
 from typing_extensions import List, TypedDict
 from langchain_core.documents import Document
+from langchain_community.llms import Ollama
 from langchain_huggingface import HuggingFaceEmbeddings
 
-## declare classes
-class OllamaLLM(LLM):
-    model: str = "llama2"
-
-    def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
-        try:
-            result = subprocess.run(
-                ["ollama", "run", self.model, prompt],
-                capture_output=True,
-                text=True,
-                check=True
-            )
-            return result.stdout.strip()
-        except subprocess.CalledProcessError as e:
-            print("Ollama subprocess failed")
-            print("Exit Code:", e.returncode)
-            print("Stdout:", e.stdout[:300])  # Truncated
-            print("Stderr:", e.stderr[:300])  # Truncated
-            raise RuntimeError(f"Ollama call failed: {e.stderr}")
-
-    @property
-    def _identifying_params(self) -> Mapping[str, any]:
-        return {"model": self.model}
-
-    @property
-    def _llm_type(self) -> str:
-        return "ollama"
 
 ## declare global variables
+
+# paper filepaths
+file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf"]
+
+
 # metrics list
-# note: adding rest later, want to run on smaller scale for proof-of-concept
 pht_framework = [
     "What is the DOI for this paper?",
 
@@ -75,72 +53,72 @@ pht_framework = [
 
     "How many pages long is this paper?",
 
-    "Please rate on a scale of 1 to 5: is the game fun-first (1) or utility-first (5)?",
+    "Please rate on a scale of 1 to 5, only offering the number: is the game fun-first (1) or utility-first (5)?",
     
-    "Please rate on a scale of 1 to 5: Is the design play-first(1) or game-first (5)?",
+    "Please rate on a scale of 1 to 5, only offering the number: Is the design play-first(1) or game-first (5)?",
     
-    "Please rate on a scale of 1 to 5: Is the game social (1) or solo (5)?",
+    "Please rate on a scale of 1 to 5, only offering the number: Is the game social (1) or solo (5)?",
     
-    "Please rate on a scale of 1 to 5: Is the game sequential (1) or simultaneous (5)?", 
+    "Please rate on a scale of 1 to 5, only offering the number: Is the game sequential (1) or simultaneous (5)?", 
     
-    "Please rate on a scale of 1 to 5: Is the game competitive (1) or collaborative (5)?",
+    "Please rate on a scale of 1 to 5, only offering the number: Is the game competitive (1) or collaborative (5)?",
     
-    "Please rate on a scale of 1 to 5: Is the game symmetrical (1) or assymetrical (5)?",
+    "Please rate on a scale of 1 to 5, only offering the number: Is the game symmetrical (1) or assymetrical (5)?",
     
-    """How would you classify the experiential play value: sensority (i.e. kaleidoscope), 
+    """How would you classify the experiential play value? Do not add additional context or reasoning in your response: sensority (i.e. kaleidoscope), 
     fantasy (i.e. role playing), construction (i.e. music, painting, building), 
     challenge (testing physical or mental abilities against others or self), 
     undisclosed/unknown, but the paper does include a game/play system or experience, not applicable""",
 
-    """Which of the following study methods applies to this paper? Please select all that apply:
+    """Which of the following study methods applies to this paper? Please select all that apply, do not add additional context or reasoning in your response:
     workshop or design session, field study, usability testing, case study, focus group,
     controlled experiment, survey, telemetry/big data/cscw, secondary analysis, no data collected,
     other (please specify)""",
 
-    """Which of the following interview methodologies was used? Select all that apply: structured interview,
+    """Which of the following interview methodologies was used? Select all that apply, do not add additional context or reasoning in your response: structured interview,
     semi-structured interview, contextual inquiry, not applicable, other (please specifcy)""",
 
-    """Which of the following workshop methodologies were used? Select all that apply:
+    """Which of the following workshop methodologies were used? Select all that apply, do not add additional context or reasoning in your response:
      action research, cooperative method development, speculative design, persona, scenario, role playing, 
      affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,
      sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,
      other (please specify)""",
 
-     """Which of the following field study methodologies where used? Please select all that apply: autoethnography,
+     """Which of the following field study methodologies where used? Please select all that apply, do not add additional context or reasoning in your response: autoethnography,
      ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)""",
 
-     """Which of the following usability methodologies were used? Please select all that apply: expert analysis, think 
+     """Which of the following usability methodologies were used? Please select all that apply, do not add additional context or reasoning in your response: expert analysis, think 
      aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)""",
 
-     """Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, 
+     """Which of the following technology modalities were used? Please select all that apply, do not add additional context or reasoning in your response: mobile, tablet, wearable, IoT, 
      assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)""",
 
-     """What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, 
+     """What was the context of the study? Please select all that apply, do not add additional context or reasoning in your response: clinic, public space (i.e. bowling alley), home, school, research lab, 
      social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)""",
 
-     """What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
+     """What was the community of focus? Please select all that apply, do not add additional context or reasoning in your response: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
      intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, 
      general disability or accessability, other (please specifiy)""",
 
-    """What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, 
+    """What were the participant groups included in the study? Please select all that apply, do not add additional context or reasoning in your response: People with disabilities, older adults, caregivers, 
     specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)""",
 
-    """Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, 
+    """Please select the option(s) that best describe user involevment in the study, do not add additional context or reasoning in your response: participatory design with stakeholders without disabilities, 
     participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders 
     with disabilities, no representative user involvement, not applicable""",
 
-    """Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), 
+    """Which methods of participant recruitment were used? Please select all that apply, do not add additional context or reasoning in your response: phone, mail, email, convienience sampling (i.e. Day program), 
     snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)""",
 
-    """Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, 
+    """Which of the following issues were addressed in the study? Please select all that apply, do not add additional context or reasoning in your response: increasing independence, increasing digital access, 
     increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,
     education, increasing opportunities for enrichment, other""",
 
-    """What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey"""
+    """What is the type of contribution the study makes? Please select all that apply, do not add additional context or reasoning in your response: empirical, artifact, methodological, theoretical, dataset, survey"""
 ]
 
 # set up llm
-llm = OllamaLLM(model="llama2")
+llm = Ollama(model="llama2", temperature=0.0)
 # ref for model: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
@@ -190,8 +168,10 @@ def prompt(vector_store):
 
         # full prompt
         full_prompt = """Use the following pieces of context to answer the question at the end.
-        If you don't know the answer, just say that you don't know, don't try to make up an answer.
-        Please keep your response as concise as possible. Only answer the question, do not provide reasoning or justification for your answer.
+        If you don't know the answer, just say that you don't know, don't try to make up an answer. Do not repeat the question in your response.
+        Only answer the question, do not provide reasoning, your thought process, or justification for your answer.
+        If the question asks you to answer it on a scale of numbers, only provide a number. If it asks you to select 
+        from a list, only provide the option or options from the list that answer the question.
 
         {context}
 
@@ -221,29 +201,34 @@ def generate(context, metric, full_prompt):
     docs_content = "\n\n".join(doc.page_content for doc in context)
     prompt_text = full_prompt.format(context = docs_content, metric = metric)
     response = llm(prompt_text)
-    return {"answer": response}
+    ## using strip() to clean up formatting
+    return {"answer": response.strip()}
 
 # name: generate_json
 # input: annotation_list
 # return: json output
 # description: creates json file based on annotations
-def generate_json(annotation_list, output_path="annotations.json"):
+def generate_json(annotation_list, file_num):
+    output_path= f"outputs/annotations_{file_num}.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(annotation_list, f, indent=2, ensure_ascii=False)
 
 ## main function
 def main():
     # load file path (will set up to iterate over list of file paths later)
-    file_path = "digitalplay.pdf"
-    # break data into chunks
-    chunked_data = load_pdf(file_path)
-    # store chunks in vector
-    vector_store = create_vec(chunked_data)
-    # apply annotations to paper
-    annotations = prompt(vector_store)
-    # generate json file containing annotations for that specific paper
-    generate_json(annotations)
-    print("Complete.")
+    file_num = 0
+    for file in file_path_list:
+        file_path = f"../papers/{file}"
+        # break data into chunks
+        chunked_data = load_pdf(file_path)
+        # store chunks in vector
+        vector_store = create_vec(chunked_data)
+        # apply annotations to paper
+        annotations = prompt(vector_store)
+        # generate json file containing annotations for that specific paper
+        generate_json(annotations, file_num)
+        file_num = file_num + 1
+        print("Complete.")
 
 if __name__ == "__main__":
     main()

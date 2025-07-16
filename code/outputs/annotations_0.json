@@ -1,0 +1,77 @@
+[
+  {
+    "answer": "The DOI for this paper is 10.1145/3441852.3476544."
+  },
+  {
+    "answer": "The title of the paper is \"ASSETS '21: October 18-22, 2021, Virtual Event, USA.\""
+  },
+  {
+    "answer": "The lead author of the paper is E Carlos Rodríguez-Merchán."
+  },
+  {
+    "answer": "The paper was published in 1997."
+  },
+  {
+    "answer": "The paper is 4 pages long."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I would classify the experiential play value as \"construction.\""
+  },
+  {
+    "answer": "The following study methods apply to the paper:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n\nThese are the methods listed in the passage as applicable to the paper."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "The following technology modalities were used:\n\n* Mobile\n* Wearable\n* IoT\n* Assistive devices\n\nNote: I did not select \"robot\" as it is not mentioned in the provided context."
+  },
+  {
+    "answer": "* Clinic\n* Research lab\n* Disability community space (i.e. Day program)"
+  },
+  {
+    "answer": "The community of focus in the given context is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n* Cognitive impairment\n* Older adult\n* General disability or accessibility\n\nNote: The answer is based on the options provided in the context and does not include any additional information or reasoning."
+  },
+  {
+    "answer": "The participant groups included in the study were:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)\n\nNo other user involvement was mentioned in the passage."
+  },
+  {
+    "answer": "The best option to describe user involvement in the study is:\n\n* Participatory design with stakeholders without disabilities."
+  },
+  {
+    "answer": "Question: Which methods of participant recruitment were used? Please select all that apply, do not add additional context or reasoning in your response:\n\nAnswer: Phone, mail, email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media, clinic."
+  },
+  {
+    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n\nNote: I did not select \"increasing opportunities for enrichment\" as it is not mentioned in the provided context."
+  },
+  {
+    "answer": "The study makes the following types of contributions:\n\n* Empirical contribution: The study provides empirical evidence through its analysis of remote usage data collection and analysis for mobile accessibility applications.\n* Methodological contribution: The study introduces a new methodology for collecting and analyzing remote usage data, which can be used in future research.\n* Dataset contribution: The study provides a dataset of remote usage data that can be used by other researchers for further analysis.\n\nTherefore, the answer is [Empirical], [Methodological], and [Dataset]."
+  }
+]
