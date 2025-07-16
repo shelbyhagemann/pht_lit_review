@@ -1,0 +1,77 @@
+[
+  {
+    "answer": "The DOI for the paper is 10.1145/2049536.2049541."
+  },
+  {
+    "answer": "The title of the paper is \"Design for User Empowerment\"."
+  },
+  {
+    "answer": "The lead author of the paper is Richard E. Ladner."
+  },
+  {
+    "answer": "The paper was published in 2019. Therefore, the answer is 2019."
+  },
+  {
+    "answer": "The paper has 8 pages."
+  },
+  {
+    "answer": "5"
+  },
+  {
+    "answer": "5"
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "5"
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I would classify the experiential play value as \"construction.\""
+  },
+  {
+    "answer": "The following study methods apply to this paper:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n\nThese are the methods that were used in the study to gather data and inform the findings."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "Based on the provided context, the field study methodologies that were used are:\n\n* Autoethnography\n* Ethnography\n\nTherefore, the answer is (A) Autoethnography and (B) Ethnography."
+  },
+  {
+    "answer": "I don't know the answer to the question."
+  },
+  {
+    "answer": "Based on the provided context, the following technology modalities were used:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n* Robot\n* Tangible interface\n\nNo technology was selected for the following options: PC, virtual reality, augmented reality, game console, and other (please specify)."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "The community of focus in the workshop design and implementation is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n* Cognitive impairment\n* Older adult\n\nNote: I did not select \"general disability or accessibility\" as the workshop was specifically focused on blind and low vision individuals."
+  },
+  {
+    "answer": "The participant groups included in the study are:\n\n* People with disabilities (as mentioned in the context, specifically blind makers [5] and [25])\n* Older adults (not mentioned in the context)\n* Caregivers (not mentioned in the context)\n* Specialists (e.g. therapists, teachers) (not mentioned in the context)\n\nTherefore, the answer is: People with disabilities, older adults, caregivers, specialists."
+  },
+  {
+    "answer": "I select option (b) \"participatory design with stakeholders with disabilities\" to describe user involvement in the study. The passage mentions that researchers involved people with disabilities in instruction development and DIY AT codesign, indicating a participatory design approach that involves stakeholders with disabilities in the research and Making process."
+  },
+  {
+    "answer": "I don't know the answer to that question. The passage does not provide enough information to determine which methods of participant recruitment were used."
+  },
+  {
+    "answer": "* Increasing independence (yes)\n* Increasing digital access (yes)\n* Increasing physical access (yes)\n* Supporting communication (yes)\n* Personal informatics and changing behavior (yes)\n* Education (yes)\n* Increasing opportunities for enrichment (no)"
+  },
+  {
+    "answer": "The study contributes:\n\n* Empirical: The study provides empirical findings through data collection and analysis.\n* Methodological: The study presents new methods or modifications of existing methods for conducting research and Making.\n* Dataset: The study provides a dataset that can be used for future research.\n\nI don't know the answer to the remaining options (theoretical and survey)."
+  }
+]

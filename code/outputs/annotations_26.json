@@ -1,0 +1,77 @@
+[
+  {
+    "answer": "The DOI for the paper \"Conceptualizing Celebratory Technologies for Neurodiversity to Reduce Stigma\" is [10.1145/3597638.3614478](https://doi.org/10.1145/3597638.3614478)."
+  },
+  {
+    "answer": "The title of the paper is \"Celebratory Technologies for Orchestrating Sharing of Devices and Stories during Family Mealtimes.\""
+  },
+  {
+    "answer": "The lead author of the paper is LouAnne Boyd."
+  },
+  {
+    "answer": "The paper was published in 2023."
+  },
+  {
+    "answer": "The paper is 10 pages long."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "4"
+  },
+  {
+    "answer": "4"
+  },
+  {
+    "answer": "The answer is 5. The game is simultaneous."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I would classify the experiential play value as \"construction.\""
+  },
+  {
+    "answer": "The answer to the question is:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n\nThese are the methods that are mentioned in the paper as being used in the research."
+  },
+  {
+    "answer": "* Structured interview\n* Semi-structured interview\n\nExplanation: Based on the information provided in the passage, it appears that a combination of structured and semi-structured interviews were used. The broad interview questions were structured, while the participant's responses were allowed to flow freely without being constrained by a strict set of questions. This allows for both the exploration of new ideas and the emergence of themes and patterns in the participant's thoughts and experiences. Therefore, options 1 and 2 are the most applicable methods used in this case."
+  },
+  {
+    "answer": "Question: Which of the following workshop methodologies were used? Select all that apply.\n\nAnswer: action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, use case theater, object theater."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "The following usability methodologies were used in the study described in the passage:\n\n* Expert analysis\n* Think aloud\n* Cognitive walkthrough\n\nThese are the only options that apply to the study described in the passage."
+  },
+  {
+    "answer": "The following technology modalities were used:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n* Robot\n* Tangible interface\n\nNote: I did not select \"other\" as the question only provides a list of options and does not allow for additional context or specification."
+  },
+  {
+    "answer": "* clinic\n* research lab\n* remote/Zoom"
+  },
+  {
+    "answer": "The community of focus in the passage is Autism."
+  },
+  {
+    "answer": "The participant groups included in the study were:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)\n\nNo user involvement was included in the study."
+  },
+  {
+    "answer": "I would select the option \"participatory design with stakeholders with disabilities\" to describe user involvement in the study. The passage mentions that the study involved interviewing and design sessions with disability studies doctoral candidates, which suggests that individuals with disabilities were actively involved in the design process."
+  },
+  {
+    "answer": "I don't know the answer to the question. The passage does not provide enough information to determine the methods of participant recruitment used in the study."
+  },
+  {
+    "answer": "* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Increasing understanding of users\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n* Increasing opportunities for enrichment"
+  },
+  {
+    "answer": "The study makes the following types of contributions:\n\n* Empirical: The study conducts a literature review and analyzes existing research on autism and technology.\n* Artifact: The study creates new technologies for interacting with autistic children.\n* Methodological: The study develops new methods for designing and evaluating assistive technologies.\n* Theoretical: The study contributes to the theoretical understanding of autism and technology.\n* Dataset: The study provides a dataset of existing research on autism and technology.\n* Survey: The study surveys existing research on autism and technology."
+  }
+]

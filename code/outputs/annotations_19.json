@@ -1,0 +1,77 @@
+[
+  {
+    "answer": "The DOI for this paper is 10.14503/24052/2013."
+  },
+  {
+    "answer": "The title of the paper is \"The Numbers Game: Baseball's Lifelong Fascination with Statistics\" by Alex Schwarz."
+  },
+  {
+    "answer": "The lead author of the paper is ACM."
+  },
+  {
+    "answer": "The paper was published in 2013."
+  },
+  {
+    "answer": "The paper is 13 pages long."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "3"
+  },
+  {
+    "answer": "I would rate this game as a 3, slightly leaning towards a 4. While it involves players acting as de facto team managers and being scored based on their collective team's performance, it is still primarily a solo activity where users make decisions and manage their teams without direct social interaction. However, there may be some indirect social interaction through communication with other users in the fantasy sports league, such as discussing player statistics or trades."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I would rate the game as a 3, slightly asymmetrical. While there are some positive and negative valence data points, such as rushing yards and interceptions thrown, respectively, the game is not heavily skewed towards one side or the other. The data is relatively balanced, with a mix of both positive and negative valence points. Therefore, I would classify it as slightly asymmetrical, but not heavily so."
+  },
+  {
+    "answer": "I would classify the experiential play value as \"fantasy\" based on the context provided in the paper. The authors describe the system as an \"auditory display\" and mention that it is used for \"Fantasy Football,\" which suggests that it is intended to be a game-like experience for users. Additionally, the paper discusses the use of different player statistics and how they are displayed auditorily, which further supports the classification of this value as \"fantasy.\""
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "Based on the provided context, the field study methodologies that were used are:\n\n* Autoethnography\n* Ethnography\n* Diary Study\n\nTherefore, the answer is (A), (B), and (C)."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices"
+  },
+  {
+    "answer": "The context of the study was:\n\n* Research lab\n* Home\n* School\n* Social media\n* Disability community space (i.e. Day program)\n\nI do not know the answer to the question as it is not applicable to the given information."
+  },
+  {
+    "answer": "The community of focus in the given text is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n\nNote that the text specifically mentions the importance of accessibility for visually impaired users, and the inclusion of additional features to aid accessibility, such as an auditory drop-down menu. Therefore, it can be inferred that the community of focus is a group of individuals with various disabilities, including those related to vision, hearing, cognition, and mobility."
+  },
+  {
+    "answer": "The participant groups included in the study were:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)\n\nNo other user involvement was mentioned in the context provided."
+  },
+  {
+    "answer": "Participatory design with stakeholders without disabilities."
+  },
+  {
+    "answer": "I don't know the answer to your question. The information provided in the context does not mention any specific methods of participant recruitment used in the study."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "The study contributes:\n\n* Empirical: The study conducts an experiment to investigate the effectiveness of auditory displays in creating an accessible system for displaying statistical data.\n* Methodological: The study provides a new method for designing auditory displays that take into account the cognitive processes of users.\n* Dataset: The study collects and analyzes data on how users consume statistical information through auditory displays.\n\nI don't know any other type of contribution the study makes."
+  }
+]

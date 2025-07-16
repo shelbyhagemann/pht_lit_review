@@ -39,7 +39,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 # paper filepaths
 file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf", "allmen09.pdf", "alsaleem19.pdf",
-"alves21.pdf", "anderson96.pdf", "andradi21.pdf", "anthony12.pdf", "aruanno19.pdf", "asakawa21.pdf", "aziz08.pdf", 
+"alves21.pdf", "anderson96.pdf", "andradi21.pdf", "anthony12.pdf", "aruanno18.pdf", "asakawa21.pdf", "aziz08.pdf", 
 "baloian02.pdf", "balter05.pdf", "bandukdta20.pdf", "barbeschi20.pdf", "barbeschi22.pdf", "barbel18.pdf", "batterman13.pdf",
 "bennett19.pdf", "bhatt20.pdf", "biemanns09.pdf", "bircanin20.pdf", "black11.pdf", "bondioli17.pdf", "boyd23.pdf", "boyd17.pdf",
 "breashear06.pdf", "brule16.pdf", "bushmann14.pdf", "butler19.pdf", "butler23.pdf", "capozzi12.pdf", "caro14.pdf", "carrington17.pdf",
@@ -191,6 +191,7 @@ def prompt(vector_store):
         context = retrieve(vector_store, metric)
 
         # full prompt
+        # needs work
         full_prompt = """Use the following pieces of context to answer the question at the end.
         If you don't know the answer, just say that you don't know, don't try to make up an answer. Do not repeat the question in your response.
         Only answer the question, do not provide reasoning, your thought process, or justification for your answer.

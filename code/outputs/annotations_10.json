@@ -1,0 +1,77 @@
+[
+  {
+    "answer": "The DOI for the paper \"Empower Me\" by Brain Power is: <https://doi.org/10.1109/TLT.2017.2739747>"
+  },
+  {
+    "answer": "The title of the paper is \"Unity User Manual\"."
+  },
+  {
+    "answer": "The lead author of the paper is Simon Wallace."
+  },
+  {
+    "answer": "The paper was published in 2013."
+  },
+  {
+    "answer": "The paper has 43 pages."
+  },
+  {
+    "answer": "I don't know the answer to Q5.\nI don't try to interact with the virtual assistant.\nI understand the role of this character as a virtual assistant.\nYes, users have fun using HoloLearn."
+  },
+  {
+    "answer": "I don't know the answer to Q1."
+  },
+  {
+    "answer": "4"
+  },
+  {
+    "answer": "3"
+  },
+  {
+    "answer": "I don't know the answer to the question."
+  },
+  {
+    "answer": "I don't know the answer to your question."
+  },
+  {
+    "answer": "I would classify the experiential play value as \"construction.\""
+  },
+  {
+    "answer": "The question you are asking is: Which of the following study methods applies to this paper? Please select all that apply.\n\nBased on the context provided in the passage, I would answer:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n* Focus group\n\nThese are the study methods mentioned in the passage as being used to conduct the exploratory study."
+  },
+  {
+    "answer": "I don't know the answer to the question."
+  },
+  {
+    "answer": "Based on the provided context, the following workshop methodologies were used:\n\n* Cooperative method development\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is:\n\nCooperative method development, Affinity diagram, Ideation, User journey, Brainstorming, Bodystorming, Design probe, Prototyping, Mock-up, Sketching, Wireframing, Card sorting, Storyboarding."
+  },
+  {
+    "answer": "* Ethnography\n* Field study\n* Diary study"
+  },
+  {
+    "answer": "I don't know the answer to Q1.\n\nDo users understand the air-tap gesture? - Q2: Yes.\n\nDo users understand how to stare at holograms with their gaze? - Q3: Yes.\n\nAre users able to coordinate gaze and air-tapping? - Q4: Yes.\n\nDo users understand the goal of the tasks? - Q5: Yes.\n\nWere users able to contextualize the tasks in the MR space? - Q6: Yes.\n\nDo users try to interact with the virtual assistant? - Q7: Yes.\n\nDo users understand the role of this character? - Q8: Yes.\n\nDo users have fun using HoloLearn? - Q9: Yes."
+  },
+  {
+    "answer": "To answer the question, I will select the following options that apply to the given context:\n\n* Mobile: Yes, as users can use their mobile devices to interact with the HoloLens device.\n* Wearable: Yes, as the HoloLens is a wearable device that users wear on their head.\n* IoT: No, as the HoloLens is not an Internet of Things (IoT) device.\n* Assistive devices: Yes, as the HoloLens can be used as an assistive device for individuals with neuro-developmental disorders.\n* Robot: No, as there are no robots involved in the context provided.\n* Tangible interface: No, as there is no tangible interface mentioned in the context.\n* PC: No, as the HoloLens is a standalone device and does not require a PC to function.\n* Virtual reality: Yes, as the HoloLens provides a mixed reality experience that combines elements of both virtual and augmented reality.\n* Augmented reality: Yes, as the HoloLens provides an augmented reality experience by superimposing digital content onto the real world.\n* Game console: No, as there is no mention of a game console in the context.\n* Other (please specify): No, as there is no other technology modality mentioned in the context."
+  },
+  {
+    "answer": "The context of the study was:\n\n* Clinic\n* Research lab\n* Disability community space (i.e. Day program)\n\nI don't know any other context that applies to the study."
+  },
+  {
+    "answer": "The community of focus in the question is:\n\n* Autism\n* Intellectual or developmental disability (IDD)"
+  },
+  {
+    "answer": "The participant groups included in the study are:\n\n* People with disabilities (Group 1 and Group 2)\n* Caregivers (for people with disabilities)\n* Specialists (therapists, teachers) (involved in observing and taking notes during the survey)\n\nNo other options apply."
+  },
+  {
+    "answer": "I don't know."
+  },
+  {
+    "answer": "For question 6B, the methods of participant recruitment used were:\n\n* Phone\n* Mail\n* Email\n* Convenience sampling (i.e. Day program)\n* Snowball\n* Word of mouth\n* Flier\n* Social media\n* Clinic\n* No user involvement\n* Undisclosed\n* Other (please specify)"
+  },
+  {
+    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n\nThese are the options provided in the question."
+  },
+  {
+    "answer": "The study contributes:\n\n* Empirical: The study conducts an empirical study to investigate the effectiveness of HoloLearn in improving the cognitive and motor skills of people with severe disabilities.\n* Methodological: The study provides a detailed description of the methodology used in the empirical study, including the participants, tasks, and assessments.\n* Dataset: The study provides a dataset of the results of the empirical study, including the performance of the participants on various tasks."
+  }
+]
