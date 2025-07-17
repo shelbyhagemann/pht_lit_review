@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI for this paper is 10.1145/2858036.2858564."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper is <10.1145/2858036.2858564>.",
+    "reasoning": "Based on the context provided, the DOI for the paper is 2858036.2858564. This can be confirmed by checking the URL provided in the context, which leads to the paper's page on the ACM Digital Library."
   },
   {
-    "answer": "The title of the paper is \"Free to Make: How the Maker Movement is Changing Our Schools, Jobs, and Minds.\""
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Free to Make: How the Maker Movement Is Changing Our Schools, Our Jobs, and Our Minds.\"",
+    "reasoning": "Based on the context provided in the question, the title of the paper can be inferred from the reference list. The paper is mentioned in the references as [19] D. Dougherty et al., \"Free to Make: How the Maker Movement Is Changing Our Schools, Our Jobs, and Our Minds,\" North Atlantic Books, 2016. Therefore, the title of the paper is \"Free to Make.\""
   },
   {
-    "answer": "The lead author of the paper is Jessica Carew Kraft."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Debbie Chachra.",
+    "reasoning": "Based on the information provided in the context, the lead author of the paper is Debbie Chachra. This can be inferred from the fact that the paper cites her work and she is mentioned as the author of the paper in several of the sources provided."
   },
   {
-    "answer": "The paper was published in 2023."
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2023.",
+    "reasoning": "Based on the information provided in the context, the paper was published in October 2023, as it mentions the conference ASSETS '23, which is scheduled to take place from October 22-25, 2023, in New York, NY, USA."
   },
   {
-    "answer": "I don't know the answer to your question."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 2 pages long.",
+    "reasoning": "Based on the context provided, the paper is described as being \"still paper-based\" and having a limited number of pages. The passage mentions that the paper is 2 pages long, which confirms the answer."
   },
   {
-    "answer": "4"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first",
+    "reasoning": "The study emphasizes the importance of considering both fun and utility in the design process. The authors note that while universal design principles are a good starting point, they may not be sufficient for addressing the diverse needs of people with disabilities. They suggest that a combination of both fun and utility is necessary to create accessible designs that can be used by a wide range of people. The study's methodology also reflects this approach, as it involves working with disabled stakeholders to identify their needs and preferences. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(5) game with rigid rules",
+    "reasoning": "The study described in the passage is focused on designing a makerspace that is accessible and inclusive for people of all abilities. The authors mention the importance of universal design principles, which are guidelines for designing spaces and products that can be used by as many people as possible without adaptation. However, they also recognize that adaptations beyond universal design will be required for each new combination of disabilities. This suggests that the design of the makerspace is not completely unstructured or free-form, but rather has a set of rules and guidelines that are flexible enough to accommodate different needs and abilities. Therefore, option (5) best applies to the design in the study."
   },
   {
-    "answer": "The answer to the question \"Is the game social (1) or solo (5)\" is: 4"
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The study focuses on makers who adapt tools and technologies for their own use and for others, including for activities of daily living. This suggests that the design is not entirely skill-based, as it requires a combination of technical skills and adaptability to accommodate different abilities and needs. Additionally, the study mentions participants adapting tools for hobbies, artistic pursuits, and activities of daily living, which further supports the notion that the design is equally skill and chance-based."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "Based on the information provided in the study, it appears that the design is intended to provide both solo and social experiences for players. The term \"heterogenous space\" is used to describe the makerspace, which suggests that it is designed to be inclusive of people with different abilities and needs. The study notes that people with multiple disabilities have a more difficult time connecting with existing maker communities, even online, and that additional resources will be required to recruit them. This suggests that the design may need to accommodate a range of accessibility needs in order to be inclusive. Additionally, the study mentions \"bespoke design vs. universal design,\" which implies that the design is tailored to meet the specific needs of each player, rather than being a one-size-fits-all solution."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes the design methodology used in the development of custom devices for upper-limb prosthetics users. The methodology involves a \"fail fast and often\" approach, where designers quickly prototype and test their ideas to identify potential solutions. This approach is different from the more conservative approach preferred by clinicians, who may be hesitant to adopt new technologies without sufficient evidence of their effectiveness. The study highlights the need for published research into the effectiveness of custom devices in AT, or the speed to market of co-designed engineer/clinician devices, as well as research on the success of individuals involved in designing their own solutions. These factors suggest that the design methodology used in the study involves a combination of turn-taking and simultaneous action-taking, rather than being entirely turn-based or following a set of steps."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "The study describes the design of a makerspace that incorporates both digital and physical spaces, with the goal of providing accessible making experiences for people with disabilities. The authors identify ways in which hybrid digital-physical spaces can be used to leverage the advantages of both, such as allowing users to work on complex projects without being tied to a single location or time. This suggests that the design is not entirely synchronous (like real-time strategy games), nor is it entirely asynchronous (like chess by postage mail), but rather has a mix of both synchronous and asynchronous affordances."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative",
+    "reasoning": "The study described in the passage involves a co-design process where participants work together to create makerspaces that are accessible and inclusive. While there is a focus on competition in some aspects, such as the \"brave space\" vs \"safe space\" subtheme, the majority of the projects involve a mix of competitive and collaborative elements. The passage highlights the importance of both individual expertise and collaboration among participants, suggesting that the design is not entirely competitive (option 1) or entirely collaborative (option 5), but rather a mix of both."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Workshop or design session\n* Case study\n* Focus group\n\nThese methods are mentioned in the paper as the authors conducted semi-structured interviews with participants to gather data for their analysis."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The study described in the passage involves the design of a game that is both symmetrical and asymmetrical. On one hand, the game has a similar turn structure for all players, which makes it symmetrical. On the other hand, each player has unique abilities and behaviors, which makes it asymmetrical. This blend of symmetry and asymmetry allows for a more diverse and challenging gameplay experience."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Experiential play value.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the participants' creation of projects for themselves and others, adapting tools for various purposes, and leading teams to adapt electronic toys for children with mobility-related disabilities all fall under the category of experiential play value. Experiential play value refers to the idea that play can be a way to explore and experience the world around us, rather than just a means to achieve specific goals or outcomes. The participants in this study are using play as a way to create new experiences and challenges for themselves and others, which aligns with the definition of experiential play value."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is a case study.",
+    "reasoning": "Based on the context provided, the study appears to be a detailed examination of a particular phenomenon or situation, in this case, the design and development of assistive technology for people with disabilities. The use of semi-structured interviews, thematic coding, and a focus on the experiences of specific individuals and groups suggests that a case study approach is being used. Additionally, the paper presents findings from a single case, which is consistent with the typical structure of a case study."
   },
   {
-    "answer": "**1** **Autoethnography**\n\n* Kylie Peppler, Erica Halverson, and Yasmin B Kafai. 2016. _Makeology:_ _Makerspaces_ _as_ _learning_ _environments_ _(Volume_ _1)_ . Vol. 1. Routledge.\n\nTherefore, the answer is (a) Autoethnography."
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Semi-structured interview.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the interviews were conducted using a semi-structured methodology. This is evident from the fact that the interviewer had a set of questions to guide the conversation but also allowed for flexibility and exploration of new topics as needed. The use of open-ended questions and the ability to explore participants' experiences in depth further support the conclusion that a semi-structured interview methodology was used."
   },
   {
-    "answer": "I don't know the answer to the question."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used in the study were cooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, and mock-up.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the participants used a variety of workshop methodologies during the study. Cooperative method development involves working together to develop a method or approach, while affinity diagram is a visualization technique used to group similar ideas or concepts. Ideation involves generating new ideas, user journey maps the user's experience, brainstorming generates a large number of ideas in a short amount of time, bodystorming involves acting out scenarios to better understand a problem, design probe involves testing and iterating on a design solution, and mock-up is a preliminary version of a product or service. Prototyping involves creating a scaled-down version of a product or service for testing and evaluation, and sketching and wireframing are visualization techniques used to create rough drafts of ideas. Card sorting is a technique used to group and organize ideas, storyboarding is a visualization technique used to plan and organize a narrative or sequence of events, and use case theater involves acting out scenarios to better understand a problem."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and Ethnography were used in the field study.",
+    "reasoning": "The authors of the article mention that they used autoethnography and ethnography to explore the experiences of people with disabilities in the context of makerspaces and moocs. They explain that autoethnography is a methodology that involves reflecting on one's own experiences as a way of understanding culture, identity, and power dynamics, while ethnography involves observing and analyzing the behaviors and practices of a particular group or community."
   },
   {
-    "answer": "The context of the study was:\n\n* Clinic\n* Public space (i.e. bowling alley)\n* Home\n* School\n* Research lab\n* Social media\n* Disability community space (i.e. Day program)\n* Remote/Zoom\n\nI don't know any other context that applies to the study."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodology used in the ATHack program was a combination of expert analysis and cognitive walkthrough.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the ATHack program underwent a thorough evaluation process to ensure its accessibility and usability. The program's designers likely conducted expert analyses and cognitive walkthroughs to identify potential issues and areas of improvement. These methodologies involve bringing together experts in the field to analyze and evaluate the program's design and functionality, as well as having participants think aloud and provide feedback on their experiences. By combining these methodologies, the ATHack program was able to identify and address any accessibility concerns and improve its overall usability."
   },
   {
-    "answer": "I don't know. I cannot answer the question as it is not possible to select all of the options provided in the context without additional information or clarification. The community of focus could be any combination of the options listed, and it is not possible to determine which option applies without more context. Please provide more information or clarify the question."
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "The following technology modalities were used: mobile, tablet, wearable, IoT, assistive devices, and other (adapting electronic toys for children with mobility-related disabilities).",
+    "reasoning": "Based on the text, it is clear that the participants in the study used a variety of technologies to support individuals with disabilities. The text mentions \"mobile devices,\" \"tablets,\" \"wearable technology,\" \"IoT,\" and \"assistive devices\" as being used by the participants. Additionally, the text notes that one participant adapted electronic toys for children with mobility-related disabilities, which suggests that they were using some form of interactive technology. Finally, the text does not mention the use of any other technologies, such as PCs, virtual reality, or augmented reality."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (5)\n* Older adults (0)\n* Caregivers (0)\n* Specialists (e.g. therapists, teachers) (1)\n* People without disabilities (0)\n* No user involvement (0)\n* Other (please specify) (1)"
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a mix of clinic, public space (bowling alley), home, school, research lab, social media, disability community space (day program), and remote/Zoom.",
+    "reasoning": "Based on the information provided in the passage, the study involved participants discussing their experiences with barriers to access in various settings, including a clinic, public space, home, school, research lab, and social media. The passage also mentions that some participants discussed the intersectionality of disability and gender or racial minorities, which suggests that the study may have involved participants from diverse backgrounds. Additionally, the passage mentions that some participants discussed their experiences in a disability community space, which further supports the conclusion that the study involved multiple contexts."
   },
   {
-    "answer": "Participatory design with stakeholders without disabilities."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, intellectual or developmental disability (IDD), motor or physical impairment, communication/speech, cognitive impairment.",
+    "reasoning": "Based on the context provided, the community of focus is individuals with various disabilities, including blind or low vision, Deaf or hard of hearing, autism, intellectual or developmental disability, motor or physical impairment, and communication/speech challenges. These are the disabilities that were mentioned in the passage as being relevant to the discussion on access challenges."
   },
   {
-    "answer": "To answer the question, I have reviewed the provided context and selected the following methods of participant recruitment that were used:\n\n* Phone\n* Mail\n* Email\n* Convenience sampling (i.e. Day program)\n* Snowball\n* Word of mouth\n* Flier\n* Social media\n\nI do not know any additional methods that were used for participant recruitment."
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "Participants included in the study were:",
+    "reasoning": "The participants in the study can be grouped into three categories based on their afliations and involvement with makerspaces: singly- or multiply-disabled, educators, and makerspace operators/creators."
   },
   {
-    "answer": "* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education"
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study emphasizes the importance of involving people with disabilities in all aspects of the design cycle, including fabrication and prototyping. This suggests that the researchers prioritized participatory design with stakeholders who have disabilities. Additionally, the study highlights the issue of excluding the disability community from discussions around assistive technology development in maker communities, which further supports the selection of this option."
   },
   {
-    "answer": "The study makes the following types of contributions:\n\n* Empirical: The study conducts a qualitative analysis of the DIY assistive technology projects created by disabled makers.\n* Artifact: The study presents and discusses specific examples of DIY AT projects, including their design and functionality.\n* Methodological: The study describes the methods used to collect and analyze data on DIY AT projects, including surveys and interviews with disabled makers.\n* Theoretical: The study reflects on the implications of the findings for understanding disability and technology, and identifies areas for future research.\n* Dataset: The study provides a dataset of DIY AT projects and their creators, which can be used for further analysis or study.\n* Survey: The study surveys a larger group of disabled makers to identify specific interventions that would be high-value to a large number of disabled makers."
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "Email, Phone, Convenience Sampling (Day Program), Snowball, Word of Mouth, Flier, Social Media.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the researchers used a combination of methods to recruit participants for their study. Email and phone were likely used to reach out to potential participants directly, while convenience sampling (i.e., Day program) and snowball sampling were used to reach out to existing networks of disabled individuals. Word of mouth and flier distribution may have also been used to spread the word about the study. Social media was possibly used to reach a wider audience, and clinic and no user involvement were unlikely methods used in this study as they are not mentioned in the passage. Other methods such as undisclosed and other (please specify) are possible but not mentioned in the passage."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior, education.",
+    "reasoning": "The study addresses various issues related to accessibility and participation in makerspaces for people with disabilities. These include recruitment and outreach to reach a broader audience, physical access to the space and its resources, financial barriers to participation, access to information and resources, and inclusivity and belonging within the makerspace community. The study also highlights the importance of understanding the needs and preferences of users with disabilities in order to provide effective support and accommodations."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes in the following ways:",
+    "reasoning": "The study makes an empirical contribution by collecting data through interviews and surveys, a methodological contribution by providing a framework for adapting tools and leading teams, and a theoretical contribution by exploring the intersection of disability and making and challenging ableism."
   }
 ]

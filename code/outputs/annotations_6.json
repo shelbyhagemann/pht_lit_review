@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI for this paper is <https://doi.org/10.1145/3441852.3476543>."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"myView: End-user Authoring of Virtual Environments for Therapy\" is <https://doi.org/10.1145/3441852.3476543>.",
+    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, and can be used to easily cite or reference the work in academic publications. In this case, the DOI for the paper \"myView: End-user Authoring of Virtual Environments for Therapy\" is <https://doi.org/10.1145/3441852.3476543>."
   },
   {
-    "answer": "The title of the paper is \"myView: End-user Authoring of Virtual Environments for Therapy.\""
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"myView: End-user Authoring of Virtual Environments for Therapy\".",
+    "reasoning": "The title of the paper can be found in the ACM Reference Format, which is provided as part of the context. The format includes the author's names, the title of the paper, and the conference or event where it was presented."
   },
   {
-    "answer": "Alves, S."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is S. Alves.",
+    "reasoning": "Based on the information provided in the context, the lead author of the paper is S. Alves. This can be confirmed by looking at the authors list in the paper or by checking the conference program where the paper was presented."
   },
   {
-    "answer": "The paper was published in 2021."
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2021.",
+    "reasoning": "The copyright notice at the bottom of the page indicates that the paper was published in 2021, as does the ACM ISBN number and the DOI link."
   },
   {
-    "answer": "The paper has 10 pages."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 9 pages.",
+    "reasoning": "Based on the information provided in the context, the paper has a total of 9 pages, including the cover page and the references."
   },
   {
-    "answer": "I would rate it as a 5, utility-first. The platform is designed to provide a utilitarian function, allowing users to create and navigate virtual environments for training cognitive functions, rather than being primarily focused on fun or entertainment."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the virtual environment in the study was intended to be both fun and useful for the participants. The passage mentions that the platform allows users to \"enrich\" the environment, which suggests that it is designed to be interactive and engaging. Additionally, the fact that participants were asked to create and navigate a virtual supermarket suggests that the design has a practical utility beyond just being entertaining. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I would rate the design as a 3. The design seems to be focused on creating a playful and interactive environment for users to navigate and complete tasks within, but it also has elements of a game with goals and rewards. However, the design does not seem to be purely focused on gameplay or playfulness, but rather a mix of both."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the platform allowed participants to create and navigate a virtual environment with some structure but also allowed for flexibility and creativity. The use of the term \"elicitation session\" suggests that the platform was designed to encourage participants to add their own elements to the environment, rather than following a strict set of rules or guidelines. Additionally, the passage highlights the ability to add interactivity and tasks to the environment, which further supports the idea that the design was flexible and allowed for creativity and improvisation."
   },
   {
-    "answer": "I don't know."
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The design of the study involved creating a virtual environment that could be navigated and used to perform tasks, with the goal of training different cognitive functions. While participants had some experience with VR creation, the platform was not exclusively skill-based, as it required both skill and chance to navigate and complete tasks. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances.",
+    "reasoning": "The study design included sharing mechanisms, allowing users to make their environments publicly available and notifying them when they are used by others. This suggests that the platform offers both solo and social affordances, as users can create and interact with the environment on their own or with others. Additionally, the ability to enrich the environment with interactivity and tasks points towards a mix of solo and social affordances, as users can add elements to the environment that can be completed independently or with others."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes the design of a virtual environment for reminiscence therapy, which involves creating a virtual representation of a patient's past experiences. The design allows patients to navigate through the virtual environment and interact with objects and events from their past, such as revisiting familiar places or reliving memorable moments. While the study does not specify the exact mechanics of how turns are taken, it mentions that some actions can be taken at any time, indicating a mix of turn-based and real-time elements."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the study involved a mix of synchronous and asynchronous elements. The authors mention that users could create and navigate their own environments, which suggests a degree of agency and control over the virtual space. However, they also note that the platform included sharing mechanisms, which implies that other users could access and interact with the environments as well. This blend of synchronous and asynchronous elements is consistent with a design that seeks to balance the benefits of both approaches."
   },
   {
-    "answer": "I would classify the experiential play value of the platform as construction."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "Based on the description of the platform in the passage, it seems that the design is a mix of competitive and collaborative elements. The ability to add interactivity and tasks to the environment, as well as the inclusion of sharing mechanisms, suggests that there is a degree of competition involved in using the platform. However, the fact that users can create and enrich their own environments also implies a level of collaboration, as they are working together to create a shared space. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "**1** **Workshop or design session**\n\nThe paper describes the development and evaluation of a platform for end-user authoring of virtual environments for therapy. The authors included sharing mechanisms in their platform, allowing users to make their environments publicly available or create private copies that can be shared with others. The study involved interviews with psychologists and user studies, indicating that the platform was easy to use and navigate. Therefore, a workshop or design session was likely conducted to develop the platform and evaluate its usability."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The study design involves creating tasks and goals in a navigation session, which suggests that the environment is not entirely symmetrical. However, the use of blue circles to indicate paths and goals suggests some degree of symmetry. Therefore, the best answer is (3) Both symmetrical and asymmetrical."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "construction",
+    "reasoning": "The platform allows users to create tasks and goals in their navigation sessions, which suggests that the experiential play value is focused on creative expression and construction. The use of the term \"gaming\" in the context also implies a focus on building and creating, rather than other types of play values like fantasy or challenge."
   },
   {
-    "answer": "The following workshop methodologies were used in the study:\n\n* Action research\n* Cooperative method development\n* Speculative design\n* Persona\n* Scenario\n* Role playing\n\nTherefore, the answer is (A), (B), and (C)."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "Workshop or design session, field study, usability testing, case study.",
+    "reasoning": "The paper describes the development and evaluation of a platform for end-user authoring of virtual environments for therapy. The authors conducted interviews with psychologists to understand their needs and requirements for such a platform, and they also evaluated the usability of the platform through user studies. Therefore, methods that apply to this paper are workshop or design session (as the authors involved in the development process likely worked together to design the platform), field study (to evaluate the usability of the platform in a real-world setting), usability testing (to assess the platform's ease of use), and case study (to provide a detailed account of the platform's development and evaluation)."
   },
   {
-    "answer": "**1** **INTRODUCTION**\n\nThe field study methodology used in the research was:\n\n* Autoethnography\n* Ethnography\n\nTherefore, the answer is (A) Autoethnography and (B) Ethnography."
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "structured interview and semi-structured interview.",
+    "reasoning": "Based on the given text, it can be inferred that the interviews conducted were a mix of structured and semi-structured interviews. A structured interview involves a predetermined set of questions, while a semi-structured interview allows for more flexibility in the questioning process. In this case, the interviewer appears to have used a combination of both approaches, as they are seen to be guided by a set of questions (structured) but also allow for follow-up questions and exploration of additional topics (semi-structured)."
   },
   {
-    "answer": "The following usability methodologies were used:\n\n* Expert analysis\n* Think aloud\n* Cognitive walkthrough\n\nThese are the three usability methodologies mentioned in the passage as being used by the researchers."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used were cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, and use case theater.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the workshop methodologies used were a combination of those listed above. The authors mention that they included sharing mechanisms in their platform, which suggests that they may have used cooperative method development to involve users in the design process. They also mention that the platform showed promise in democratizing the crafting of virtual environments, which could be achieved through speculative design or ideation. Additionally, the authors use scenario and role playing to explore how users might interact with the platform, and affinity diagram to organize ideas. They also use brainstorming, bodystorming, and design probe to generate and develop ideas. Finally, they use prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, and use case theater to refine and test their designs."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "autoethnography and diary study.",
+    "reasoning": "The passage mentions that the participants in the study kept a diary of their experiences with the tool, which is a common methodology used in diary studies. Additionally, the author's use of the first person pronoun \"I\" and their reflection on their own experiences with the tool suggests an autoethnographic approach."
   },
   {
-    "answer": "The context of the study was:\n\n* Home\n* Nursing home\n* Clinic\n* Research lab\n\nTherefore, the answer is (B) Home and (C) Nursing home."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "Expert analysis and heuristic analysis.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the usability methodologies used were expert analysis and heuristic analysis. This is because the authors of the passage are psychologists who are creating a platform for end-user authoring of virtual environments, and they are seeking to understand the usability of their platform from the perspective of users with different levels of experience. The passage mentions that participants in the study had different opinions on the usability of the platform, which suggests that the authors conducted expert analysis and heuristic analysis to better understand the users' experiences and identify areas for improvement."
   },
   {
-    "answer": "The community of focus in the given text is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Intellectual or developmental disability (IDD)\n* Cognitive impairment\n* Older adult\n\nNote that the other options are not mentioned in the text as being relevant to the communities focused on."
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Virtual reality and augmented reality.",
+    "reasoning": "The passage mentions the use of virtual reality technology in the study, specifically mentioning that participants used an android application to create VR images. This suggests that the technology used was a mobile or tablet device, as Android is a mobile operating system. Additionally, the passage refers to \"VR images,\" which implies that virtual reality technology was used to create and display these images."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* Older adults\n* Caregivers\n* Specialists (therapists, teachers)"
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a clinic, home, and research lab.",
+    "reasoning": "Based on the information provided in the passage, the study involved conducting therapy sessions with people with dementia in a clinical setting, as well as using Google Maps to navigate in patients' familiar environments. The passage also mentions that the psychologists work with people with dementia and advocate for the use of personalized materials in therapy, which suggests that the study took place in a clinical or research setting rather than in a public space or school. Additionally, the passage does not mention any other contexts where the study may have taken place, such as social media or disability community spaces."
   },
   {
-    "answer": "The best option to describe user involvement in the study is:\n\n* Participatory design with stakeholders without disabilities."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "The community of focus in the given text is Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, intellectual or developmental disability (IDD), cognitive impairment, older adult, and general disability or accessibility.",
+    "reasoning": "The text mentions the use of virtual environments in therapy for people with dementia, which suggests that the focus is on individuals with cognitive impairments. Additionally, the text highlights the involvement of caregivers in the process, which suggests that the community of focus may also include individuals with intellectual or developmental disabilities. The mention of using Google Maps to navigate in patients' familiar environments further supports this conclusion."
   },
   {
-    "answer": "For question 3, the answer is:\nphone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, clinic."
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "People with dementia, caregivers, psychologists.",
+    "reasoning": "Based on the text, the participant groups included in the study are:"
   },
   {
-    "answer": "The following issues were addressed in the study:\n\n* Increasing independence (yes)\n* Increasing digital access (yes)\n* Increasing physical access (yes)\n* Supporting communication (yes)\n* Personal informatics and changing behavior (yes)\n* Education (yes)\n* Increasing opportunities for enrichment (no)\n* Other (no)"
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "The best option that describes user involvement in the study is \"participatory design with stakeholders without disabilities.\"",
+    "reasoning": "The passage highlights the involvement of caregivers in the process of creating personalized environments for patients with dementia. It states, \"The involvement of caregivers in the process was pointed out as the key to use personalized environments in sessions.\" This suggests that stakeholders without disabilities, such as caregivers, were involved in the design process. Additionally, the passage does not mention any instances of user evaluation with stakeholders who have disabilities, which further supports this answer."
   },
   {
-    "answer": "The type of contribution the study makes is:\n\n* Empirical\n* Methodological"
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used in the study were phone, mail, email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the information provided in the passage, the following methods were used to recruit participants:"
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior were addressed in the study.",
+    "reasoning": "The study discussed the development of a virtual environment platform that allows users to create and share their own virtual environments. The platform includes features such as publicly available environments, private copies, and the ability for non-technical users to use the system. The study also mentioned the importance of understanding the needs and limitations of the target user group, which in this case are older people with dementia and their carers. Therefore, the study addressed issues related to independence, digital access, physical access, understanding of users, communication, personal informatics, and changing behavior."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes both empirical and methodological elements.",
+    "reasoning": "The study includes a preliminary study with two psychologists (P1 and P2) consisting of interviews, interactive demos, and elicitation sessions to understand their perceived utility, benefits, and limitations of the approach, as well as the variety of environments and tasks they envision. This provides empirical insights into the potential effectiveness of end-user authoring of virtual environments in therapy. Additionally, the methodological contribution lies in the development and testing of a novel platform for creating, editing, and navigating virtual environments, which can be replicated and adapted by other researchers."
   }
 ]

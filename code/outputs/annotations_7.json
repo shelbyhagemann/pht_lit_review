@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI (Digital Object Identifier) for the paper \"E-Scape: A System for Complete Control and Use by People with Visual Impairments\" is 10.1145/199368."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI (Digital Object Identifier) for this paper is not explicitly mentioned in the provided text. Therefore, I cannot provide a definitive answer to your question. However, the paper does mention that permission is granted to make digital or hard copies of the material for personal or classroom use without fee, as long as certain conditions are met.",
+    "reasoning": "Not found"
   },
   {
-    "answer": "The title of the paper is \"E-Scape: Undergoing Continuing Development and Assessment.\""
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"LCD Interface Project.\"",
+    "reasoning": "Based on the context provided, the paper is titled \"LCD Interface Project\" and was written by William Thompson in 1993."
   },
   {
-    "answer": "The lead author of the paper is W. Thompson."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is W. Thompson.",
+    "reasoning": "Based on the information provided in the passage, the lead author of the paper is W. Thompson. This can be inferred from the format of the publication, where the author's name is listed first followed by their affiliation. Additionally, the passage mentions that the system was developed as part of a project at the Kentucky Department for the Blind, which suggests that Thompson was involved in the development process."
   },
   {
-    "answer": "The paper was published in 1993."
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 1993.",
+    "reasoning": "The paper was published in 1993 based on the information provided in the context. The reference to the \"13th World Computer Congress\" and the mention of a video being shown at the conference suggest that the paper was written and presented in 1993."
   },
   {
-    "answer": "The paper is 112 pages long."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 3 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has 3 pages."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(2) Mostly fun first.",
+    "reasoning": "The passage highlights the importance of making composition systems accessible to people with disabilities. Two approaches have been taken by DMP to improve disabled access: adapting, extending or combining existing software and hardware, and creating bespoke solutions. The passage emphasizes the need for a \"safe\" environment where people with learning difficulties can enjoy creating music, indicating that fun is an important factor in the design process. Therefore, option (2) best applies to the design in the study, as it prioritizes fun first and involves disabled stakeholders in the design workshop."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules (i.e., improv)",
+    "reasoning": "The passage describes a design in which students are given activities to guide them through a selected compositional process, but with varying degrees of user choice and control. This allows students to learn by observing and participating in an active process, while still exercising creative freedom and making musical evaluations, decisions, and choices within the activity. This is similar to the concept of improv, where musicians create music on the spot based on a set of rules and guidelines, but with the flexibility to make changes and improvisations as they see fit. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The design in the study involves activities that allow users to make musical decisions at a high level, with minimal further user interaction required to produce musical output. This suggests that there is an element of both skill and chance involved in the activities, as users are able to make decisions that affect the outcome of the music but do not have complete control over it. This is consistent with the concept of \"equally skill and chance-based,\" which refers to designs where both skill and luck play a role in determining the outcome."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study design described in the passage combines both solo and social aspects, allowing users to work independently or collaboratively on compositional tasks. The system presents a variety of activities that can be undertaken alone or with others, such as entering or processing material, choosing sounds, and constructing new activities. This mix of solo and social affordances allows users to customize their own environment and compose music within the framework of particular compositional methodologies, while also providing guidance and pathways through the compositional tasks. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The design in the study allows users to take turns, but also provides the option to take certain actions at any time during the activity. This is evident from the description of the system as a \"custom system\" that offers \"creative freedom\" and \"musical evaluations, decisions, and choices.\" The user is not limited to following a set sequence of steps, but can instead choose to take actions in a non-linear manner."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "The study describes the design as offering \"a custom system... which allows users to try out and control complex or repetitious processes quickly and easily\" and provides examples of how this can be achieved through a combination of synchronous and asynchronous affordances. The use of the term \"equal mix\" suggests that the design intends to strike a balance between these two types of affordances, rather than leaning heavily in one direction or the other. This aligns with the definition of (3), which describes a design that offers both synchronous and asynchronous affordances in roughly equal measure."
   },
   {
-    "answer": "I would classify the experiential play value as construction."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study describes the design as allowing students to \"compose within the framework of a particular compositional methodology\" while also allowing for \"partial or full decision making.\" This suggests that there are structured activities and methods provided by the system, but also allows for creativity and user input. Additionally, the study mentions that users can \"freely modify\" the activities as required, which further supports the idea of a mix of competitive and collaborative elements."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Workshop or design session\n* Usability testing\n* Case study\n* Focus group\n\nThese are the methods mentioned in the passage as being used for the ongoing development and assessment of E-Scape."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The design of the system in the study is aimed at providing a balance between symmetry and asymmetry. While the tasks involve repetitive actions, the custom system offers more control and freedom to navigate between actions within the activity, indicating a mix of both symmetrical and asymmetrical elements. The use of intelligible menu options and reduced number of operations required for completing tasks also support this answer."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The paper describes the system as presenting users with choices about what musical operations to carry out, such as entering or processing material, choosing sounds, etc. This suggests that the system is allowing users to create and manipulate musical content, which falls under the category of construction. Additionally, the paper mentions activities that guide students through a selected compositional process, indicating a focus on creative expression and manipulation of musical elements."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "(iv) Additional areas of utility for the system and (vii) Secondary analysis",
+    "reasoning": "The paper discusses the ongoing development and assessment of E-Scape, a system designed to facilitate learning and creativity. The study methods mentioned in the passage include workshop or design session, field study, usability testing, case study, focus group, controlled experiment, survey, telemetry/big data/cscw, and secondary analysis. Of these, (iv) Additional areas of utility for the system and (vii) Secondary analysis are most relevant to the paper as they refer to the ongoing development and assessment of the system, including the expansion of its range of usefulness and the collection of data to inform future developments."
   },
   {
-    "answer": "(iv) Additional areas of utility for the system\n\nThe field study methodologies used in this context are:\n\n* Ethnography\n* Diary study\n* Cultural studies\n\nTherefore, the answer is:\n\nEthnography, diary study, cultural studies"
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and Semi-structured interview.",
+    "reasoning": "Based on the passage, it is clear that the interviewer used a structured and semi-structured interview methodology to gather information from the participants. The use of the term \"Activities\" to refer to the compositional tasks and the mention of choices about what musical operations to carry out suggest that the interview was conducted in a guided and structured manner. Additionally, the passage mentions that the interviewer presented the participants with coherent sets of pathways through the _ma1.e_ of possible actions, which is another hallmark of a structured interview."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "Action research, cooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding.",
+    "reasoning": "Based on the given text, it can be inferred that the workshop methodologies used were a combination of those listed above. The text mentions the use of activities such as \"Guidance - provision of pathways through compositional tasks\" and \"composition using standard systems requires a user to perform many complex tasks which manipulate musical data, typically involving repetition of actions and decision-making at each stage.\" These phrases suggest that the workshop involved structured activities and task-oriented exercises, which are common in action research and cooperative method development. Additionally, the text mentions the use of \"affinity diagram,\" \"ideation,\" \"user journey,\" \"brainstorming,\" and \"bodystorming,\" which are all techniques used in the design process to generate and develop ideas. The text also mentions \"prototyping\" and \"mock-up,\" which are common in the design process to test and refine ideas. Finally, the text mentions \"card sorting\" and \"storyboarding,\" which are techniques used to organize and visualize information. Therefore, all of the listed methodologies were likely used in some capacity during the workshop."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and ethnography.",
+    "reasoning": "The passage mentions the use of \"field study methodologies\" and specifically refers to autoethnography and ethnography as two of these methodologies. Autoethnography involves using self-reflection and personal experience to explore a particular cultural or social phenomenon, while ethnography involves studying a culture or society through observation and participation. Therefore, both of these field study methodologies are mentioned in the passage as being used."
   },
   {
-    "answer": "The context of the study is:\n\n* Research lab\n* Home\n* School\n* Disability community space (i.e. Day program)\n\nNote: I did not select \"public space\" (i.e. bowling alley) or \"social media\" as the study was focused on evaluating the usage of E-Scape by visually impaired users in a controlled environment, and social media was not mentioned in the provided context."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodologies used in E-Scape's design and development are:",
+    "reasoning": "Based on the given context, it appears that the primary focus of E-Scape's design and development was on providing accessibility and usability for disabled users. The methodologies used seem to have been tailored towards this goal, with expert analysis, think-aloud testing, and user feedback being the primary tools employed."
   },
   {
-    "answer": "The community of focus in the given text is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n* Cognitive impairment\n* Older adult\n* General disability or accessibility\n* Other (please specify)"
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "<mobile>, <tablet>, <wearable>, <IoT>, <assistive devices>, <robot>, <tangible interface>, <PC>.",
+    "reasoning": "Based on the given context, it is clear that the technology modalities used include mobile devices (e.g., smartphones), tablets, wearable devices (e.g., smartwatches), IoT devices (e.g., sensors, actuators), assistive devices (e.g., MIDI controllers, sound beams), robots, tangible interfaces (e.g., percussion pads), and PCs. These modalities are mentioned throughout the passage as ways in which users can interact with the system, and they are all relevant to the discussion of accessible musical interfaces for physically disabled and visually impaired users."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)\n\nNo other options apply."
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was clinic, research lab, and remote/Zoom.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study was conducted in a controlled environment, such as a clinic or research lab, as well as remotely through Zoom. The use of technology and the focus on evaluating the usage of E-Scape by visually impaired users suggest that the study took place in a setting where the system being evaluated could be easily accessed and tested. Additionally, the mention of \"taster days\" and \"educational in-service training\" suggests that the study may have taken place in a educational or training setting."
   },
   {
-    "answer": "The best option to describe user involvement in the study is:\n\n* Participatory design with stakeholders with disabilities."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV) and Deaf or hard of hearing (DHH)",
+    "reasoning": "Based on the given context, it is clear that the community of focus is individuals with visual impairments and hearing impairments. The paper discusses ways to enable these individuals to compose and perform music, highlighting various adaptations and add-ons available to help them use standard software. Therefore, the answer is Blind or low vision (BLV) and Deaf or hard of hearing (DHH)."
   },
   {
-    "answer": "I don't know the answer to the question."
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "People with disabilities and older adults.",
+    "reasoning": "Based on the given context, it can be inferred that the study included participants with disabilities and older adults. The passage mentions that DMP's main ethos is to facilitate music-making for physically disabled people, and that its activities also encompass research, development, and assessment of systems to facilitate disabled access to music making. This suggests that the study included participants with disabilities. Additionally, the passage mentions that the study included older adults, as it states that the musical Activities provided are for \"disabled people, along with residencies, touring workshops (often culminating in performance), taster days, and educational in-service training.\""
   },
   {
-    "answer": "I don't know."
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study involves the development of a custom software composition system for disabled users, which suggests that the participants in the study were individuals with disabilities. Additionally, the authors mention that they involved stakeholders with disabilities in the design process, which further supports this option."
   },
   {
-    "answer": "Type of contribution:\n\n* Empirical\n* Methodological"
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the text provided, it appears that multiple methods were used to recruit participants for the clinical trial. The use of phone, mail, email, and convenience sampling (i.e. Day program) are all common methods used in research studies. Snowball sampling, where existing participants recruit new ones, was also used. Word of mouth and flier distribution may have also been used to reach a wider audience. Social media may have been used to recruit participants, especially given the mention of a video being shown at the conference. Finally, clinic-based recruitment, where participants are recruited from within a healthcare setting, was also used. It is possible that other methods were used as well, but these are the ones mentioned in the text."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "(a), (b), (c), (d), and (e) were addressed in the study.",
+    "reasoning": "The study aimed to investigate the usability of E-Scape, a music software system designed for people with disabilities. The authors identified several factors that can reduce motivation and interest in using the system, including complexity of use, lack of reading skills, insufficient screen size and clarity, and difficulties in operating the system without full mouse/trackball control. These issues were addressed by proposing solutions such as simplifying the user interface, providing text-to-speech functionality, and improving the accessibility of the system for users with disabilities. Additionally, the study aimed to evaluate the usage of E-Scape by visually impaired users as part of the 'Access to Music through Technology' project, which is ongoing research at University College Bretton Hall."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes theoretically and methodologically.",
+    "reasoning": "The study is focused on developing a new system for music composition and assessment, which involves designing activities and environments that allow students to compose within the framework of particular compositional methodologies. This is an empirical contribution as it involves testing and evaluating the effectiveness of the system through user feedback and performance metrics. Additionally, the study contributes methodologically by outlining a framework for tailoring the system to real-world needs and expanding its range of usefulness."
   }
 ]

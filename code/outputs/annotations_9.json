@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI (Digital Object Identifier) for the paper \"Participatory design with individuals who have amnesia\" by Wu et al. is 10.1145/1070378.976271."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI (Digital Object Identifier) for the paper \"Participatory design with individuals who have amnesia\" by Wu et al. (2004) is 10.5339/ppdc.2004.1.",
+    "reasoning": "The DOI is a unique identifier assigned to digital objects, such as research papers, to facilitate citation and tracking of the object over time. It can be found in the article's metadata, typically in the format of doi:10.5339/<insert-doi>. In this case, the DOI for the paper is 10.5339/ppdc.2004.1, which can be used to cite the paper in academic works or databases."
   },
   {
-    "answer": "The title of the paper is \"Participatory Design with Individuals Who Have Amnesia\"."
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Participatory Design with Individuals Who Have Amnesia\".",
+    "reasoning": "Based on the context provided, the paper discusses the participation of individuals who have amnesia in the design process, highlighting the importance of considering their perspectives and needs in the design of assistive technologies."
   },
   {
-    "answer": "The lead author of the paper is not specified in the provided context. Therefore, I cannot answer this question."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is not explicitly mentioned in the provided context.",
+    "reasoning": "Based on the format of the paper and the lack of information about the lead author, it can be inferred that the lead author is one of the authors listed at the end of the paper. However, without additional information, it is impossible to determine who the lead author is with certainty."
   },
   {
-    "answer": "The paper was published in 2012."
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2012.",
+    "reasoning": "The publication date is mentioned at the end of the paper in the format \"ACM 978-1-4503-1321-6/12/10\". This indicates that the paper was published in 2012."
   },
   {
-    "answer": "The paper is 6 pages long."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 7 pages.",
+    "reasoning": "Based on the information provided in the context, we can determine that the paper has 7 pages. This is evident from the page numbers mentioned in the context, which range from 253 to 254. Therefore, the paper is 7 pages long."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design process involved both fun and utility elements from the start. The study involved small groups of students who were allowed to work together while still feeling included, and they became personally invested in the design process. The students were given opportunities to contribute their ideas and interact with prototypes, which suggests that both fun and utility aspects were considered during the design process. Additionally, the passage states that the UMBC students presented how the designs had evolved that day, indicating that the design process was ongoing and involved both fun and utility elements from the beginning."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(4) flexible game (i.e., board game with house rules)",
+    "reasoning": "Based on the description of the study, it seems that the design involved creating a game with flexible rules that could be tailored to the needs and abilities of each player. The use of small, self-chosen teams and the presentation of designs evolved during the activity suggest a more collaborative and adaptive approach to game design. Additionally, the focus on incorporating accessibility features and considering the perspectives of students with learning differences suggests that the design was intended to be flexible and accommodating. These factors point towards option (4) as the best description of the design in the study."
   },
   {
-    "answer": "I would rate the game as a 1, social. Based on the context provided, it seems that the students worked in small groups and interacted with each other during the design activities, which suggests that the game is designed to be played with others rather than solo."
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) Equally skill and chance-based.",
+    "reasoning": "The study involved students interacting with app and game prototypes in small, self-chosen teams. This suggests that the design activities were not purely skill-based, as students were able to contribute their ideas and work together to develop the designs. Additionally, the use of both working and paper prototypes allowed for a mix of skill and chance-based elements. While some students may have preferred working with the more complex, high-fidelity prototypes, others may have found it easier to work with the simpler, low-fidelity paper prototypes. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study involved small groups of students working together to design a mobile app or game, with both paper and digital prototypes available for use. This allows for a mix of solo and social affordances, as some students may prefer to work on their own designs using paper prototypes, while others may prefer to collaborate with their peers on digital prototypes. The use of both types of prototypes also accommodates different learning styles and preferences among the students. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes the design process as involving small groups of students working together to develop their own game or app prototypes. The students were allowed to take turns contributing their ideas and designs, but some actions could be taken at any time within the small groups. This suggests that the design was not entirely turn-based (option 1), nor did it follow a set of steps (option 2) like viticulture's dynamic turn ordering. Instead, the students had some flexibility in when they could take actions during the design process, making it more similar to pandemic (option 3)."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "Based on the description of the design workshop, it can be inferred that the activity was designed to allow for both synchronous and asynchronous collaboration among the students. The use of small, self-chosen teams and the presentation of designs after two PD sessions suggest a mix of real-time and asynchronous elements. Additionally, the fact that the students became \"personally invested in the design process\" and retained positive feelings after the workshop suggests that the activity was designed to allow for both individual and group contributions. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "Based on the information provided in the passage, the design of the activity was a mix of competitive and collaborative elements. The students were divided into small groups to work on their designs, which suggests a collaborative approach. However, the passage also mentions that the students were \"personally invested in the design process\" and \"were more willing to contribute their ideas during small group sessions compared to the large group session,\" which implies that there was some level of competition among the groups. Additionally, the use of both working prototypes and paper prototypes suggests that there was a mix of hands-on activities that required collaboration and competition. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "Based on the description of the design activities in the study, it can be seen that the design was a mix of both symmetrical and asymmetrical elements. On one hand, the students were encouraged to contribute their ideas during small group sessions, which suggests a level of symmetry in the design process. On the other hand, the use of working and paper prototypes allowed for a more inclusive and diverse design process, where each student could have a hands-on experience and bring their unique perspective to the table. This blend of both symmetrical and asymmetrical elements can be observed in games like Pandemic, which have a similar turn structure but different character abilities, creating a more dynamic and varied gameplay experience."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The workshop involved hands-on activities where students interacted with app and game prototypes in small teams. This allowed them to contribute to the design process and give feedback on how to make the applications more accessible for diverse users. The use of PD methods enabled the Landmark students to engage in critical thinking and problem-solving, which falls under the construction value."
   },
   {
-    "answer": "The following workshop methodologies were used in the scenario provided:\n\n* Cooperative method development\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is:\n\nCooperative method development, Affinity diagram, Ideation, User journey, Brainstorming, Bodystorming, Design probe, Prototyping, Mock-up, Sketching, Wireframing, Card sorting, Storyboarding."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "Workshop or design session, field study.",
+    "reasoning": "The paper describes a participatory design (PD) session where graduate students facilitated the design process with users who have learning differences and cognitive disabilities. This method involves collaborating directly with intended users throughout the design and development process, which is a key aspect of workshop or design sessions. Additionally, the study involved observing and evaluating the usability of mobile applications and games, which is a component of field studies."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and Semi-structured interview.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the workshop involved structured and semi-structured interviews. The passage states that \"graduate students facilitated the PD sessions, asking questions, showing prototypes and capturing ideas,\" which suggests a structured interview approach. Additionally, the passage mentions that \"students interacted with the app and game prototypes in small, self-chosen teams (4 Landmark students and 1 or 2 UMBC researchers),\" which implies a semi-structured interview format where students had some freedom to explore and discuss the designs. Therefore, both structured and semi-structured interviews were used during the workshop."
   },
   {
-    "answer": "* Participatory design\n* User research\n* Heuristic analysis"
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used were cooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, and prototyping.",
+    "reasoning": "Based on the given context, it can be inferred that the workshop involved a collaborative and iterative design process where students worked together to develop and improve upon existing game prototype designs for individuals with learning differences and multiple disabilities. The use of affinity diagramming, ideation, user journey mapping, and brainstorming techniques suggests a focus on understanding user needs and developing innovative solutions. The inclusion of bodystorming and design probes indicates a willingness to experiment and test assumptions about the designs. Finally, the use of prototyping and mock-ups suggests a focus on creating tangible representations of the designs and testing their usability."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "The field study methodology used in the workshop was autoethnography and ethnography.",
+    "reasoning": "Based on the context provided, it is clear that the workshop involved a participatory design approach where students with disabilities were immersed in STEM-related activities and asked to problem solve and think critically about their experiences. The use of autoethnography and ethnography methodologies allowed researchers to gain an in-depth understanding of the participants' experiences and perspectives, which is crucial in designing inclusive and accessible learning environments for students with disabilities."
   },
   {
-    "answer": "The context of the study was:\n\n* Clinic\n* Home\n* School\n* Research lab\n* Disability community space (i.e. Day program)\n* Remote/Zoom\n\nI don't know any other context that applies to the study."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodologies used in the study are:",
+    "reasoning": "The study used a participatory design approach, where designers collaborated directly with intended users throughout the design and development process. Additionally, the researchers conducted heuristic analysis to identify usability issues in the mobile applications and games."
   },
   {
-    "answer": "The community of focus in the workshop was Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, Intellectual or developmental disability (IDD), Communication/speech, Cognitive impairment, Older adult, and General disability or accessibility."
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Mobile and tablet were used.",
+    "reasoning": "Based on the context provided, it is evident that the workshop focused on designing technology for persons with disabilities, particularly cognitive disabilities. The use of mobile and tablet devices is crucial in this context as they are portable, easy to use, and can be customized to meet the needs of individuals with cognitive disabilities. Additionally, these devices are widely available and accessible, making them an ideal choice for participatory design workshops."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (2 females, 7 STEM majors)\n* Older adults (no mention of older adults in the passage)\n* Caregivers (no mention of caregivers in the passage)\n* Specialists (e.g. therapists, teachers) (no mention of specialists in the passage)\n\nTherefore, the answer is: People with disabilities, older adults, caregivers, and specialists."
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a STEM outreach workshop conducted with postsecondary students diagnosed with learning differences, including Learning Disabilities (LD), Attention Deficit / Hyperactivity Disorders (AD/HD), and/or Autism Spectrum Disorders (ASD).",
+    "reasoning": "Based on the information provided in the passage, the context of the study was a workshop that took place at a university or research institution, as it mentions postsecondary students participating in the workshop. The passage also highlights the unique nature of the participants, who had learning differences and were actively involved in design exercises."
   },
   {
-    "answer": "Participatory design with stakeholders with disabilities."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, intellectual or developmental disability (IDD), cognitive impairment.",
+    "reasoning": "Based on the context provided, the community of focus for the workshop was individuals with visual impairments, hearing impairments, autism, intellectual or developmental disabilities, and cognitive impairments. The workshop aimed to promote their involvement in the design process and adapt design methods to support their abilities."
   },
   {
-    "answer": "I don't know the answer to that question. The passage does not provide information on the methods of participant recruitment used in the study."
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were people with disabilities (specifically AD/HD, LD, and ASD) and specialists (therapists and teachers).",
+    "reasoning": "Based on the context provided, the study focused on a STEM outreach workshop for students diagnosed with learning differences. The participants included 12 Landmark students aged 18-22, of which 9 reported having AD/HD, 5 had LD, and 4 had ASD. Additionally, specialists such as therapists and teachers were involved in the workshop to provide support and guidance to the participants. Therefore, the answer is (A) People with disabilities and (B) Specialists (e.g. therapists, teachers)."
   },
   {
-    "answer": "* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education"
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "(b) **Visual or verbal thinking**.",
+    "reasoning": "The study focuses on postsecondary students diagnosed with learning differences, including LD, AD/HD, and ASD. These individuals may have different cognitive abilities and communication styles compared to non-disabled peers. By incorporating participatory design exercises that cater to these differences, the study aims to provide an inclusive and empowering educational experience for all participants. The consideration of visual or verbal thinking is crucial in this context, as it enables students with different learning styles to contribute their ideas and engage in meaningful discussions."
   },
   {
-    "answer": "Type of contribution: empirical, methodological, dataset."
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "<The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.>",
+    "reasoning": "Based on the passage, it is clear that the researchers used multiple methods to recruit participants for the workshop. They used phone, mail, and email to reach a wider audience, while convenience sampling (i.e. Day program) was used to target students from the same institution. Snowball sampling was also used by asking participants to invite their friends and colleagues, while word of mouth and flier were used to spread the word about the workshop. Social media was also used to promote the event. Finally, clinic was used as a recruitment method, although it is not clear how this method was applied in this context."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
+    "reasoning": "The study focused on the use of participatory design to address the needs of students with learning differences, including LD, AD/HD, and ASD. Participatory design involves working closely with users to co-create solutions that meet their needs and preferences. In this case, the study aimed to increase digital access for these students, as well as physical access and understanding of users. Additionally, the study supported communication and personal informatics, and changed behavior through education and increasing opportunities for enrichment. However, the study did not address issues of independence or opportunities for enrichment directly."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes an empirical and methodological contribution.",
+    "reasoning": "Based on the text, the study involves collecting data through surveys and observations of students with disabilities participating in a design workshop. This constitutes an empirical contribution as it provides insights into the experiences and perceptions of these students during the workshop. Additionally, the study employs a particular methodology for conducting the workshop and analyzing the data, which is also a methodological contribution."
   }
 ]

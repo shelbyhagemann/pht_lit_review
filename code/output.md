@@ -1,1349 +1,1646 @@
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
 
+# **HoloLearn: Wearable Mixed Reality for People with** **Neurodevelopmental Disorders (NDD)**
 
-# **Evaluating an iPad Game to Address Overselectivity in** **Preliterate AAC Users with Minimal Verbal Behavior**
 
-LouAnne E. Boyd [1], Kathryn E. Ringland [1], Heather Faucett [1], Alexis Hiniker [2], Kimberley Klein [1],
-Kanika Patel [1], Gillian R. Hayes [1]
-Department of Informatics Information School
-University of California, Irvine University of Washington
-{boydl, kringlan, hfaucett, knklein, kanikap, alexisr@uw.edu
-gillianrh}@uci.edu
-
-
-
-Information School
-University of Washington
-
-
-
-alexisr@uw.edu
-
-
-
-**ABSTRACT**
-
-Overselectivity is a learning challenge that is largely unaddressed
-in the assistive technology community. Screening and
-intervention, done by specialists, is time-intensive and requires
-substantial training. Little to no treatments are available to the
-broader population of preliterate, minimally verbal individuals. In
-this work, we examine the impact of an iPad game based on the
-tenets of behavioral therapy to mitigate overselectivity. We
-developed software-based techniques and evaluated the system
-using established methods from the field of Special Education.
-We present the results of a deployment in a special education
-school that demonstrates that an assistive tablet game is a feasible
-means of addressing overselectivity, and we present generalizable
-technological features drawn from evidenced-based therapies to
-consider in future assistive technologies. We suggest that
-designers of assistive technology systems, particularly those who
-address physical, cognitive, and behavioral difficulties for
-preliterate AAC users, should consider overselectivity as a
-potential co-occurring condition.
-
-**CCS Concepts**
-
-**• Human-centered computing** `➝` **Accessibility** `➝` **Accessibility**
-**technologies**
-**Keywords**
-Autism; AAC; assistive technology; children; tablet games;
-language development; multiple cue responding; overselectivity.
+**Beatrice Aruanno** **[(1)]** **Franca Garzotto** **[(2)]** **Emanuele Torelli** **[(2)]** **Francesco Vona** **[(2)]**
 
 
-**1.** **INTRODUCTION**
 
-Despite rapid advances in technology, the ability for those who
-depend on Augmentative and Alternative Communication (AAC)
-devices to express their wants and needs through such
-technologies is still highly limited due to a variety of challenges.
-These devices require intensive setup and often support only the
-most basic needs [1], such as requesting items or activities.
-Additionally, commercially available devices, although somewhat
-customizable, still fail to meet the highly-individualized needs of
-many AAC users, creating an opportunity for creative solutions.
+(1) Department of Mechanical Engineering - Politecnico di Milano - Milano - Italy
+beatrice.aruanno@polimi.it
 
+(2) i3lab - Department of Electronics, Information, and Bioengineering - Politecnico di Milano - Milano - Italy
+franca.garzotto@polimi.it; emanuele1.torelli@mail.polimi.it; francesco.vona@mail.polimi.it
 
-Improving interactions with these systems has been a continual
-area of interest for both researchers and practitioners, and assistive
-technology specialists have identified several potential challenges
-for AAC users. For example, those with cognitive difficulties may
-not form sentences as expected [30]. Similarly, those with
-memory problems (such as aphasia) may not remember how to
+**ABSTRACT** **INTRODUCTION**
+Our research explores the potential of wearable Mixed The goal of our research is to investigate the potential of
+Reality (MR) for people with Neuro-Developmental _wearable Mixed Reality_
+Disorders (NDD). The paper presents HoloLearn, a MR those based on HoloLens technology, to offer new forms of
+application designed in cooperation with NDD experts and interventions for people with
+implemented using HoloLens technology. The goal of _Disorders_ .
+HoloLearn is to help people with NDD learn how to perform
 
+Neurodevelopmental Disorders (NDD) is an umbrella term
 
-Permission to make digital or hard copies of all or part of this work for personal or
-classroom use is granted without fee provided that copies are not made or distributed
-for profit or commercial advantage and that copies bear this notice and the full
-citation on the first page. Copyrights for components of this work owned by others
-than ACM must be honored. Abstracting with credit is permitted. To copy otherwise,
-or republish, to post on servers or to redistribute to lists, requires prior specific
-[permission and/or a fee. Request permissions from Permissions@acm.org.](mailto:Permissions@acm.org)
-ASSETS'17, October 29–November 1, 2017, Baltimore, MD, USA.
-© 2017 ACM. ISBN 978-1-4503-4926-0/17/10…$15.00.
-DOI: http://dx.doi.org/10.1145/3132525.3132551
+simple everyday tasks in domestic environments and
 
+that comprises various forms of disability ascribed primarily
 
+improve autonomy. An original feature of the system is the
 
-use the system [1]. AAC devices are restricted to the corpus and
-categorization provided by the designer, and designs may be
-limited for those with certain physical disabilities [31]. Finally,
-because symbols mean different things to different people, these
-systems do not necessarily work across cultures and contexts.
-Several studies have focused on making prediction faster because
-speed of communicating through the device may be prohibitive
-and lastly, literacy can be an issue for systems that require it [29].
-Furthermore, such challenges are often disability specific, leading
-to more specialized designs. While such specialization is
-important, this focus does not address challenges that are more
-general yet still pervasive.
+to the functioning of the neurological system and the brain.
 
+presence of a virtual assistant devoted to capture the user’s
 
-Individuals with pervasive developmental delay often struggle to
-see the proverbial forest for the trees, meaning that they miss the
-gestalt overview in exchange for a focus on details, known as
-“overselectivity” [20,24]. This common learning challenge for
-students in special education, often called simply
-“overselectivity,” results in overly narrow attention to salient
-stimuli in the environment and impacts one’s ability to learn from
-observing the environment. Until recently, this phenomenon had
-been primarily described in children with autism; now, there is
-growing evidence overselectivity impacts a broad range of people
-such as people with developmental disabilities, learning
-disabilities, and hearing impairments [4], many of whom may be
-AAC users. Overselectivity has also been observed in preliterate
-AAC users who may not be identified for treatment [5].
-
-
-Currently, there are very few methods for identifying and treating
-overselectivity, and the methods that do exist are expensive, timeintensive, highly specialized, and only available for specific
-populations [11,12]. The pervasive and highly impactful nature of
-overselectivity provides a compelling reason to develop feasible
-and accessible treatments to reduce overselectivity in AAC use.
-The possibility that a larger percent of preliterate AAC users
-could display overselectivity provides a compelling reason to
-design systems to reduce overselectivity. Improving issues with
-overselectivity should improve long-term accessibility as AAC
-systems are upgraded, often resulting in changes to appearance
-and to the function of interfaces [5]. We present results from a
-deployment study of a suite of games, _Go Go Games_, designed by
-the fourth author to reduce overselectivity in children through
-behavioral therapy [7]. The results of our evaluation of _Go Go_
-_Games_ at a special education school demonstrate the potential of
-reproducible techniques to reduce overselectivity for preliterate,
-minimally verbal children who display poor uptake of AAC
-systems.
+Included in NDD we find for example Attention
+attention and to give her/him hints during task execution in
 
+Deficit/Hyperactivity Disorder (ADHD), Autism, Learning
 
+the MR environment. We performed an exploratory study
 
-240
+Disabilities, and Intellectual Disability. Most individuals
 
+involving 20 subjects with NDD to investigate the
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
+with NDD experience various and often co-occurring
 
+acceptability and usability of HoloLearn and its potential as
 
-**Figure 1. Steps 1-4 show the user interaction in the train minigame: 1. Observe graphic prompt,2. Scan multiple options, 3. Select**
+difficulties in different areas, such as language and speech,
 
-**matching option, and 4. Drag and drop selected choice. © Go Go Games Studios, LLC**
+a therapeutic tool. HoloLearn was well-accepted by the
 
+memory, learning, social behavior, and motor skills [42]. The
 
+participants and the activities in the MR space were
 
-**2.** **RELATED WORK**
+occurrence of some disorders in the NDD spectrum,
 
-The opportunities to improve the usability and accessibility of
-AAC devices revolve around a wide variety of innovative ways to
-adapt the interaction or information (i.e., language set) to support
-a user’s expressive communication. Yet there is an underserved
-need for assistive technologists to implement replicable
-techniques to address overselectivity. These techniques, if shown
-to be feasible and effective, could then be implemented across
-assistive technology devices to support a range of conditions. To
-understand the innovative work that has been conducted regarding
-AAC systems for preliterate, minimally verbal communicators in
-the ASSETS community, we have found the focus to be
-predominantly on simplifying the interaction.
-
-
-Many of these systems incorporate the use of icons as an
-alternative to verbal, gestural, or written communication. Paperbased systems have relied on icons to support expressive
-communication for decades [22], and with the affordability and
-portability of mobile devices, icon-based systems have expanded
-
-[15]. Several researchers have extended the utility of icon-based
-systems such as adding multimedia to the system (e.g., photos,
-video). For example, Prior et al. [23] developed the _CHAMPION_
-software project that supported minimally verbal communicators
-to expressive themselves using multimedia in the contexts of
-hospitalization so where unfamiliar staff could understand the user
-
-[25]. Similarly, _Vid2Speech_ supported early communicators who
-are preliterate and preverbal by adding video of action words to
-represent their “dynamic and ephemeral” nature [18]. These
-systems extend the type of interactions users can have with
-systems.
-
-
-Another approach to supporting users with communication is to
-provide an intervention rather than an alternative form of
-
-
-
-communication. For example, Black focused on preliteracy skills
-by developing _PhonicStick_, a joystick that blends and outputs
-letter sounds to allow for minimally verbal children to explore
-phonics in an effort to advance emerging literacy skills [2]. Our
-work also addresses a learning challenge frequently found in
-preliterate, minimally verbal people--overselectivity.
-
-**2.1** **OVERSELCTIVITY**
-
-Overselectivity to non-relevant or isolated aspects of the
-environment interferes with children’s ability to learn to use
-language flexibly. Specifically, overselectivity interferes with
-one’s ability to attend to discriminations in language, a skill
-children typically acquire around the age of three or four. For
-example, by this age, children can typically respond correctly to
-the request, “show me the green ball,” which requires attention to
-the object (ball) and color (green). Dube and Wilkinson define
-stimulus overselectivity as
-
-
-_“an atypical limitation in the number of stimuli or stimulus_
-_features within an image that are attended to and subsequently_
-_learned…For example, the Mayer Johnson PCS symbol for_
-_TENNIS shows a gray racquet with a yellow ball…if_
-_overselective stimulus control were restricted to the ball only,_
-_and the student had learned to identify the symbol on the basis_
-_of that one isolated feature alone, then the student may make_
-_errors during subsequent symbol use when the symbol_
-_BALLOONS is present because that symbol includes a yellow_
-_balloon about the same size and color as the tennis ball” [5:4]._
-
-
-Overselectivity impacts learning in social, speech, and
-observational learning, as well as intellectual development [26].
-Overcoming this barrier is believed to create a path to children
-accessing more inclusive learning environments [27]. Therefore,
-
-
+perceived as enjoyable, despite some usability problems
 
-241
+specifically Autism and ADHD, has been increasing over the
 
+associated to HoloLens interaction mechanism. More
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
-
-
+last four decades [42]. The treatment of NDD involves a
 
-determining the therapeutic potential of this technology is critical
-to understanding a new role technology can play in supporting
-access to everyday life through improved use of AAC devices and
-comprehension of language. This project offers both insight into
-the potential for technical assistance to bridge a gap in accessing
-existing communication devices, highlighting technical features
-that can be parlayed into a variety of devices. Support is then
-sustained over the inevitable changes users experience in devices
-as interfaces get upgraded or users move on to other systems. This
-work aims to identify technical features to teach multiple cue
-responding and mitigate overselectivity. Overselectivity can be
-problematic for users who move across assistive technology
-devices, therefore reproducible technical features to mitigate
-overselectivity, are important.
-
-**3.** **MULTIPLE CUE RESPONDING**
-
-Multiple Cue Responding (MCR) is the ability to observe and
-attend to multiple cues (e.g., color and shape) and recall those
-cues to make decisions (e.g., find the red triangle in a field of a
-red square, a blue triangle, and a red triangle). Teaching MCR
-helps children learn to communicate verbally and may help
-children use their AAC devices [5]. Pivotal Response Treatment
-(PRT), one of the only current treatments that teaches MCR, is a
-therapeutic approach focusing on a child-initiated perspective to
-target “pivotal” skills that are known to bring about improvements
-in social, communication, and academic domains [12]. This
-approach blends the goals of caregivers with the interests of the
-child to create opportunities for the child to express his or her
-wants and needs. PRT harnesses the child’s motivation to
-communicate and systematically introduces more complex
-environments that require the child to then use multiple cues to
-respond effectively [11].
-
-
-To examine how the key principles of PRT translate into an iPad
-game, harnessing children’s motivation and systematically
-exposure children to multiple cues, we developed _Go Go Games_
-
-[7]. In this work, we deploy _Go Go Games_ to determine the
-effectiveness of these techniques in assistive technologies which
-is critical to understanding the role technology can play in MCR
-intervention. Teaching MCR helps people learn to communicate
-verbally and also may help children use their AAC devices [5].
-
-**3.1** _**Go Go Games**_
-
-_Go Go Games_ is a publicly available suite of therapeutic video
-games designed around the principles of Pivotal Response
-Training (PRT) [12,16]. Players use the system to work through
-PRT-grounded exercises at their own pace. Players engage with
-child-preferred digital objects to build trains, direct cars, and
-assemble robots on screen. To find the correct pieces, they must
-pay attention to multiple features of the items they see, such as the
-length, color, and cargo of the train cars they choose. The user
-interacts with the tablet game by first observing the stimuli
-presented (i.e., the graphic prompt); 2. scanning options, 3.
-selecting a match, and 4. dragging selection along path to
-complete the trial (see Figure 1). Generalizable techniques
-translated into digital form include:
-
-
-**Repetition of brief user interaction** : In _Go Go Games_, users
-observe, scan, select, drag and drop an item to the correct location
-along a visual pathway (e.g., train track).
-
-
-**Feedback & Progress Monitoring** : In face-to-face therapy,
-physical token boards represent how much work is expected; this
-token analogy is visually replicated in the _Go Go Games_ interface
-(see star icon in bottom right corner of Figure 1). Corrective
-feedback was given by blinking the perimeter of the correct image
-
-
-
-after the input of an incorrect answers, a progress tracker on the
-initial screen and in the corner of each game screen, and a
-congratulatory screen when each level was completed.
-
-
-**Activity is Child-led** _: Go Go Games_ incorporates child-preferred
-stimuli (e.g., iPads, trucks, cars, spaceships). Users have
-flexibility to choose which game and level to play and can turn on
-or off background music.
-
-
-**Systematic Intervention** : The software systematically scaffolds
-task difficulty based on user performance. Each trial randomizes
-the placement of correct options on the screen. Immediate
-feedback is provided for each trial (i.e., visual and audio
-statements are differentiated based on response).
-
-
-An additional aspect of a therapeutic iPad game is, unlike
-traditional therapies, no other person is required to be part of the
-interactions. We hypothesized that the unique features of _Go Go_
-_Games_ would support learning MCR as well as increase child
-motivation to participate in teaching MCR.
-
-**4.** **METHODS**
+extensive and long term empirical research is needed to
 
-To evaluate if _Go Go Games_ can support MCR, we conducted an
-experiment in a special education school. We conducted this work
-with school staff providing 6 students with up to 10 minutes of
-play per day, across nine days (group avg.= 66 minutes, range 3090 minutes). To ensure that only the game was available during
-testing sessions, staff reported they enabled a technical feature of
-the iPad, “guided access.” Staff logs were used to calculate
-minutes of game play, and comments were reviewed for themes
-about the participants’ engagement with the game. Concurrently,
-we conducted assessments of MCR in the physical world. After
-the study, we collected usage logs recorded by the teachers and
-conducted interviews of the teaching staff (n=6).
+combination of professional therapy, pharmaceuticals,
 
-**4.1** **Study Design**
-We employed a single-case experiment design in a special
-education classroom, as is widely used by special education
-researchers and clinicians [17]. This evaluation technique is
-important to the special education community as a body of
-evidence about the effectiveness of assistive technology in context
-of use is critical to the inclusion of therapeutic tools in the
-classroom. Single-case research uses a single participant as one’s
-own control and aims to replicate desired effects across 3-8
-participants per study [9]. Additionally, the common practice is to
-present data on “responders” as well as “non-responders” to add
-to the knowledge about a specific population [9].
+validate these early results, but our study suggests that
 
+home-based and school-based programs. Better results are
 
-Two of three classroom teachers volunteered to participate in the
-study, and all students in those two classrooms were invited to
-participate. After a parent orientation meeting provided by the
-first author, eleven students’ parents gave consent for their
-children to be in the study. Next, we randomly assigned one class
-to play the game first (5 students), while the other class played
-second (6 students). Assessors were blind to which group the
-participants were in and the amount of game play they received
-during the study. We employed visual analysis to interpret the
-assessment data on a case-by-case basis [6,25].
-
-
-Each participant began the study with a three-day baseline
-assessment of their MCR skills in the physical world. Group A
-then began nine days of _Go Go Games_ play, while Group B
-maintained regular classroom activities. After this phase, both
-groups were measured again, resulting in a post-intervention
-assessment for Group A, and a repeated baseline measure for
-Group B. Then Group B began 9 days of _Go Go Games_ play
-while Group A resumed regular school activities. Both groups
-
-
-
-242
-
-
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
-
-
-
-were measured at the end for a post measure for Group B and a
-follow up measure for Group A. The strength of this design in an
-applied setting is that the change that would result from
-maturation alone is controlled for by staggering the conditions
-over time [3]. Therefore, if changes are observed between phases,
-and across multiple baselines, the likelihood the change is due to
-the intervention is increased. Additionally, if improvements are
-maintained after the intervention has been removed during the
-follow up assessment, these changes can be attributed to the
-intervention.
-
-
-The staff designated a ten-minute period per day to play _Go Go_
-_Games_ and logged the start and end time for each student as well
-as any comments about the interaction. Participants were assessed
-during the regular school day at the beginning of the study, at the
-mid-point (between two groups), and at the end (see Table 1).
-
-
-We assessed the participants’ MCR with physical world objects
-during three phases of the study (beginning, middle, and end)
-replicating procedures described in behavioral research literature
+HoloLearn could be adopted as a complement to more
 
-[24]. Assessments occurred one participant at a time in a separate
-room. Assessment sessions lasted from 3-30 minutes depending
-on the behavior of the child. We met with the school’s behavior
-therapist for the first 3 days to align our reinforcement schedules
-to those being used in the classrooms to ensure student comfort.
-We also aligned our protocol for responding to undesired behavior
-(e.g., screaming, spitting, throwing objects, hitting, falling to the
-floor) to that of the school to minimize disruption to their
-intensive behavioral programming in place for each student.
+achieved when interventions start in
 
+traditional interventions. Our work, and the lessons we
 
-This resulted in continuing the assessment while engaging in the
-planned ignoring of disruptive behaviors (i.e., screaming,
-spitting _),_ and terminating the session for aggressive behaviors
-(i.e., hitting or non-responsiveness to instructor for 3 minutes).
+studies show that therapies can also be beneficial to adults
 
+learned, may help designers and developers of future MR
 
-**Table 1: Study design**
+[14].
 
+applications devoted to people with NDD and to other people
+with similar needs.
 
 
 
+**INTRODUCTION**
+The goal of our research is to investigate the potential of
+_wearable Mixed Reality_ (MR) applications, particularly
+those based on HoloLens technology, to offer new forms of
+interventions for people with _Neuro-Developmental_
+_Disorders_ .
 
 
 
-P8). We present the assessment results of 6, all AAC users, some
-of whom missed some assessment sessions or game play.
+**AUTHOR KEYWORDS**
+Augmented Reality; Mixed Reality; HoloLens; Holograms;
+Neuro-developmental Disorders; Virtual assistant.
 
-**4.3** **MCR Probes**
 
-To understand the impact of playing _Go Go Games_, we compared
-performance on a physical MCR assessment before and after the
-children played the game. The physical assessment and training
-for these skills incorporate common classroom objects to test the
-ability to discriminate among objects based on features in their
-environment [24]. The assessment tasks consisted of fourteen
-levels of matching 3D objects that grew in complexity from
-matching dissimilar wooden objects such as a red square and
-yellow triangle to recalling textures of a red rectangular block,
-and finally to distinguishing which image was presented between
-similar 2D images. The final level used physical flashcards we
-made from digital images in _Go Go Games_ as an additional
-prerequisite level of testing.
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. Copyrights for
+components of this work owned by others than ACM must be honored.
+Abstracting with credit is permitted. To copy otherwise, or republish, to
+post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from Permissions@acm.org.
 
+_ASSETS '18,_ October 22–24, 2018, Galway, Ireland
+© 2018 Association for Computing Machinery.
+ACM ISBN 978-1-4503-5650-3/18/10…$15.00
+https://doi.org/10.1145/3234695.3236351
 
-The researchers, board certified behavior analysts, and trained
-assistants, conducted the assessments based on MCR assessment
-procedure. A researcher holds up a block in front of the child and
-states, “this one is the correct one” then removes the object from
-view. A moment later, the researcher places the correct item and
-its pair in front of the child, holds out her hand for the participant
-to place the correct block there and then states, “give me the
-correct one.” Before the test starts, the researcher teaches this
-response by prompting (e.g., pointing at the correct answer) and
-then moves on to the test phase. In the subsequent trials, the child
-is expected to independently makes the distinction of the correct
-block based on differences in features (i.e., shape, color, size,
-texture, shade, and finally multiple features in 2D images). The
-school staff requested an additional level of testing be introduced
-that permitted the items to remain present during the trial. These
-two phases resulted in 14 levels.
 
 
-We worked with the school staff to collaboratively determine if
-the child needed an additional reinforcement system and to
-receive advice about engaging the child. For example, P1 required
-an extended interval for her response time given her motor
-challenges and P5 had a known fixation with items that are red,
-thus alternative colored blocks were used. During the assessments,
-two researchers collected data on correct or incorrect responding,
-and they tallied the scores daily. The complete administration of
-the test ranged from 5-15 minutes each time and took place in a
-separate designated room in the school.
+Neurodevelopmental Disorders (NDD) is an umbrella term
+that comprises various forms of disability ascribed primarily
+to the functioning of the neurological system and the brain.
+Included in NDD we find for example AttentionDeficit/Hyperactivity Disorder (ADHD), Autism, Learning
+Disabilities, and Intellectual Disability. Most individuals
+with NDD experience various and often co-occurring
+difficulties in different areas, such as language and speech,
+memory, learning, social behavior, and motor skills [42]. The
+occurrence of some disorders in the NDD spectrum,
+specifically Autism and ADHD, has been increasing over the
+last four decades [42]. The treatment of NDD involves a
+combination of professional therapy, pharmaceuticals,
+home-based and school-based programs. Better results are
+achieved when interventions start in childhood, but some
+studies show that therapies can also be beneficial to adults
 
-**4.4** **Data Analysis**
-To measure effectiveness of the game as an intervention for
-teaching MCR, we compared the distance for each trial between
-baseline and treatment, a procedure known as “Nonoverlap of All
-Pairs” (NAP) [14]. “NAP is a ‘complete’ nonoverlap index as it
-individually calculated as the number of improving or positive
-(Pos) pairs plus half of ties (.5 × Ties), divided by all pairs: NAP
-= ([Pos + .5 × Ties] / Pairs)” [26]. This nonparametric measure of
-treatment effectiveness is a common method in behavioral
-research using single-case experiments for autism interventions.
-This approach is necessary given the small sample sizes typically
-present in autism intervention research. Using the guidelines for
-interpretation recommended by Parker and Vannest, NAP scores
-between 0 and .65 can be classified as “weak effects” (i.e., no
-effect), 66 to .92 as “medium effects,” and .92 to 1.0 as “strong
-effects” [19].
+[14].
 
 
+Mixed Reality (MR) is the richest form of Augmented
+Reality (AR). AR experiences take place in a real-world
+environment whose elements are “augmented” by computergenerated overlaid information (e.g. visual and auditory). In
+AR, the user sees what is in front of him but with an added
+virtual layer on top of it, which adds new elements to the
+natural environment or masks portions of it. MR provides a
+stronger merging of real and virtual reality. Instead of just
+seeing a set of digital elements overlaid on the view of the
+physical world, in MR the user can interact with an artificial
+environment where the surrounding physical space, realistic
+renderings of physical materials, and digital objects, all coexist and communicate in real time [13]. In _wearable_ Mixed
+Reality, the real-virtual environment is experienced through
+a head mounted display (Figure 1).
 
 
+This paper presents _HoloLearn_, an application for Microsoft
+HoloLens [27] - the most recent and advanced example of
+commercial wearable MR technology. HoloLearn addresses
+young adults with NDD and has been designed in
+cooperation with psychologists and therapists. The goal of
+HoloLearn is to promote the understanding of some basic
 
 
+
+40
+
 
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
 
 
 
-|Days/<br>Group|1-3|4-12|13-16|17-25|26-28|
-|---|---|---|---|---|---|
-|A|Baseline|Gameplay|Post test|Wait|Follow<br>up|
-|B|Baseline|Wait|Repeated<br>Baseline|Game<br>Play|Post<br>test|
+tasks that are typical of domestic routines (e.g. table setting
+and garbage collection) and to help these people improve
+autonomy in everyday life.
 
+
+The paper describes the design rationale of HoloLearn and
+its technical implementation. We then report an exploratory
+empirical study that involved 20 people with various forms
+of NDD, who used HoloLearn at a care center under the
+supervision of their caregivers. The study results highlight
+the limitations as well as the potential of HoloLens
+technology for this target group. We also discuss the main
+lessons learned during this project, which could benefit
+designers and developers of future wearable Mixed Reality
+applications for people with NDD and similar target groups.
+
+
+**Figure 1: Example of Mixed Reality with Microsoft HoloLens;**
+**on the background, what the user sees on the head-mounted**
+**device.**
+
+
+**STATE OF THE ART**
+
+
+**Virtual, Augmented, and Mixed Reality for People with**
+**NDD**
+Several studies explore the use of virtual worlds in
+interventions for people with NDD, particularly those with
+Autism [4, 6, 7, 8, 10, 11, 43]. Compared to traditional
+therapeutic or educational materials, VR contents offer safe
+environments for learning that can be customized to the
+specific needs of each individual [37, 38]. VR has the
+potential of stimulating the imagination and promoting
+generalization [23, 24]; several studies report successful
+transfer from the skills learned in VR to real life situations
 
-**4.2** **Participants**
-The school field site provides highly individualized education and
-therapy during the school day to support academics, functional
-life skills, social-emotional, and physical development.
+[25]. When the virtual world is displayed on a wearable
+device, the entire user’s field of view is “embedded” in the
+artificial environment; this immersion effect removes the
+distractions from the external world and helps individuals to
+remain focused on the assigned task [15, 38].
 
 
-One behavior therapist, two lead special education teachers, and
-six teaching assistants participated in the study as instructional
-staff. The parents of eleven out of fifteen students with multiple
-learning challenges, age 6–14, consented to participate. Eleven
-participants began the study by participating in the baseline
-screening assessment of MCR (see Table 2). Not all participants
-were eligible as three demonstrated perfect scores on the screener
-(P4, P9, P10) and the school administrators had to remove
-research activities from the schedule under a variety of contexts
-(i.e., P6 exhibiting aggressive behavior or was not available due to
-a therapy session). Additionally, measures were missed on
-multiple days when specific children were absent from school (P7,
+The first generation of VR headsets had some technological
+weaknesses, e.g. poor viewing angles, high latency, and
+weight [38]. Current Head-Mounted Displays (HMDs) are
+much more comfortable [36], and wearable VR experiences
+are starting to be experimented in the treatment of NDD [16,
+17, 20, 39], especially for children. The _Wilcard_ project [21],
+for example, transforms the stories of some children’s books
+that are used in NDD therapy into immersive VR contents
+enriched with interactive affordances and simple
+gamification features. These VR experiences require only a
+smartphone mounted on a low-cost VR viewer (Google
+cardboard). In [22], the authors exploit a similar approach,
 
 
 
-243
+using contents inspired by “Social Stories”, i.e. short
+narratives describing everyday life situations that are widely
+used as a therapeutic method among people with Autism.
 
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
+The benefits of AR among subjects with NDD have been
+much less explored than VR ones. AR is thought to have the
+advantage of maintaining a real, familiar environment during
+the virtual experience. Some AR applications (e.g. _Empower_
+_Me_ [9] by Brain Power) use Google Glass and aim to teach
+practical life skills to children and adults with Autism, such
+as language, emotional understanding, eye contact,
+conversational skills, and behavior control [5, 26].
 
 
-**Table 1 : Participant demographics and MCR assessment results**
+Some AR technologies for NDD enable the user to interact
+with VR contents using body movements [19]. This
+interaction paradigm is thought to promote embodied
+learning and to enhance engagement. Examples are
+_Pictogram Room_ [12] and _Shape Game_ [19]. These systems
+provide different game-based activities but share the goal of
+helping people with Autism to develop their body schema
+and imitation skills by performing playful tasks based on
+body postures and movements of legs or arms.
 
 
+Very little is known on how to exploit MR in general, and
+HoloLens technology in particular, for people with NDD. To
+our knowledge, the only HoloLens application that addresses
+people with cognitive disability is the one reported in [3].
+This system addresses people suffering from Alzheimer's
+disease, it was designed in cooperation with neurologists and
+geriatric doctors and consists of a set of tasks that aims to
+improve short-term memory and spatial memory, in an
+attempt to slow down mental decline.
 
 
+**Microsoft HoloLens**
+HoloLens - the Microsoft flagship device for wearable MR
 
+[27] - is a self-contained, holographic computer mounted on
+a headset (Figure 2) and is equipped with specialized
+components, like multiple sensors, advanced optics, and a
+custom holographic processing unit. HoloLens enables the
+user to interact with digital contents rendered by holograms
+that are placed in the real environment where the user is
+located. Using spatial mapping techniques, the device
+captures the information about the physical space, identifies
+planes such as tables, floor, walls, and ceiling [31], and
+generates a fully realistic rendering of the surrounding
+environment where interactive holograms representing real
+objects or other kinds of interactive digital contents can be
+placed.
 
 
+HoloLens supports various interaction modes, and visual or
+audio effects can be associated with interactive items (e.g.
+hologram animations) and also with the environment as a
+whole (e.g. spatial sound [32]) as responses to the
+interaction.
 
 
+- _Gaze_ . By changing gaze direction, the user updates
+his/her view of the environment. A cursor appears on the
+gaze focus and follows the gaze movement [28].
+Technically, the built-in sensors track only head
+orientation and movements (i.e. there is no eye
 
 
 
+41
 
 
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
 
 
 
+tracking). The user’s gaze focus is determined by head
+orientation, the changes of the pointer position and the
+space view correspond to head movements.
 
-|Group|ID|Age|Mode of<br>Comm.|Edu.<br>Label|Gender|Baseline|#of play<br>sessions|Avg. Mins<br>of usage|Total<br>Mins of<br>usage|%NA<br>P|Effect<br>Size|
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|A|P1|12.8|AAC|ID|F|4/14|9|10|90|22|Weak|
-|A|P2|11.1|AAC|ID|M|6/14|9|10|90|83|Medium|
-|A|P3|6.2|Verbal|AUT|M|14/14|screened out|screened out|screened out|screened out|screened out|
-|A|P4|6.9|Verbal|AUT|M|14/14|screened out|screened out|screened out|screened out|screened out|
-|A|P5|7.3|AAC|AUT|M|0/14|8|8|65|100|Strong|
-|B|P6|13|Verbal|AUT|M|2/14|study terminated for aggression|study terminated for aggression|study terminated for aggression|study terminated for aggression|study terminated for aggression|
-|B|P7|11.1|AAC|AUT|M|9/14|6|10|60|33|Weak|
-|B|P8|10.7|AAC|ID|F|0/14|3|10|30|54|Weak|
-|B|P9|8.11|Verbal|AUT|M|14/14|screened out|screened out|screened out|screened out|screened out|
-|B|P10|11.5|Verbal|AUT|M|14/14|screened out|screened out|screened out|screened out|screened out|
-|B|P11|11.6|AAC|ID|M|3/14|8|8|66|88|Medium|
+- _Gestures_ . Hand gestures are used to interact with
+holograms in the surrounding physical space. The main
+gesture is _air-tap_ of _thumb and index_ . “Instantaneous”
+air-tap selects and activates the gazed interactive
+hologram on which the cursor is placed, triggering the
+associated feedback. “Sustained” air-tap performs
+drag&drop. In this case, after the initial air-tap on the
+gazed hologram (“selection”), fingers must be kept close
+to move the selected item to the desired position and
+must be opened to “drop” the element there [29].
 
+- _Voice_ . Voice commands can be defined to give
+instructions to the application and interact with
+interactive items [30].
 
-To understand the experience of using the game, we analyzed data
-from the six staff interviews alongside our observational notes.
-The research team individually reviewed the interview notes for
-initial impressions and then met collectively to discuss trends in
-the data. Collectively the team then sorted comments into topics.
-After identifying dominant topics, we re-sorted the comments into
-themes. We compared these themes with the effectiveness results
-and presented these findings to the school’s behavior analyst for
-her interpretation of the collective data. With her input, we then
-analyzed our observational data for evidence for or against these
-themes in an iterative manner, then we aligned themes with
-interactions with the software features.
+- _Clicker._ A physical button-shaped controller connected
+to the headset via Bluetooth can be used in place of airtap to select and move interactive elements [34].
 
-**5.** **RESULTS**
 
-We present results in Section 5.1 that indicate that _Go Go Games_
-was at least moderately effective in improving some students’
-ability to consider more stimuli in a task. We analyzed interview
-and observational data from all participants, resulting in findings
-related to the re-usable interactive features of _Go Go Games,_
-presented in Section 5.2.
+**Figure 2: HoloLens device [27]**
 
-**5.1** **MCR Assessment Results**
 
-Of the eleven participants who were screened, nine qualified and
-began the study, and six completed enough trials for analysis:
-three from group A (P1, P2, P5), and three from the extended
-baseline condition, group B (P7, P8, P11). we present a
-description of each of the six participants who participated in each
-phase of the study (excluded from the study were: P3, P4, P9 and
-P10 who demonstrated mastery of MCR in the screener and P6
-who was dismissed from assessment for aggression toward the
-staff). For these six cases, we conducted a visual analysis [6,25] of
-the time series data and treatment effect with the non-overlapping
-procedure described above (see Table 1). A vignette of each
-participant case assessment is described below.
+**HOLOLEARN DESIGN**
 
 
-P1, a 12-year-old girl, has a combination of autistic-like
-characteristics and a genetic condition called Phelan-McDermid
-syndrome which often results in delays or impairment with
-cognition and motor skills [19]. She is minimally verbal and
-carried an iPad for expressive communication. Her AAC device
-contained a few choices of words and phrases that she could press
-on when she wanted to express a feeling or speak about a certain
+**User Needs and Requirements**
+The design process of HoloLearn involved two therapists
+(psychologists) who work at “ _Fraternità e Amicizia”_, a care
+center in Milan that serves over 80 individuals with NDD.
+Three preliminary focus groups with these specialists were
+devoted to understand how MR could help these people. The
+therapists pinpointed that many education activities
+performed at the center attempt to make these people more
+autonomous (or at least less dependent on caregivers) and
+highlighted the need to help these people learn how to
+perform the basic everyday life tasks.
 
 
+These considerations informed the definition of the general
+goals of HoloLearn: to use MR in order to provide virtual
+environments for people with NDD which are the same as
+real-life ones and enable them to practice tasks associated
+with their domestic activities.
 
-object, such as requesting a snack. Staff described her _Go Go_
-_Games_ play as prompted due to her delayed motoric responses,
-and so we permitted extra time during the MCR assessment. P1
-played _Go Go Games_ over 9 days for 10 minutes. Her MCR
-assessment results revealed a low level, yet slightly increasing
-trend in baseline. After nine days (90 minutes of intervention), she
-exhibited a lower level and slightly more variable trend that
-persisted during her follow up assessment (see Figure 2). P1’s
-case shows a weak treatment effect as the data only displays a
-22% nonoverlap (see Table 2). Because there is no difference
-between baseline and post-intervention assessments, we conclude
-the game did not impact her ability to respond to multiple cues in
-her physical word.
 
+As a starting point for the design of HoloLearn, we focused
+on two activities: _Laying the table_ and _garbage collection_ .
 
-P2 is dually diagnosed with autism and Down syndrome. Staff
-explained that when he played, they had to prompt him to
-continue. Visual inspection of P2’s baseline assessment shows a
-low level of MCR with an increasing trend, resulting in a
-moderate level of performance. P2 played _Go Go Games_ over 9
-days for 10 minutes. In contrast, P2’s post-intervention
-assessment showed more variability with higher level of
-performance. During his follow-up (after a nine-day break from
-his game play), he maintained a moderate level of performance
-with some variability that is similar to his baseline but at a slightly
-higher level. Given his two high scores post intervention, his NAP
-score was 82%, indicating a medium treatment effect as some of
-the post treatment scores exceed baseline scores.
 
+These activities involve movements in the physical space and
+the actions of grasping/moving/placing objects and can be
+simulated using the built-in features of HoloLens
 
-P5 is a minimally verbal boy with autism and intellectual
-disability with a reported history of aggressive behavior. Upon
-entering the assessment room, he laid on the floor. He grabbed a
-red block and said “R” for the color red. We were told he
-perseverates over objects that are red so we switched to yellow
-blocks. On occasion, he signed “all done” and we ended the trial.
-At times, he would hold the blocks over his head in a gesture that
-looked like he would throw the blocks. He matched correctly until
-the second half of the assessment where the task shifts from
-matching with the cue present to matching from recalling the
-color of the block. Staff reported that he played the game
-independently with frequent requests to continue playing at the
-10-minute timer. He fluidly moved between mini-games at times
-taking a break to engage in self-stimulation. Through visual
 
 
+technology. The physical space where the MR experience
+takes place - the one sensed and digitally rendered by the
+device - should contain the physical elements functional to
+the designed tasks, for example a table for the “Laying the
+table” activity. The space view is then enhanced with
+holograms which represent the other elements needed for the
+tasks, for example objects that need to be “grasped” and
+placed in the proper position using gaze focus, gaze
+movement, and air-tap.
 
-244
 
+Another requirement indicated by the therapists was to offer
+additional elements in the MR space that attract the user’s
+attention to objects and target locations, help the user
+complete the task by providing step-by-step instructions, and
+promote engagement and fun. To this end, we decided to
+introduce an animated holographic character into the MR
+experience which plays the role of a cheerful virtual
+assistant. According to the therapists, the virtual assistant
+should evoke something familiar to users, such as a cartoon
+character. We considered a number of options, and asked the
+people attending the center to vote their favorite one. The
+“most popular” turned out to be a _Minion_ (from the movie
+_Despicable Me_ ); therefore, we decided to model the shape of
+the virtual assistant on this.
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
 
+Finally, the therapists pinpointed the importance of making
+the application as customizable as possible, to enable them
+to address the different and evolving needs of each person
+with NDD. For each activity, we designed different
+configurations corresponding to different levels of task
+complexity which the therapist can choose before a session
+by setting some features of the activity, such as the presence
+or absence of the virtual assistant, the number of interactive
+digital objects in the MR space, and their visual
+characteristics.
 
 
-inspection of P5’s performance, he scored zero correct in his three
-baseline sessions. After the intervention phase, his scores varied at
-moderate levels and were replicated in follow up probes (see
-Figure 2). P5 exhibited strong positive treatment effects. In
-baseline, he did not complete even the first level designed to
-introduce the task. In the post intervention phase, he scored in the
-mid-range but with less stability and in the follow up sessions, he
-maintained these mid-level performances. This outcome results in
-100% of NAP, a strong effect as all the post treatment points
-exceed the baseline points (see Table 2).
+**“Laying the table” activity**
+The purpose of this activity is to teach the user to lay a real
+table by placing various objects (e.g. virtual glasses, plates,
+cutlery, or bottles) on it, in the proper position.
 
 
-P7 is a minimally verbal, eleven-year-old boy with autism who
-demonstrated mastery of the first half of the MCR assessment on
-the baseline screening. Staff commented on his brief periods of
-game play “(he) played for 2 minutes then tried to exit the game,
-teacher redirected. A staff member from Group A said in the post
-study interview that, “ _he liked it, he had trouble when he hit a_
-_harder level go back to an easier level, something he was_
-_comfortable with. He would perseverate on the button choice. He_
-_would hit me he doesn’t like being wrong. When it highlighted_
-_another choice, I would hand-over-hand to the correct choice and_
-_he didn’t like that_ .” According to the staff log, he played for 10
-minutes per day for the first 6 days. He was absent form school
-for 1-2 days per week during the duration of the study. His post
-intervention assessment scores are like his baseline scores except
-for a dip on the last day of assessment from level 7 to 2, resulting
-in a weak treatment effect, and a 33% NAP. Our fieldnotes reveal
-he performed the first two levels without error, then he began
-screaming, grabbed himself, and ran to the bathroom.
-
-
-P8 is minimally verbal girl with intellectual disabilities. At the
-onset of the study she had only attended this school for two weeks
-and was displaying aggressive behavior. The two baseline
-sessions she was present for were terminated within 3 minutes for
-noncompliance. In the extended baseline, she participated until
-she began to err at level 2. Our fieldnotes indicate she continually
-chose the block on the left side. In the post sessions, she refused
-to let go of the block or threw it resulting in 2 of 3 sessions being
-terminated in first minute resulting in a weak treatment effect, and
-NAP of 54%. Her log entries for gameplay reveal she played a
-total of 30 minutes (10 minutes a day) on days 2,5,7 of the nineday stage. Staff commented in the log that she was distracted,
-tried to exit out of game, was a bit frustrated and had some
-difficulty attending. A staff member from Group A reports “ _she_
-_would not sit for a long, 30 seconds. She concluded stating she_
-_“isn’t too reinforced by the iPad_ .”
-
-
-P11 is also a minimally verbal boy with autism and cerebral palsy.
-He is very interested in socializing with staff as he moves
-throughout the school and stops to visit and chat with others
-through his iPad _._ In assessment sessions, he pushed buttons that
-output “sing happy birthday” & “Where is [staff name] _._ ” He was
-preoccupied with trying to turn on the TV. Staff reported he was
-usually distracted by the presence others in the room and
-opportunities to socialize through approaching and greeting. Upon
-visual inspection on P11’s performance, we see his baseline phase
-was repeated, as he was part of Group B. In the first baseline
-series, his scores were of a low level and the trend was flat,
-suggesting the trend was stable. In the second baseline, there was
-some variability as the middle session shows a mid-level score
-with no clear trend. These mid-level scores are replicated in the
-post-intervention assessment and are more stable. His NAP is
-88%, a medium treatment effect (see Table 2).
+**Figure 3: “Laying the table” activity**
 
 
-Taken together, the analysis across these six participants indicates
-that a small dose of intervention, through this tablet-based game,
+The MR environment consists of the space surrounding the
+user (which must include a table) and some holographic
+objects, which appear at one edge of the table (of course
+holograms should not “float” in the air), while some areas are
 
 
 
-is associated with measurable improvements in MCR performance
-for minimally verbal children in our sample who use AAC
-devices. Specifically, three of the six children who received the
-therapy for the full experimental dosage achieved medium or
-strong treatment effects (P2, P5, P11).
+42
 
-**5.2** **Implementation Results**
-For the participants who did respond positively to playing _Go Go_
-_Games,_ we explored the generalizable techniques: preferred
-stimuli (the form factor of an iPad and game content); the simple
-interaction, and the systematic feedback. Regarding the form
-factor, our findings reveal variation in the children’s inherent
-responses to the iPad game and the extent to which it could serve
-as a fun, reinforcing activity. Staff members that worked directly
-with the respective participants reported that while some “ _really_
-_enjoyed it and always wanted to keep going after their time was_
-_up_,” (P5, P9, P10), other participants were “ _not reinforced by the_
-_iPad_ ” (P6, P7, P8). Only one participant verbally responded to the
-interview question, what did you think of _Go Go Games?_ and he,
-(P10), said “I like trains.” These features appeared generally
-preferred.
 
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
 
-Regarding the simple, repetitive user interaction, responses varied
-between responders and non-responders. The interaction
-permitted immediate independence for some of the participants.
-Staff reported that P5 learned interaction easily – “after three
-prompts P5 understood the game and followed the instructions
-exactly”. Classroom staff reported that participants (P3, P4, P11)
-“really engaged with the game. The game is exciting to play,
 
-[they] engaged with moving the car.” Another staff member from
-group B reported “it’s really good because of the repetition.” As
-the iPad game had appeal to the responders, the game mechanics
-ultimately impacted the success of a student.
 
+highlighted on the other edges (Figure 3). To complete the
+task, the user must move all the holograms to the correct
+positions, which correspond to the highlighted areas, by
+gazing each holographic object to move the cursor on it, and
+then dragging and dropping the grasped element using
+“sustained” air-tap.
 
-One of the biggest indicators of success for this group of
-participants was the child’s tolerance for feedback – both in game
-and from staff. Staff reported some participants, such as P7,
-“didn’t like being wrong.” Therefore, the corrective feedback
-became a critical feature. Frequently, the staff logs indicated that
-students were prompted by the staff to continue to play for the
-suggested 10 minutes, and, in the case of P1, physically assisted to
-drag the icon to the correct spot once she touched an object. P11
-also received assistance to play the game with a staff person
-sitting with him at times to encourage him to stay seated and
-playing the game. Children who were willing to receive help from
-the staff were more likely to complete the requested amount of
-playtime and repeated assessments.
 
+Using a simple menu (Figure 4), the therapist can configure
+the level of complexity of the activity, setting the number of
+people for whom the table must be prepared (up to three
+people, to avoid having too many elements on the table,
+which could be confusing) and choosing the types of objects
+to be placed. For instance, in the “easy” configuration, the
+participant should set the table using basic objects such as
+glasses, cutlery, plates and one bottle of water. In a more
+complex configuration, there are additional objects such as
+cans of beverages, or more glasses of different shapes. In the
+most advanced configuration, the number of objects is larger,
+and their shape and color are more complex.
 
-As with receiving feedback, difficulty stopping play can be a
-problem for many children. Difficulty transitioning between
-activities can be very challenging for children with autism [10],
-sometimes resulting in aggressive or destructive behaviors (i.e.,
-hitting others, throwing a device). Staff reported aggression from
-P5 when he was asked to hand over the iPad. There is a
-burgeoning interest among designers to reduce tantrums from
-turning off tablets by leveraging natural endings [8]. Research
-states that some caregivers report that they withhold access to
-technology to avoid battling when it is time to put it away
-providing natural stopping points and a definitive conclusion has
-the potential to make the experience more accessible to more
-families [15]. Addressing this challenge with transitioning away
-from using the iPad would be a next step to help students like P5
-to continue to learn MCR.
 
+We exploited the spatial mapping function of HoloLens to
+create the MR space at the beginning of each session. The
+first operation performed by the application before the user
+can start the activity is to scan the surrounding environment,
+until a sufficiently large table is detected (with an area of at
+least one square meter), to place the holograms on it, and to
+highlight the destination areas on the table surface.
 
-Ways we suggest that therapeutic games for this population could
-be programmed to come to an end smoothly (e.g., the screen could
-begin fading until it is blank) to make the transition to disengage
 
+**Figure 4: “Laying the table” settings menu**
 
 
-245
+**“Garbage collection” activity**
+The purpose of this activity is to help the user learn how to
+perform garbage collection properly.
 
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
+The MR environment consists of the room where the user is
+located, different holographic bins placed on the floor - a
+paper bin, a glass bin and a plastic bin (Figure 5), and some
+pieces of trash located nearby. The goal of the activity is to
+move each holographic trash object inside the correct bin.
 
 
-**Figure 2: Participant’s level of MCR before and after intervention.**
+As in the “Laying the table” activity, the application uses the
+spatial mapping feature of HoloLens to scan the surrounding
+environment, to identify the floor and to place the objects in
+a meaningful way.
 
 
 
-more natural. The guided access application used at this school
-removed the option to exit the game and enter another application
-but did not address the transition to ending gameplay. An
-automated way to end play could alleviate some of the discomfort
-in transitioning (i.e., created a natural ending [8]). Applications
-can be designed to specifically support terminated iPad game
-play, methods to do so that do not lead to aggression would
-require future work.
+To ensure also in this activity a high level of customization,
+the therapist can choose the number of bins and the number
+of trash items that the user must throw into them.
 
-**5.3** **Managing Co-Occurring Conditions**
-Given the complex and varied needs of the AAC users in our
-study that required or avoided human prompting or sensory input,
-we present three design considerations to support varied
-presentations for children who engage in overselectivity,
-specifically as they related to physical, cognitive, and behavioral
-challenges. Our analysis highlighted the complexity of the context
-of classroom settings, in which we deployed _Go Go Games_ and
-which are likely targets for therapeutic game use more generally.
 
-_5.3.1_ _Physical Disabilities_
-Physical disabilities that co-occur with overselectivity can cause
-additional challenges, both related to overselectivity and related to
-the intervention used to improve it. Several staff mentioned visual
-
-
-
-concerns, for example, saying that the games presented too many
-details or that the digital objects were too small or too subtle. or
-making specific suggestions:
-
-
-_“Making the flags or pictures bigger may be helpful for students_
-_to see._ ” - Group B staff member
-
-
-Similarly, our observations and staff reporting indicated that
-motor issues were a concern for P1 who has a motor disability,
-who could not easily use the game despite it being designed to
-tolerate imprecise touch input, allow breaks in smooth drags, and
-support players who struggle to perform motions that require
-crossing the midline of their bodies.
+**Figure 5: “Garbage collection” activity**
 
 
-These results indicate that all games, and _Go Go Games_ should be
-further modified to allow for additional types of interactions. For
-example, a touch or tap, instead of a drag would simplify access
-for children with motor issues. Similarly, personalization of the
-visual output, as suggested above, could improve access for those
-with visual challenges. Although wide ranges of input have been
-explored previously in the literature [28], what is key to our
-findings here is the challenge of intersectionality within the
-assistive technology and disabilities communities. It is not enough
-to design systems with one or even multiple common
-
-
-
-246
-
-
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
-
-
-
-combinations of disabilities in mind. Children are often evolving
-in their disabilities experiencing dynamically changing multiple
-conditions and contexts, requiring intense personalization while
-still, ideally, making the system accessible for use without
-professional configuration. This requirement speaks to the need
-for future therapeutic games to employ intelligence to learn a
-user’s skillset and capabilities as well as to employ
-personalization at a level that a child, parent, or teacher could
-engage [32].
-
-_5.3.2_ _Cognitive and Attention Related Disabilities_
-Just as co-occurring physical disabilities can greatly increase the
-complexity of a child’s struggle with overselectivity, many
-children in our study also experienced additional _cognitive_ and
-_attention_ issues that may have played a role in their engagement
-with the game. These issues are challenging to differentiate from
-overselectivity but worth exploring.
-
-
-As just one example of these challenges, for people to use _Go Go_
-_Games_ successfully, they must be able to complete a swipe
-motion. Which can be a challenging concept to learn while
-playing the game. For P1, staff expressed concerns that this
-interaction was too cognitively demanding for her but suggested a
-simpler interaction might help as she does tap her AAC device.
-Staff also explained that several participants struggled with
-attention challenges when playing. A staff member from Group A
-explained that some children “ _engage for the whole time, while it_
-_was hard for others to maintain engagement._ ” Given this
-variability, it is not clear that all children would be able to attend
-to the game long enough to see therapeutic benefits.
-
-
-The context of the environment of assistive technology use can
-also greatly impact the ability of children to engage. The work in
-this study was all completed in the classroom environment, in
-which multiple children of mixed abilities were often present.
-Staff reported that distractions in the classroom contributed to
-poor attention and that small visual details in the game were too
-subtle to hold children’s attention. They also explained that some
-participants struggled to direct their attention to the focal point
-within the game, and for example, got stuck on one action or spot,
-or had difficulty understanding where the action was to occur.
-Others would choose to replay a successful level rather than move
-on to the increased challenge of the next level. A staff member
-from Group B suggested that, “ _maybe a simpler beginning stage_
-_in the game then fade up to full screen of images,_ ” would provide
-better scaffolding for learning MCR and support children with
-attention challenges.
-
-
-Separately, staff reported that for some participants the
-background images embedded in the game were distracting. Some
-staff suggested using minimal visuals on-screen, so that the game
-would be more accessible to students who are overwhelmed
-easily. Relatedly, some children engaged with the screen in
-unintended ways. Since P5 could use the iPad independently, he
-was observed to engage in self-stimulation with the game where
-his focus did not appear to be on practicing his matching skills.
-Despite these unintended interactions, his MCR performance
-improved dramatically in the post assessment. Perhaps having the
-opportunity to engage with the game independently, as he chose,
-afforded him the time to self-regulate. Debates about the
-appropriate role of educational technology continue in special
-education settings [13]. Finding a balance between engagement
-and distraction remains an ongoing challenge and the most
-productive balance may differ from one child to the next.
-
-
-These results indicate that there are multiple ways children engage
-with technology and each way should be considered carefully to
-
-
-
-determine what, if any, modifications to a system need to occur to
-support accessibility.
-
-**6.** **DISCUSSION**
-
-The results of this research demonstrate that _Go Go Games_ can be
-both usable and effective for learning multiple cue responding for
-some children with minimal verbal abilities and intellectual
-disabilities. Our empirical study in an applied setting provides
-understanding of user experiences across a small yet diverse set of
-users, leading us to broader questions about the nature of
-designing assistive technology. In this work, we demonstrated that
-_Go Go Games_ was usable for some in this context. Our small
-group of diverse participants engaged in scheduled, doseregulated game play, a necessary precursor to successful therapy.
-School staff could administer the game doses successfully,
-another essential component of creating an effective experience.
-Our interviews with staff members and observations of
-participants suggest that the app can be deployed as a therapeutic
-tool in a school setting. However, the fact that several of our
-participants dropped out before receiving the full treatment also
-suggests that _Go Go Games_ may not be a feasible treatment
-option in all contexts or for all children given their individual
-physical, cognitive, and behavioral needs. However, given the fact
-that the systematic teaching of MCR currently only reaches a very
-limited user-base (i.e _.,_ MCR is therapy target for children with
-autism [11]), _Go Go Games_ has the potential to expand the reach
-of how many children receive treatment for overselectivity,
-despite its limitations.
-
-
-Additionally, we demonstrated effectiveness of _Go Go Games_ in
-teaching MCR to a subset of the population that needs support.
-The participants who struggled with MCR in their baseline
-assessment and received the full treatment dose showed
-improvements in their final assessment. This study has important
-implications for training this specific skill using this specific game
-and for training language skills using digital therapies more
-generally. Given that teaching MCR to reduce overselectivity
-could potential support the high proportion of preliterate AAC
-users in more effectively accessing their AAC systems, ongoing
-research is warranted to understand the role of overselectivity and
-how to build smart systems to reduce its impact.
-
-
-People with severe disabilities often exhibit secondary disabilities
-
-[21], thus, supporting these circumstances may be essential to the
-effectiveness of the tool. One way to merge the specialized
-supports required of these complex conditions would be to train
-designers of assistive technology for preliterate users in methods
-to reduce overselectivity, as overselectivity may be a potential cooccurring condition. Alternatively, we could address these
-complex needs through collaboration across several domains of
-disability to develop a shared vision of the multitude of needs to
-address in an assistive technology aimed at a pivotal cognitive
-skill. This collaborative effort could result in a decision tree for
-assistive technology designers to concurrently support the unique
-cognitive, physical, and behavioral as well as social needs of AAC
-
-users.
-
-
-For those relying on AAC devices but struggling with MCR,
-game mechanisms to reduce overselectivity is paramount. For
-example, designers of therapeutic games could support a more
-diverse user base through scaffolding and additional supports
-and/or build a screener via an experiential tutorial to confirm the
-user has the prerequisite skills to benefit from the system. A
-screener could address the wide range of abilities and diverse sets
-of disabilities (e.g., test various configuration of audio, visual, and
-motor interactions or even configure itself intelligently based
-
-
-
-247
-
-
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
-
-
-
-caregiver feedback and user interaction). In this way, input could
-be varied depending on a user’s motor skills, interactions could be
-varied depending on cognitive skills, and so on as is suggested in
-ability-based design [32]. For example, P1 who struggles to swipe
-an image on the iPad may be screened for overselectivity using a
-variety of interactions (e.g., variations ranging from soft quick tap
-to sustained drag).
-
-
-Likewise, system interfaces should be adjustable. For example,
-the background of a computer game, which can be aesthetically
-pleasing or a key element to provide enjoyment for some children,
-can be distracting for children who struggle with overselectivity.
-A variety of options should be made available during both
-implementation and game play for customizing these types of
-non-essential game elements. For example, simply making the
-game play window smaller limits the visual field the child must
-interpret. Similarly, being able to toggle on and off various
-background elements or object size could provide some
-customizability for children with special needs. Lastly, the
-mechanics of the reward schedule could be customizable to
-increase tolerance to in-game feedback. These kinds of solutions
-are essential for therapeutic games to meet the specific needs of
-the children who are engaged in them and could be configured by
-a trained specialist or a parent. However, this kind of
-customization may also be necessary and useful for a wider
-variety of games to make them accessible to more children for
-entertainment or educational purposes.
-
-**7.** **CONCLUSION**
-
-In this paper, we presented initial findings toward a body of
-evidence of the effectiveness of a mobile behavioral intervention
-in the form of an iPad game for minimally verbal children who
-struggle with overselectivity. Specifically, single-case design
-results suggest the mean scores shifted positively for three of six
-participants after nine days of intervention. Additionally, we
-describe the conditions under which the system worked well and
-those areas that require additional design work. We presented
-generalizable technological design features drawn from
-evidenced-based therapies to consider in the design of future
-assistive technologies for people who are preliterate and
-minimally verbal.
-
-
-These results leave open research questions regarding the
-potential for customizing the settings related to vision, motor
-movements, attention spans, and feedback tolerance for a diversity
-of issues that challenged users with overselectivity. These design
-challenges are not trivial, and they represent an important scope of
-challenge for making technology and games accessible. These
-systems have the potential to provide both therapeutic benefit and
-entertainment value. However, this value increasingly relies on
-the ability to adapt to a variety of users and contexts.
-
-
-Finally, to truly understand the potential power of these
-technologies and the barriers to their use, a large evidence-base
-must be assembled. This work should be followed up with
-collaborative efforts across a variety of researchers who support
-preliterate AAC users, as well as evaluation studies that are
-longer, and therefore provide higher dosages of the game to the
-children, and include additional participants with other cooccurring challenges to understand the full scope of potential
-impact and engagement.
-
-
-**ACKNO WLEDGMENTS**
-
-We thank the school, staff, children and parents who consented to
-have their children participated in this work. We thank the
-behavior therapist, Melissa Kramer, for the translational work that
-
-
-
-provided a smooth study. We also thank the research assistants,
-Andrea Conejo-Toledo, and Koramya Arriaga who assisted in the
-training materials for data collection. We thank STAR lab for
-early input on this manuscript. We thank Robert and Barbara
-Kleist for funds to support this work. This research was approved
-by human subjects protocol #2015-1871.
+**Virtual assistant**
+The virtual assistant is animated (to attract attention and
+promote engagement) and has various behaviors, depending
+on the difficulty the therapist wants to set in the activity.
+
+
+We have currently implemented three configurations for the
+virtual assistant.
+
+
+In the _static_ one, the character stays idle, giving feedbacks
+only after the user places an object in a target position: if the
+position is correct it looks happy, otherwise it expresses
+disappointment.
+
+
+In the _dynamic_ configuration, the virtual assistant waits for a
+while, then it walks to the nearest object and moves its arms
+to point at it, in order to encourage the user to grasp and drag
+it (Figure 6). If the user is dragging an object but doesn’t
+know where to put it (e.g. because he/she is moving it in the
+wrong direction, the assistant walks towards the position in
+which the item should be placed, and points at it.
+
+
+In the _reactive_ mode, the virtual assistant remains idle until
+the user says something like “help me”, and then walks either
+to the nearest object or to the nearest target position.
+
+
+**Figure 6: Virtual assistant in action**
+
+
+**IMPLEMENTATION OF HOLOLEARN**
+The main software tools we used in the implementation of
+HoloLearn are Unity [40] and Visual Studio [35]. HoloLearn
+scripts were coded in C#, which is more supported than other
+
+
+
+43
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+programming languages by both Microsoft and Unity
+technical documentation.
+
+
+The application source consists of Unity assets and C#
+scripts. Unity assets are managed by the Unity engine and
+include the 3D models used for the holograms, the UI
+elements, and the Mixed Reality Toolkit [33]. The Mixed
+Reality Toolkit is a collection of components provided by
+Microsoft which accelerate the development of applications
+for Microsoft HoloLens and other Windows Mixed Reality
+headsets. The Toolkit is organized in different modules, each
+of them containing scripts and Unity prefabs that facilitate
+the implementation of the interaction paradigm of HoloLens
+and provide other useful features. For instance, the input
+module contains scripts that interpret inputs such as gaze,
+gesture, and voice. The spatial mapping component is used
+by HoloLearn to map the real world into the MR
+environment (Figure 7). We also exploited some of the UX
+controls provided by the Toolkit (for instance sliders,
+buttons, checkboxes, etc.) to implement the HoloLearn
+
+menu.
+
+
+**Figure 7: Spatial mapping**
+
+
+To develop the virtual assistant, we found some useful
+animations on Mixamo.com service by Adobe [1] and
+applied them to the 3D model of the virtual character. We
+managed model animations by means of the Unity animation
+management tool [41]. The behavioral rules of the assistant
+are defined by a state machine implemented in C#. To
+provide the proper hints, assistant animation changes
+according to what the user is doing. For example, if the user
+drags an object, the assistant state becomes “walk”, and the
+character walks towards the nearest target position.
+
+
+Visual Studio is used to load and compile the code from the
+PC where the application is developed into the HoloLens
+device.
+
+
+HoloLearn is currently executed as a client-side application,
+and all the data are managed by the application itself. For
+instance, it is possible to save the configuration parameters
+set for each activity performed as persistent data and re-use
+them in following application executions.
+
+
+
+HoloLens supports UWP (Universal Windows Platform)
+applications, so our final product can be deployed on the
+Microsoft Store.
+
+
+**EXPLORATORY STUDY**
+We performed an exploratory study on HoloLearn at the
+“ _Fraternità e Amicizia_ ” center involving _20_ subjects with
+different disorders in the NDD spectrum, and their 3
+caregivers.
+
+
+**Goal of the study and research questions**
+To our knowledge, no published research explores the use of
+HoloLens technology among people with NDD; little is
+known on how these people behave when they are exposed
+to HoloLens devices and applications.
+
+
+The first goal of our study was therefore to investigate _device_
+_acceptability_, i.e. if subjects with NDD (hereinafter referred
+to as “ _users_ ”) would accept to wear the HoloLens headset,
+and _usability_, i.e. if they would have difficulty in
+understanding and using the main interaction mechanism
+(air-tap gesture coordinated with gaze).
+
+
+In addition, we wanted to explore some HoloLearn-specific
+aspects, e.g. the degree of _complexity of the user tasks and_
+_the role of the virtual assistant_ . Finally, we investigated how
+users would perceive the overall experience with HoloLearn
+( _likeability_ and _satisfaction_ ).
+
+
+We organized our main _research questions_ along the above
+lines:
+
+
+_Device Acceptability_ :
+
+- Q1: Do users accept to wear and use the HoloLens
+device?
+
+
+_Usability of the interaction mode_ :
+
+- Q2: Do users understand the air-tap gesture, and can
+they perform it?
+
+- Q3: Do users understand how to stare at holograms with
+their gaze?
+
+- Q4: Are users able to coordinate gaze and air-tapping?
+
+
+_Task complexity:_
+
+- Q5: Do users understand the goal of the tasks?
+
+- Q6: Were users able to contextualize the tasks in the MR
+space, i.e. to understand that they are performing the
+tasks in a virtual environment and not in a real space?
+
+
+_Virtual assistant role_ :
+
+- Q7: Do users try to interact with the virtual assistant?
+
+- Q8: Do users understand the role of this character?
+
+
+_Likeability and satisfaction_ .
+
+- Q9: Do users have fun using HoloLearn?
+
+- Q10: Are users satisfied with this experience?
+
+
+**Participants**
+The study involved two groups of people who attend the care
+center on a regular basis, are aged 16-43 and have different
+disorders in the NDD spectrum. The _severity_ level was
+
+
+
+44
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+homogeneous within each group: _severe_ for Group 1 and
+_moderate_ for Group 2.
+
+
+“Severity” is a clinical measure designed to be used at initial
+evaluation to inform treatment planning, to establish a
+baseline for comparison, and to monitor changes. Severity
+takes into account various aspects, such as the intensity,
+frequency and the duration of symptoms associated with a
+specific disorder in the NDD spectrum.
+
+
+Criteria and guidance to rate severity are provided in the
+DMS-5 [2]. In intellectual disability, the “severe” level for
+people in the age range of the participants in our study is
+characterized by little understanding of written language and
+concepts involving numbers, quantity, time and money,
+limited spoken language, and the need for supervision at all
+time for all daily-living activities including meals, dressing,
+personal hygiene.
+
+
+The “moderate” level is associated with limited academic
+skills (reading, writing, maths), assistance required to
+complete conceptual day-by-day living tasks, difficulty in
+perceiving and interpreting social cues accurately, and the
+need of reminders and instruction in practical tasks involving
+eating, dressing and hygiene.
+
+
+Group 1 (n=11, average age = 27,27, SD=5,04) is described
+in Table 1 _._ Group 2 (n=9; average = _31,33_, SD=5,67) is
+described in Table 2.
+
+
+|ID|Gender|Age|Disorder|Sessions<br>attended|
+|---|---|---|---|---|
+|M1<br>M2<br>M3<br>M4<br>M5<br>M6<br>M7<br>M8<br>M9|F <br>M <br>M <br>F <br>M <br>F <br>M <br>F <br>F|35<br>25<br>31<br>36<br>29<br>28<br>28<br>43<br>27|Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Intellectual disability|1 <br>1 <br>1 <br>1 <br>1 <br>1 <br>1 <br>1 <br>1|
+
+
+
+
+
+
+
+
+
+
+
+
+|ID|Gender|Age|Disorder|Sessions<br>attended|
+|---|---|---|---|---|
+|S1<br>S2<br>S3<br>S4<br>S5<br>S6<br>S7<br>S8<br>S9<br>S10<br>S11|M <br>M <br>F <br>M <br>M <br>F <br>M <br>F <br>F <br>F <br>M|25<br>34<br>24<br>27<br>28<br>28<br>16<br>33<br>24<br>31<br>30|Intellectual disability<br>Intellectual disability<br>Intellectual disability<br>Asperger syndrome<br>Intellectual disability and<br>psychosis<br>Intellectual disability<br>Prader-Willi syndrome<br>Intellectual disability<br>Pervasive developmental<br>disorder<br>Intellectual disability<br>Down syndrome|1 <br>1 <br>1 <br>1 <br>1 <br>2 <br>2 <br>2 <br>2 <br>2 <br>2|
+
+
+**Table 1: Study Participants - Group 1 (severity level = severe)**
+
+
+
+**Table 2: Study Participants - Group 2 (severity level =**
+
+**moderate**
+
+
+**Procedure**
+Each session took place at the therapeutic center in a room
+that was familiar to all participants (Figure 8). The activity
+selected for the study was _Garbage collection_, which the
+therapists considered easier than _Laying the table_ since it
+involves simpler movements. During a session, the person
+with NDD used HoloLearn for approximately 10 minutes
+with the assistance of his/her caregiver; an additional
+therapist while two members of the university team
+participated as observers and took notes.
+
+
+**Figure 8. Using HoloLearn during the exploratory study**
+
+
+We connected HoloLens to a PC and a large display screen,
+so that all the people in the room could see what the current
+user was seeing inside the device, and the caregiver could
+provide more contextualized help when needed.
+
+
+Before starting the activity, the therapist explained its goal
+and told the user what he/she had to do and how to interact
+with the application. He/she gave instructions during the
+
+
+
+45
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+session when explicitly asked by the user, or when he/she
+needed help.
+
+
+In some cases, it was enough to give suggestions by voice.
+In other cases, the caregiver had to interact physically with
+the user, in two ways: i) The caregiver manipulated the user’s
+head to help him/her focus the gaze on the cursor, to move
+the cursor toward the hologram, and to drag the hologram to
+the proper position; ii) The caregiver moved the user’s
+fingers to explain how to perform air-tap.
+
+
+The caregivers and the users answered a set of questions at
+the end of each session. Caregivers filled in a questionnaire
+based on research questions Q1-Q8 on a 3-value response
+scale: _1 = yes, with no or only initial support; 2 = with_
+_evident difficulty and frequent support; 3 = not at all._
+
+
+Users provided voice answers to two questions - based on
+research questions Q9 and Q10 (about fun and satisfaction
+respectively) which were asked by the caregiver.
+
+
+**RESULTS AND DISCUSSION**
+We initially planned to perform one session per user in both
+groups. Six users in Group 1 (S6, S7, S8 S9, S10, and S11)
+who have the strongest disability were also involved in a
+second session (after one week) since they had enormous
+difficulties in the first session and we wanted to find out if,
+after some familiarization, they could achieve some
+improvement.
+
+
+In the rest of this section, we report the main numerical
+results for each group, and then also discuss the findings in
+light of the notes taken by the observers.
+
+
+**Main Results - Group 1 (severity level = severe)**
+The first set of the following tables (Table 3, Table 4, and
+Table 5) reports the results of the caregivers’ survey about
+device acceptability and usability, which was filled-out for
+the entire Group 1 (n=11) after the _first_ session of use of
+HoloLearn.
+
+
+Table 6A and Table 6B presents the results of the caregivers’
+questions on usability for the 6 participants in Group 1 who
+attended two sessions with HoloLearn and allow us to
+compare the results for these subjects in the first and second
+session.
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q1**~~<br>**Q2**<br>**Q3**<br>**Q4**|~~90.9%~~<br>18.2%<br>27.2%<br>18.2%|~~9.1%~~<br>27.3%<br>36.4%<br>45.5%|~~0.0%~~<br>54.5%<br>36.4%<br>33.3%|
+
+
+
+**Table 3: Caregivers’ survey: device acceptability (Q1) and**
+**usability of the interaction paradigm. Group 1; n=11; first use**
+
+
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q5**~~<br>**Q6**|~~36.4%~~<br>18.2%|~~45.5%~~<br>63.6%|~~18.1%~~<br>18.2%|
+
+
+**Table 4: Caregivers’ survey: task complexity. Group 1; n=11;**
+
+**first use**
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q7 **~~<br>**Q8 **|~~90.9%~~<br>90.9%|~~9.1%~~<br>9.1%|~~0.0%~~<br>0.0%|
+
+
+
+**Table 5: Caregivers’ survey: virtual assistant’s role. Group 1;**
+
+**n=11; first use**
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q2**~~<br>**Q3**<br>**Q4**|~~0.0%~~<br>0.0%<br>0.0%|~~0.0%~~<br>33.3%<br>33.3%|~~100%~~<br>66.7%<br>66.7%|
+
+
+
+**Table 6A: Caregivers’ survey: usability of the interaction**
+**paradigm. Group 1- participants who attended 2 sessions;**
+
+**n=6; FIRST session**
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q2**~~<br>**Q3**<br>**Q4**|~~0.0%~~<br>0.0%<br>0.0%|~~16.7%~~<br>66.7 %<br>50%|~~83.3%~~<br>33.3%<br>50%|
+
+
+
+**Table 6B: Caregivers’ survey: usability of the interaction**
+**paradigm. Group 1- participants who attended 2 sessions;**
+
+**n=6; SECOND session**
+
+
+**Discussion of Results for Group 1**
+The data in Table 3-Q1 show positive results, i.e. the high
+level of acceptability of the HoloLens device, despite the
+strong disabilities of the people in Group 1. In most cases
+however it was difficult to capture their attention and help
+them understand what to do and how. According to our
+observations, only two people successfully completed the
+task while six more managed to move the objects around,
+placing only some of them in the proper bin.
+
+
+The main problem that users encountered was to perform the
+interaction, and use gaze, air-tap gestures, and their
+combination correctly (Table 3 - Q2, Q3, Q4).
+
+
+Concerning gaze, we observed that it was very difficult for
+the users to find the cursor. Several people also showed some
+difficulty in understanding the concept of moving the pointer
+over a hologram using sustained air-tap gesture.
+
+
+
+46
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+These problems might be ascribed to a design weakness. We
+used the default cursor provided by HoloLens, which is
+white. On several occasions its visualization was confused
+because it resulted mixed up with the reflection of the light
+on the floor. For this reason, after the first session with Group
+1 we decided to replace the default white arrowed cursor with
+a bigger, hand-shaped, purple-colored cursor, in order to
+make it more easily recognizable by the participant. We also
+generated a visual and sound feedback when the
+instantaneous air-tap gesture (“select”) was performed
+correctly.
+
+
+As for the air-tap action in itself, the users found it very
+difficult to learn the movement of the fingers. This is not
+surprising, considering the NDD is often associated with fine
+motor skills impairment. The users tended to open and close
+the whole hand, instead of using only thumb and index, or
+could not keep the two fingers closed while dragging the
+holograms around.
+
+
+It is likely that these difficulties influenced task completion.
+Only one participant completed the task successfully, and six
+users managed to move the objects but without placing any
+of them in the corresponding bin.
+
+
+Table 5 shows that the users were attracted by the virtual
+assistant: according to our observations, it was the first thing
+they noticed, and they easily recognized that it was a _Minion_ .
+Still, no user was able to understand the instructions of the
+virtual character, and to use the application without the
+constant help of their caregivers.
+
+
+The comparisons of Table 6A and Table 6B for the 6 users
+who attended two sessions shows an improvement in terms
+of usability in the second session, which means that the
+second time, the use of HoloLearn was simpler, even if
+observations show that the coordination of gaze and air-tap
+gesture remained very difficult to perform. The better
+usability might be ascribed to the improvement we
+introduced in the HoloLearn version for the second session:
+the purple cursor with feedback and its effect was probably
+more evident. But the usability result might also mean that in
+the first session the people learned something about the
+system that they did not forget after one week (when the
+second session was performed) and which they could exploit
+during the second experience. This would be surprising,
+considering the severity of the disability of these people and
+their memory impairments which normally affect the
+capability of remembering previous experiences and
+capitalizing on them.
+
+
+**Main Results - Group 2 (severity level = moderate)**
+Table 7 and Table 8 report the results of the caregivers’
+surveys for Group 2, i.e. the people with a moderate severity
+level of disability.
+
+
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q1**~~<br>**Q2**<br>**Q3**<br>**Q4**|~~100%~~<br>55.6%<br>66.7%<br>44.4%|~~0%~~<br>22.2%<br>11.1%<br>22.2%|~~0%~~<br>22.2%<br>22.2%<br>33.3%|
+
+
+**Table 7: Caregivers’ survey: device acceptability (Q1) and**
+
+**usability of the interaction paradigm. Group 2; n=9**
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q5**~~<br>**Q6**|~~44.4%~~<br>22.2%|~~55.6%~~<br>77.8%|~~0.0%~~<br>0.0%|
+
+
+
+**Table 8: Caregivers’ survey: task complexity. Group 2; n=9**
+
+
+**Discussion of Results for Group 2**
+The people in this group had less and weaker impairments
+than Group 1. In addition, they used the improved versions
+of HoloLearn in which we provided the purple cursor with
+feedback.
+
+
+For these reasons, the caregivers were able to explain to them
+the interaction method and the actions to be performed to
+complete the activity and invite them to use the application
+autonomously.
+
+
+According to our observations, all users in Group 2
+understood what holograms meant and the purpose of the
+activity (Table 8).
+
+
+After a few attempts and without too much difficulty, most
+of them were able to coordinate gaze with air-tap gesture
+(Table 7). Six of them completed the task successfully. The
+other three could not reach completion but managed to move
+the objects around and place some of them in the proper
+position.
+
+
+Like Group 1, everyone in Group 2 liked the _Minion._ In this
+group many people also tried to interact with it, for example
+by saying “hello” or talking to it. Compared to Group 1,
+Group 2 also made better use of the virtual assistant: all users
+were able to understand what the _Minion_ was trying to
+communicate, and caregivers were able to provide them with
+much less assistance.
+
+
+**Results and discussion on users’ survey**
+Table 9 highlights a good degree of fun and satisfaction.
+
+|Col1|1|2|3|
+|---|---|---|---|
+|~~**Q9**~~<br>**Q10**|~~82.1%~~<br>85.7%|~~17.9%~~<br>10.7%|~~0%~~<br>3.6%|
+
+
+
+**Table 9: Participants’ survey**
+
+
+
+47
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+According to the observers’ note, most people enjoyed using
+HoloLearn and were satisfied with their experience (only one
+person showed disappointment), regardless of their
+performance and degree of task completion.
+
+
+**FINAL DISCUSSION AND LESSONS LEARNED**
+
+
+The findings of the exploratory study are very tentative
+because of the heterogeneity of the participants in terms of
+age and impairments and the very limited exposure to
+HoloLearn. In addition, our study does not offer any rigorous
+evidence of the benefits that performing tasks in Mixed
+Reality could bring to people with NDD. Nevertheless, the
+specialists had a very positive opinion on the potential of this
+technology to improve autonomy and to motivate the
+learning of day-by-day routines.
+
+
+At the end of the exploratory study, we organized a focus
+group involving the entire working team, including the
+caregivers involved in the empirical study, to discuss the
+outcomes of the project. Together we analyzed what worked
+well and what did not work, and how it should be improved,
+and distilled the main lessons we learned.
+
+
+**Lesson 1: Target Group**
+The results of the exploratory study indicate that the
+participants in Group 1 required much more support from the
+caregivers during the experience than the people in Group 2.
+This suggests that HoloLens applications might be more
+appropriate for people with moderate severity level of NDD,
+since they can better master the intrinsic complexity of the
+interaction mechanisms of this device (see also Lesson 2). In
+addition, as suggested by one therapist, these subjects might
+be able to perceive a stronger sense of presence in MR
+environments. Our findings confirm what we also
+experienced in other projects [16, 17, 18, 20, 21, 22], i.e. that
+creating innovative technologies for the strongest forms of
+disability could be much more challenging than for mild
+disabilities.
+
+
+**Lesson 2: Facilitating HoloLens Interaction**
+The built-in, most characterizing interaction paradigm of
+HoloLens - coordinating gaze and air-tap - might totally
+prevent the autonomous use of this technology for people
+with the most severe forms of disability in the NDD spectrum
+and seems to be complex - but affordable - for people with
+moderate severity level. The air-tap gesture is not a natural
+movement; coordinating it with gaze can be very hard, if not
+impossible, to learn. To mitigate these difficulties, several
+strategies could be adopted. One is to envision a possibly
+long period of familiarization and training focused only on
+learning the interaction mechanism. Other strategies can be
+adopted at technological level. For example, we
+implemented a technical improvement, replacing the white
+default cursor with a purple, hand-shaped one associated
+with feedback. This pointer was more visible and intuitive,
+and the participants who used it achieved better results. A
+complementary solution to alleviate interaction problems
+could be to use the HoloLens “clicker” (a physical button
+
+
+shaped controller) for selection, in place of air-tap. We
+integrated this device in the latest version of HoloLearn and
+performed a short laboratory test with 8 people with NDD
+and moderate severity level. The use of the clicker facilitated
+the interaction: After an initial explanation, all participants
+understood how to use this device, and the coordination with
+gaze was immediate.
+
+
+**Lesson 3: Virtual Assistant**
+An animated virtual assistant, whose visual characteristics
+evoke a familiar character, seems to be effective to attract the
+user’s attention and to promote engagement and fun regardless of the disorder and the severity level of the
+disability. To increase the engagement potential of this
+element, and to reduce the risk of boredom during prolonged
+use of the system, the therapists suggested providing a
+variety of different characters among which the users could
+select their favorite one. In contrast, the role of the virtual
+assistant to improve autonomy in task performance seems to
+depend on the characteristics of the disorder. When the
+disability severity level is high, the virtual assistant might
+bring no functional benefits, because of the user’s limited
+understanding of character behavior, the weakness of
+imitation skills, and the frequent habit of constantly asking
+therapists what to do. Caregivers suggested that in all cases,
+when the virtual assistant is present, they should refrain from
+giving task-related instructions, at least for a while, and
+rather try to explain what the virtual assistant is
+communicating through visual behavior. They also
+suggested extending the communication capability of the
+virtual assistant and enabling it to offer aural instructions to
+complement visual cues.
+
+
+**Lesson 4: Customization**
+Because each individual with disabilities has unique
+characteristics, the educational value of a technology for this
+target is strongly related to its ability to be personalized to
+each users’ evolving needs. HoloLens experiences should be
+conceived from the very start with this requirement in mind,
+as occurred in HoloLearn. Tasks and holographic elements
+should be designed so that multiple configurations, along
+multiple dimensions, are possible, and should be integrated
+with a simple tool for therapists that enables them to
+personalize the application autonomously.
+
+
+**Lesson 5: Shared Experience**
+The sessions of use of HoloLearn were performed
+individually, visualizing on an external display screen what
+the user was seeing during the experience. This setting
+enabled the caregiver to provide the proper guidance at the
+proper time. The therapists suggested that we should
+capitalize on the possibility of sharing the experience not
+only between the user and the caregiver, but also among the
+user’s peers, i.e. other individuals with NDD. These people
+could enjoy what happens in the MR environment even if
+they do not wear the device; they could feel engaged in a
+shared experience, offer instructions, and ultimately learn
+from the current user’s interactions. The physical presence
+of people other than the caregiver might also bring benefits
+
+
+
+48
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+to the HoloLearn user. It could reduce the risk of selfisolation which is a drawback of immersive technologies,
+helping the user to better feel the difference between the
+“real” environment and the digital one, to maintain the
+perception of the surrounding physical space, and to mitigate
+the potential stress associated with leaving the MR world and
+re-entering “real” reality.
+
+
+**CONCLUSIONS AND FUTURE WORK**
+To the best of our knowledge, HoloLearn is the first
+HoloLens application designed for people with NDD and
+empirically tested in a real setting. During our work, we
+faced several technical and methodological challenges, also
+because of the limited number of documented examples of
+HoloLens applications and their underlying design solutions,
+as well as the absence of publications concerning the use of
+HoloLens (and MR in general) among people with NDD and
+similar disabilities.
+
+
+Our research is still in an early stage, and many issues need
+to be further explored. Nevertheless, some of our design
+solutions, the problems we encountered, and the lessons we
+learned, could be inspirational for the designers of wearable
+Mixed Reality applications devoted to people with NDD as
+well as other target groups with similar needs.
+
+
+There are many points in our research agenda. From a design
+and technological perspective, we will include more options
+for the current activities and new types of tasks. We are
+currently developing new features for the “Laying the table”
+activity, to include new items that depend on food type. With
+the therapists in our team we have designed new activities
+(e.g. “Tidying up the room”) based on a similar pattern of
+tasks (i.e. selecting holographic objects and placing them in
+different positions). We are creating new characters for the
+virtual assistant, inspired by stories and cartoons used during
+regular therapeutic activities. We will also integrate the
+clicker-based interaction mode in a more robust way, to
+complement, or replace, gaze and air-tap. The
+implementation of these extensions does not require an
+enormous programming effort due to the modularity of the
+system, the online availability of 3D models, and the power
+of Unity.
+
+
+A more challenging and long-term future work is related to
+the need of both a stronger assessment of the features already
+tested in the exploratory study, and the evaluation of the
+benefits of HoloLearn for people with NDD to improve
+autonomy. The latter issue will require an articulated
+controlled study, for a period of at least six months, in order
+to compare the effects of interventions based on HoloLearn
+with more traditional forms of treatment. Rigorously
+controlled studies in the NDD arena are enormously complex
+because of the heterogeneity of the impairments associated
+with NDD, the difficulty of recruiting a sufficiently large
+sample of “homogeneous” subjects, and the need to control
+many confounding variables. We are now working with three
+large therapeutic centers in Milan - serving in total
+approximately 800 people with NDD. They will enable us to
+
+
+
+recruit sufficiently wide control and experimental groups and
+will help us to address the challenge of a rigorous empirical
+study.
+
+
+**ACKNOWLEDGEMENTS**
+We wish to thank all the people at the “Fraternità e Amicizia”
+center who participated in our research, and in particular
+their coordinator Dr. Eleonora Beccaluva, for her strong
+support during the entire project.
 
 
 **REFERENCES**
+1. Adobe. 2018. Mixamo. Retrieved March 20, 2018
 
-[1] Meghan Allen, Joanna McGrenere, and Barbara Purves.
-2007. The design and field evaluation of PhotoTalk: a
-digital image communication application for people.
-_Proceedings of the 9th international ACM SIGACCESS_
-_conference on Computers and accessibility_, ACM, 187–
-194.
-
-[2] Rolf Black. 2011. The Phonicstick: a joystick to generate
-novel words using phonics. _The proceedings of the 13th_
-_international ACM SIGACCESS conference on Computers_
-_and accessibility_, ACM, 325–326.
-
-[3] John O. Cooper, Timothy E. Heron, William L. Heward, and
-others. 2007. Applied behavior analysis.
-
-[4] Chata A. Dickson, Sharon S. Wang, Kristin M. Lombard,
-and William V. Dube. 2006. Overselective stimulus control
-
-in residential school students with intellectual disabilities.
-_Research in Developmental Disabilities_ 27, 6, 618–631.
-http://doi.org/10.1016/j.ridd.2005.07.004
-
-[5] William V. Dube and Krista M. Wilkinson. 2014. The
-Potential Influence of “Stimulus Overselectivity” in AAC:
-Information from Eye-tracking and Behavioral Studies of
-Attention. _Augmentative and alternative communication_
-_(Baltimore,_ _Md. :_ _1985)_ 30, 2, 172–185.
-http://doi.org/10.3109/07434618.2014.904924
-
-[6] Gene S Fisch. 2001. Evaluating data from behavioral
-analysis: visual inspection or statistical models?
-_Behavioural_ _Processes_ 54, 1–3, 137–154.
-http://doi.org/10.1016/S0376-6357(01)00155-3
-
-[7] Alexis Hiniker, Joy Wong Daniels, and Heidi Williamson.
-2013. Go go games: therapeutic video games for children
-with autism spectrum disorders. _Proceedings of the 12th_
-_International Conference on Interaction Design and_
-_Children_, ACM, 463–466. Retrieved September 24, 2014
-from http://dl.acm.org/citation.cfm?id=2485808
-
-[8] Alexis Hiniker, Hyewon Suh, Sabina Cao, and Julie A.
-Kientz. 2016. Screen Time Tantrums: How Families
-Manage Screen Media Experiences for Toddlers and
-Preschoolers. _Proceedings of the 2016 CHI Conference on_
-_Human Factors in Computing Systems_, ACM, 648–660.
-http://doi.org/10.1145/2858036.2858278
-
-[9] Robert H. Horner, Edward G. Carr, James Halle, Gail
-McGee, Samuel Odom, and Mark Wolery. 2005. The Use
-of Single-Subject Research to Identify Evidence-Based
-Practice in Special Education. _Exceptional Children_ 71, 2,
-165–179. http://doi.org/10.1177/001440290507100203
-
-[10] Amie M King, Kathryn W Brady, and Grayce Voreis. 2017.
-“It’s a blessing and a curse”: Perspectives on tablet use in
-children with autism spectrum disorder. _Autism &_
-_Developmental_ _Language_ _Impairments_ 2,
-2396941516683183.
-http://doi.org/10.1177/2396941516683183
-
-[11] Lynn Kern Koegel, Robert L. Koegel, Joshua K. Harrower,
-and Cynthia Marie Carter. 1999. Pivotal Response
-Intervention I: Overview of Approach. _Journal of the_
-_Association for Persons with Severe Handicaps_ 24, 3, 174–
-185. http://doi.org/10.2511/rpsd.24.3.174
+[from: https://www.mixamo.com/](https://www.mixamo.com/)
 
 
+2. American Psychiatric Association. 2013. _Diagnostic_
 
-248
+_and statistical manual of mental disorders_ _(DSM-5®)._
+American Psychiatric Pub. 33-41.
 
 
-Session: Supporting Communication ASSETS'17, Oct. 29–Nov. 1, 2017, Baltimore, MD, USA
+3. Beatrice Aruanno, Franca Garzotto, and Mario
+
+Covarrubias Rodriguez. 2017. HoloLens-based Mixed
+Reality Experiences for Subjects with Alzheimer's
+Disease. _In Proceedings of the 12th Biannual_
+_Conference on Italian SIGCHI Chapter (CHItaly '17)_,
+Article 15, 9 pages. DOI:
+[https://doi.org/10.1145/3125571.3125589](https://doi.org/10.1145/3125571.3125589)
+
+
+4. Miguel Bernardes, Fernando Barros, Marco Simoes,
+
+and Miguel Castelo-Branco. 2015. A serious game with
+virtual reality for travel training with Autism Spectrum
+Disorder. In _2015 International Conference on Virtual_
+_Rehabilitation (ICVR),_ 127-128. DOI:
+[https://doi.org/10.1109/ICVR.2015.7358609](https://doi.org/10.1109/ICVR.2015.7358609)
+
+
+5. LouAnne E. Boyd, Alejandro Rangel, Helen
+
+Tomimbang, Andrea Conejo-Toledo, Kanika Patel,
+Monica Tentori, and Gillian R. Hayes. 2016. SayWAT:
+Augmenting Face-to-Face Conversations for Adults
+with Autism. In _Proceedings of the 2016 CHI_
+_Conference on Human Factors in Computing Systems_
+_(CHI '16)_, 4872-4883. DOI:
+[https://doi.org/10.1145/2858036.2858215](https://doi.org/10.1145/2858036.2858215)
+
+
+6. Evren Bozgeyikli, Andrew Raij, Srinivas Katkoori, and
+
+Rajiv Dubey. 2016. Locomotion in Virtual Reality for
+Individuals with Autism Spectrum Disorder. In
+_Proceedings of the 2016 Symposium on Spatial User_
+_Interaction (SUI '16)_, 33-42. DOI:
+[https://doi.org/10.1145/2983310.2985763](https://doi.org/10.1145/2983310.2985763)
+
+
+7. Lal Bozgeyikli, Evren Bozgeyikli, Andrew Raij,
+
+Redwan Alqasemi, Srinivas Katkoori, and Rajiv
+Dubey. 2017. Vocational Rehabilitation of Individuals
+with Autism Spectrum Disorder with Virtual Reality.
+_ACM Transactions on Accessible Computing_
+_(TACCESS)_ . 10, 2 (April 2017), Article 5, 25 pages.
+[DOI: https://doi.org/10.1145/3046786](https://doi.org/10.1145/3046786)
+
+
+8. Lal Bozgeyikli, Andrew Raij, Srinivas Katkoori, and
+
+Redwan Alqasemi. 2017. A Survey on Virtual Reality
+for Training Individuals with Autism Spectrum
+Disorder: Design Considerations. _IEEE Transactions_
+_on Learning Technologies_ . 11, 2 (April-June 2018),
 
 
 
+49
 
-[12] Robert L. |Kern Koegel Koegel. 2006. _Pivotal Response_
-_Treatments for Autism: Communication, Social, and_
-_Academic Development_ . Brookes Publishing Company.
 
-[13] David McNaughton and Janice Light. 2013. The iPad and
-Mobile Technology Revolution: Benefits and Challenges
-for Individuals who require Augmentative and Alternative
-Communication. _Augmentative_ _and_ _Alternative_
-_Communication_ 29, 2, 107–116.
-http://doi.org/10.3109/07434618.2013.784930
-
-[14] Bart Michiels, Mieke Heyvaert, Ann Meulders, and Patrick
-Onghena. 2016. Confidence intervals for single-case effect
-size measures based on randomization test inversion.
-
-_Behavior_ _Research_ _Methods_ .
-http://doi.org/10.3758/s13428-016-0714-4
-
-[15] Pat Mirenda. 2009. Promising Innovations in AAC for
-Individuals With Autism Spectrum Disorders. _SIG 12_
-_Perspectives_ _on_ _Augmentative_ _and_ _Alternative_
-_Communication_ 18, 4, 112–113.
-http://doi.org/10.1044/aac18.4.112
-
-[16] Fereshteh Mohammadzaheri, Lynn Kern Koegel,
-Mohammad Rezaei, and Enayatolah Bakhshi. 2015. A
-randomized clinical trial comparison between pivotal
-response treatment (PRT) and adult-driven applied
-behavior analysis (ABA) intervention on disruptive
-behaviors in public school children with autism. _Journal of_
-_autism and developmental disorders_ 45, 9, 2899–2907.
-
-[17] Samuel L. Odom, Ellen Brantlinger, Russell Gersten, Robert
-H. Horner, Bruce Thompson, and Karen R. Harris. 2005.
-Research in Special Education: Scientific Methods and
-Evidence-Based Practices. _Exceptional Children_ 71, 2,
-137–148. http://doi.org/10.1177/001440290507100201
-
-[18] Katie O’Leary, Charles Delahunt, Patricia Dowden, et al.
-2012. Design goals for a system for enhancing AAC with
-personalized video. _Proceedings of the 14th international_
-_ACM_ _SIGACCESS_ _conference_ _on_ _Computers_ _and_
-_accessibility_, ACM, 223–224.
-
-[19] K. Phelan and H. E. McDermid. 2011. The 22q13.3 Deletion
-Syndrome (Phelan-McDermid Syndrome). _Molecular_
-_Syndromology_ 2, 3–5, 186–201.
-http://doi.org/10.1159/000334260
-
-[20] Bertram O. Ploog. 2010. Stimulus Overselectivity Four
-Decades Later: A Review of the Literature and Its
-Implications for Current Research in Autism Spectrum
-Disorder. _Journal of Autism and Developmental Disorders_
-40, 11, 1332–1349. http://doi.org/10.1007/s10803-0100990-2
-
-[21] Jenny Preece, Helen Sharp, and Yvonne Rogers. 2015.
-Interaction Design: Beyond Human-Computer Interaction.
-Second Edition. _MyScienceWork_ .
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
 
 
 
-
-[22] Deborah Preston and Mark Carter. 2009. A Review of the
-Efficacy of the Picture Exchange Communication System
-Intervention. _Journal of Autism and Developmental_
-_Disorders_ 39, 10, 1471–1486.
-http://doi.org/10.1007/s10803-009-0763-y
-
-[23] Suzanne Prior, Annalu Waller, and Thilo Kroll. The
-CHAMPION software project. _Proceedings of the 13th_
-_international ACM SIGACCESS conference on Computers_
-_and accessibility_, ACM, 287–288.
-
-[24] Sarah R. Rieth, Aubyn C. Stahmer, Jessica Suhrheinrich, and
-Laura Schreibman. 2015. Examination of the prevalence of
-stimulus overselectivity in children with ASD. _Journal of_
-_Applied_ _Behavior_ _Analysis_ 48, 1, 71–84.
-http://doi.org/10.1002/jaba.165
-
-[25] Henry S. Roane, Wayne W. Fisher, Michael E. Kelley,
-Joanna L. Mevers, and Kelly J. Bouxsein. 2013. USING
-MODIFIED VISUAL-INSPECTION CRITERIA TO
-
-INTERPRET FUNCTIONAL ANALYSIS OUTCOMES:
-
-FUNCTIONAL ANALYSIS INTERPRETATION.
-_Journal of Applied Behavior Analysis_ 46, 1, 130–146.
-http://doi.org/10.1002/jaba.13
-
-[26] Laura Schreibman. 1997. The study of stimulus control in
-autism. _Environment and Behavior_, 203–209.
-
-[27] Laura Schreibman and Robert L. Koegel. 1982. Multiple-cue
-responding in autistic children. _Advances in Child_
-_Behavioral Analysis & Therapy_ 2, 81–99.
-
-[28] Shari Trewin, Cal Swart, and Donna Pettick. 2013. Physical
-Accessibility of Touchscreen Smartphones. _Proceedings of_
-_the 15th International ACM SIGACCESS Conference on_
-_Computers_ _and_ _Accessibility_, ACM, 19:1–19:8.
-http://doi.org/10.1145/2513383.2513446
-
-[29] Keith Vertanen. 2013. A collection of conversational AAClike communications. _Proceedings_ _of_ _the_ _15th_
-_International ACM SIGACCESS Conference on Computers_
-_and Accessibility_, ACM, 31.
-
-[30] Tonio Wandmacher, Jean-Yves Antoine, and Franck Poirier.
-2007. SIBYLLE: a system for alternative communication
-adapting to the context and its user. _Proceedings of the 9th_
-_international ACM SIGACCESS conference on Computers_
-_and accessibility_, ACM, 203–210.
-
-[31] Karl Wiegand and Rupal Patel. 2012. SymbolPath: a
-continuous motion overlay module for icon-based assistive
-communication. _Proceedings of the 14th international_
-_ACM_ _SIGACCESS_ _conference_ _on_ _Computers_ _and_
-_accessibility_, ACM, 209–210.
-
-[32] Jacob O. Wobbrock, Shaun K. Kane, Krzysztof Z. Gajos,
-Susumu Harada, and Jon Froehlich. 2011. Ability-Based
-Design: Concept, Principles and Examples. _ACM Trans._
-_Access._ _Comput._ 3, 3, 9:1–9:27.
-http://doi.org/10.1145/1952383.1952384
+133-151. DOI:
+[https://doi.org/10.1109/TLT.2017.2739747](https://doi.org/10.1109/TLT.2017.2739747)
 
 
+9. Brain Power. 2018. “Empower Me” by Brain Power,
 
-249
+[Retrieved February 16, 2018 from: http://www.brain-](http://www.brain-power.com/autism/)
+[power.com/autism/](http://www.brain-power.com/autism/)
+
+
+10. Ross Brown, Laurianne Sitbon, Lauren Fell, Stewart
+
+Koplick, Chris Beaumont, and Margot Brereton. 2016.
+Design insights into embedding virtual reality content
+into life skills training for people with intellectual
+disability. In _Proceedings of the 28th Australian_
+_Conference on Computer-Human Interaction (OzCHI_
+_'16)_ . ACM, New York, NY, USA, 581-585. DOI:
+[https://doi.org/10.1145/3010915.3010956](https://doi.org/10.1145/3010915.3010956)
+
+
+11. Vanessa Camilleri, Matthew Montebello, and Alexiei
+
+Dingli. 2017. Walking in small shoes: Investigating the
+power of VR on empathising with children's
+difficulties. In _2017 23rd International Conference on_
+_Virtual System & Multimedia (VSMM)_, 1-6. DOI:
+[https://doi.org/10.1109/VSMM.2017.8346253](https://doi.org/10.1109/VSMM.2017.8346253)
+
+
+12. Xavier Casas, Gerardo Herrera, Inmaculada Coma,
+
+Marcos Fernández. 2012. A Kinect-based Augmented
+Reality System for Individuals with Autism Spectrum
+Disorders. In _GRAPP/IVAPP._ 440-446.
+
+
+13. Adam Dachis. 2017. What's the Difference Between
+
+AR, VR, and MR? (11 September 2017). Retrieved
+February 18, 2018 from:
+[https://next.reality.news/news/whats-difference-](https://next.reality.news/news/whats-difference-between-ar-vr-and-mr-0171163/)
+[between-ar-vr-and-mr-0171163/](https://next.reality.news/news/whats-difference-between-ar-vr-and-mr-0171163/)
+
+
+14. Dan Ehninger, Weidong Li, Kevin Fox, Michael P.
+
+Stryker, & Alcino J. Silva. 2008. Reversing
+neurodevelopmental disorders in adults. _Neuron_, 60, 6
+(December 2008), 950-960. DOI:
+[https://doi.org/10.1016/j.neuron.2008.12.007](https://doi.org/10.1016/j.neuron.2008.12.007)
+
+
+15. Mariano Etchart and Alessandro Caprarelli. 2018. A
+
+wearable immersive web-virtual reality approach to
+remote neurodevelopmental disorder therapy. In
+_Proceedings of the 2018 International Conference on_
+_Advanced Visual Interfaces (AVI '18)_, Article 61, 3
+[pages. DOI: https://doi.org/10.1145/3206505.3206595](https://doi.org/10.1145/3206505.3206595)
+
+
+16. Franca Garzotto and Matteo Forfori. 2006. FaTe2:
+
+storytelling edutainment experiences in 2D and 3D
+collaborative spaces. In _Proceedings of the 2006_
+_conference on Interaction design and children (IDC_
+_'06)_, 113-116. DOI:
+[https://doi.org/10.1145/1139073.1139102](https://doi.org/10.1145/1139073.1139102)
+
+
+17. Franca Garzotto, Mirko Gelsomini, Daniele Occhiuto,
+
+Vito Matarazzo, and Nicolò Messina. 2017. Wearable
+Immersive Virtual Reality for Children with Disability:
+a Case Study. In _Proceedings of the 2017 Conference_
+_on Interaction Design and Children (IDC '17)_, 478[483. DOI: https://doi.org/10.1145/3078072.3084312](https://doi.org/10.1145/3078072.3084312)
+
+
+18. Franca Garzotto, Nicolò Messina, Vito Matarazzo,
+
+Lukasz Moskwa, Gianluigi Oliva, and Riccardo
+
+
+
+Facchini. 2018. Empowering Interventions for Persons
+with Neurodevelopmental Disorders through Wearable
+Virtual Reality and Bio-sensors. In _Extended Abstracts_
+_of the 2018 CHI Conference on Human Factors in_
+_Computing Systems (CHI EA '18)_, Paper LBW618, 6
+[pages. DOI: https://doi.org/10.1145/3170427.3188636](https://doi.org/10.1145/3170427.3188636)
+
+
+19. Franca Garzotto, Matteo Valoriani, and Laura Bartoli.
+
+(2014). Touchless motion-based interaction for therapy
+of autistic children. In _Virtual, Augmented Reality and_
+_Serious Games for Healthcare 1_ . Intelligent Systems
+Reference Library, Vol 68. Springer, Berlin,
+Heidelberg. 471-494. DOI:
+[https://doi.org/10.1007/978-3-642-54816-1_23](https://doi.org/10.1007/978-3-642-54816-1_23)
+
+
+20. Franca Garzotto, Mirko Gelsomini, Francesco
+
+Clasadonte, Daniele Montesano, and Daniele Occhiuto.
+2016. Wearable Immersive Storytelling for Disabled
+Children. In _Proceedings of the International Working_
+_Conference on Advanced Visual Interfaces (AVI '16)_,
+196-203. DOI:
+[https://doi.org/10.1145/2909132.2909256](https://doi.org/10.1145/2909132.2909256)
+
+
+21. Mirko Gelsomini, Franca Garzotto, Daniele
+
+Montesano, Daniele Occhiuto. 2016. Wildcard: A
+wearable virtual reality storytelling tool for children
+with intellectual developmental disability. In _2016 38th_
+_Annual International Conference of the IEEE_
+_Engineering in Medicine and Biology Society (EMBC)_,
+5188-5191. DOI:
+[https://doi.org/10.1109/EMBC.2016.7591896](https://doi.org/10.1109/EMBC.2016.7591896)
+
+
+22. Mirko Gelsomini, Franca Garzotto, Vito Matarazzo,
+
+Nicolò Messina, and Daniele Occhiuto. 2017. Creating
+Social Stories as Wearable Hyper-Immersive Virtual
+Reality Experiences for Children with
+Neurodevelopmental Disorders. In _Proceedings of the_
+_2017 Conference on Interaction Design and Children_
+_(IDC '17)_, 431-437. DOI:
+[https://doi.org/10.1145/3078072.3084305](https://doi.org/10.1145/3078072.3084305)
+
+
+23. Gerardo Herrera, Rita Jordan, and Lucia Vera. 2006.
+
+Abstract concept and imagination teaching through
+virtual reality in people with autism spectrum
+disorders. _Technology and Disability_, 18, 4 (December
+2006), 173-180.
+
+
+24. Gerardo Herrera, Francisco Alcantud, Rita Jordan,
+
+Amparo Blanquer, Gabriel Labajo, Cristina De Pablo.
+2008. Development of symbolic play through the use
+of virtual reality tools in children with autistic spectrum
+disorders: Two case studies. _Autism_, 12, 2 (March
+2008), 143-157. DOI:
+[https://doi.org/10.1177/1362361307086657](https://doi.org/10.1177/1362361307086657)
+
+
+25. Naomi Josman, Hadass Milika Ben-Chaim, Shula
+
+Friedrich, and Patrice L. Weiss. (2008). Effectiveness
+of virtual reality for teaching street-crossing skills to
+children and adolescents with autism. _International_
+_Journal on Disability and Human Development_, 7, 1
+
+
+
+50
+
+
+Session 1: Interacting with the Real World ASSETS’18, October 22–24, 2018, Galway, Ireland
+
+
+
+(May 2011), 49-56. DOI:
+[https://doi.org/10.1515/IJDHD.2008.7.1.49](https://doi.org/10.1515/IJDHD.2008.7.1.49)
+
+
+26. Runpeng Liu, Joseph P. Salisbury, Arysha
+
+Vahabzadeh, & Ned T. Sahin. 2017. Feasibility of an
+autism-focused augmented reality smartglasses system
+for social communication and behavioral coaching.
+_Frontiers in pediatrics_, 5, (June 2017). DOI:
+[https://doi.org/10.3389/fped.2017.00145](https://doi.org/10.3389/fped.2017.00145)
+
+
+27. Microsoft. 2017. Microsoft HoloLens. Retrieved March
+
+[20, 2018 from: https://www.microsoft.com/en-](https://www.microsoft.com/en-us/hololens/)
+[us/hololens/](https://www.microsoft.com/en-us/hololens/)
+
+
+28. Microsoft. 2018. Microsoft Holographic Gaze.
+
+Retrieved April 11, 2018 from:
+[https://docs.microsoft.com/en-us/windows/mixed-](https://docs.microsoft.com/en-us/windows/mixed-reality/gaze)
+[reality/gaze](https://docs.microsoft.com/en-us/windows/mixed-reality/gaze)
+
+
+29. Microsoft. 2018. Microsoft Holographic Gestures.
+
+Retrieved April 11, 2018 from:
+[https://docs.microsoft.com/en-us/windows/mixed-](https://docs.microsoft.com/en-us/windows/mixed-reality/gestures)
+[reality/gestures](https://docs.microsoft.com/en-us/windows/mixed-reality/gestures)
+
+
+30. Microsoft. 2018. Microsoft Holographic Voice Input.
+
+Retrieved April 11, 2018 from:
+[https://docs.microsoft.com/en-us/windows/mixed-](https://docs.microsoft.com/en-us/windows/mixed-reality/voice_input)
+[reality/voice_input](https://docs.microsoft.com/en-us/windows/mixed-reality/voice_input)
+
+
+31. Microsoft. 2018. Microsoft Holographic Spatial
+
+Mapping. Retrieved April 11, 2018 from:
+[https://docs.microsoft.com/en-us/windows/mixed-](https://docs.microsoft.com/en-us/windows/mixed-reality/spatial-mapping)
+[reality/spatial-mapping](https://docs.microsoft.com/en-us/windows/mixed-reality/spatial-mapping)
+
+
+32. Microsoft. 2018. Microsoft Holographic Spatial Sound.
+
+Retrieved April 11, 2018 from:
+[https://docs.microsoft.com/en-us/windows/mixed-](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-220)
+[reality/holograms-220](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-220)
+
+
+33. Microsoft. 2017. MixedRealityToolkit-Unity.
+
+Retrieved April 7, 2018 from:
+[https://github.com/Microsoft/MixedRealityToolkit-](https://github.com/Microsoft/MixedRealityToolkit-Unity)
+[Unity](https://github.com/Microsoft/MixedRealityToolkit-Unity)
+
+
+34. Microsoft. 2017. Use the HoloLens clicker. Retrieved
+
+[April 12, 2018 from: https://support.microsoft.com/it-](https://support.microsoft.com/it-it/help/12646/hololens-use-the-hololens-clicker)
+[it/help/12646/hololens-use-the-hololens-clicker](https://support.microsoft.com/it-it/help/12646/hololens-use-the-hololens-clicker)
+
+
+
+35. Microsoft. 2018. Visual Studio. Retrieved April 2,
+
+[2018 from: https://www.visualstudio.com/](https://www.visualstudio.com/)
+
+
+36. Nigel Newbutt, Connie Sung, Hung Jen Kuo, Michael
+
+J. Leahy and Boyang Tong. 2016. Brief Report: A Pilot
+Study of the Use of a Virtual Reality Headset in
+Autism Populations. _Journal of Autism and_
+_Developmental Disorders_, 46, 6 (September 2016),
+[3166–3176. DOI: https://doi.org/10.1007/s10803-016-](https://doi.org/10.1007/s10803-016-2830-5)
+[2830-5](https://doi.org/10.1007/s10803-016-2830-5)
+
+
+37. Sarah Parsons & Peter Mitchell. 2002. The potential of
+
+virtual reality in social skills training for people with
+autistic spectrum disorders. _Journal of Intellectual_
+_Disability Research_, 46, 5 (April 2014), 430-443. DOI:
+[https://doi.org/10.1046/j.1365-2788.2002.00425.x](https://doi.org/10.1046/j.1365-2788.2002.00425.x)
+
+
+38. Dorothy Strickland. 1997. Virtual reality for the
+
+treatment of autism. _Studies in health technology and_
+_informatics_ . 81-86.
+
+
+39. Andrea Tartaro. 2006. Storytelling with a virtual peer
+
+as an intervention for children with autism.
+SIGACCESS Access. Comput. 84 (January 2006), 42[44. DOI: http://dx.doi.org/10.1145/1127564.1127573](http://dx.doi.org/10.1145/1127564.1127573)
+
+
+40. Unity. 2018. Retrieved April 3, 2018 from:
+
+[https://unity3d.com/](https://unity3d.com/)
+
+
+41. Unity. 2018. Unity User Manual. Retrieved April 3,
+
+2018 from:
+https://docs.unity3d.com/Manual/index.html
+42. U.S. Environmental Protection Agency. 2013.
+
+America's Children and the Environment, Third
+Edition. (January 2013). 233-253. Retrieved February
+25, 2018 from:
+https://www.epa.gov/sites/production/files/201506/documents/ace3_2013.pdf
+43. Simon Wallace, Sarah Parsons, Alice Westbury, Katie
+
+White, Kathy White, and Anthony Bailey. 2010. Sense
+of presence and atypical social judgments in immersive
+virtual environments Responses of adolescents with
+Autism Spectrum Disorders. Autism, 14, 3 (May
+2010), 199-213. DOI:
+https://doi.org/10.1177/1362361310363283
+
+
+
+51
 
 
