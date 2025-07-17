@@ -33,37 +33,41 @@ from typing_extensions import List, TypedDict
 from langchain_core.documents import Document
 from langchain_community.llms import Ollama
 from langchain_huggingface import HuggingFaceEmbeddings
+import re
 
 
 ## declare global variables
 
 # paper filepaths
-file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf", "allmen09.pdf", "alsaleem19.pdf",
-"alves21.pdf", "anderson96.pdf", "andradi21.pdf", "anthony12.pdf", "aruanno18.pdf", "asakawa21.pdf", "aziz08.pdf", 
-"baloian02.pdf", "balter05.pdf", "bandukdta20.pdf", "barbeschi20.pdf", "barbeschi22.pdf", "barbel18.pdf", "batterman13.pdf",
-"bennett19.pdf", "bhatt20.pdf", "biemanns09.pdf", "bircanin20.pdf", "black11.pdf", "bondioli17.pdf", "boyd23.pdf", "boyd17.pdf",
-"breashear06.pdf", "brule16.pdf", "bushmann14.pdf", "butler19.pdf", "butler23.pdf", "capozzi12.pdf", "caro14.pdf", "carrington17.pdf",
-"carrington18.pdf", "cavasosquero18.pdf", "chang16.pdf", "chibaudel20.pdf", "cimolino21.pdf", "collins23.pdf", "conde20.pdf",
-"constantin18.pdf", "desilva23.pdf", "dragomir18.pdf", "duval18.pdf", "fan12.pdf", "fell03.pdf", "folmer09.pdf", "franz23.pdf",
-"friedman18.pdf", "fung22.pdf", "gadiraju19.pdf", "gadiraju21.pdf", "galbraith14.pdf", "galliers11.pdf", "gay20.pdf", "gelsomini16.pdf",
-"gennari08.pdf", "gerling13.pdf", "gizatdinova22.pdf", "gleason20.pdf", "gonclaves20.pdf", "gotfrid16.pdf", "hair19.pdf", "hamidi17.pdf",
-"harada07.pdf", "hine02.pdf", "hiraga06.pdf", "hoey10.pdf", "hoffman15.pdf", "hornof03.pdf", "hossain23.pdf", "hurd19.pdf", "husaan11.pdf",
-"illijima22.pdf", "ilsar20.pdf", "india21.pdf", "india19.pdf", "jack00.pdf", "jain19.pdf", "jayant11.pdf", "jiang23.pdf", "jiang22.pdf", "kamel02.pdf",
-"kamel00.pdf", "kaminer14.pdf", "karpodini22.pdf", "keate94.pdf", "khurana21.pdf", "kim11.pdf", "kim13.pdf", "koseff23.pdf", "koushik17.pdf",
-"kurze96.pdf", "kuwahara06.pdf", "kwon19.pdf", "langford21.pdf", "lehman98.pdf", "franz21.pdf", "li22.pdf", "li22_2.pdf", "lobo21.pdf",
-"lobo19.pdf", "lu22.pdf", "lu23.pdf", "luna23.pdf", "macpherson18.pdf", "madeo11.pdf", "madjaroff17.pdf", "mahmud23.pdf", "mahmud06.pdf", "maidenbaum15.pdf",
-"mai22.pdf", "malik21.pdf", "mandryk12.pdf", "martinez21.pdf", "mascetti19.pdf", "mcgowan23.pdf", "mcgowan17.pdf", "mei15.pdf", "menzies19.pdf",
-"miao17.pdf", "miller07.pdf", "milne13.pdf", "milne14.pdf", "mohammed06.pdf", "mok22.pdf", "mok23.pdf", "montague14.pdf", "moore03.pdf",
-"morales16.pdf", "morelli10.pdf", "morris10.pdf", "mott20.pdf", "moyaalcover11.pdf", "myers02.pdf", "nair22.pdf", "norte08.pdf", "obryan12.pdf",
-"ohshiro22.pdf", "omori13.pdf", "oren08.pdf", "ortega15.pdf", "ostiz-blanco18.pdf", "ostiz-blanco18-2.pdf", "pareto05.pdf", "parnandi13.pdf",
-"payne22.pdf", "payne23.pdf", "payne20.pdf", "payne19.pdf", "piedade23.pdf", "piper10.pdf", "pires19.pdf", "plaisant00.pdf", "poddar23.pdf",
-"porter13.pdf", "putnam13.pdf", "putnam08.pdf", "ragone20.pdf", "raman98.pdf", "rauschenberger15.pdf", "ravers23.pdf", "rector13.pdf", "rello15.pdf",
-"rello12.pdf", "rello14.pdf", "rello17.pdf", "ringland19.pdf", "ridngland16.pdf", "rocha 21.pdf", "rubin16.pdf", "saha17.pdf", "sanchez11.pdf", "sanchez03.pdf",
-"sanchez05.pdf", "sanchez09.pdf", "sanchez10.pdf", "seymour17.pdf", "sharma18.pdf", "shamra16.pdf", "shin20.pdf", "smeddink15.pdf", "smeddink13.pdf",
-"sporka13.pdf", "sporka06.pdf", "stangl15.pdf", "sturm17.pdf", "swaminathan18.pdf", "tamburro20.pdf", "torrente12.pdf", "torrente12-2.pdf", "trewin18.pdf",
-"trinh11.pdf", "tzanidou22.pdf", "tzovaras02.pdf", "uchida17.pdf", "uchida18.pdf", "usui10.pdf", "valencia19.pdf", "vuijk21.pdf", "wilkerson10.pdf", "wilson17.pdf",
-"yairi12.pdf", "ye12.pdf", "yuan08.pdf", "zhang22.pdf", "zhang23.pdf", "zhang23-2.pdf"]
+#file_path_list = ["ahmetovic21.pdf", "ahsen22.pdf", "alankus11.pdf", "allen23.pdf", "allmen09.pdf", "alsaleem19.pdf",
+#"alves21.pdf", "anderson96.pdf", "andradi21.pdf", "anthony12.pdf", "aruanno18.pdf", "asakawa21.pdf", "aziz08.pdf", 
+#"baloian02.pdf", "balter05.pdf", "bandukdta20.pdf", "barbeschi20.pdf", "barbeschi22.pdf", "barbel18.pdf", "batterman13.pdf",
+#"bennett19.pdf", "bhatt20.pdf", "biemanns09.pdf", "bircanin20.pdf", "black11.pdf", "bondioli17.pdf", "boyd23.pdf", "boyd17.pdf",
+#"breashear06.pdf", "brule16.pdf", "bushmann14.pdf", "butler19.pdf", "butler23.pdf", "capozzi12.pdf", "caro14.pdf", "carrington17.pdf",
+#"carrington18.pdf", "cavasosquero18.pdf", "chang16.pdf", "chibaudel20.pdf", "cimolino21.pdf", "collins23.pdf", "conde20.pdf",
+#"constantin18.pdf", "desilva23.pdf", "dragomir18.pdf", "duval18.pdf", "fan12.pdf", "fell03.pdf", "folmer09.pdf", "franz23.pdf",
+#"friedman18.pdf", "fung22.pdf", "gadiraju19.pdf", "gadiraju21.pdf", "galbraith14.pdf", "galliers11.pdf", "gay20.pdf", "gelsomini16.pdf",
+#"gennari08.pdf", "gerling13.pdf", "gizatdinova22.pdf", "gleason20.pdf", "gonclaves20.pdf", "gotfrid16.pdf", "hair19.pdf", "hamidi17.pdf",
+#"harada07.pdf", "hine02.pdf", "hiraga06.pdf", "hoey10.pdf", "hoffman15.pdf", "hornof03.pdf", "hossain23.pdf", "hurd19.pdf", "husaan11.pdf",
+#"illijima22.pdf", "ilsar20.pdf", "india21.pdf", "india19.pdf", "jack00.pdf", "jain19.pdf", "jayant11.pdf", "jiang23.pdf", "jiang22.pdf", "kamel02.pdf",
+#"kamel00.pdf", "kaminer14.pdf", "karpodini22.pdf", "keate94.pdf", "khurana21.pdf", "kim11.pdf", "kim13.pdf", "koseff23.pdf", "koushik17.pdf",
+#"kurze96.pdf", "kuwahara06.pdf", "kwon19.pdf", "langford21.pdf", "lehman98.pdf", "franz21.pdf", "li22.pdf", "li22_2.pdf", "lobo21.pdf",
+#"lobo19.pdf", "lu22.pdf", "lu23.pdf", "luna23.pdf", "macpherson18.pdf", "madeo11.pdf", "madjaroff17.pdf", "mahmud23.pdf", "mahmud06.pdf", "maidenbaum15.pdf",
+#"mai22.pdf", "malik21.pdf", "mandryk12.pdf", "martinez21.pdf", "mascetti19.pdf", "mcgowan23.pdf", "mcgowan17.pdf", "mei15.pdf", "menzies19.pdf",
+#"miao17.pdf", "miller07.pdf", "milne13.pdf", "milne14.pdf", "mohammed06.pdf", "mok22.pdf", "mok23.pdf", "montague14.pdf", "moore03.pdf",
+#"morales16.pdf", "morelli10.pdf", "morris10.pdf", "mott20.pdf", "moyaalcover11.pdf", "myers02.pdf", "nair22.pdf", "norte08.pdf", "obryan12.pdf",
+#"ohshiro22.pdf", "omori13.pdf", "oren08.pdf", "ortega15.pdf", "ostiz-blanco18.pdf", "ostiz-blanco18-2.pdf", "pareto05.pdf", "parnandi13.pdf",
+#"payne22.pdf", "payne23.pdf", "payne20.pdf", "payne19.pdf", "piedade23.pdf", "piper10.pdf", "pires19.pdf", "plaisant00.pdf", "poddar23.pdf",
+#"porter13.pdf", "putnam13.pdf", "putnam08.pdf", "ragone20.pdf", "raman98.pdf", "rauschenberger15.pdf", "ravers23.pdf", "rector13.pdf", "rello15.pdf",
+#"rello12.pdf", "rello14.pdf", "rello17.pdf", "ringland19.pdf", "ridngland16.pdf", "rocha 21.pdf", "rubin16.pdf", "saha17.pdf", "sanchez11.pdf", "sanchez03.pdf",
+#"sanchez05.pdf", "sanchez09.pdf", "sanchez10.pdf", "seymour17.pdf", "sharma18.pdf", "shamra16.pdf", "shin20.pdf", "smeddink15.pdf", "smeddink13.pdf",
+#"sporka13.pdf", "sporka06.pdf", "stangl15.pdf", "sturm17.pdf", "swaminathan18.pdf", "tamburro20.pdf", "torrente12.pdf", "torrente12-2.pdf", "trewin18.pdf",
+#"trinh11.pdf", "tzanidou22.pdf", "tzovaras02.pdf", "uchida17.pdf", "uchida18.pdf", "usui10.pdf", "valencia19.pdf", "vuijk21.pdf", "wilkerson10.pdf", "wilson17.pdf",
+#"yairi12.pdf", "ye12.pdf", "yuan08.pdf", "zhang22.pdf", "zhang23.pdf", "zhang23-2.pdf"]
 
+
+# single paper filepath to use in testing, comment out if not using
+file_path_list = ["ahmetovic21.pdf"]
 
 # metrics list
 pht_framework = [
@@ -77,72 +81,131 @@ pht_framework = [
 
     "How many pages long is this paper?",
 
-    "Please rate on a scale of 1 to 5, only offering the number: is the game fun-first (1) or utility-first (5)?",
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) totally fun first (i.e., Entertainment game reappropriated), 
+    (2) mostly fun first (i.e., design workshop with disabled stakeholders),
+    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), 
+    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),
+    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)""",
     
-    "Please rate on a scale of 1 to 5, only offering the number: Is the design play-first(1) or game-first (5)?",
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) unstructured play (i.e., no rules, making art),
+    (2) semi-structured play (i.e., playground activities),
+    (3) flexible structure with rules (i.e., improv),
+    (4) flexible game (i.e., board game with house rules),
+    (5) game with rigid rules (i.e., video game)""",
     
-    "Please rate on a scale of 1 to 5, only offering the number: Is the game social (1) or solo (5)?",
+    """"Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely skill-based (i.e., trivia, sports),
+    (2) mostly skill-based (i.e., mario kart),
+    (3) equally skill and chance-based (i.e., catan),
+    (4) mostly chance-based (i.e., Uno),
+    (5) entirely chance-based (i.e., all dice)""",
     
-    "Please rate on a scale of 1 to 5, only offering the number: Is the game sequential (1) or simultaneous (5)?", 
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely solo (i.e., solitaire),
+    (2) mostly solo (i.e., playing against AI in single-player StarCraft),
+    (3) mix of solo and social affordances (i.e., animal crossing),
+    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),
+    (5) entirely social (i.e., tag)""", 
     
-    "Please rate on a scale of 1 to 5, only offering the number: Is the game competitive (1) or collaborative (5)?",
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely turn-based (i.e., tic tac toe),
+    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),
+    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),
+    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),
+    (5) entirely simultaneous (i.e., race)""",
     
-    "Please rate on a scale of 1 to 5, only offering the number: Is the game symmetrical (1) or assymetrical (5)?",
-    
-    """How would you classify the experiential play value? Do not add additional context or reasoning in your response: sensority (i.e. kaleidoscope), 
-    fantasy (i.e. role playing), construction (i.e. music, painting, building), 
-    challenge (testing physical or mental abilities against others or self), 
-    undisclosed/unknown, but the paper does include a game/play system or experience, not applicable""",
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely synchronous (i.e., real time strategy game),
+    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),
+    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),
+    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),
+    (5) entirely asynchronous (i.e., chess by postage mail)""",
 
-    """Which of the following study methods applies to this paper? Please select all that apply, do not add additional context or reasoning in your response:
-    workshop or design session, field study, usability testing, case study, focus group,
-    controlled experiment, survey, telemetry/big data/cscw, secondary analysis, no data collected,
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely competitive (i.e., spit card game),
+    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),
+    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),
+    (4) mostly collaborative (i.e., animal crossing),
+    (5) entirely collaborative (i.e., pandemic)""",
+
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely symmetrical (i.e., tic tac toe),
+    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),
+    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),
+    (4) mostly asymmetrical (i.e., tag),
+    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)""",
+    
+    """How would you classify the experiential play value? Do not add additional context or reasoning in your response: 
+    sensority (i.e. kaleidoscope, experiencing art), 
+    fantasy (i.e. role-playing), 
+    construction (i.e. music, painting, building), 
+    challenge (testing physical or mental abilities against others or self), 
+    undisclosed/unknown, but the paper does include a game/play system or experience, 
+    not applicable""",
+
+    """Which of the following study methods applies to this paper? Please select all that apply:
+    workshop or design session, 
+    field study, 
+    usability testing, 
+    case study, 
+    focus group,
+    controlled experiment, 
+    survey, 
+    telemetry/big data/cscw, 
+    secondary analysis, 
+    no data collected,
     other (please specify)""",
 
-    """Which of the following interview methodologies was used? Select all that apply, do not add additional context or reasoning in your response: structured interview,
-    semi-structured interview, contextual inquiry, not applicable, other (please specifcy)""",
+    """Which of the following interview methodologies was used? Select all that apply: 
+    structured interview,
+    semi-structured interview, 
+    contextual inquiry, 
+    not applicable, 
+    other (please specifcy)""",
 
-    """Which of the following workshop methodologies were used? Select all that apply, do not add additional context or reasoning in your response:
+    """Which of the following workshop methodologies were used? Select all that apply:
      action research, cooperative method development, speculative design, persona, scenario, role playing, 
      affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,
      sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,
      other (please specify)""",
 
-     """Which of the following field study methodologies where used? Please select all that apply, do not add additional context or reasoning in your response: autoethnography,
+     """Which of the following field study methodologies where used? Please select all that apply: autoethnography,
      ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)""",
 
-     """Which of the following usability methodologies were used? Please select all that apply, do not add additional context or reasoning in your response: expert analysis, think 
+     """Which of the following usability methodologies were used? Please select all that apply: expert analysis, think 
      aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)""",
 
-     """Which of the following technology modalities were used? Please select all that apply, do not add additional context or reasoning in your response: mobile, tablet, wearable, IoT, 
+     """Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, 
      assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)""",
 
-     """What was the context of the study? Please select all that apply, do not add additional context or reasoning in your response: clinic, public space (i.e. bowling alley), home, school, research lab, 
+     """What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, 
      social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)""",
 
-     """What was the community of focus? Please select all that apply, do not add additional context or reasoning in your response: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
+     """What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
      intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, 
      general disability or accessability, other (please specifiy)""",
 
-    """What were the participant groups included in the study? Please select all that apply, do not add additional context or reasoning in your response: People with disabilities, older adults, caregivers, 
+    """What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, 
     specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)""",
 
-    """Please select the option(s) that best describe user involevment in the study, do not add additional context or reasoning in your response: participatory design with stakeholders without disabilities, 
+    """Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, 
     participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders 
     with disabilities, no representative user involvement, not applicable""",
 
-    """Which methods of participant recruitment were used? Please select all that apply, do not add additional context or reasoning in your response: phone, mail, email, convienience sampling (i.e. Day program), 
+    """Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), 
     snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)""",
 
-    """Which of the following issues were addressed in the study? Please select all that apply, do not add additional context or reasoning in your response: increasing independence, increasing digital access, 
+    """Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, 
     increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,
     education, increasing opportunities for enrichment, other""",
 
-    """What is the type of contribution the study makes? Please select all that apply, do not add additional context or reasoning in your response: empirical, artifact, methodological, theoretical, dataset, survey"""
+    """What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey"""
 ]
 
 # set up llm
-llm = Ollama(model="llama2", temperature=0.0)
+llm = Ollama(model="llama2", temperature=0.5)
 # ref for model: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
@@ -194,15 +257,16 @@ def prompt(vector_store):
         # needs work
         full_prompt = """Use the following pieces of context to answer the question at the end.
         If you don't know the answer, just say that you don't know, don't try to make up an answer. Do not repeat the question in your response.
-        Only answer the question, do not provide reasoning, your thought process, or justification for your answer.
-        If the question asks you to answer it on a scale of numbers, only provide a number. If it asks you to select 
-        from a list, only provide the option or options from the list that answer the question.
+ 
+        Return your answer in the following format:
+        Answer: <only the answer here>
+        Reasoning: <any explaination or reasoning goes here>
 
         {context}
 
         Question: {metric}
 
-        Answer:"""
+        """
 
         # generate response using llm
         response = generate(context, metric, full_prompt)
@@ -225,9 +289,19 @@ def retrieve(vector_store, metric):
 def generate(context, metric, full_prompt):
     docs_content = "\n\n".join(doc.page_content for doc in context)
     prompt_text = full_prompt.format(context = docs_content, metric = metric)
-    response = llm(prompt_text)
-    ## using strip() to clean up formatting
-    return {"answer": response.strip()}
+    response = llm(prompt_text).strip()
+
+    answer_match = re.search(r"(?i)^Answer:\s*(.*)", response, re.MULTILINE)
+    reasoning_match = re.search(r"(?i)^Reasoning:\s*(.*)", response, re.MULTILINE)
+
+    answer = answer_match.group(1).strip() if answer_match else "Not found"
+    reasoning = reasoning_match.group(1).strip() if reasoning_match else "Not found"
+
+    return {
+        "question": metric,
+        "answer": answer,
+        "reasoning": reasoning
+        }
 
 # name: generate_json
 # input: annotation_list
