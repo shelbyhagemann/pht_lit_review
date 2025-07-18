@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI for the paper \"Overcoming open source project entry barriers with a portal for newcomers\" is [10.1145/2884781.2884806](https://doi.org/10.1145/2884781.2884806)."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"Overcoming open source project entry barriers with a portal for newcomers\" is <https://doi.org/10.1145/2884781.2884806>.",
+    "reasoning": "The DOI is a unique identifier assigned to the paper by the publisher, which can be used to locate the paper in a database or index. In this case, the DOI is <https://doi.org/10.1145/2884781.2884806>."
   },
   {
-    "answer": "The title of the paper is \"Children, Computers, and Powerful Ideas.\""
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Children, Computers, and Powerful Ideas\".",
+    "reasoning": "Based on the context provided, the title of the paper can be inferred from the book \"Children, Computers, and Powerful Ideas\" by Seymour Papert, which was published in 1990. The book is a collection of essays that explore the relationship between children, computers, and creativity, and the title of the paper reflects this focus on the intersection of technology, childhood, and innovation."
   },
   {
-    "answer": "The lead author of the paper is Seymour Papert."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Seymour Papert.",
+    "reasoning": "Based on the publication information provided in the context, the lead author of the paper is Seymour Papert. The paper was published in 1990 by Basic Books, and according to the publication metadata provided, Seymour Papert is the author."
   },
   {
-    "answer": "1990"
+    "question": "What year was this paper published?",
+    "answer": "The paper \"Children, Computers, and Powerful Ideas\" by Seymour Papert was published in 1990.",
+    "reasoning": "The publication date of the paper can be inferred from the citation information provided in the context. According to the citations, the paper was published in 1990, as evident from the references listed in [52], [53], and [17]."
   },
   {
-    "answer": "The paper has 20 pages."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 20 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has a total of 20 pages, as stated in the ACM ISBN and DOI links."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "The study described in the passage focused on designing a system for children with disabilities, and involved interactive design sessions with disabled stakeholders. The authors used Thematic Analysis to extract design recommendations from the transcripts of these sessions. These recommendations emphasized the importance of both fun and utility in the design of the system, suggesting that both factors were given equal consideration during the design process. Therefore, option (3) Both fun and utility first best applies to the design in the study."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules",
+    "reasoning": "The study described in the passage involves children participating in a series of programming activities using TIP-Toy, a tangible programming system. While the activities are structured to some extent, the system allows for flexibility in terms of the rules and mechanisms that underlie its operation. Children are able to explore and learn about computational concepts through play, and the study's findings suggest that this approach is effective in helping children understand the particular rules underlying the system's operation. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "5"
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The design of the TIP-Toy evaluation study is equally skill and chance-based, as it involves a mix of tasks that require both technical skills (such as coding and debugging) and luck or chance (such as experimenting and iterating). While some tasks may favor those with more technical expertise, others may be more dependent on luck or chance. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances.",
+    "reasoning": "The study describes the design of a programming environment for children, which includes physical blocks that can be manipulated to create programs. The authors mention that the system is designed to support both solo and social interactions, with the goal of enabling novices, parents, and teachers to contribute to further developments. They also acknowledge that increasing the complexity of the system is possible to some extent, but that there are limitations due to the physical characteristics of TUIs (text-based user interfaces) that cannot be overcome."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "Based on the description of the system in the passage, it is clear that the design is a mix of turn-based and real-time elements. The participants were asked to press buttons to play sequences and trigger events, but there was no explicit mention of a set order for taking turns. Instead, the passage states that \"pressing one button would play the sequence, whereas pressing the other button would trigger the Read aloud.\" This suggests that players can take actions at any time, but there may be limitations or restrictions on when certain actions can be taken. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "The game is asymmetrical."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "The study used a combination of block-based programming and tangible programming elements, which allows for both synchronous and asynchronous interactions. The children were given the option to use variable blocks that could be placed inside the command block, which suggests a mix of synchronous and asynchronous affordances. Additionally, the study aimed to provide an inclusive design that could accommodate different learning styles and abilities, which further supports the idea of an equal mix of synchronous and asynchronous affordances."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study described in the passage involves children working together to design and build a system for programming, using a combination of individual blocks and collaboration to create a final product. While there are some aspects of competition involved in the process (such as the need to complete tasks within a certain time frame), the overall focus of the study is on collaboration and problem-solving through joint effort. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Field study\n* Usability testing\n* Case study\n* Focus group\n\nThese are the methods listed in the table as options for the study methods applied to the paper."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The study describes TIP-Toy as a computational toolkit that aims to support children with mixed visual abilities to explore computing concepts and practices while playing independently. The design of the system is not entirely symmetrical, as it includes blocks with different shapes and colors that can be combined in various ways to create complex structures. However, it also includes some elements that are mostly symmetrical, such as the use of variable blocks that can modify the execution of play, pause, or repeat functions. This combination of both symmetrical and asymmetrical elements allows for a more inclusive design that can accommodate children with different visual abilities."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The TIP-Toy evaluation mentions that the program is designed to enable children to complete specific activities and transition between different tasks appropriate to their age and computing abilities. The use of microcontrollers and musical outputs suggests a focus on construction and making, as well as collaboration and problem-solving. While the paper does not explicitly mention any experiential play value, the design of TIP-Toy and the inclusion of music and storytelling elements suggest a construction-oriented approach to play."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is:",
+    "reasoning": "The paper describes an evaluation of a system called TIP-Toy, which was developed to support children's programming skills through a series of activities. The authors conducted a field study to evaluate the effectiveness of TIP-Toy in promoting programming practices among children. They observed and recorded children's behavior during the sessions, and took field notes. This approach allows for an in-depth understanding of the participants' experiences and behaviors in a real-world setting."
   },
   {
-    "answer": "I don't know the answer to the question. The passage does not provide enough information to determine which field study methodologies were used."
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "[10] Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. _Qualitative_ _Research_ _in_ _Psychology_ 3, 2: 77–101.]",
+    "reasoning": "The interview methodology used in the study was thematic analysis, as specified in the answer. The study used audio recorded interviews and transcripts to analyze design recommendations for a hybrid programming environment. This methodology is commonly used in psychology research for analyzing qualitative data, such as interviews or transcripts."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "<only the answer here>",
+    "reasoning": "Based on the given text, it can be inferred that the workshop methodologies used were:"
   },
   {
-    "answer": "The following technology modalities were used in the study:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n* Tangible interface\n\nTherefore, the answer is (B), (C), and (E)."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and ethnography were used in the field study.",
+    "reasoning": "The authors of the paper explicitly state that they used autoethnography and ethnography in their research methodology. They explain that \"at the end of each session, a short debrief helped to capture any immediate impressions or reflections among the authors\" (p. 78), which suggests that they were reflecting on their own experiences as co-authors. Additionally, they mention using ethnography to analyze the video recordings of the children's interactions with the toolkit (p. 80). Therefore, both autoethnography and ethnography were used in the study."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodology used in the study was expert analysis, think-aloud, and cognitive walkthrough.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researchers used a combination of usability methods to evaluate the TIP-Toy system. Expert analysis involves having an expert review the design of the system and provide feedback, while think-aloud involves asking participants to verbalize their thoughts and actions as they interact with the system. Cognitive walkthrough involves identifying potential problems and errors that a user may encounter while using the system, and then designing the system to prevent or mitigate those issues."
   },
   {
-    "answer": "The community of focus in the given context is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n* Cognitive impairment\n* Older adult\n\nNote: The question does not mention \"general disability or accessibility\" as a option, so it is not a valid choice."
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Wearable and tangible interface were used.",
+    "reasoning": "Based on the information provided in the table and text, it can be seen that Wayne used a wearable device and created interactive objects using a tangible interface. Therefore, the options \"wearable\" and \"tangible interface\" apply to Wayne."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (sighted and visually impaired)\n* Caregivers\n* Specialists (therapists, teachers)"
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a research laboratory and at home.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study took place in a research laboratory and also at the homes of some participants. The passage mentions that the sessions were conducted \"in our research laboratory\" and that \"participants came to the session either accompanied by their parents or a specialist VI teacher.\" It also states that one participant worked alone, which suggests that the study took place in a variety of locations, including at home. Therefore, the answer is (A) Research laboratory and (B) Home."
   },
   {
-    "answer": "I select option (b) \"participatory design with stakeholders with disabilities\" as the best description of user involvement in the study."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV) and Deaf or hard of hearing (DHH)",
+    "reasoning": "Based on the information provided in the passage, the community of focus is primarily individuals who are blind or low vision. The passage states that \"Ben 10 is blind,\" and \"Donald 10 is blind.\" It also mentions that \"Harry 8 is partially sighted\" and \"Peter 6 has some sight.\" However, it does not provide any information about the hearing abilities of the participants. Therefore, it can be inferred that the community of focus is primarily individuals who are blind or low vision."
   },
   {
-    "answer": "The methods of participant recruitment used in the study were:\n\n* Phone\n* Mail\n* Email\n* Convenience sampling (i.e. Day program)\n* Snowball\n* Word of mouth\n* Flier\n* Social media\n\nTherefore, the answer is: Phone, Mail, Email, Convenience sampling, Snowball, Word of mouth, Flier, Social media."
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were people with disabilities and caregivers.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the participants in the study were a mix of children with visual impairments and their friends, who were either sighted or visually impaired. The passage does not mention any other participant groups, such as older adults, specialists (therapists, teachers), or people without disabilities. Therefore, the answer is B: People with disabilities and caregivers."
   },
   {
-    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n\nTherefore, I selected all of these options as they were addressed in the study."
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study involved two rounds of design consultations with experts and potential users, including 3 visually impaired adults and 9 children with mixed visual abilities. These participants provided feedback on the TIP-Toy toolkit and suggested improvements for future developments. This level of involvement from stakeholders with disabilities in the design process demonstrates a commitment to participatory design and inclusivity."
   },
   {
-    "answer": "The study makes the following types of contributions:\n\n* Empirical contribution: The study provides original data and findings through its analysis of children's interactions with the TIP-Toy toolkit.\n* Artifactual contribution: The study creates a new toolkit, TIP-Toy, and evaluates its effectiveness in promoting children's creativity and problem-solving skills.\n* Methodological contribution: The study introduces an innovative methodology for analyzing children's play and learning through video recordings and field notes.\n* Theoretical contribution: The study contributes to the theoretical understanding of children's creativity and problem-solving skills, particularly in the context of technology-based interventions.\n* Dataset contribution: The study provides a unique dataset of children's play and learning experiences with TIP-Toy, which can be used for future research.\n* Survey contribution: The study surveys children's preferences and opinions about the toolkit and its potential applications in different contexts."
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used in the study were phone, mail, email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researchers used a variety of methods to recruit participants for the study. They mention using phone, mail, email, and convenience sampling (i.e. day program) to reach out to potential participants. They also mention using snowball, word of mouth, flier, and social media to advertise the study and invite people to participate. Additionally, they mention that participants were recruited from a clinic, which suggests that they may have used clinical staff to help identify and recruit participants. Finally, the passage does not mention any other methods of participant recruitment, such as no user involvement or undisclosed methods."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
+    "reasoning": "The study by Lechelt et al. (2018) focused on designing inclusive computing systems for special needs classrooms, with a particular emphasis on individuals with visual impairments. The authors identified several issues that were addressed in the study, including increasing digital access, physical access, and understanding of users. They also highlighted the importance of supporting communication and personal informatics, as well as changing behavior to better support individuals with visual impairments. While education was not specifically mentioned in the passage, it is an important aspect of inclusive computing and could be a factor in increasing opportunities for enrichment. However, this was not discussed in the passage. Therefore, the answer choices that apply to the study are: A, B, C, D, E, and F."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study makes an empirical and methodological contribution.",
+    "reasoning": "The study uses thematic analysis to analyze video recordings of children playing with a toolkit, which allows the researchers to identify and explore themes related to the children's experiences. This is an example of an empirical contribution, as it involves the collection and analysis of data on the children's behavior and experiences. Additionally, the study's use of thematic analysis is a methodological contribution, as it provides a new approach to analyzing video data in the field of psychology."
   }
 ]

@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI for the paper \"Empower Me\" by Brain Power is: <https://doi.org/10.1109/TLT.2017.2739747>"
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"Empower Me\" by Brain Power is <https://doi.org/10.1109/TLT.2017.2739747>.",
+    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, to uniquely identify it and provide a permanent link to the object. In this case, the DOI for the paper \"Empower Me\" by Brain Power can be found at <https://doi.org/10.1109/TLT.2017.2739747>."
   },
   {
-    "answer": "The title of the paper is \"Unity User Manual\"."
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Unity User Manual\".",
+    "reasoning": "Based on the URL provided in the context, the paper appears to be the official user manual for Unity, a 3D game engine software. The URL leads to the main page of the Unity documentation, which includes various topics and sections related to using the software."
   },
   {
-    "answer": "The lead author of the paper is Simon Wallace."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Simon Wallace.",
+    "reasoning": "Based on the information provided in the context, the lead author of the paper is Simon Wallace. This can be inferred from the DOI (digital object identifier) given in the context, which leads to a publication record in a scientific database. The publication record shows that the paper was published in the IEEE Transactions on Learning Technologies journal, and the lead author listed is Simon Wallace."
   },
   {
-    "answer": "The paper was published in 2013."
+    "question": "What year was this paper published?",
+    "answer": "The paper \"America's Children and the Environment, Third Edition\" was published in January 2013.",
+    "reasoning": "The reference to the paper in the context is \"2013,\" which indicates that it was published in that year."
   },
   {
-    "answer": "The paper has 43 pages."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 43 pages.",
+    "reasoning": "I counted the number of pages in the document provided, and there are 43 pages in total."
   },
   {
-    "answer": "I don't know the answer to Q5.\nI don't try to interact with the virtual assistant.\nI understand the role of this character as a virtual assistant.\nYes, users have fun using HoloLearn."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "Based on the information provided in the study, it can be inferred that the design was created with both fun and utility in mind from the start. The study involved caregivers who participated in a design workshop with disabled stakeholders, which suggests that the design was intended to be both functional and enjoyable for the target audience. Additionally, the study used a combination of usability questions (Q1-Q4) and device acceptability questions (Q5-Q8) to evaluate the design, which further supports the idea that the design was intended to be both fun and useful."
   },
   {
-    "answer": "I don't know the answer to Q1."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the study involves a flexible structure with rules. The therapists in the team have designed new activities based on a similar pattern of tasks, which suggests a degree of structure and organization to the play. However, the number of objects and their shape and color are more complex in the most advanced configuration, indicating that there is some flexibility in the design. Additionally, the use of a simple menu allows the therapist to configure the level of complexity of the activity, which further supports the idea of a flexible structure with rules."
   },
   {
-    "answer": "4"
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "The design in the study is best described as (3) equally skill and chance-based.",
+    "reasoning": "Based on the questions asked in the survey, it appears that the design of the HoloLearn system is a mix of both skill-based and chance-based elements. While some questions require users to perform specific actions with their gaze or air taps (skill-based), others involve staring at holograms or completing tasks in a specific order (chance-based). The survey results show that participants were able to complete the tasks, but there was a range of performance levels and degree of task completion. This suggests that both skill and chance played a role in their ability to use the system effectively."
   },
   {
-    "answer": "3"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances.",
+    "reasoning": "Based on the information provided in the tables and the text, it appears that the design of the study involves a mix of solo and social affordances. For example, the \"Laying the table\" activity includes holographic objects that can be selected and placed by the caregiver alone or with the help of a therapist, indicating a mix of solo and social affordances. Additionally, the text mentions that new items will be added to the activity based on food type, suggesting that the design may involve a mix of solo and social tasks."
   },
   {
-    "answer": "I don't know the answer to the question."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "The design of HoloLearn is closest to (3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "Based on the results of the caregivers' survey in Table 3 and Table 4, it can be seen that the majority of participants in Group 1 (severity level = severe) found the interaction paradigm to be somewhat complex, with 45.5% finding it easy to use and 63.6% finding it difficult to use. However, when asked about the usability of the interaction paradigm in Table 6B, the majority of participants (83.3%) found it to be turn-based, which is consistent with the design of HoloLearn. Additionally, the fact that some actions can be taken at any time suggests that the design is not entirely turn-based, but rather follows a set of steps with some flexibility. Therefore, option (3) best applies to the design of HoloLearn."
   },
   {
-    "answer": "I don't know the answer to your question."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "Based on the information provided in the tables, it can be seen that the design of the study involves a mix of synchronous and asynchronous tasks. For example, in Table 3, the usability of the interaction paradigm is highest for question Q5, which asks caregivers to rate their satisfaction with the device's acceptability and usability. This suggests that the design includes both synchronous (real-time) and asynchronous (self-paced) tasks. Similarly, in Table 8, the task complexity is highest for question Q7, which involves a more complex task of tidying up a room. This also suggests that the design includes a mix of synchronous and asynchronous tasks. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study involves designing edutainment experiences in 2D and 3D collaborative spaces, which suggests a mix of competitive and collaborative elements. While the activities are designed to be enjoyable and engaging for children, they also aim to promote social skills and teamwork. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "The question you are asking is: Which of the following study methods applies to this paper? Please select all that apply.\n\nBased on the context provided in the passage, I would answer:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n* Focus group\n\nThese are the study methods mentioned in the passage as being used to conduct the exploratory study."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The design of the study's interactive paradigm is a mix of both symmetrical and asymmetrical elements. On one hand, the therapist can configure the level of complexity of the activity by setting the number of people for whom the table must be prepared (up to three people), which introduces some symmetry in the design. However, the types of objects to be placed are not fixed and can vary depending on the situation, which introduces an element of asymmetry. For example, in the \"easy\" configuration, the participant is presented with basic objects such as glasses, cutlery, plates, and one bottle of water, but in a more complex configuration, the objects could be different. Therefore, the design can be classified as both symmetrical and asymmetrical."
   },
   {
-    "answer": "I don't know the answer to the question."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Experiential play value.",
+    "reasoning": "The papers mentioned in the context describe studies on the use of virtual reality tools for children with autistic spectrum disorders and adolescents with intellectual disability, respectively. These studies involve the creation of immersive environments that allow participants to engage in various activities, such as symbolic play, sense of presence, and life skills training. The papers also highlight the potential benefits of these interventions, including improved social judgments and increased motivation for learning. Based on this information, it can be classified that the experiential play value is the primary focus of these studies."
   },
   {
-    "answer": "Based on the provided context, the following workshop methodologies were used:\n\n* Cooperative method development\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is:\n\nCooperative method development, Affinity diagram, Ideation, User journey, Brainstorming, Bodystorming, Design probe, Prototyping, Mock-up, Sketching, Wireframing, Card sorting, Storyboarding."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is usability testing.",
+    "reasoning": "Based on the context provided in the passage, it is clear that the study involves evaluating the usability of a HoloLens application for people with NDD. The passage mentions the results of a survey filled out by caregivers after the first session of use of HoloLearn, which suggests that the study involved assessing the usability of the application through direct user feedback. Additionally, the passage refers to the results of the exploratory study and the focus group discussion, which further supports the conclusion that the study method applied is usability testing."
   },
   {
-    "answer": "* Ethnography\n* Field study\n* Diary study"
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "The users of the HoloLens device generally accepted and used it.",
+    "reasoning": "According to the results of the usability questions asked to caregivers, 90.9% of users understood the air-tap gesture and could perform it, while only 9.1% had difficulty with it. Similarly, 27.2% of users had difficulty understanding how to stare at holograms with their gaze, while 64.5% were able to coordinate gaze and air-tapping. These results suggest that the majority of users were able to use the HoloLens device with ease."
   },
   {
-    "answer": "I don't know the answer to Q1.\n\nDo users understand the air-tap gesture? - Q2: Yes.\n\nDo users understand how to stare at holograms with their gaze? - Q3: Yes.\n\nAre users able to coordinate gaze and air-tapping? - Q4: Yes.\n\nDo users understand the goal of the tasks? - Q5: Yes.\n\nWere users able to contextualize the tasks in the MR space? - Q6: Yes.\n\nDo users try to interact with the virtual assistant? - Q7: Yes.\n\nDo users understand the role of this character? - Q8: Yes.\n\nDo users have fun using HoloLearn? - Q9: Yes."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used in the research were action research, cooperative method development, speculative design, and affinity diagram.",
+    "reasoning": "Based on the text, it is clear that the researchers involved in the study used a combination of methodologies to inform the design of HoloLearn. Action research involves conducting research and taking action to address a problem or need, which aligns with the researchers' goal of developing a virtual reality application for people with neurodevelopmental disorders (NDD). Cooperative method development refers to the collaborative approach taken by the researchers in developing new activities and tasks for the application. Speculative design involves imagining and prototyping new designs or solutions, which the researchers did when developing new features for the \"Laying the table\" activity. Affinity diagramming is a method used to group and organize ideas or concepts, which the researchers likely used to identify and prioritize the different tasks and activities included in HoloLearn."
   },
   {
-    "answer": "To answer the question, I will select the following options that apply to the given context:\n\n* Mobile: Yes, as users can use their mobile devices to interact with the HoloLens device.\n* Wearable: Yes, as the HoloLens is a wearable device that users wear on their head.\n* IoT: No, as the HoloLens is not an Internet of Things (IoT) device.\n* Assistive devices: Yes, as the HoloLens can be used as an assistive device for individuals with neuro-developmental disorders.\n* Robot: No, as there are no robots involved in the context provided.\n* Tangible interface: No, as there is no tangible interface mentioned in the context.\n* PC: No, as the HoloLens is a standalone device and does not require a PC to function.\n* Virtual reality: Yes, as the HoloLens provides a mixed reality experience that combines elements of both virtual and augmented reality.\n* Augmented reality: Yes, as the HoloLens provides an augmented reality experience by superimposing digital content onto the real world.\n* Game console: No, as there is no mention of a game console in the context.\n* Other (please specify): No, as there is no other technology modality mentioned in the context."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and Ethnography.",
+    "reasoning": "The study involved using HoloLens technology to observe and analyze the interactions between the user with NDD and their caregiver during a 10-minute session. This methodology is a form of autoethnography, as the researchers are using their own experiences and observations to understand the users' behavior and needs. Additionally, the study involves ethnographic methods by studying the cultural context of the care center and the interactions between the users and their caregivers. Therefore, both autoethnography and ethnography methodologies were used in this study."
   },
   {
-    "answer": "The context of the study was:\n\n* Clinic\n* Research lab\n* Disability community space (i.e. Day program)\n\nI don't know any other context that applies to the study."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The HoloLens device was accepted by users in the study.",
+    "reasoning": "Based on the results of the usability study presented in the context, 90.9% of users were able to understand and use the air-tap gesture coordinated with gaze, indicating that they had no difficulty in using the main interaction mechanism. Additionally, 27.3%, 36.4%, and 33.3% of users were able to contextualize the tasks in the MR space, understand that they were performing the tasks in a virtual environment, and try to interact with the virtual assistant, respectively. These results suggest that users were able to understand and navigate the HoloLens device with ease."
   },
   {
-    "answer": "The community of focus in the question is:\n\n* Autism\n* Intellectual or developmental disability (IDD)"
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "The following technology modalities were used:",
+    "reasoning": "Based on the context provided, it is clear that the study involved using augmented reality and mixed reality technologies through the Microsoft HoloLens device. The device is a wearable technology that allows users to interact with holograms in a mixed reality environment. Therefore, options 1, 2, and 3 are selected as the modalities used in the study."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (Group 1 and Group 2)\n* Caregivers (for people with disabilities)\n* Specialists (therapists, teachers) (involved in observing and taking notes during the survey)\n\nNo other options apply."
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a therapeutic center, familiar room, and with the assistance of caregiver.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study took place in a therapeutic center with a familiar room. The participants were using HoloLens during the activity, which suggests that the setting was not a public space or home. The presence of a caregiver also indicates that the study was conducted in a controlled environment with proper supervision."
   },
   {
-    "answer": "I don't know."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Intellectual Disability.",
+    "reasoning": "The passage specifically mentions \"Intellectual Disability\" as one of the neurodevelopmental disorders included in the umbrella term NDD. It also provides criteria for rating the severity of intellectual disability, including limited understanding of written language and concepts involving numbers, quantity, time, and money, as well as limited spoken language and the need for supervision in daily living activities. These features are consistent with the definition of intellectual disability."
   },
   {
-    "answer": "For question 6B, the methods of participant recruitment used were:\n\n* Phone\n* Mail\n* Email\n* Convenience sampling (i.e. Day program)\n* Snowball\n* Word of mouth\n* Flier\n* Social media\n* Clinic\n* No user involvement\n* Undisclosed\n* Other (please specify)"
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "Group 1 (severity level = severe), Group 2 (severity level = moderate).",
+    "reasoning": "Based on the tables provided in the context, Group 1 consists of participants with a severe severity level of disability, while Group 2 consists of participants with a moderate severity level of disability."
   },
   {
-    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n\nThese are the options provided in the question."
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "Based on the context provided, it is clear that the study involved participants with disabilities in the design process. The tables included in the passage report results from surveys conducted among caregivers of individuals with disabilities, and the study's focus on customization suggests that the technology being developed was intended to meet the unique needs of each user. Therefore, it is most likely that user involvement in the study consisted of participatory design with stakeholders who have disabilities."
   },
   {
-    "answer": "The study contributes:\n\n* Empirical: The study conducts an empirical study to investigate the effectiveness of HoloLearn in improving the cognitive and motor skills of people with severe disabilities.\n* Methodological: The study provides a detailed description of the methodology used in the empirical study, including the participants, tasks, and assessments.\n* Dataset: The study provides a dataset of the results of the empirical study, including the performance of the participants on various tasks."
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the information provided in the table, it can be seen that the participants were recruited through various methods such as phone, mail, email, and convenience sampling (i.e. Day program). Additionally, snowball, word of mouth, flier, and social media were also used to recruit participants. It is worth noting that the study did not involve any user involvement in the recruitment process."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, supporting communication, personal informatics and changing behavior.",
+    "reasoning": "The study aimed to investigate the usability and satisfaction of HoloLens applications for people with neurodevelopmental disorders (NDD). The participants were divided into two groups based on their severity level, and the results showed that those in Group 1 required more support from caregivers during the experience. This suggests that HoloLens applications may be more appropriate for people with moderate severity levels, as they can better master the interaction mechanisms of the device. The study addressed various issues related to accessibility and usability, including increasing independence, digital access, physical access, communication, personal informatics, and changing behavior. However, it did not specifically address education or increasing opportunities for enrichment."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study makes an empirical contribution.",
+    "reasoning": "Based on the context provided, the study is conducting an empirical study to investigate the effectiveness of a new device for people with disabilities. The study involves recruiting participants and organizing a focus group to analyze the outcomes of the project. This indicates that the study is making an empirical contribution by providing data and insights from real-world observations and experiences."
   }
 ]

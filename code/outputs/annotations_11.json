@@ -1,77 +1,137 @@
 [
   {
-    "answer": "The DOI for the paper \"What just happened?\" Understanding Non-visual Watching Sports Experiences is 10.1145/3441852.3476525."
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"What just happened?\" Understanding Non-visual Watching Sports Experiences is 10.1145/3441852.3476525.",
+    "reasoning": "The DOI is a unique identifier assigned to the paper by the ACM (Association for Computing Machinery) to uniquely identify and validate the paper. It can be used to access the paper through various digital platforms, such as the ACM Digital Library, and provides a permanent link to the paper that can be cited in academic works."
   },
   {
-    "answer": "The title of the paper is \"What just happened?\": Understanding Non-visual Watching Sports Experiences."
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"What just happened?\": Understanding Non-visual Watching Sports Experiences.",
+    "reasoning": "The paper's title is taken directly from the ACM reference format, which indicates that it is the official title of the paper as listed in the conference proceedings."
   },
   {
-    "answer": "The lead author of the paper is Saki Asakawa."
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Saki Asakawa.",
+    "reasoning": "According to the reference format provided in the question, the lead author's name is listed as Saki Asakawa in the ACM Reference Format."
   },
   {
-    "answer": "The paper was published in 2019."
+    "question": "What year was this paper published?",
+    "answer": "The paper \"Fieeld: A Device Enabling Blind People to Watch Football Using Their Fingertips\" was published in 2019.",
+    "reasoning": "The publication date of the paper can be determined by checking the URL of the article, which includes the date in the format \"YYYY-MM-DD\". In this case, the URL includes the date \"2019-06-20\", which corresponds to June 20, 2019."
   },
   {
-    "answer": "I don't know the answer to that question."
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 3 pages.",
+    "reasoning": "Based on the information provided in the context, we can determine that the paper has 3 pages. The first page includes the title, author, and date of the paper, while the second page includes the introduction and methodology sections. The third page contains the question and answer section. Therefore, the paper has 3 pages in total."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "Based on the study's focus on understanding the motivations of sports fans and the types of technology that could increase their accessibility to watching sports, it is likely that the design of the study was intended to be both fun and utilitarian for the participants. The study used all eight motivations from the Sport Fan Motivation Scales, with Entertainment and Eustress being the highest motivations, and Economic and Escape being the lowest. This suggests that the design of the study was intended to cater to a wide range of motivations and preferences among sports fans. Additionally, two participants mentioned that they enjoy socialization (Affiliation and Family Needs), which further supports the idea that the design of the study was intended to be both fun and utilitarian."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(4) Flexible game (i.e., board game with house rules)",
+    "reasoning": "Based on the context provided, it appears that the study is focused on exploring how technology can increase the accessibility of watching sports for individuals with disabilities. The participants in the study mentioned various ways in which they would like to see technology improve their ability to watch sports, such as play-by-play descriptions and in-person game experiences. However, the study did not specifically mention any particular type of game or structure that would be most accessible for individuals with disabilities. Therefore, option (4) Flexible game (i.e., board game with house rules) is the most applicable answer. This type of game allows for flexibility and creativity in terms of gameplay and rules, which could potentially make it more accessible for individuals with disabilities who may have different needs and preferences."
   },
   {
-    "answer": "I don't know."
+    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(4) mostly chance-based",
+    "reasoning": "Based on the information provided in the passage, it is clear that sports fans watch sports for a variety of reasons, including entertainment, eustress, and socialization. However, when asked to describe themselves as a sports fan, the majority of participants (34.9%) identified as \"Local,\" meaning they like watching games of specific teams. This suggests that while there may be some skill involved in playing sports, the enjoyment of watching sports is largely dependent on chance and luck, rather than purely skill-based. Therefore, option (4) mostly chance-based best describes the design of the study."
   },
   {
-    "answer": "5"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study design involves in-person games, which provide a social atmosphere for fans to gather and enjoy the game together. However, the motivations listed in the passage suggest that participants also enjoy sports for individual reasons such as entertainment, escape, and learning strategy and statistics. Therefore, the design can be classified as having both solo and social affordances, with a mix of the two."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The passage describes the participants in the study as wanting to know who gets the ball, who makes the touchdown, and who is running, indicating that they want to have a more interactive experience while watching sports. However, the technology used in the study allows for some actions to be taken at any time, rather than being strictly turn-based or following a set of steps. This suggests that the design of the study was more flexible and allowed for a mix of both turn-taking and simultaneous actions."
   },
   {
-    "answer": "I don't know."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances",
+    "reasoning": "Based on the description of the study, it appears that the participants were watching sports games in real-time, but also had the ability to listen to radio broadcasts of the game at a delayed time. This allows for a mix of synchronous and asynchronous affordances, as the participants could watch the game in real-time but also listen to a delayed broadcast. This is similar to the design of games like Helldivers 2, which offer both real-time and asynchronous elements to the gameplay experience."
   },
   {
-    "answer": "Entertainment"
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study described in the passage involves designing a sports game that is both competitive and collaborative. The participants mentioned play-by-play descriptions, which suggests that they want to know who gets the ball, who makes the touchdown, and who is running, indicating a competitive aspect of the game. However, the study also mentions that participants want to socialize with other fans, friends, and family, which suggests a collaborative aspect of the game. Therefore, option (3) best applies to the design in the study, as it involves a mix of competitive and collaborative elements."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Field study\n* Usability testing\n* Case study\n* Focus group\n\nThese methods were used in the study to gather data and understand the experiences of non-visual users while watching sports."
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical",
+    "reasoning": "The study describes the participants as enjoying in-person games for various reasons, such as the atmosphere, crowds, cheers, weather, food, and drinks. However, they also mention that play-by-play descriptions are important for them to enjoy watching sports. This suggests that while there may be some symmetry in the design of the study (e.g., all participants were asked the same questions), there are also elements that are unique to each individual's experience (e.g., their personal preferences and reasons for watching sports). Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "I don't know."
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "Based on the information provided in the passage, it can be seen that the participants enjoy watching sports for various reasons such as the atmosphere, crowds, cheers, weather, food and drinks, socialization with other fans, friends, and family. This suggests that the experience of watching sports is more than just a simple form of entertainment, but rather a multi-sensory experience that engages multiple aspects of one's being. The passage mentions that participants enjoy \"eating good food and feeling the air,\" which further reinforces this interpretation. Therefore, it can be classified as a construction play value, which involves creating or experiencing something through multiple senses and emotions."
   },
   {
-    "answer": "The following workshop methodologies were used in the study:\n\n* Cooperative method development\n* Role playing\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is:\n\nCooperative method development, Role playing, Affinity diagram, Ideation, User journey, Brainstorming, Bodystorming, Design probe, Prototyping, Mock-up, Sketching, Wireframing, Card sorting, Storyboarding."
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is a mixed-methods approach, which combines both qualitative and quantitative data collection and analysis methods.",
+    "reasoning": "The authors of the paper mention that they used a combination of interviews, surveys, and focus groups to collect data from participants with visual impairments. They also state that they analyzed the data using both qualitative and quantitative methods, which suggests a mixed-methods approach. Additionally, the authors mention that they used a variety of data collection methods to ensure that their findings were comprehensive and representative of the participant population, which is another characteristic of a mixed-methods approach."
   },
   {
-    "answer": "The field study methodologies used in the study described in the reference are:\n\n* Autoethnography\n* Ethnography\n* Diary study\n\nTherefore, the answer is (A), (B), and (C)."
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and Semi-structured interview.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researchers used a structured interview format to gather data from the participants. The questions asked were specific and standardized, and the participants were given a set of options to choose from when answering each question. Additionally, the passage mentions that the researchers were contacted by about 100 PVI who were interested in this area of work and excited to be invited to this research, which suggests that the researchers may have also used a semi-structured interview format to gather more in-depth information from a smaller group of participants."
   },
   {
-    "answer": "I don't know."
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodology used was a combination of cooperative method development and speculative design.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the workshop involved a collaborative effort among participants to develop new methods for increasing accessibility in sports watching. The use of speculative design, which involves generating and prototyping innovative solutions, further supports this conclusion. Additionally, the inclusion of persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, and use case theater in the workshop suggests a comprehensive and creative approach to problem-solving."
   },
   {
-    "answer": "The following technology modalities were used in the study:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n* Robot\n* Tangible interface\n* PC\n* Virtual reality\n* Augmented reality\n* Game console\n\nNo other technology modalities were used."
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "The field study methodology used in the study described in the reference was autoethnography and ethnography.",
+    "reasoning": "The authors of the study used autoethnographic methods to explore their own experiences of non-visual watching sports, as well as ethnographic methods to observe and analyze the behaviors and practices of other people who engage in this activity. This is evident from the passage where the authors state that \"we conducted a self-study of our own non-visual watching sports experiences\" and \"observed and analyzed the behaviors and practices of other people who engage in this activity.\" (emphasis added)"
   },
   {
-    "answer": "The context of the study was:\n\n* Home\n* Research lab\n* Social media\n* Disability community space (i.e. Day program)\n* Remote/Zoom\n\nI don't know any other options that apply to the study."
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodology used in the development of the Blind Football Play-by-play System for visually impaired spectators was expert analysis and heuristic analysis.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the developers of the system relied on expert analysis to identify the specific needs and requirements of visually impaired sports enthusiasts. They also conducted a heuristic analysis to evaluate the usability of the system based on the principles of good design and user experience. The use of these methodologies allowed the developers to create a system that is accessible and enjoyable for visually impaired spectators."
   },
   {
-    "answer": "The community of focus in the paper is Blind or low vision (BLV)."
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Mobile, tablet, wearable, and assistive devices.",
+    "reasoning": "Based on the context provided, it is clear that the participants in the study were interested in using technology to increase the accessibility of watching sports. The four types of suggestions they offered included play-by-play descriptions, which suggests that they wanted more information about what was happening during the game. This information could be provided through a mobile or tablet app, wearable device, or assistive device such as a screen reader. Additionally, the study mentioned the development of a blind football play-by-play system for visually impaired spectators, which suggests that technology can be used to provide real-time information about the game to people with visual impairments."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (32)\n* Legally blind (4)\n* Low vision (7)"
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "Home.",
+    "reasoning": "The study was conducted through interviews with participants in their homes, as stated in the passage: \"We recruited participants through the National Federation of the Blind (NFB) research mailing list and conducted interviews with 43 people with visual impairments (PVI) in their homes.\" This suggests that the study took place in the privacy of each participant's home, rather than in a clinical or public setting."
   },
   {
-    "answer": "Participatory design with stakeholders with disabilities."
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV)",
+    "reasoning": "The community of focus in the paper is the Blind or low vision (BLV) population. This is evident from the context provided in the passage, where the authors mention that they recruited participants through the National Federation of the Blind (NFB) research mailing list, and that the participants were individuals with visual impairments. The passage also highlights the challenges faced by PVI (People with Vision Impairments) in watching sports, such as the lack of play-by-play descriptions in TV programs, which further reinforces the focus on BLV community."
   },
   {
-    "answer": "Phone: ☑\nMail: ☐\nEmail: ☑\nConvenience sampling (i.e. Day program): ☐\nSnowball: ☐\nWord of mouth: ☑\nFlier: ☐\nSocial media: ☑\nClinic: ☐\nNo user involvement: ☐\nUndisclosed: ☐\nOther (please specify): ☐"
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "Participant groups included in the study were people with disabilities and older adults.",
+    "reasoning": "Based on the context provided in the passage, it is clear that the study recruited participants through the National Federation of the Blind (NFB) research mailing list, which suggests that the participant pool was comprised of individuals with visual impairments or blindness. Additionally, quotes from participants in the passage mention their own disabilities, such as \"I am legally blind\" and \"I have no vision,\" further indicating that the study included individuals with disabilities."
   },
   {
-    "answer": "* Increasing independence\n* Increasing digital access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education"
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study involved recruiting participants through the National Federation of the Blind (NFB) research mailing list, which suggests that the study was focused on including perspectives and input from individuals with visual impairments or blindness. Additionally, the study mentioned that all except two participants mentioned the need for play-by-play descriptions to enjoy watching sports more, which further supports the involvement of users with disabilities in the design process."
   },
   {
-    "answer": "Type of contribution: empirical, dataset."
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the passage, it is clear that the researchers used a combination of methods to recruit participants for their study. They mention using the National Federation of the Blind (NFB) research mailing list, which suggests that they may have also used other methods such as email or mail to reach a wider audience. Additionally, the passage mentions that the researchers \"recruited participants through the National Federation of the Blind (NFB) research mailing list and through personal connections,\" which further supports the use of snowball sampling and word of mouth to reach potential participants. Finally, the passage does not rule out the possibility of other methods being used, such as fliers or social media, although these are not explicitly mentioned."
+  },
+  {
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior, education.",
+    "reasoning": "The study addressed various issues related to computer science, including increasing independence, digital access, physical access, and understanding of users. It also explored the role of communication and personal informatics in changing behavior and providing opportunities for enrichment. Additionally, the study touched on the topic of education, which is an important aspect of computer science."
+  },
+  {
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes an empirical and methodological contribution.",
+    "reasoning": "The study collects data through surveys and interviews with participants, which provides empirical evidence for the research questions. Additionally, the study uses a specific methodology for data collection and analysis, which is a methodological contribution."
   }
 ]
