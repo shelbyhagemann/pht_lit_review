@@ -245,7 +245,7 @@ def create_vec(chunked_data):
 # input: vector_store
 # return: list of annotations
 # description: prompts the model to apply annotations
-def prompt(vector_store):
+def prompt(vector_store, paperID):
     # list of annotations
     annotations = []
     # for each metric
@@ -269,7 +269,7 @@ def prompt(vector_store):
         """
 
         # generate response using llm
-        response = generate(context, metric, full_prompt)
+        response = generate(context, metric, full_prompt, paperID)
         annotations.append(response)
     return annotations
 
@@ -286,7 +286,7 @@ def retrieve(vector_store, metric):
 # input: context, metric
 # return: annotation
 # description: uses context and metric to apply annotation
-def generate(context, metric, full_prompt):
+def generate(context, metric, full_prompt, paperID):
     docs_content = "\n\n".join(doc.page_content for doc in context)
     prompt_text = full_prompt.format(context = docs_content, metric = metric)
     response = llm(prompt_text).strip()
@@ -298,6 +298,7 @@ def generate(context, metric, full_prompt):
     reasoning = reasoning_match.group(1).strip() if reasoning_match else "Not found"
 
     return {
+        "paperID": paperID,
         "question": metric,
         "answer": answer,
         "reasoning": reasoning
@@ -323,7 +324,7 @@ def main():
         # store chunks in vector
         vector_store = create_vec(chunked_data)
         # apply annotations to paper
-        annotations = prompt(vector_store)
+        annotations = prompt(vector_store, file_num)
         # generate json file containing annotations for that specific paper
         generate_json(annotations, file_num)
         file_num = file_num + 1
