@@ -2,6 +2,7 @@
 # Info on auto-classes: https://huggingface.co/docs/transformers/en/model_doc/auto
 # Info on Tokenizer: https://huggingface.co/docs/transformers/en/main_classes/tokenizer
 # Info on training: https://huggingface.co/docs/trl/en/sft_trainer
+# Info on GGUF: https://huggingface.co/docs/transformers/en/gguf
 
 ## Import libraries
 import langchain
@@ -13,29 +14,24 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import LoraConfig, get_peft_model, TaskType
 from datasets import load_dataset
 from trl import SFTConfig, SFTTrainer
+from peft import PeftModel
 
 
 ## Define global variables
 training_dataset = load_dataset("jsonl", example_file = "examples.jsonl")
-training_args = SFTConfig(output_dir="/model_files")
 
 ## Defining the model
-llm = Ollama(model="llama2", temperature=0.5)
+#llm = Ollama(model="llama2", temperature=0.5)
+model_name = "meta-llama/Llama-2-7b-chat-hf"
 
 ## Set up tokenizer
-tokenizer = AutoTokenizer.from_pretrained(llm)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
-    llm,
+    model_name,
     load_in_8bit=True,
     device_map="auto"
 )
 
-## Set up trainer
-trainer = SFTTrainer(
-    model,
-    train_dataset = training_dataset,
-    args = training_args,
-)
 
 
 ## Functions
@@ -62,19 +58,22 @@ def tokenize_examples(examples):
     # return tokenized data
     return tokenized_data
 
-
-# name: preprocess_data
-# input: 
-# return: 
-# description: 
-def preprocess_data(data):
-    pass
-
 # name: train_model
 # input: 
 # return: 
 # description: use huggingface train functionality
-def train_model():
+def train_model(tokenized_data):
+    # Set up training args
+    training_args = SFTConfig(output_dir="/model_files")
+
+    ## Set up trainer
+    trainer = SFTTrainer(
+        model,
+        args = training_args,
+        train_dataset=tokenized_data["train"],
+        tokenizer=tokenizer
+    )
+
     trainer.train()
 
 # name: save_model
@@ -85,4 +84,24 @@ def save_model():
     model.save_pretrained("sft-output")
     tokenizer.save_pretrained("sft-output")
 
-## Main function
+
+# name: tailor_ollama
+# input: 
+# return: 
+# description: use huggingface save_pretrained functionality
+def tailor_ollama():
+    # merge base and tuned models
+    base_model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
+    lora_model = PeftModel.from_pretrained(base_model, "sft-output")
+    lora_model = lora_model.merge_and_unload()
+    lora_model.save_pretrained("merged-model")
+
+    # convert to GGUF format for Ollama
+
+
+## main function
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
