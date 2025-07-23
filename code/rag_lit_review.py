@@ -95,7 +95,7 @@ pht_framework = [
     (4) flexible game (i.e., board game with house rules),
     (5) game with rigid rules (i.e., video game)""",
     
-    """"Please answer this question with a number--which of the following best apply to the design in the study: 
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
     (1) entirely skill-based (i.e., trivia, sports),
     (2) mostly skill-based (i.e., mario kart),
     (3) equally skill and chance-based (i.e., catan),
@@ -316,7 +316,7 @@ def generate_json(annotation_list, file_num):
 ## main function
 def main():
     # load file path (will set up to iterate over list of file paths later)
-    file_num = 0
+    file_num = 1
     for file in file_path_list:
         file_path = f"../papers/{file}"
         # break data into chunks
