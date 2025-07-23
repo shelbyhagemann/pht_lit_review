@@ -14,23 +14,12 @@ import langchain
 from langchain_community.document_loaders import PyMuPDFLoader
 import pymupdf4llm
 import pathlib
-from langchain.text_splitter import MarkdownTextSplitter
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from langchain_community.embeddings.ollama import OllamaEmbeddings
-from langchain.chains import LLMChain
-from langchain.llms.base import LLM
-from typing import Optional, List, Mapping
-from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-import subprocess
 import json
 from typing import TypedDict
 from langchain_core.vectorstores import InMemoryVectorStore
-import langchain_community.vectorstores
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.vectorstores import InMemoryVectorStore
 from typing_extensions import List, TypedDict
-from langchain_core.documents import Document
 from langchain_community.llms import Ollama
 from langchain_huggingface import HuggingFaceEmbeddings
 import re
