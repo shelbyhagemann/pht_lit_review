@@ -99,6 +99,26 @@ def tailor_ollama():
     # convert to GGUF format for Ollama
 
 
+# name: 
+# input: 
+# return: 
+# description: 
+
+# name: 
+# input: 
+# return: 
+# description: 
+
+# name: 
+# input: 
+# return: 
+# description: 
+
+# name: 
+# input: 
+# return: 
+# description: 
+
 ## main function
 def main():
     pass

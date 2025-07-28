@@ -9,20 +9,14 @@
 ## BEFORE RUNNING: Have ollama installed locally, run "ollama serve" in another terminal
 
 ## import libraries and modules
-import pymupdf
-import langchain
-from langchain_community.document_loaders import PyMuPDFLoader
-import pymupdf4llm
-import pathlib
 import json
-from typing import TypedDict
+import pathlib
+import re
+import pymupdf4llm
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_core.vectorstores import InMemoryVectorStore
-from typing_extensions import List, TypedDict
 from langchain_community.llms import Ollama
 from langchain_huggingface import HuggingFaceEmbeddings
-import re
 
 
 ## declare global variables
