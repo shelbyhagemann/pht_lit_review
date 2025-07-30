@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for this paper is 10.1145/16055855810."
+    "paperID": 22,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"Do-watch-listen-say: Social and communication intervention for autism spectrum disorder\" is <https://doi.org/10.1145/3373625.3418004>.",
+    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, to identify and track its usage and citation. In this case, the DOI for the paper \"Do-watch-listen-say: Social and communication intervention for autism spectrum disorder\" can be found in the reference list at the end of the paper, or by searching for the title of the paper on a DOI database such as CrossRef."
   },
   {
-    "answer": "The title of the paper is \"CONTENT PHOTO ANALYSIS\"."
+    "paperID": 22,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Do-watch-listen-say: Social and communication intervention for autism spectrum disorder.\"",
+    "reasoning": "Based on the context provided, the paper titled \"Do-watch-listen-say\" is a research study focused on developing a social and communication intervention program for individuals with Autism Spectrum Disorder (ASD). The paper was presented at the ACM Conference on Computers and Accessibility (CCESS) in 2020."
   },
   {
-    "answer": "The lead author of the paper is not specified in the provided context."
+    "paperID": 22,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Mark Prensky.",
+    "reasoning": "Based on the format of the paper and the information provided, it can be determined that Mark Prensky is the lead author. The paper is published in a reputable academic journal, and Prensky's name is listed as the author in the publication details."
   },
   {
-    "answer": "The paper was published in 2005."
+    "paperID": 22,
+    "question": "What year was this paper published?",
+    "answer": "The paper \"Digital Game-Based Learning\" by Mark Prensky was published in 2003.",
+    "reasoning": "The publication date of the paper can be found in the DOI (digital object identifier) provided in the reference, which leads to a publication date of 2003."
   },
   {
-    "answer": "The paper is 4 pages long."
+    "paperID": 22,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 3 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has a total of 3 pages."
   },
   {
-    "answer": "5"
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first.",
+    "reasoning": "Not found"
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules.",
+    "reasoning": "The study describes the design of an activity called \"Clumsy Turtle\" that is based on the discrete trial technique for teaching prepositions, but with a more playful and naturalistic approach. The activity has a flexible structure with rules, which allows for variation and creativity while still maintaining a structured learning environment. This is in contrast to unstructured play (option 1), which lacks any rules or structure, and semi-structured play (option 2), which has some rules but is still relatively free-form. Improv (option 3) involves creating scenarios on the spot without a predetermined structure, while board games with house rules (option 4) have a more rigid structure but allow for variation in gameplay. Video games (option 5) typically have very rigid rules and structures, which may not be as effective for learning in this context."
   },
   {
-    "answer": "I would rate the game as a 1, social. The context suggests that the game is designed for players to interact and connect with each other, rather than being a solo experience."
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) Equally skill and chance-based.",
+    "reasoning": "The study mentioned that the games played were primarily focused on speech development, such as increasing fluency and reducing speech delays. While there may have been some element of skill involved in playing the games, the outcome was largely dependent on both skill and chance. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study proposes a game-like activity called \"Clumsy Turtle\" that incorporates both solo and social elements. The design includes puzzles, games, and challenges that can be completed independently or with the support of peers. This mix of solo and social affordances is likely to appeal to children with ASD who may have different preferences for how they engage in play. By offering a variety of activities, the design can accommodate different learning styles and preferences, making it more inclusive and effective for this population."
   },
   {
-    "answer": "5"
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes the proposed activity as using a \"discrete trial technique for teaching prepositions\" and \"takes lessons from the naturalistic therapy methods.\" Discrete trial training is a method that involves breaking down complex tasks into smaller, more manageable parts and teaching each part through repetition and reinforcement. This approach is often used with individuals with autism spectrum disorder (ASD) as it can help them learn new skills in a structured and systematic way."
   },
   {
-    "answer": "I would rate this game as a 1, symmetrical. The ratings given by the raters were corrected and brought into agreement, indicating that the game is balanced and fair."
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "Based on the information provided in the passage, the design of the activity is not entirely synchronous (option 1), as it involves conducting the activity at different times according to the child's schedule and habits. It also does not seem to be mostly synchronous with a few asynchronous affordances (option 2), as the passage mentions that the activity is designed to make it more playful and naturalistic, and that game-like activities do not have to rely on external/supplementary reinforcement."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative",
+    "reasoning": "The study proposed the activity \"Clumsy Turtle\" which involves playing physical games, using a computer, watching videos, looking at books, completing puzzles, and playing video games. These activities are a mix of competitive and collaborative as they can be played individually or with others, depending on the child's preference and needs. The study did not focus on any one specific type of activity, but rather aimed to provide a variety of options for children with ASD to engage in playful and game-like activities that promote language development and speech skills."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Case study\n* Focus group\n\nExplanation: The paper describes a case study involving pre-test interviews with rehabilitant and their family members, followed by a test of the photo frame and post-test interviews. This meets the definition of a case study, which is a research method that involves in-depth examination of a single case or a small number of cases to gain detailed insights into a particular phenomenon or situation. The focus group component refers to the pre-test interviews conducted with each of the four participants, which involved discussing their experiences with the photo frame and related issues."
+    "paperID": 22,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The proposed activity in the study, \"Clumsy Turtle,\" involves a mix of symmetrical and asymmetrical elements. On one hand, the activity structure is based on a set of rules and constraints that are the same for all players (symmetrical), such as the location of the hidden treasure and the clues to find it. On the other hand, the NPC behaviors in the game are different each time the player plays, making it asymmetrical. This blend of symmetry and asymmetry is likely to appeal to children with ASD who may have a preference for structure and routine, but also enjoy the challenge and variety that comes from unexpected elements."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The experiential play value of the proposed activity can be classified as construction because it involves creating and building something (i.e., the treasure hunt) using various materials and tools. This type of play allows children to express their creativity and imagination, and can help develop fine motor skills and problem-solving abilities."
   },
   {
-    "answer": "The following workshop methodologies were used in the study:\n\n* Cooperative method development\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is:\n\nCooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding."
+    "paperID": 22,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is:",
+    "reasoning": "The paper describes a study on the effectiveness of a digital game-based learning intervention for individuals with autism spectrum disorder (ASD). The study involves collecting data on the participants' progress and feedback through usability testing and field studies. These methods allow researchers to observe and analyze the participants' behavior in a real-world setting, providing valuable insights into the effectiveness of the intervention."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Semi-structured interview and Contextual Inquiry.",
+    "reasoning": "The passage mentions that non-participant observation sessions and conversational interviews with therapists and parents of children with ASD were conducted at three speech therapy clinics in Thane, Maharashtra. This suggests that the researchers used a combination of structured and semi-structured interviews to gather information from the therapists and parents. Additionally, the passage states that the researchers \"conducted some frst-hand information about a few problems with the current methods,\" which implies that they also conducted contextual inquiries to gain a deeper understanding of the issues at hand. Therefore, the answer is (Semistructured interview) and (Contextual Inquiry)."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used in the proposed activity are cooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, and prototyping.",
+    "reasoning": "Based on the abstract and the figure provided, it can be seen that the workshop involved a collaborative effort between the facilitator and the participants to develop and evaluate interactive toys for kids with Autism Spectrum Disorder (ASD). The methodologies used include cooperative method development, where the facilitator worked with the participants to design and develop the activity, affinity diagram, which is a visual tool used to organize ideas and concepts, ideation, which involves generating new ideas, user journey, which helps to understand the user's perspective, brainstorming, bodystorming, which are techniques used to generate creative solutions, design probe, which is a method used to test and refine designs, and prototyping, which involves creating a preliminary model of the activity."
   },
   {
-    "answer": "Based on the provided context, the following technology modalities were used:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n\nNo other options apply."
+    "paperID": 22,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and ethnography were used in the field study.",
+    "reasoning": "The author mentions that they used \"autoethnographic\" and \"ethnographic\" methods to study the design of playful activities for promoting preposition skills in children with Autism Spectrum Disorder (ASD). Autoethnography is a qualitative research methodology that involves reflecting on one's own experiences and observations, while ethnography involves studying a culture or social group through participant observation and interviews. The author used these methods to conduct the field study and gather data on the effectiveness of the playful activities in promoting preposition skills."
   },
   {
-    "answer": "The context of the study was:\n\n* Clinic\n* Home\n* Research lab\n* Disability community space (i.e. Day program)\n\nI do not know the answer to the question as it is not provided in the given text."
+    "paperID": 22,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "Human-centered computing → Accessibility design and evaluation methods.",
+    "reasoning": "The paper discusses the use of playful activities to promote the practice of preposition skills for children with Autism Spectrum Disorder (ASD). The author mentions that continuous expert evaluation was conducted with a speech-language pathologist based in Thane, Maharashtra, and that the topics covered in the games were primarily around speech development, rather than language development or preposition skills. Therefore, it can be inferred that the usability methodology used in the study was focused on accessibility design and evaluation methods, which involves designing systems that are accessible and easy to use for people with disabilities."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "The proposed activity \"Clumsy Turtle\" uses a combination of technology modalities, including mobile, tablet, wearable, and assistive devices.",
+    "reasoning": "Based on the information provided in the passage, the activity \"Clumsy Turtle\" is designed to promote practice of preposition skills for kids with ASD using digital game-based learning. The passage mentions that the activity uses a mobile app, tablet, and wearable devices, which are all examples of technology modalities. Additionally, the passage notes that assistive devices are used in the activity, which suggests that these devices may also be used. However, the passage does not provide enough information to determine whether other technology modalities such as IoT, robot, tangible interface, PC, virtual reality, or augmented reality are used in the activity."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)"
+    "paperID": 22,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a combination of the following options: clinic, home, school, research lab, and remote/Zoom.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study involved conducting activities with children with autism spectrum disorder (ASD) in various settings. While some of the activities were conducted in a clinical setting, others were done at home or in a school setting. Additionally, the authors mentioned using remote/Zoom technology to conduct some of the activities, which suggests that they were not limited to a single location. Therefore, the answer is a combination of options 1, 2, 3, and 5."
   },
   {
-    "answer": "I select option (B) \"participatory design with stakeholders with disabilities\" as the best description of user involvement in the study."
+    "paperID": 22,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "The community of focus was Autism.",
+    "reasoning": "Based on the given context, it is clear that the article is primarily focused on Autism and its related topics. The authors mention the importance of developing preposition skills in individuals with Autism, and how digital games can be used to support this development. They also reference other studies and literature that specifically focus on Autism and accessibility. Therefore, the answer to the question is Autism."
   },
   {
-    "answer": "I don't know the answer to that question."
+    "paperID": 22,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were children with Autism Spectrum Disorder (ASD), parents of children with ASD, and therapists who worked with children with ASD.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study involved participants with ASD, as well as professionals who work with individuals with ASD. The passage mentions \"non-participant observation sessions and conversational interviews with therapists and parents of children with ASD\" conducted at three speech therapy clinics in Thane, Maharashtra. This suggests that the study included both children with ASD and their caregivers (parents), as well as therapists who work with these individuals."
   },
   {
-    "answer": "* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education"
+    "paperID": 22,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study involves the design and evaluation of a playful activity to promote the practice of preposition skills for children with Autism Spectrum Disorder (ASD). The author states that \"children with ASD tend to have difficulty in language and communication, especially in abstract language concepts like prepositions\" and that existing clinically used methods of conducting therapy are difficult to conduct at home. To address this challenge, the author engages in participatory design with stakeholders with disabilities, which involves collaborating with individuals with ASD and other stakeholders to generate a design solution that meets their needs and preferences. This approach ensures that the designed activity is relevant, accessible, and enjoyable for children with ASD, and that the solution is co-created with the end-users themselves."
   },
   {
-    "answer": "I don't know."
+    "paperID": 22,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "Discrete Trial Procedures",
+    "reasoning": "The passage mentions that the activity bases itself on the discrete trial technique for teaching prepositions and takes lessons from naturalistic therapy methods. Discrete Trial Procedures is a behavioral therapy technique widely used to improve receptive prepositional skills for children with autism."
+  },
+  {
+    "paperID": 22,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "The study addressed increasing digital access (1.4.1) and increasing physical access (1.4.2).",
+    "reasoning": "The study mentioned in the introduction, \"Mark Prensky. 2003. Digital Game-Based Learning. _Computers_ _in_ _Entertainment_ (_CIE_) _- Theoretical_ _and_ _Practical_ _Computer_ _Applications_ _in_ _Entertainment_ 1 (10 2003). [https://doi.org/10.1145/950566.950596](https://doi.org/10.1145/950566.950596)\" discussed the potential of digital games to increase accessibility for individuals with disabilities, including those with autism spectrum disorder. The study mentioned that digital games can provide opportunities for individuals with autism to develop social and communication skills, such as preposition skills, in a fun and engaging way."
+  },
+  {
+    "paperID": 22,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes both empirical and methodological contributions.",
+    "reasoning": "The study provides empirical evidence for the effectiveness of digital game-based learning in improving cognitive skills in children with autism spectrum disorder. It presents the results of a randomized controlled trial that compared the outcomes of a digital game-based intervention with those of a traditional instructional method. This constitutes an empirical contribution as it provides evidence for the practical application of the study's findings."
   }
 ]

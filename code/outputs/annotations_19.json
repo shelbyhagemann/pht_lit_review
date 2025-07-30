@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for this paper is 10.14503/24052/2013."
+    "paperID": 19,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for this paper is <https://doi.org/10.1145/3234695.3241031>.",
+    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, and can be used to locate the object in a digital repository or database. In this case, the DOI for the paper is <https://doi.org/10.1145/3234695.3241031>, which can be used to access the paper through various online platforms."
   },
   {
-    "answer": "The title of the paper is \"The Numbers Game: Baseball's Lifelong Fascination with Statistics\" by Alex Schwarz."
+    "paperID": 19,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"ASSETS '18: Tangible Object Placement Codes.\"",
+    "reasoning": "Based on the context provided, the paper titled \"ASSETS '18: Tangible Object Placement Codes\" appears to be a research paper presented at the ACM Conference on Human Factors in Computing Systems (CHI) in 2018. The paper discusses the use of tangible object placement codes in various applications, including education and research. The title suggests that the paper focuses on the use of codes to place objects in a tangible manner, which is consistent with the context provided."
   },
   {
-    "answer": "The lead author of the paper is ACM."
+    "paperID": 19,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is not explicitly stated in the provided context.",
+    "reasoning": "The copyright information at the bottom of the page lists the owner/author(s) of the work, but does not provide the name of the lead author. Additionally, the format of the citation suggests that there may be multiple authors involved in the creation of the paper, and the lead author is not explicitly identified."
   },
   {
-    "answer": "The paper was published in 2013."
+    "paperID": 19,
+    "question": "What year was this paper published?",
+    "answer": "The paper \"ASSETS '18\" was published in 2018.",
+    "reasoning": "The copyright notice at the bottom of the page indicates that the work was published in 2018. Additionally, the reference to the paper being presented at a conference in October 2018 further confirms that it was published that year."
   },
   {
-    "answer": "The paper is 13 pages long."
+    "paperID": 19,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 4 pages.",
+    "reasoning": "Based on the information provided in the context, the paper has a total of 4 pages, including the cover page and the three main pages that contain the content of the paper."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first",
+    "reasoning": "The study design in the article is a mix of both fun and utility elements. The authors sought to learn from the lived experiences of families with children with visual impairments and wanted to understand how they overcome challenges relating to game accessibility and educational activities. To achieve this, they joined an online group for parents of children with VIs, posted an online survey, and tested their second prototype at a science and technology event for children and their families in a Midwestern city. This suggests that the design was intended to be both fun and useful for its intended audience, rather than just one or the other."
   },
   {
-    "answer": "3"
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules",
+    "reasoning": "The study described in the passage involved testing a user interface for visually impaired children to play Minecraft. The participants were sighted children who played the game either on their own or with a partner, and they filled out a short questionnaire afterward. Based on the description of the test, it seems that the design of the study was more flexible in terms of rules and structure, allowing for creativity and improvisation within a set of guidelines. The use of the term \"creative mode\" also suggests a more open-ended and unstructured play experience, rather than a rigidly structured game with strict rules. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "I would rate this game as a 3, slightly leaning towards a 4. While it involves players acting as de facto team managers and being scored based on their collective team's performance, it is still primarily a solo activity where users make decisions and manage their teams without direct social interaction. However, there may be some indirect social interaction through communication with other users in the fantasy sports league, such as discussing player statistics or trades."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The study described in the passage involves designing a game for families to play together, with the goal of promoting positive interactions and bonding. The authors note that the game should be \"equally skill and chance-based,\" indicating that both luck and player skill will play a role in determining the outcome of the game. This is consistent with games like Catan, which involve a mix of strategic decision-making and random event outcomes. In contrast, games like Mario Kart are primarily skill-based, as players must develop and practice their driving skills to perform well. Games like Uno are mostly chance-based, as the outcome of each turn is largely determined by the drawing of cards."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances.",
+    "reasoning": "The study involved testing the interface with sighted children who had played Minecraft, and they were asked to build in creative mode either on their own or with a partner. This suggests that the design allows for both solo and social play, as participants could choose to build alone or with a partner. Additionally, the study's focus on providing non-visual feedback and promoting collaboration between mixed ability users further supports this answer."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes the design as using a 3x3 grid of vibration motors that sit along the forearm, and a Python script that polls the grid before the avatar's current position. This suggests that the game is turn-based, but with some flexibility in terms of when actions can be taken. The use of a grid and vibration motors also implies that the game is not entirely simultaneous, as players would need to take turns placing their avatars on different squares of the grid. However, the design does allow for some actions to be taken at any time, rather than being strictly tied to a specific turn structure."
   },
   {
-    "answer": "I would rate the game as a 3, slightly asymmetrical. While there are some positive and negative valence data points, such as rushing yards and interceptions thrown, respectively, the game is not heavily skewed towards one side or the other. The data is relatively balanced, with a mix of both positive and negative valence points. Therefore, I would classify it as slightly asymmetrical, but not heavily so."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances",
+    "reasoning": "The study describes the design goals for a Minecraft-based educational game, which include providing non-visual feedback regarding the Minecraft world, allowing users to build constructions in the Minecraft world using tangible objects, and promoting collaboration between mixed ability users. These goals suggest that the game is designed to be equally mix of synchronous and asynchronous affordances, as users will need to coordinate their actions in real-time to achieve these goals, but also have the flexibility to work on their constructions at their own pace. The study does not mention any specific time constraints or real-time strategy elements, which further supports this conclusion."
   },
   {
-    "answer": "I would classify the experiential play value as \"fantasy\" based on the context provided in the paper. The authors describe the system as an \"auditory display\" and mention that it is used for \"Fantasy Football,\" which suggests that it is intended to be a game-like experience for users. Additionally, the paper discusses the use of different player statistics and how they are displayed auditorily, which further supports the classification of this value as \"fantasy.\""
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative",
+    "reasoning": "Based on the information provided in the passage, the design of the interface in the study is a mix of competitive and collaborative elements. The authors state that the interface should provide non-visual feedback regarding the Minecraft world, allow users to build constructions in the Minecraft world using tangible objects, and promote collaboration between mixed ability users. These features suggest that the design is not entirely competitive or entirely collaborative, but rather a mix of both. The authors also mention that participants were able to build in creative mode either on their own or with a partner, which further supports the idea that the design is a mix of competitive and collaborative elements."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The study described in the passage involves designing a tactile interface for Minecraft, a game that is primarily played visually, to allow blind and visually impaired players to participate. The designers aimed to create a system that would be both symmetrical (i.e., following a consistent structure or layout) and asymmetrical (i.e., with different abilities or behaviors for each player), in order to provide a balanced and enjoyable experience for all players."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Experiential play value.",
+    "reasoning": "The passage mentions the use of Minecraft as an educational tool and highlights the game's ability to engage children in open-ended questions about their gaming experiences. This suggests that the experiential play value is a significant aspect of the game, as it allows players to explore and create within a virtual environment. Additionally, the passage mentions the use of Minecraft as a tool for partaking in online communities and developing 21st century skills, which further supports the idea that the experiential play value is an important feature of the game."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study methods that apply to this paper are:",
+    "reasoning": "The paper describes a study in which participants were asked to complete a questionnaire after interacting with a Minecraft-based interface. This is an example of usability testing, as the researchers are evaluating the usability of the interface by asking participants to complete a questionnaire. The study also involves a workshop or design session, as the researchers are designing and prototyping the Minecraft-based interface with the help of participants. Additionally, the study could be considered a case study, as it involves a detailed examination of a particular phenomenon (the use of Minecraft in education and research) within a specific context (a workshop or design session)."
   },
   {
-    "answer": "Based on the provided context, the field study methodologies that were used are:\n\n* Autoethnography\n* Ethnography\n* Diary Study\n\nTherefore, the answer is (A), (B), and (C)."
+    "paperID": 19,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and semi-structured interview.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researcher used a structured interview methodology with the participants. The passage states that the researcher \"moved the avatar around placing and breaking blocks while asking the participant which motors she could use.\" This suggests that the researcher asked specific questions related to the task at hand, rather than allowing the participant to share their thoughts and experiences freely."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodology used in the project was a combination of prototyping and user testing.",
+    "reasoning": "Based on the text, it is clear that the researchers undertook an iterative prototyping process to develop an integrated interface for visually impaired individuals to interact with Minecraft. They created two prototypes and tested them with sighted children to gather feedback and refine the design. This process of creating and testing prototypes is a fundamental aspect of prototyping methodology. Additionally, the researchers used user testing to evaluate the usability and accessibility of the interface for visually impaired individuals."
   },
   {
-    "answer": "* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices"
+    "paperID": 19,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "The field study methodology used in this research was autoethnography and ethnography.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researcher is conducting a qualitative study using autoethnography and ethnography methods to explore the experiences of sighted children playing Minecraft. The use of these methodologies allows the researcher to gain an in-depth understanding of the participants' perspectives and experiences through observations, interviews, and other data collection techniques. Autoethnography involves the researcher reflecting on their own experiences and emotions, while ethnography involves the study of a culture or social group. By using these methodologies together, the researcher can gain a rich and nuanced understanding of the participants' experiences with Minecraft."
   },
   {
-    "answer": "The context of the study was:\n\n* Research lab\n* Home\n* School\n* Social media\n* Disability community space (i.e. Day program)\n\nI do not know the answer to the question as it is not applicable to the given information."
+    "paperID": 19,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodologies used in the research paper are:",
+    "reasoning": "Based on the text, it is clear that the authors used a combination of these methodologies to evaluate the usability of the interface. The passage mentions \"experts\" analyzing the interface and participants using think-aloud protocols to provide feedback. Additionally, the authors conducted cognitive walkthroughs to identify potential issues with the interface."
   },
   {
-    "answer": "The community of focus in the given text is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n\nNote that the text specifically mentions the importance of accessibility for visually impaired users, and the inclusion of additional features to aid accessibility, such as an auditory drop-down menu. Therefore, it can be inferred that the community of focus is a group of individuals with various disabilities, including those related to vision, hearing, cognition, and mobility."
+    "paperID": 19,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Wearable and tangible blocks.",
+    "reasoning": "Based on the context provided, the two prototypes developed for Tangicraft are a haptic sensing wearable and a set of tangible blocks that communicate with the game environment using webcam-enabled codes. These modalities are listed as technology modalities in the question."
   },
   {
-    "answer": "The participant groups included in the study were:\n\n* People with disabilities\n* Older adults\n* Caregivers\n* Specialists (e.g. therapists, teachers)\n\nNo other user involvement was mentioned in the context provided."
+    "paperID": 19,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a mix of home, school, and research lab.",
+    "reasoning": "Based on the information provided in the passage, it appears that the study involved recruiting families of children with visual impairments to participate in a user test of a new interface for Minecraft. The participants were asked to build in creative mode either on their own or with a partner, and then filled out a short questionnaire. The study took place in a research lab setting, but also involved home and school settings as the participants were recruited from these locations."
   },
   {
-    "answer": "Participatory design with stakeholders without disabilities."
+    "paperID": 19,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, intellectual or developmental disability (IDD), communication/speech.",
+    "reasoning": "The community of focus in the study was children with visual impairments, specifically blind or low vision, and deaf or hard of hearing. However, the study also included participants with autism, intellectual or developmental disability, and communication/speech impairments. These groups were selected as they are often excluded from playing Minecraft due to accessibility barriers. The proposal for Tangicraft aims to promote inclusion of children with visual impairments in the Minecraft playing community by providing a multimodal interface that can be used by a wide range of users with different abilities."
   },
   {
-    "answer": "I don't know the answer to your question. The information provided in the context does not mention any specific methods of participant recruitment used in the study."
+    "paperID": 19,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were:",
+    "reasoning": "Based on the context provided, it is clear that the study focused on families with children with visual impairments. The researchers sought to understand how these families overcome challenges related to game accessibility and educational activities, and they included participants in their study who were directly impacted by these challenges. Therefore, the only correct answer is \"People with disabilities\" and \"Caregivers\"."
   },
   {
-    "answer": "I don't know."
+    "paperID": 19,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "Based on the study's focus on understanding the lived experiences of families with children who are visually impaired and their desire to learn from these experiences, it is clear that user involvement was a crucial aspect of the research. The use of participatory design with stakeholders who have disabilities aligns with the inclusive and empowering approach of the study. This involves actively engaging with individuals with disabilities in the design process to ensure their needs and perspectives are taken into account, rather than simply evaluating the interface without their input."
   },
   {
-    "answer": "The study contributes:\n\n* Empirical: The study conducts an experiment to investigate the effectiveness of auditory displays in creating an accessible system for displaying statistical data.\n* Methodological: The study provides a new method for designing auditory displays that take into account the cognitive processes of users.\n* Dataset: The study collects and analyzes data on how users consume statistical information through auditory displays.\n\nI don't know any other type of contribution the study makes."
+    "paperID": 19,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the information provided in the passage, it appears that the researchers used a combination of methods to recruit participants for their study. They mention that they \"set out to test the interface with sighted children who had played Minecraft\" which suggests that they targeted children who were already familiar with the game. They also mention using convenience sampling, where participants were recruited from a day program, and snowball sampling, where participants were recruited through word of mouth. Additionally, they used fliers and social media to advertise the study and clinic as a means of recruitment. It's worth noting that the passage does not provide information on the exact methods used for each participant, so it's possible that some participants were recruited through multiple methods."
+  },
+  {
+    "paperID": 19,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, supporting communication, personal informatics and changing behavior, education.",
+    "reasoning": "The study focused on testing the interface of Minecraft with sighted children who had played the game before. They used a usability evaluation method to assess the participants' ability to navigate the game independently. The study addressed several issues related to accessibility and usability, including increasing independence (by allowing players to build and create without assistance), digital access (by providing an accessible interface for players with visual impairments), physical access (by ensuring that the game could be played by participants with mobility impairments), communication (by providing a way for players to express themselves through building and creation), personal informatics (by allowing players to track their progress and understand their abilities), and changing behavior (by providing an engaging and motivating experience that can lead to positive changes in behavior). Additionally, the study touched on education-related issues, such as increasing opportunities for enrichment."
+  },
+  {
+    "paperID": 19,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The type of contribution this study makes is empirical and methodological.",
+    "reasoning": "Based on the information provided in the passage, the study involves testing a new interface for visually impaired children to play Minecraft, which involves collecting data through participant observation and surveys. This constitutes an empirical contribution as it provides new insights and findings based on real-world observations and experiments. Additionally, the study's methodology is innovative and contributes to the field of accessibility and gaming research by providing a novel approach to designing interfaces for visually impaired users."
   }
 ]
