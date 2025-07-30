@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for the paper is 10.1145/2049536.2049541."
+    "paperID": 20,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for this paper is 10.1145/2405213.",
+    "reasoning": "Based on the information provided in the context, the DOI (Digital Object Identifier) for the paper can be found in the copyright notice at the end of the document. The DOI is a unique identifier assigned to each academic paper, and it can be used to locate the paper in various databases and indexes. In this case, the DOI for the paper is 10.1145/2405213."
   },
   {
-    "answer": "The title of the paper is \"Design for User Empowerment\"."
+    "paperID": 20,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"The Numbers Game: Baseball's Lifelong Fascination with Statistics\" by Alex Schwarz.",
+    "reasoning": "The paper's title can be found on the second page of the document, in the top left corner. It reads \"The Numbers Game: Baseball's Lifelong Fascination with Statistics\" in bold font."
   },
   {
-    "answer": "The lead author of the paper is Richard E. Ladner."
+    "paperID": 20,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Alexander Schwarz.",
+    "reasoning": "Based on the copyright information provided in the context, the paper was published in 2013 by ACM. The author's name is listed as Alexander Schwarz."
   },
   {
-    "answer": "The paper was published in 2019. Therefore, the answer is 2019."
+    "paperID": 20,
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2013.",
+    "reasoning": "The publication date is mentioned in the copyright notice at the end of the document, which reads \"Copyright 2013 ACM\"."
   },
   {
-    "answer": "The paper has 8 pages."
+    "paperID": 20,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 13 pages long.",
+    "reasoning": "Based on the copyright information provided in the context, the paper has 13 pages."
   },
   {
-    "answer": "5"
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(3) Both fun and utility first",
+    "reasoning": "The study design involves a multidisciplinary workshop with diverse stakeholders, including users with disabilities, to co-create an accessible multimedia system for sports data analysis. This approach prioritizes both fun and utility, as it allows for the incorporation of user needs and preferences while also ensuring accessibility and usability for a wide range of users. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules.",
+    "reasoning": "The study design involves the use of sonification to enhance the experience of fantasy football players. This suggests that the design is not completely unstructured, as there are rules in place for the game, but also allows for flexibility in terms of user input and creativity. Therefore, option (3) flexible structure with rules best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "The study described in the passage involves designing an information display for a fantasy football game, with the goal of making the game more efficient and user-friendly. The authors note that while some player statistics have positive valence (e.g., rushing yards), there are also important and highly relevant data with negative valence (e.g., interceptions thrown or number of fumbles). This suggests that the design should take into account both skill-based and chance-based elements in order to provide users with a comprehensive view of each player's performance."
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study described in the passage involves users playing Fantasy Football, which is a multiplayer online game where players create and manage their own teams. While some aspects of the game are independent (e.g., viewing player statistics), users were interested in different player statistics based on the types of strategies each user employed. This suggests that the design of the game includes both solo and social affordances, as users are able to play against AI or other players. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "5"
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study design involves a system where players take turns, but some actions can be taken at any time. This is evident from the description of the system as \"a turn-based system with some flexibility in when players can take certain actions.\" This allows for a mix of both turn-based and real-time elements, which is consistent with the third option. The other options do not accurately reflect the design of the study."
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "The study described in the passage involves users navigating a user interface to view trends in players' performance over time. The authors mention that users were interested in different player statistics based on the types of strategies each user employed, which suggests that the design is not entirely synchronous (option 1) as it allows for flexible and dynamic navigation based on user behavior. However, the study also found that auditory menus with spearcons were more efficient than other auditory display techniques like earcons (option 4), which suggests that there are some asynchronous affordances in the design. Additionally, the passage mentions that users would pull up graphs within the user interface, which implies that there may be a mix of synchronous and asynchronous affordances in the design (option 3). Therefore, the answer is (3) equal mix of synchronous and asynchronous affordances."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study describes the design of an online fantasy sports platform that allows users to view trends in players' performance over time through graphs within the user interface. The use of audio input/output and user-centered design suggests that the platform is designed to be accessible to a wide range of users, including those with visual impairments. However, the emphasis on measuring player statistics and viewing trends over time implies that there is a competitive aspect to the platform, as users are compared to one another and strive to make informed decisions about their fantasy teams. The mix of competitive and collaborative elements (3) best applies to the design in this study."
   },
   {
-    "answer": "The following study methods apply to this paper:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n\nThese are the methods that were used in the study to gather data and inform the findings."
+    "paperID": 20,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The design of the system in the study combines both symmetrical and asymmetrical elements. On one hand, there are player statistics such as predicted scores and position rank that are presented in a symmetric manner, with all players being represented equally on a graph. This is similar to a game like tic tac toe, where all players have an equal chance of winning."
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "The experiential play value can be classified as \"fantasy\" based on the context of the paper. The authors describe the use of auditory displays to provide users with real-time information about player statistics in a fantasy football game, suggesting that the experience is intended to simulate a fantasy world rather than reflecting reality.",
+    "reasoning": "Not found"
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The following study methods apply to this paper:",
+    "reasoning": "Based on the information provided in the context, it appears that the paper is focused on the design and evaluation of an audio-based interface for a fantasy football application. The authors mention the use of user interfaces, human factors, and experimentation in their research. Therefore, usability testing, case study, and workshop or design session are the most relevant study methods for this paper."
   },
   {
-    "answer": "Based on the provided context, the field study methodologies that were used are:\n\n* Autoethnography\n* Ethnography\n\nTherefore, the answer is (A) Autoethnography and (B) Ethnography."
+    "paperID": 20,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and Semi-structured interview.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the interview methodology used was a structured interview. This is because the term \"structured interview\" is mentioned in the context as one of the possible methodologies used. Additionally, the context mentions that the interview involved \"user-centered design,\" which is also a characteristic of structured interviews."
   },
   {
-    "answer": "I don't know the answer to the question."
+    "paperID": 20,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used were action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, and use case theater.",
+    "reasoning": "Based on the given context, it can be determined that the workshop methodologies used were a combination of those listed in the passage. The passage mentions that the workshop involved \"Human Factors\" and \"User Information Processing,\" which are key areas of focus in the design of multimedia systems. Therefore, it is likely that methodologies that involve human factors and user-centered design were used in the workshop."
   },
   {
-    "answer": "Based on the provided context, the following technology modalities were used:\n\n* Mobile\n* Tablet\n* Wearable\n* IoT\n* Assistive devices\n* Robot\n* Tangible interface\n\nNo technology was selected for the following options: PC, virtual reality, augmented reality, game console, and other (please specify)."
+    "paperID": 20,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and Diary Study were used in the field study.",
+    "reasoning": "The passage mentions that the researchers used \"autoethnography\" and \"diary study\" to collect data on participants' experiences with auditory displays in fantasy football. Autoethnography is a qualitative research methodology that involves reflecting on one's own experiences and cultural background, while diary studies involve collecting data through daily logs or diaries kept by participants. Therefore, both of these field study methodologies were used in the passage."
   },
   {
-    "answer": "I don't know."
+    "paperID": 20,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodologies used in this study were expert analysis and think-aloud.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the researchers used expert analysis to evaluate the accessibility of the multimedia system for sports data, as they mention \"expert analysis\" in the introduction section. Additionally, they used think-aloud methodology to gather feedback from participants during the evaluation process. Therefore, both expert analysis and think-aloud were used in this study."
   },
   {
-    "answer": "The community of focus in the workshop design and implementation is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Motor or physical impairment\n* Communication/speech\n* Cognitive impairment\n* Older adult\n\nNote: I did not select \"general disability or accessibility\" as the workshop was specifically focused on blind and low vision individuals."
+    "paperID": 20,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "The following technology modalities were used:",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the system being discussed is an multimedia information system that utilizes various technology modalities to present and process information. The mention of \"mobile\" and \"tablet\" suggests that the system can be accessed through these devices, while \"wearable\" indicates that the system can be integrated into clothing or accessories. The term \"IoT\" refers to the integration of internet-connected devices, and \"assistive devices\" may include technologies such as screen readers or voice recognition software for individuals with disabilities."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (as mentioned in the context, specifically blind makers [5] and [25])\n* Older adults (not mentioned in the context)\n* Caregivers (not mentioned in the context)\n* Specialists (e.g. therapists, teachers) (not mentioned in the context)\n\nTherefore, the answer is: People with disabilities, older adults, caregivers, specialists."
+    "paperID": 20,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a research lab and remote/Zoom.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study was conducted in a controlled laboratory setting and also involved remote participation through Zoom. The use of \"we\" and \"our\" in the passage suggests that the authors were part of the research team conducting the study. Additionally, the focus on \"auditory displays\" and \"user cognition\" suggests that the study was conducted in a laboratory setting where experiments could be carefully controlled and observed."
   },
   {
-    "answer": "I select option (b) \"participatory design with stakeholders with disabilities\" to describe user involvement in the study. The passage mentions that researchers involved people with disabilities in instruction development and DIY AT codesign, indicating a participatory design approach that involves stakeholders with disabilities in the research and Making process."
+    "paperID": 20,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "The community of focus in the given passage is Blind or low vision (BLV) and Deaf or hard of hearing (DHH).",
+    "reasoning": "Based on the passage, it is clear that the system being described is designed to be accessible to visually impaired users. The use of auditory displays and drop-down menus for navigation indicate that the primary focus is on users who are blind or low vision. Additionally, the mention of think-aloud walkthroughs suggests that the design was informed by the needs and preferences of these users. While the passage does not explicitly state that the system is only designed for BLV users, it is clear that this is the primary focus based on the language used and the features included in the design."
   },
   {
-    "answer": "I don't know the answer to that question. The passage does not provide enough information to determine which methods of participant recruitment were used."
+    "paperID": 20,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "Participant groups included in the study were people with disabilities and older adults.",
+    "reasoning": "Based on the information provided in the context, the participant groups included in the study are people with disabilities and older adults. This is evident from the use of terms such as \"visually impaired users\" and \"older adults\" in the passage, which suggest that the study included participants with visual impairments and those who are older than the typical age range of computer users."
   },
   {
-    "answer": "* Increasing independence (yes)\n* Increasing digital access (yes)\n* Increasing physical access (yes)\n* Supporting communication (yes)\n* Personal informatics and changing behavior (yes)\n* Education (yes)\n* Increasing opportunities for enrichment (no)"
+    "paperID": 20,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "B. User evaluation with stakeholders with disabilities.",
+    "reasoning": "The study involves evaluating the multimedia information system with stakeholders who have disabilities, which implies that user involvement is necessary to ensure that the system meets their needs and requirements. Participatory design with stakeholders without disabilities may not provide a comprehensive understanding of the needs of users with disabilities, and no representative user involvement means that there is no formal mechanism in place to involve users with disabilities in the design process."
   },
   {
-    "answer": "The study contributes:\n\n* Empirical: The study provides empirical findings through data collection and analysis.\n* Methodological: The study presents new methods or modifications of existing methods for conducting research and Making.\n* Dataset: The study provides a dataset that can be used for future research.\n\nI don't know the answer to the remaining options (theoretical and survey)."
+    "paperID": 20,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The methods of participant recruitment used in the study were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the researchers used a combination of methods to recruit participants for their study. These methods include phone, mail, email, convenience sampling (which involves recruiting participants from a specific location or group), snowball sampling (which involves recruiting participants through existing networks), word of mouth (which involves asking existing participants to refer new participants), flier (which involves distributing flyers in public areas to recruit participants), and social media (which involves using online platforms to recruit participants). Additionally, the researchers may have used clinic-based sampling, which involves recruiting participants from medical clinics or hospitals. It is unclear whether \"no user involvement\" was used as a method of participant recruitment, as this is not mentioned in the context."
+  },
+  {
+    "paperID": 20,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
+    "reasoning": "Based on the context provided, the study addressed various issues related to accessibility and user experience. The categories and subject descriptors listed in the introduction indicate that the study focused on human factors, user information processing, and personal informatics. Additionally, the keywords provided highlight the importance of accessibility and communication in the study. Therefore, all of the options listed in the question apply to the issues addressed in the study."
+  },
+  {
+    "paperID": 20,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes an empirical and methodological contribution.",
+    "reasoning": "Based on the information provided in the passage, the study is focused on designing an accessible system for displaying statistical data related to sports performance. The authors are interested in exploring how users consume the information provided and how that affects the design of the system. This is an empirical contribution as it involves collecting data through user interactions and experiments. Additionally, the study contributes methodologically by presenting a new approach to sonification, which is a novel application of auditory displays in the context of sports data analysis."
   }
 ]

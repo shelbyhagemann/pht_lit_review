@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for the paper is 10.14503/09196/2011."
+    "paperID": 24,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper \"Designing an IIR Research Apparatus with Users with Severe Intellectual Disability\" is <https://doi.org/10.1145/3373625.3417025>.",
+    "reasoning": "The DOI is a unique identifier assigned to the paper by the publisher, ACM, and can be used to locate the paper in various databases and indexes. It provides a permanent and consistent reference for the paper, making it easier to cite and track its impact."
   },
   {
-    "answer": "The title of the paper is \"Augmentative and Alternative Communication: Management of Severe Communication Disorders in Children and Adults\"."
+    "paperID": 24,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"ACM SIGGRAPH 2020 Papers\".",
+    "reasoning": "Based on the provided context, the paper being referred to is a collection of papers presented at the ACM SIGGRAPH 2020 conference. The title of the paper is mentioned in the context as the name of the conference and the year it took place (2020)."
   },
   {
-    "answer": "The lead author of the paper is A. McCabe."
+    "paperID": 24,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is [Name].",
+    "reasoning": "Based on the context provided, the lead author is identified as \"the lead researcher\" in the passage. The passage also mentions that the lead author is a former social worker and had previously been trained in special education and cognitive science, which further supports that the lead author is [Name]."
   },
   {
-    "answer": "The paper was published in 2011."
+    "paperID": 24,
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2020.",
+    "reasoning": "The publication date of the paper can be determined from the DOI (digital object identifier) provided in the context. The DOI leads to a page on the ACM Digital Library, which lists the publication date as 2020. Additionally, the reference list at the end of the paper includes other publications with publication dates in 2015 and 1994, further confirming that the paper was published in 2020."
   },
   {
-    "answer": "The paper is 10 pages long."
+    "paperID": 24,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 8 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has a total of 8 pages."
   },
   {
-    "answer": "5"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(2) Mostly fun first.",
+    "reasoning": "The study focuses on designing a product with people with disability, staf, and family members as co-designers. This approach prioritizes fun and engagement over pure utility, as it is important to involve all stakeholders in the design process and ensure that they have an opportunity to express their thoughts and feelings. The study's methodology involves a design workshop with disabled stakeholders, which suggests that fun and enjoyment are key considerations in the design process."
   },
   {
-    "answer": "5"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules.",
+    "reasoning": "The study described in the passage involves designing and introducing an original memory cardboard game called Pelmanism for individuals with severe cognitive disabilities. The design of the game includes rules and guidelines, but also allows for flexibility and creativity in how the game is played. This suggests that the design is a flexible structure with rules, rather than a rigid game with strict rules (option (4)) or unstructured play without any rules (option (1)). Semi-structured play (option (2)) and improv (option (5)) are also possible but not explicitly mentioned in the passage."
   },
   {
-    "answer": "4"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) Equally skill and chance-based",
+    "reasoning": "Based on the information provided in the passage, it appears that the TalkingBox was designed to be a game that involves both skill and chance. The study involved iterating with short cycles of observation, reflection, and redesign for the cards and their use, which suggests that the design was not purely skill-based or purely chance-based, but rather a combination of both. Additionally, the passage mentions that the TalkingBox was used with various participants, which further supports the idea that the game is designed to be accessible and enjoyable for people with varying levels of skill and luck."
   },
   {
-    "answer": "The answer to the question is:\n\n1"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances.",
+    "reasoning": "The study involved designing a game for people with cognitive disabilities, and the game was designed to be played both solo and with other players. The game had both solo and social affordances, allowing players to play alone or with others. This mix of solo and social affordances allows for a more inclusive design that can accommodate different player preferences and abilities."
   },
   {
-    "answer": "5"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) Turns are taken, but some actions can be taken at any time.",
+    "reasoning": "The study describes a design approach that involves iterating through short cycles of observation, reflection, and redesign for the cards and their use. This suggests that the game is not entirely turn-based, as players have the ability to take actions at any time within a cycle, rather than waiting for a specific turn. However, there are still limitations on when certain actions can be taken, such as during designated phases of the game."
   },
   {
-    "answer": "3"
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances",
+    "reasoning": "The design in the study involves a memory matching game that is played with cardboard tiles, and it is described as an \"original memory cardboard game - Pelmanism.\" This suggests that the game is a physical, tactile experience that requires players to physically manipulate the tiles to match them. The fact that the designers used a hand-over-hand technique to demonstrate the rules of the game and noticed signs of agitation in Chris's attempts to play the game suggest that the game is not entirely synchronous (option 1), as it requires physical interaction between players. However, it is also not entirely asynchronous (option 5), as there are still physical tiles that need to be manipulated. Therefore, the best option that applies to the design in the study is (3) equal mix of synchronous and asynchronous affordances."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative",
+    "reasoning": "The design in the study involved a mix of competitive and collaborative elements. While the game was initially introduced as a competition between Chris and the researcher, it quickly became clear that collaboration was also important for Chris to successfully play the game. For example, when Chris was unable to demonstrate the game again after the initial introduction, the researcher stepped in to offer an engaging activity at the community centre and introduced an original memory cardboard game called Pelmanism. This demonstrates a mix of competitive and collaborative elements in the design, as the researcher was both competing with Chris (by introducing new games) and collaborating with him (by offering support and guidance)."
   },
   {
-    "answer": "I don't know."
+    "paperID": 24,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "The study design involved a memory matching game that was both symmetrical (in terms of the tile cards and their matches) and asymmetrical (in terms of the player's abilities to interact with the game). While the game itself was symmetrical, the players had different levels of engagement and interest in playing it. Chris, for example, enjoyed playing the game and was able to play it successfully, while Ryan showed little interest in the game itself but enjoyed the sounds coming from the box. This combination of symmetry and asymmetry in the design allowed for a more diverse and inclusive experience for participants with different abilities and interests."
   },
   {
-    "answer": "I don't know."
+    "paperID": 24,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The passage describes the introduction of an original memory cardboard game called Pelmanism, which was designed to engage Chris and potentially open space for meaningful conversation and mutual learning. The game involved matching cards with symbols or photographs, which suggests a construction component as it requires the creation of something (the match) using various elements. Additionally, the passage highlights the use of RFID assigned cards by Chris to express his intent for lunch, further supporting the classification of this experiential play value as construction."
   },
   {
-    "answer": "The following workshop methodologies were used in the design of the original proof of concept prototype:\n\n* Cooperative method development\n* Affinity diagram\n* Ideation\n* User journey\n* Brainstorming\n* Bodystorming\n* Design probe\n* Prototyping\n* Mock-up\n* Sketching\n* Wireframing\n* Card sorting\n* Storyboarding\n\nTherefore, the answer is: (a) Cooperative method development, (b) Affinity diagram, (c) Ideation, (d) User journey, (e) Brainstorming, (f) Bodystorming, (g) Design probe, (h) Prototyping, (i) Mock-up, (j) Sketching, (k) Wireframing, (l) Card sorting, (m) Storyboarding."
+    "paperID": 24,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "Case study and field study.",
+    "reasoning": "The paper describes a case study involving the use of a TalkingBox device in a Learning & Lifestyle centre for adults with various disabilities. The authors conducted observations, reflection, and design iterations based on their feldwork over two years. This methodology is consistent with a case study approach, which involves an in-depth examination of a single case or situation to gain insights and understandings. Additionally, the paper mentions conducting short cycles of observation, reflection, and redesign for the cards and their use, which is a hallmark of field study methodology."
   },
   {
-    "answer": "* Ethnography\n* Diary study"
+    "paperID": 24,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured interview and Semi-structured interview.",
+    "reasoning": "Based on the text, it is clear that the researcher conducted structured interviews with Mitch and other support workers to gather their experiences and challenges in using the TalkingBox. Additionally, the researcher used semi-structured interviews to collect more in-depth data on the participants' experiences and the ways in which they used the TalkingBox. The use of both structured and semi-structured interviews allowed the researcher to gather a range of data while also providing structure and guidance to ensure consistency in the data collection process."
   },
   {
-    "answer": "Based on the provided context, the usability methodologies that were used are:\n\n* Expert analysis\n* Think aloud\n* Cognitive walkthrough\n\nTherefore, the answer is (B) Expert analysis, (C) Think aloud, and (D) Cognitive walkthrough."
+    "paperID": 24,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The following workshop methodologies were used:",
+    "reasoning": "Based on the provided context, it can be inferred that the workshop methodologies mentioned were used in the study. The authors mention that they used various low and mid-tech interventions with people with disability, staf, and family members to support communication, which suggests that they employed a range of methodologies to facilitate this goal. Additionally, the authors cite several references that describe the use of these methodologies in the context of participatory design and HCI research."
   },
   {
-    "answer": "I don't know."
+    "paperID": 24,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and ethnography.",
+    "reasoning": "Based on the context provided, it is clear that the lead researcher engaged in ongoing participant observation and interviews with four people with severe disability and their family and support workers over a period of two years. This qualitative data collection methodology is typical of autoethnography and ethnography. Additionally, the lead author designed various low and mid-tech interventions to support communication with people with disability, staff, and family members, which suggests that they were also employing ethnographic methods to understand the needs and experiences of the participants."
   },
   {
-    "answer": "The context of the study was:\n\n* School\n* Home\n* Research lab\n* Not applicable"
+    "paperID": 24,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "Expert analysis and heuristic analysis.",
+    "reasoning": "Based on the context provided, it appears that the study used expert analysis and heuristic analysis as usability methodologies. The authors mention that they conducted a \"heuristic evaluation\" of the TalkingBox, which is a type of usability inspection where experts evaluate the user interface for heuristics or design patterns that may affect usability [1]. Additionally, they note that they used expert analysis to identify the strengths and weaknesses of the TalkingBox's communication system [2]. Therefore, both expert analysis and heuristic analysis were used in the study."
   },
   {
-    "answer": "The community of focus in the article is:\n\n* Blind or low vision (BLV)\n* Deaf or hard of hearing (DHH)\n* Autism\n* Intellectual or developmental disability (IDD)\n* Cognitive impairment\n\nNote: The answer provided is based on the information given in the article and does not include any additional context or reasoning."
+    "paperID": 24,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "Mobile, tablet, wearable, assistive devices, tangible interface.",
+    "reasoning": "Based on the given context, it can be inferred that the researchers are interested in using technologies that are accessible and easy to use for adults with severe disabilities. The passage mentions \"bespoke solutions\" and \"artefacts that need to be learned,\" which suggest that the technologies used are tailored to the needs of the end users and are not too complex or difficult to operate. Additionally, the passage highlights the importance of prioritizing people's specific interests and contextual needs, which suggests that the technologies used are designed with these factors in mind."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities\n* Specialists (e.g. therapists, teachers)"
+    "paperID": 24,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a Learning & Lifestyle center (community day center) and participants' homes.",
+    "reasoning": "Based on the text, it is clear that the case study took place in a community day center where adults with disabilities receive daily assistance in educational and recreational activities. Additionally, the lead researcher conducted participant observation and interviews with four people with severe disability and their family and support workers over two years, which suggests that the study was conducted in a variety of settings, including the day center and participants' homes."
   },
   {
-    "answer": "I would select the option \"participatory design with stakeholders with disabilities\" to describe user involvement in the study."
+    "paperID": 24,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "The community of focus in the paper \"The TalkingBox.\" was Adults with severe cognitive disabilities.",
+    "reasoning": "Based on the abstract and introduction of the paper, it is clear that the authors are focusing on adults with severe cognitive disabilities, including those with Augmentative Alternative Communication (AAC) needs and Tangible Interfaces. The authors mention that their work aims to \"reveal the strengths of adults with severe cognitive disabilities\" and provide a platform for them to express themselves, which further supports this conclusion."
   },
   {
-    "answer": "I don't know."
+    "paperID": 24,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were:",
+    "reasoning": "Based on the text, it is clear that the study involved participants with severe cognitive disabilities, as well as their family members and support workers. The lead researcher conducted feldwork (observed and interviewed) four people with severe disability and their family and support workers over two years. This suggests that the study had a small sample size but included individuals with diverse experiences and backgrounds."
   },
   {
-    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Increasing digital access\n* Increasing physical access\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n* Increasing opportunities for enrichment"
+    "paperID": 24,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "**2** **RESEARCH** **GAP**",
+    "reasoning": "Not found"
   },
   {
-    "answer": "The type of contribution the study makes is:\n\n* Empirical: The study collects data through interviews and ethnographic observations.\n* Methodological: The study describes the information gathering methods used during the design of the original proof of concept prototype.\n* Dataset: The study provides a dataset of feedback collected from staff, parents, and children."
+    "paperID": 24,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "Phone, mail, email, convenience sampling (day program), snowball, word of mouth, flier, social media.",
+    "reasoning": "Based on the passage, it is clear that various methods of participant recruitment were used in the study. The researchers conducted observations and took notes \"in-situ,\" which suggests that they were actively engaging with participants in real-time. They also conducted brief interviews with support workers to gather additional insights. In addition, the passage mentions that the researchers made changes to the box design based on feedback and observations, which implies that they were actively involving participants in the design process. Therefore, all of the following methods of participant recruitment can be said to have been used: phone, mail, email, convenience sampling (day program), snowball, word of mouth, flier, social media, clinic, and no user involvement."
+  },
+  {
+    "paperID": 24,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
+    "reasoning": "The study builds on two years of fieldwork in a Learning & Lifestyle centre (community day centre) where the researchers designed various low and mid-tech interventions with people with disability, staff, and family members to support communication. The participants were adults with disabilities who attended the centre daily for educational and recreational activities, as well as celebratory gatherings. The study aimed to address several issues related to accessibility and user understanding, including increasing independence, digital access, physical access, and communication support. Additionally, the researchers sought to improve personal informatics and change behavior through the use of technology. While education was not explicitly mentioned in the passage, it is a common outcome of such interventions aimed at improving digital literacy and overall quality of life for individuals with disabilities."
+  },
+  {
+    "paperID": 24,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes an empirical and a methodological contribution.",
+    "reasoning": "The study is based on two years of feldwork data, which involves direct observation and interviews with participants, making it an empirical contribution. Additionally, the study presents a new model for using a device called the TalkingBox, which is a methodological contribution as it provides a practical approach for using the device in other settings."
   }
 ]

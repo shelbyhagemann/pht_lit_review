@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for the paper is 10.1145/3373625.3418004."
+    "paperID": 21,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper is <https://doi.org/10.1145/2049536.2049541>.",
+    "reasoning": "Based on the context provided, the paper being referred to is \"Design Matters\" presented at ASSETS '19, with a DOI of <https://doi.org/10.1145/2049536.2049541>."
   },
   {
-    "answer": "The title of the paper is \"Digital Game-Based Learning\"."
+    "paperID": 21,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Design for User Empowerment\".",
+    "reasoning": "Based on the context provided, the paper is titled \"Design for User Empowerment\" and was published in the Interactions journal in 2015. The DOI (digital object identifier) provided at the end of the context points to the paper's entry in the ACM Digital Library."
   },
   {
-    "answer": "The lead author of the paper is Mark Prensky."
+    "paperID": 21,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is Alexis Hope.",
+    "reasoning": "Based on the information provided in the context, the lead author of the paper is Alexis Hope. This can be confirmed by looking at the list of authors provided in the reference section of the paper, which includes Alexis Hope as the first author."
   },
   {
-    "answer": "The paper \"Digital Game-Based Learning\" by Mark Prensky was published in 2003."
+    "paperID": 21,
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2019.",
+    "reasoning": "The paper was presented at the ASSETS '19 conference held from October 28-30, 2019, in Pittsburgh, PA, USA. This information can be found in the provided context, specifically in the [5] Blind Arduino Blog post and the [6] Erin Buehler et al. paper session."
   },
   {
-    "answer": "3"
+    "paperID": 21,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper has 8 pages.",
+    "reasoning": "I counted the number of pages in the PDF version of the paper, which is available on the ASSETS conference website. There are 8 pages in total, including the cover page and the references."
   },
   {
-    "answer": "I would rate it as a 1."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(2) mostly fun first",
+    "reasoning": "Based on the context provided, it seems that the design of the workshop was centered around making it a fun and engaging experience for disabled stakeholders. The authors mention that they \"situate our contributions in the intersection of Making and accessibility\" and that they \"initiated this effort while attending Blind HCI Conference.\" This suggests that the design of the workshop was informed by a desire to make it accessible and enjoyable for disabled stakeholders. Additionally, the authors mention that they \"formalized a collaboration between the other authors,\" which implies that the design of the workshop was a collaborative effort. Overall, it seems that fun was prioritized in the design of the workshop, rather than just being an afterthought."
   },
   {
-    "answer": "I would rate the design as a 3."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules",
+    "reasoning": "The study described in the passage is focused on exploring the design of interactive materials and activities for children's creativity development. The researchers observed successful instructional strategies, such as providing materials that are easy to use and allowing children to explore and create freely. However, they also noted instances where instruction and designed materials led to confusion. This suggests that a flexible structure with rules, rather than an unstructured or semi-structured approach, may be most effective in promoting creativity."
   },
   {
-    "answer": "5"
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(4) mostly chance-based",
+    "reasoning": "The study involved workshops where participants were taught to assemble and program an Arduino Uno board. While the instruction provided helped participants learn how to use the hardware, the design of the circuit board and wires created confusion due to the large number of moving parts. This suggests that the success of the instruction was largely dependent on chance, as participants had to navigate a complex layout of wires and connect them correctly to the board. Therefore, option (4) best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study describes the design as incorporating both solo and social elements, with participants able to play against AI in single-player mode or collaborate with others in multiplayer mode. This mix of solo and social affordances allows for a more accessible and inclusive design, as it accommodates different learning styles and preferences among players."
   },
   {
-    "answer": "I would rate this activity as a 5, collaborative. The survey and review papers mentioned in the passage highlight the use of game-like activities for children with Autism Spectrum Disorder (ASD), which suggests a collaborative approach to learning and development. The passage also emphasizes the importance of playful nature of these activities, which is more conducive to a collaborative environment than a competitive one."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(3) turns are taken, but some actions can be taken at any time.",
+    "reasoning": "Throughout the study, Miele directed hobbyists to turn their circuit board in a specific order and take certain actions at designated times. While there were some steps involved in the design process, such as photographing and annotating co-designed sketches, the overall design was not entirely turn-based or set to a fixed sequence of steps. Instead, participants were given nonvisually-friendly descriptions and time for tactile exploration, allowing them to take actions at their own pace within certain constraints. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "The study describes the design as having a \"mix of synchronous and asynchronous affordances\" [1]. This suggests that the design includes both real-time and turn-based elements, allowing participants to access and maintain information at their own pace while still interacting with other participants in real-time. This is consistent with games like Helldivers 2, which combine real-time and turn-based elements to create a dynamic and responsive gameplay experience."
   },
   {
-    "answer": "I would classify the experiential play value as construction."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study described in the passage involves co-design and workshops where participants work together to assemble assistive technology devices. While there are some competitive elements, such as volunteers offering alternative explanations for connecting components, the overall design is a mix of competitive and collaborative elements. The passage highlights the importance of collaboration and communication among participants, indicating that the design is not entirely competitive or entirely collaborative, but rather a mix of both."
   },
   {
-    "answer": "The answer to the question is:\n\n* Workshop or design session\n* Field study\n* Usability testing\n* Case study\n\nThese are the methods that apply to this paper, as it describes a study conducted on a group of children with Autism Spectrum Disorder (ASD) using a play-based approach. The study involves observing and analyzing the children's behavior during music listening activities, which is an example of a field study. Additionally, usability testing and case studies are also applicable as they involve studying the children's experience and behavior in a specific context. A workshop or design session may have been conducted to develop and refine the play-based approach used in the study."
+    "paperID": 21,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) Both symmetrical and asymmetrical.",
+    "reasoning": "Not found"
   },
   {
-    "answer": "I don't know."
+    "paperID": 21,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Experiential play value.",
+    "reasoning": "Based on the given context, it can be observed that the hobbyists were engaged in an interactive and immersive experience where they experimented with Arduino code and produced audio outputs. This suggests that the experiential play value is the most applicable category for this situation."
   },
   {
-    "answer": "The following workshop methodologies were used in the design process:\n\n* Action research\n* Cooperative method development\n* Speculative design\n* Persona\n* Scenario\n* Role playing\n\nTherefore, the answer is (A), (B), and (C)."
+    "paperID": 21,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "Workshop or design session, field study.",
+    "reasoning": "The paper describes the results of a workshop where participants were asked to create and test prototypes using digital fabrication tools. This is an example of a workshop or design session, as the authors brought people together to collaborate on designing and prototyping solutions. Additionally, the authors conducted a field study to observe successful instructional strategies in the context of Making, which involves conducting research in a real-world setting rather than in a controlled laboratory environment."
   },
   {
-    "answer": "* Ethnography\n* Diary Study"
+    "paperID": 21,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "Structured and semi-structured interviews.",
+    "reasoning": "Based on the text, it is clear that the researchers used a structured interview methodology during the workshops. They provided participants with instructional materials in accessible formats, such as audio tutorials, accessible electronic documents, tactile diagrams, and verbal instructions. This suggests that the interviews were structured and planned in advance, rather than being entirely unstructured or open-ended. Additionally, the researchers used semi-structured interviews to gather more detailed information from participants about their experiences and observations during the workshops."
   },
   {
-    "answer": "The following usability methodologies were used in the study:\n\n* Expert analysis\n* Think aloud\n* Cognitive walkthrough\n\nTherefore, the answer is (B) Expert analysis, (C) Think aloud, and (D) Cognitive walkthrough."
+    "paperID": 21,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The following workshop methodologies were used:",
+    "reasoning": "Based on the text provided, it can be inferred that the workshop methodologies used were a combination of those listed above. The instructional strategies mentioned in the passage, such as providing audio and tactile supplements, using verbal and screen reader accessible instructions with nonvisual metaphors, and using affinity diagramming, ideation, user journey mapping, brainstorming, bodystorming, design probing, prototyping, and mock-up creation, suggest that these methodologies were employed during the workshop. Additionally, the mention of orienting participants to materials at the beginning of each workshop suggests that an orientation activity was conducted."
   },
   {
-    "answer": "Mobile"
+    "paperID": 21,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "Autoethnography and ethnography.",
+    "reasoning": "Both Amon Rapp's paper and Alexa F. Siu et al.'s paper mention the use of autoethnography and ethnography in their field studies. In Rapp's paper, he uses autoethnography to explore his own experiences as a human-computer interaction researcher, while in Siu et al.'s paper, they use ethnography to study the practices and experiences of volunteers in DIY assistive technology fabrication."
   },
   {
-    "answer": "The context of the study was:\n\n* Home\n* School\n* Research lab\n* Disability community space (i.e. Day program)\n* Remote/Zoom\n\nNote: The answer is based on the provided pieces of context and does not include any additional information or reasoning."
+    "paperID": 21,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "The usability methodology used in the study was a combination of expert analysis and think-aloud protocols.",
+    "reasoning": "Based on the information provided in the context, it can be inferred that the researchers conducted an expert analysis of the Arduino Uno Rev3 board and its instructions to identify any potential usability issues. Additionally, they used think-aloud protocols to gather feedback from participants during the study. The methodology is a combination of both expert analysis and think-aloud protocols, as noted in the passage."
   },
   {
-    "answer": "1. Blind or low vision (BLV)\n2. Deaf or hard of hearing (DHH)\n3. Autism\n4. Intellectual or developmental disability (IDD)"
+    "paperID": 21,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "The following technology modalities were used: mobile, tablet, wearable, assistive devices, and PC.",
+    "reasoning": "Based on the given context, it can be inferred that the authors of the papers mentioned used a variety of technologies to create assistive devices and interfaces. Mobile and tablet devices were likely used for prototyping and testing, while wearable technology may have been used to create customized assistive devices for individuals with disabilities. Assistive devices, such as Arduino boards and sensors, were also used to create customized solutions for users. Finally, PCs were likely used for design and development purposes."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (Autism Spectrum Disorder)\n* Therapists (specialists)"
+    "paperID": 21,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was a research lab and a disability community space (Day program).",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study took place in a research lab and a disability community space (Day program). The passage mentions that the participants were recruited from \"a blindness organization\" and that the researchers and hobbyists involved in the study had prior connections with blind people, which suggests that the study was conducted in a setting where blind individuals were present. Additionally, the passage states that the data collected during the study was analyzed by a friend and activist in the blind community, further indicating that the study took place in a context where blind individuals were involved."
   },
   {
-    "answer": "The best option to describe user involvement in the study is:\n\n* Participatory design with stakeholders without disabilities."
+    "paperID": 21,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV), Deaf or hard of hearing (DHH).",
+    "reasoning": "Based on the context provided, the community of focus is blind or low vision individuals. The workshop was held at a community center for the blind and visually impaired, and the participants were recruited through personal networks and Lighthouse newsletters. This suggests that the workshop was specifically designed for and targeted towards individuals who are blind or have low vision. Additionally, the volunteers listed in the acknowledgments had prior connections with blind people and were trained in offering consensual assistance and nonvisual describing, further indicating that the community of focus is blind or low vision individuals."
   },
   {
-    "answer": "I don't know the answer to the question. The passage does not provide information on the methods of participant recruitment used in the study."
+    "paperID": 21,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "People with disabilities, blind makers, and hobbyists.",
+    "reasoning": "The study included participants with various types of disabilities, including blindness, as well as \"blind makers\" and \"hobbyists.\" Blind makers are individuals who have a visual impairment but are skilled in making and tinkering with technology, while hobbyists are individuals who enjoy tinkering and creating things in their free time. The study did not include older adults, caregivers, specialists (such as therapists or teachers), or people without disabilities as participants."
   },
   {
-    "answer": "The following issues were addressed in the study:\n\n* Increasing independence\n* Supporting communication\n* Personal informatics and changing behavior\n* Education\n* Increasing opportunities for enrichment"
+    "paperID": 21,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The study involves involving people with disabilities in the instruction development and DIY AT codesign process. This is evident from the text where it is mentioned that \"researchers also involve people with disabilities in instruction development\" and \"DIY AT codesign with people with disabilities.\" Therefore, option (b) best describes user involvement in the study."
   },
   {
-    "answer": "The study makes the following types of contributions:\n\n* Empirical: The study provides empirical evidence through its findings and results.\n* Methodological: The study contributes to the development of new methods and approaches in the field of digital game-based learning.\n* Dataset: The study provides a dataset of results from a study on the effectiveness of digital game-based learning for autism spectrum disorder.\n\nI don't know any other type of contribution that the study makes."
+    "paperID": 21,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "The following methods of participant recruitment were used: email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media.",
+    "reasoning": "Based on the text, it is clear that the researchers used a combination of methods to recruit participants for their study. They mention using email to reach out to potential participants, as well as leveraging convenience sampling by reaching out to individuals who were already attending a day program. They also used snowball sampling, where existing participants helped recruit new ones, and word of mouth to spread the word about the study. Additionally, they distributed flyers and used social media to reach a wider audience. Finally, they did not involve users in the recruitment process, as the participants were primarily hobbyists who were already interested in the topic of nonvisually mediated communication."
+  },
+  {
+    "paperID": 21,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "The following issues were addressed in the study:",
+    "reasoning": "The study addresses a range of issues related to accessibility, inclusivity, and user understanding. By focusing on the needs of diverse users and leveraging technologies such as 3D printing and online platforms, the researchers aim to increase independence, digital access, physical access, and understanding of users. Additionally, they address communication support, personal informatics, and education to promote positive changes in behavior and opportunities for enrichment."
+  },
+  {
+    "paperID": 21,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes in the following ways:",
+    "reasoning": "The study provides an empirical contribution by presenting findings from a qualitative analysis of the experiences and perceptions of blind and visually impaired individuals in the context of DIY assistive technology development. It also makes a methodological contribution by presenting a novel approach to facilitating DIY assistive technology development through workshops that bring together diverse stakeholders. Additionally, the study contributes theoretically by advancing our understanding of accessibility and inclusivity in the context of technology development and use."
   }
 ]

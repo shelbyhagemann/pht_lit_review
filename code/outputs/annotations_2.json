@@ -1,137 +1,164 @@
 [
   {
+    "paperID": 2,
     "question": "What is the DOI for this paper?",
-    "answer": "The DOI for this paper is <http://doi.acm.org/10.1145/2039339.2039342>.",
-    "reasoning": "The DOI is listed at the end of the paper in the format \"DOI: <http://doi.acm.org/10.1145/2039339.2039342>\""
+    "answer": "The DOI for the paper \"Augmented reality as visual communication for people with ASD\" by Esteban Menéndez and MD Lopez De Luise is <https://doi.org/10.1145/3517428.3544884>.",
+    "reasoning": "The DOI is a unique identifier assigned to the paper by the ACM, which allows for easy citation and tracking of the work. It can be found at the end of the paper in most academic publications."
   },
   {
+    "paperID": 2,
     "question": "What is the title of the paper?",
-    "answer": "The title of the paper is \"ART3: A Framework for Building Interactive 3D Graphics on Mobile Devices\".",
-    "reasoning": "Based on the context provided, the title of the paper can be inferred from the ACM copyright notice at the bottom of the page. The notice includes the title of the paper, \"ART3: A Framework for Building Interactive 3D Graphics on Mobile Devices\", along with the publication date and other relevant information."
+    "answer": "The title of the paper is \"Accessibility in Mobile Applications: A Case Study on Voice-based Interfaces for Older Adults\".",
+    "reasoning": "Based on the provided context, the title of the paper can be determined by analyzing the text. The paper discusses the importance of accessibility in mobile applications, particularly for older adults, and presents a case study on voice-based interfaces for this demographic. Therefore, the title of the paper is \"Accessibility in Mobile Applications: A Case Study on Voice-based Interfaces for Older Adults\"."
   },
   {
+    "paperID": 2,
     "question": "Who is the lead author of the paper?",
-    "answer": "The lead author of the paper is not explicitly stated in the provided context.",
-    "reasoning": "The context only provides information about the ACM Publications Department and their contact details, as well as a reference for the paper \"A Study on...\". It does not mention the name or any other identifying information about the lead author of the paper. Therefore, I cannot provide an answer to this question based on the given context."
+    "answer": "The lead author of the paper is Braun & Clarke.",
+    "reasoning": "Based on the reference list provided in the context, the lead author of the paper is Braun & Clarke, as they are listed as the authors of the paper in the reference list."
   },
   {
+    "paperID": 2,
     "question": "What year was this paper published?",
-    "answer": "2011",
-    "reasoning": "The publication date of the paper is mentioned in the notice on the first page or initial screen of the display, which is November 2011."
+    "answer": "The paper \"Accessibility (ASSETS) 2022\" was published in 2022.",
+    "reasoning": "Based on the publication date listed in the reference, which is October 23-26, 2022, the paper was clearly published in that year."
   },
   {
+    "paperID": 2,
     "question": "How many pages long is this paper?",
-    "answer": "The paper is 4 pages long.",
-    "reasoning": "Based on the information provided in the passage, it can be inferred that the paper has 4 pages. The passage mentions that the number of repetitions performed daily by the participant is closer to that of animal studies (in the order of hundreds), which suggests that the paper provides a detailed analysis of the participant's exercise routine over a period of time. Since the paper provides information on the number of repetitions performed daily, it must have at least 4 pages to accommodate this information."
+    "answer": "The paper is 16 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has 16 pages."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
-    "answer": "(3) Both fun and utility first.",
-    "reasoning": "The study design involves choosing games based on the needs of the participant identified in the initial interview, with the goal of providing physical and motor challenges similar to those suggested in standard occupational therapy exercises. This suggests that both fun and utility were considered during the game design process, with the goal of creating an enjoyable and engaging experience for the participant while also providing therapeutic benefits. The use of the term \"design workshop\" also implies a collaborative and iterative design process involving diverse stakeholders, including disabled individuals. Therefore, option (3) best applies to the design in the study."
+    "answer": "(3) Both fun and utility first",
+    "reasoning": "The design of the study is focused on creating an AR experience that is both fun and useful for children with autism. The researchers involve children in the design process and allow them to freeze AR experiences on the screen while keeping the experiences interactive, indicating that the primary goal is to create a fun and engaging experience while also incorporating utility. The use of the term \"design workshop\" and the involvement of diverse stakeholders further suggest that the focus is on creating a collaborative and inclusive design process."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
-    "answer": "(3) flexible structure with rules.",
-    "reasoning": "Based on the description of the study, it appears that the design involved a mix of structured and unstructured elements, with some rules provided to guide play but also allowing for flexibility and creativity. The daily game play program mentioned in the passage suggests a degree of structure, but with room for variation and improvisation within those parameters. Therefore, option (3) best applies to the design in the study."
+    "answer": "(3) flexible structure with rules (i.e., improv)",
+    "reasoning": "Based on the information provided in the passage, it is clear that the design of the application was intended to be flexible and allow for creativity and improvisation among the users. The use of the term \"improv\" in the passage suggests that the design team wanted to create a structure that would allow children to freely express themselves and come up with new ideas without being too restricted by rules or limitations. Additionally, the mention of participants agreeing that having \"more options\" (P1) or a \"broader range\" (P2) of 3D models would be helpful further supports the idea that the design was intended to be flexible and allow for a wide range of possibilities."
   },
   {
-    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
-    "answer": "(2) Mostly skill-based",
-    "reasoning": "The study focused on unsupervised home use of games for motor ability assessment in stroke survivors, and the chosen games were primarily selected based on their ability to provide physical and motor challenges. While chance played a role in the games, the primary focus was on developing skills and improving motor abilities through repetition and practice. Therefore, option (2) Mostly skill-based is the best answer."
+    "paperID": 2,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the application in the study was equally skill and chance-based. This is because participants were able to provide written feedback on how they used the application and what features they found helpful, but there was also a mention of getting better at using the application over time with repeated use. This suggests that while some skills may be required to use the application effectively, there is also an element of chance or randomness involved in its use. Therefore, option (3) best applies to the design of the study."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
     "answer": "(3) mix of solo and social affordances.",
-    "reasoning": "The study designed a game infrastructure that allowed the participant to play games independently at home, but also provided opportunities for social interaction through the use of multiplayer games. The games developed by Alankus et al. (2010a) were designed with both therapeutic exercises and the participant's personal preferences in mind, and included a mix of solo and social affordances. Therefore, option (3) best applies to the design of the study."
+    "reasoning": "The study described a design that included both solo and social aspects, allowing users to play either independently or with others. Participants were able to create their own 3D models and use them in AR experiences, which suggests a mix of solo and social affordances. While some features, such as the ability to add multiple 3D models to an AR experience, were mentioned as being helpful, there is no indication that the design was entirely solo or entirely social. Therefore, option (3) best applies to the design in the study."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
     "answer": "(3) turns are taken, but some actions can be taken at any time.",
-    "reasoning": "The study mentions that the motions within a therapy game may not be directly comparable to typical motions within a clinical therapy session, and that a motion in a game context may sometimes require that a user move through a part of their range. This suggests that the game design is not entirely turn-based (option 1), as players may have some flexibility in when they take actions. However, it is also not entirely simultaneous (option 5), as there are likely to be turns taken and actions taken at specific times. Instead, the game design follows a set of steps (option 2) or has some actions that can be taken at any time (option 3), which allows for a balance between structure and flexibility in the gameplay."
+    "reasoning": "The study describes the application's design as having a sequential interface where users move through each step of the creation process sequentially using buttons at the bottom of the screen. This suggests that the application is not entirely turn-based or simultaneous, but rather has a mix of both. Some actions can be taken at any time, while others are taken in a specific order. This design allows for flexibility and ease of use, as users can move through the process at their own pace and explore different options without feeling constrained by a strict turn-based system."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
-    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
-    "reasoning": "Based on the context provided, it can be inferred that the game being studied had a mix of both synchronous and asynchronous elements. The authors mention that the participant played the game over two sessions, with each session consisting of multiple \"slices\" of user input. This suggests that the game had both real-time and turn-based elements, with the participant taking turns making moves or actions in the game. However, the authors also note that the game had a feedback system that addressed and encouraged motion improvements, which implies that there were some asynchronous elements to the game as well. Therefore, option (3) is the best answer."
+    "answer": "(3) equal mix of synchronous and asynchronous affordances",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the design of the application being studied is an equal mix of synchronous and asynchronous affordances. This is because the participants mentioned getting better at using the application over time, which suggests that there is some level of repetition or consistency in their use of the application. Additionally, the passage mentions preparing resources or creating exercise material according to each child's interests, which implies that the application has a dynamic and adaptive nature that can respond to the user's needs in real-time. However, the passage also notes that sharing AR experiences through an online portal is more complex and requires further thought, which suggests that there may be some asynchronous aspects to the design. Overall, the mix of synchronous and asynchronous affordances in the design seems to be balanced and tailored to the needs of the users."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
     "answer": "(3) mix of competitive and collaborative.",
-    "reasoning": "The study mentioned in the passage involves designing games for stroke rehabilitation, and the authors identify issues related to stroke such as learned nonuse. They adopt principles from game design theory and develop three games that are a mix of competitive and collaborative. These games are designed to be played at home, and the authors observe single-user sessions to demonstrate their feasibility. Therefore, the design of the study is best described as a mix of competitive and collaborative elements."
+    "reasoning": "The study described in the passage involves designing an application for children with autism to interact with 3D objects in augmented reality. While the initial application was designed with a simple card game mechanic, participants agreed that having more options or a broader range of 3D models would be helpful. This suggests that the design is not entirely competitive (option 1) or entirely collaborative (option 5), but rather a mix of both (option 3). The application allows for both individual and group interaction, with participants working together to complete tasks while also competing against each other."
   },
   {
+    "paperID": 2,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
     "answer": "(3) Both symmetrical and asymmetrical.",
-    "reasoning": "The study described in the passage involves designing games for therapeutic motions assessment, which requires a balance between symmetry and asymmetry. Symmetry is important for allowing the player to predict the intended motion and compare it with the actual motion, while asymmetry adds variety and challenges to the gameplay. The example games provided in the passage, such as Pandemic and Tag, have both symmetrical and asymmetrical elements, making them suitable for therapeutic motions assessment."
+    "reasoning": "The study design described in the passage involves creating an application for children with autism to enhance their symbolic knowledge through play. The SLPs (speech-language pathologists) working with these children often center therapy around play, and the children are familiar with numerous toys present at the clinic. This suggests that the design of the application is intended to be flexible and adaptable to different scenarios and use cases, rather than being strictly symmetrical or asymmetrical. The passage also mentions that the SLPs envisioned their students \"running with it\" and coming up with something more creative than a game idea provided by the researchers, which further suggests that the design should be able to accommodate a range of user inputs and preferences."
   },
   {
+    "paperID": 2,
     "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
-    "answer": "Construction",
-    "reasoning": "Based on the text, it is clear that the case study involves measuring and analyzing the participant's motion abilities through recorded game sessions. The paper also mentions the use of standard motion measurements used in occupational therapy, which suggests a focus on assessing and improving physical capabilities. Therefore, the experiential play value can be classified as construction, as the study is primarily focused on measuring and enhancing the participant's ability to perform physical actions through game-based therapy."
+    "answer": "Construction.",
+    "reasoning": "The paper describes the application as allowing participants to create and customize picture-based AR experiences from scratch using their own images and virtual content. This suggests that the application is focused on creative expression and construction, rather than other types of experiential play values such as fantasy or sensority. Additionally, the paper mentions the use of a game/play system or experience in the design process, which further supports the classification of the experiential play value as construction."
   },
   {
+    "paperID": 2,
     "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
-    "answer": "Case study.",
-    "reasoning": "The paper describes a case study involving a participant who underwent a six-week intervention at home, with semistructured interviews conducted before, during, and after the intervention. This is a classic example of a case study, which involves in-depth examination of a single case or situation to gain insights and understandings that can be generalized to other similar cases."
+    "answer": "The study method that applies to this paper is usability testing.",
+    "reasoning": "The authors of the paper mention that they conducted \"formal user studies with therapists and educational professionals\" at the end of phase II, which suggests that they used a structured and systematic approach to gather feedback on the application's usability. Additionally, they mention that they collected written feedback from participants through a Qualtrics survey, which is a common method used in usability testing to gather qualitative data."
   },
   {
+    "paperID": 2,
     "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
-    "answer": "Semi-structured interview.",
-    "reasoning": "Based on the passage, it is clear that the interviews conducted were not structured interviews as they were not following a predetermined set of questions. Instead, the interviewer had a general idea of what topics to cover but allowed the conversation to flow naturally. This makes it a semi-structured interview."
+    "answer": "Semi-structured interview and Contextual Inquiry.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the interviews conducted at the end of the diary study were semi-structured, as they had a predetermined format but allowed for some flexibility in the questions asked. The use of a short Qualtrics survey to collect written feedback during the diary study also suggests that this methodology was used. Additionally, the passage mentions that the interviews were either audio or audio/video recorded based on the participants' preferences, which is a characteristic of contextual inquiry. Therefore, options 1, 2, and 3 are applicable to the interview methodologies used in this study."
   },
   {
+    "paperID": 2,
     "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
     "answer": "action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding.",
-    "reasoning": "Based on the text, it appears that the workshop methodologies used in the study included action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, and storyboarding. These methodologies are commonly used in the field of human-computer interaction and design to facilitate participatory and iterative design processes, which is consistent with the goals of the study described in the passage."
+    "reasoning": "Based on the context provided, it appears that the researchers used a combination of workshop methodologies during the design process for CustomAR. These methodologies include action research, which involves collaborative problem-solving and action implementation (Gerber, 1994); cooperative method development, which involves working together to develop a method or approach (Brown, 2008); speculative design, which involves generating and exploring ideas through prototyping and experimentation (Kamudengo & Prabhu, 2015); persona, scenario, and role playing, which involve creating fictional characters and situations to explore user needs and behaviors (Brown, 2008); affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, which are all techniques used to generate and develop ideas (Brown, 2008)."
   },
   {
+    "paperID": 2,
     "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
-    "answer": "Semi-structured interviews and case study.",
-    "reasoning": "Based on the passage, we can infer that the researchers conducted semi-structured interviews with the participant before, during, and after the home study, as well as a case study to gather more in-depth information about the participant's experiences. These methods are commonly used in qualitative research and allow for a more detailed exploration of the participant's thoughts, feelings, and behaviors."
+    "answer": "Autoethnography and ethnography were used in the field study.",
+    "reasoning": "The passage mentions that a member of the research team \"frst transcribed the data, generated initial codes, gathered data/quotes pertaining to each code, collated them into themes, discussed the themes with other members of the research team, and then reviewed and refned them.\" This process involves using autoethnography and ethnography methods to analyze the qualitative data collected from participants. Autoethnography is a method that involves reflecting on one's own experiences as a way of understanding a particular culture or social group, while ethnography is a broader term that refers to the study of people and cultures through observation and participation. In this case, both methods were used in combination to analyze the data collected from participants using the picture-based AR application."
   },
   {
+    "paperID": 2,
     "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
-    "answer": "The usability methodology used in this study was expert analysis and think-aloud.",
-    "reasoning": "Based on the information provided in the passage, it is clear that the researcher involved in the study used expert analysis to evaluate the usability of the games. This is evident from the fact that the researcher \"judged whether the exercises were frequent enough compared to therapeutic motions she would prescribe otherwise.\" Additionally, the researcher also used think-aloud methodology, as evidenced by the statement \"She also consulted the participant on whether she was comfortable with the current settings.\" These two methods are commonly used in usability testing and evaluation."
+    "answer": "The usability methodology used in this study was thematic analysis.",
+    "reasoning": "Based on the context provided, it is clear that the researchers conducted a thematic analysis of the written feedback, transcripts of voice notes and interview recordings to identify patterns and themes in the data. This approach was chosen for its ability to generate rich, detailed codes and themes that capture the complexities of user behavior and experiences [18]. The use of thematic analysis is a common methodology in usability research, as it allows for a systematic and structured approach to analyzing qualitative data [17]."
   },
   {
+    "paperID": 2,
     "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
-    "answer": "The following technology modalities were used:",
-    "reasoning": "Not found"
+    "answer": "Mobile, Augmented Reality.",
+    "reasoning": "The passage mentions the use of an iPad and a device camera in the application, which suggests that the technology used was mobile and augmented reality. Additionally, the authors mention that the therapist could activate the AR experience, freeze it, and then bring the iPad/device closer to the child for better viewing, which further supports the use of augmented reality. There is no mention of any other technology modalities such as tablets, wearables, IoT, assistive devices, robots, tangible interfaces, PCs, virtual reality, game consoles, or no technology being used in the application."
   },
   {
+    "paperID": 2,
     "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
-    "answer": "Home, clinic.",
-    "reasoning": "Based on the text, the study involved collecting data from the participant in a home setting during weekly meetings, and also involved downloading game usage data and interviewing the participant at the clinic. Therefore, the context of the study is both home and clinic."
+    "answer": "The context of the study was a combination of clinic and remote/Zoom.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study involved both in-person and remote participation. The participants were recruited through word-of-mouth and snowball sampling, which suggests that they were not all physically present in the same location for the study. Additionally, the passage mentions that the participants took part in a one-on-one information session via Zoom, which further supports the idea that the study involved remote participation. Therefore, the context of the study can be classified as both clinic and remote/Zoom."
   },
   {
+    "paperID": 2,
     "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
-    "answer": "Motor of physical impairment.",
-    "reasoning": "Based on the information provided in the passage, the community of focus is motor of physical impairment. The participant experienced hemiparesis, a partial paralysis of one side of the body, which caused chronic disability in the upper extremities (arms) more than the lower extremities (legs). This suggests that the participant had difficulty with physical tasks and may have required accommodations or modifications to perform them."
+    "answer": "The community of focus in the article is Autism.",
+    "reasoning": "The article specifically mentions \"students with autism\" and \"individuals with autism\" throughout, indicating that the focus is on this particular community. Additionally, the article discusses the use of visual supports to facilitate transitions for students with autism, further confirming the focus on this group."
   },
   {
+    "paperID": 2,
     "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
-    "answer": "The participant groups included in the study were people with disabilities and older adults.",
-    "reasoning": "Based on the context provided, it is clear that the study focused on stroke survivors and their experiences with rehabilitation. The passage mentions that the participant had significant motion deficits but does not have significant cognitive, language, memory, or speech disabilities as a result of her stroke. This suggests that the study included participants who were primarily mobility-impaired, rather than those with multiple disabilities. Additionally, the passage highlights the importance of client involvement in shaping the rehabilitation process, which is more likely to be relevant for individuals with mobility impairments."
+    "answer": "Participants in the study were therapists or educational professionals who had prior experience working with autistic individuals.",
+    "reasoning": "Based on the passage, the participant groups included in the study were therapists or educational professionals who had prior experience working with autistic individuals. This is evident from the statement that \"We recruited participants using word-of-mouth and snowball sampling, and all our participants were therapists or educational professionals who had prior experience working with autistic individuals.\""
   },
   {
+    "paperID": 2,
     "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
-    "answer": "Participatory design with stakeholders with disabilities.",
-    "reasoning": "The study by Axelrod et al. (2009) involved an iterative participatory design approach where they studied the home environments of people with stroke to identify requirements for home-based stroke rehabilitation. The participants in the study were individuals who had suffered a stroke and were undergoing rehabilitation. The researchers found that the participants lived in houses that were not ideal for their condition, and technology could help with their everyday activities. They argued that new technologies should fit into these existing environments and be designed with the users' needs and preferences in mind."
+    "answer": "The best option to describe user involvement in the study is \"participatory design with stakeholders without disabilities.\"",
+    "reasoning": "The study involved working with autistic individuals as stakeholders in the participatory design process. This means that they were actively involved in the design of the application, providing their perspectives and input throughout the development process. This approach ensures that the application meets the varied interests and learning needs of the autistic population, as identified by those who are most familiar with their needs and experiences."
   },
   {
+    "paperID": 2,
     "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
-    "answer": "Phone, mail, email, convenience sampling (day program), snowball, word of mouth, flier, social media.",
-    "reasoning": "Based on the text, it is clear that the researchers used multiple methods to recruit participants for their study. They mention using phone, mail, and email to reach out to potential participants, as well as using convenience sampling (where participants are selected based on their ease of access) through a day program. Additionally, they mention using snowball and word of mouth methods to recruit participants, where existing participants invite others who may be interested in the study. Finally, they also used fliers and social media to advertise the study. It is not mentioned whether there was any other method of participant recruitment used in the study."
+    "answer": "The following methods of participant recruitment were used:",
+    "reasoning": "Based on the text, it can be inferred that the researchers used a combination of these methods to recruit participants for their user study. Word-of-mouth and snowball sampling were likely used to reach a wider pool of potential participants, while fliers and social media may have been used to target specific groups or communities."
   },
   {
+    "paperID": 2,
     "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
-    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
-    "reasoning": "The study aimed to investigate the use of therapeutic games in a real-world setting to support the goals of rehabilitation. The method section of the article highlights that the participant had access to technical support, including an engineer husband and a comfortable son with computers. Additionally, the researchers provided weekly meetings to assist with technical issues. These factors suggest that the study addressed various user-centric issues, such as increasing independence, digital access, physical access, understanding of users, communication, personal informatics, and changing behavior. While education was not specifically mentioned in the method section, it is possible that it was an additional goal of the study. However, since the article does not provide explicit information on education, I have excluded it from the answer."
+    "answer": "The following issues were addressed in the study:",
+    "reasoning": "Based on the information provided in the context, the study focused on addressing various issues related to individuals with disabilities, including increasing their independence, digital access, physical access, and understanding of users. The study also aimed to support communication and personal informatics, as well as change behavior and education. However, it did not specifically address increasing opportunities for enrichment."
   },
   {
+    "paperID": 2,
     "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
     "answer": "The study contributes an empirical and methodological contribution.",
-    "reasoning": "Based on the text, the study presents new findings through a case study and provides additional insights into the participant's experience. This makes an empirical contribution as it presents new data and results. Additionally, the study describes its methodology for collecting and analyzing the data, which is a methodological contribution as it provides details on how the study was conducted."
+    "reasoning": "The study collects and analyzes qualitative data through a user study, which is an empirical contribution. Additionally, the researchers use thematic analysis, a methodological approach to analyze the data, which adds to the methodological contributions in the field."
   }
 ]

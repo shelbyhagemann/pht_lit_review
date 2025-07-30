@@ -1,0 +1,559 @@
+{
+    "paperID": "1",
+    "question": "What is the DOI for this paper?",
+    "answer": "https://doi.org/10.1145/3441852.3476544",
+    "reasoning": "The DOI link is listed on the first page of the document."
+},
+
+{
+    "paperID": "1",
+    "question": "What is the title of the paper?",
+    "answer": "Rehabilitation through Accessible Mobile Gaming and Wearable Sensors",
+    "reasoning": "The title is listed at the top of the first page of the document."
+},
+
+{
+    "paperID": "1",
+    "question": "Who is the lead author of the paper?",
+    "answer": "Dragan Ahmetovic",
+    "reasoning": "The authors are listed in order on the first page of the document."
+},
+
+{
+    "paperID": "1",
+    "question": "What year was this paper published?",
+    "answer": "2021",
+    "reasoning": "The year of publication is listed on the first page of the document."
+},
+
+{
+    "paperID": "1",
+    "question": "How many pages long is this paper?",
+    "answer": "4",
+    "reasoning": "The document is 4 pages long."
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) totally fun first (i.e., Entertainment game reappropriated), 
+    (2) mostly fun first (i.e., design workshop with disabled stakeholders),
+    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), 
+    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),
+    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) unstructured play (i.e., no rules, making art),
+    (2) semi-structured play (i.e., playground activities),
+    (3) flexible structure with rules (i.e., improv),
+    (4) flexible game (i.e., board game with house rules),
+    (5) game with rigid rules (i.e., video game)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely skill-based (i.e., trivia, sports),
+    (2) mostly skill-based (i.e., mario kart),
+    (3) equally skill and chance-based (i.e., catan),
+    (4) mostly chance-based (i.e., Uno),
+    (5) entirely chance-based (i.e., all dice)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely solo (i.e., solitaire),
+    (2) mostly solo (i.e., playing against AI in single-player StarCraft),
+    (3) mix of solo and social affordances (i.e., animal crossing),
+    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),
+    (5) entirely social (i.e., tag)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely solo (i.e., solitaire),
+    (2) mostly solo (i.e., playing against AI in single-player StarCraft),
+    (3) mix of solo and social affordances (i.e., animal crossing),
+    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),
+    (5) entirely social (i.e., tag)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely turn-based (i.e., tic tac toe),
+    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),
+    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),
+    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),
+    (5) entirely simultaneous (i.e., race)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely synchronous (i.e., real time strategy game),
+    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),
+    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),
+    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),
+    (5) entirely asynchronous (i.e., chess by postage mail)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely competitive (i.e., spit card game),
+    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),
+    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),
+    (4) mostly collaborative (i.e., animal crossing),
+    (5) entirely collaborative (i.e., pandemic)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely symmetrical (i.e., tic tac toe),
+    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),
+    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),
+    (4) mostly asymmetrical (i.e., tag),
+    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """How would you classify the experiential play value? Do not add additional context or reasoning in your response: 
+    sensority (i.e. kaleidoscope, experiencing art), 
+    fantasy (i.e. role-playing), 
+    construction (i.e. music, painting, building), 
+    challenge (testing physical or mental abilities against others or self), 
+    undisclosed/unknown, but the paper does include a game/play system or experience, 
+    not applicable""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following study methods applies to this paper? Please select all that apply:
+    workshop or design session, 
+    field study, 
+    usability testing, 
+    case study, 
+    focus group,
+    controlled experiment, 
+    survey, 
+    telemetry/big data/cscw, 
+    secondary analysis, 
+    no data collected,
+    other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following interview methodologies was used? Select all that apply: 
+    structured interview,
+    semi-structured interview, 
+    contextual inquiry, 
+    not applicable, 
+    other (please specifcy)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following workshop methodologies were used? Select all that apply:
+     action research, cooperative method development, speculative design, persona, scenario, role playing, 
+     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,
+     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,
+     other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following field study methodologies where used? Please select all that apply: autoethnography,
+     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following usability methodologies were used? Please select all that apply: expert analysis, think 
+     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, 
+     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, 
+     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
+     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, 
+     general disability or accessability, other (please specifiy)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, 
+    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, 
+    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders 
+    with disabilities, no representative user involvement, not applicable""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), 
+    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, 
+    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,
+    education, increasing opportunities for enrichment, other""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "1",
+    "question": """What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+
+
+{
+    "paperID": "2",
+    "question": "What is the DOI for this paper?",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": "What is the title of the paper?",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": "Who is the lead author of the paper?",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": "What year was this paper published?",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": "How many pages long is this paper?",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) totally fun first (i.e., Entertainment game reappropriated), 
+    (2) mostly fun first (i.e., design workshop with disabled stakeholders),
+    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), 
+    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),
+    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) unstructured play (i.e., no rules, making art),
+    (2) semi-structured play (i.e., playground activities),
+    (3) flexible structure with rules (i.e., improv),
+    (4) flexible game (i.e., board game with house rules),
+    (5) game with rigid rules (i.e., video game)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely skill-based (i.e., trivia, sports),
+    (2) mostly skill-based (i.e., mario kart),
+    (3) equally skill and chance-based (i.e., catan),
+    (4) mostly chance-based (i.e., Uno),
+    (5) entirely chance-based (i.e., all dice)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely solo (i.e., solitaire),
+    (2) mostly solo (i.e., playing against AI in single-player StarCraft),
+    (3) mix of solo and social affordances (i.e., animal crossing),
+    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),
+    (5) entirely social (i.e., tag)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely solo (i.e., solitaire),
+    (2) mostly solo (i.e., playing against AI in single-player StarCraft),
+    (3) mix of solo and social affordances (i.e., animal crossing),
+    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),
+    (5) entirely social (i.e., tag)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely turn-based (i.e., tic tac toe),
+    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),
+    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),
+    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),
+    (5) entirely simultaneous (i.e., race)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely synchronous (i.e., real time strategy game),
+    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),
+    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),
+    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),
+    (5) entirely asynchronous (i.e., chess by postage mail)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely competitive (i.e., spit card game),
+    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),
+    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),
+    (4) mostly collaborative (i.e., animal crossing),
+    (5) entirely collaborative (i.e., pandemic)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please answer this question with a number--which of the following best apply to the design in the study: 
+    (1) entirely symmetrical (i.e., tic tac toe),
+    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),
+    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),
+    (4) mostly asymmetrical (i.e., tag),
+    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """How would you classify the experiential play value? Do not add additional context or reasoning in your response: 
+    sensority (i.e. kaleidoscope, experiencing art), 
+    fantasy (i.e. role-playing), 
+    construction (i.e. music, painting, building), 
+    challenge (testing physical or mental abilities against others or self), 
+    undisclosed/unknown, but the paper does include a game/play system or experience, 
+    not applicable""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following study methods applies to this paper? Please select all that apply:
+    workshop or design session, 
+    field study, 
+    usability testing, 
+    case study, 
+    focus group,
+    controlled experiment, 
+    survey, 
+    telemetry/big data/cscw, 
+    secondary analysis, 
+    no data collected,
+    other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following interview methodologies was used? Select all that apply: 
+    structured interview,
+    semi-structured interview, 
+    contextual inquiry, 
+    not applicable, 
+    other (please specifcy)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following workshop methodologies were used? Select all that apply:
+     action research, cooperative method development, speculative design, persona, scenario, role playing, 
+     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,
+     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,
+     other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following field study methodologies where used? Please select all that apply: autoethnography,
+     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following usability methodologies were used? Please select all that apply: expert analysis, think 
+     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, 
+     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, 
+     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, 
+     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, 
+     general disability or accessability, other (please specifiy)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, 
+    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, 
+    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders 
+    with disabilities, no representative user involvement, not applicable""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), 
+    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, 
+    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,
+    education, increasing opportunities for enrichment, other""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},
+
+{
+    "paperID": "2",
+    "question": """What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey""",
+    "answer": "put answer here",
+    "reasoning": "put reasoning here"
+},

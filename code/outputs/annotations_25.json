@@ -1,77 +1,164 @@
 [
   {
-    "answer": "The DOI for this paper is 10.14503/49260/2017/10."
+    "paperID": 25,
+    "question": "What is the DOI for this paper?",
+    "answer": "The DOI for the paper is 10.1145/11.1003637.",
+    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, to identify and track it in digital libraries and databases. In this case, the DOI for the paper is 10.1145/11.1003637, which can be used to locate the paper in online databases and other repositories."
   },
   {
-    "answer": "The title of the paper is \"ASSETS '17\"."
+    "paperID": 25,
+    "question": "What is the title of the paper?",
+    "answer": "The title of the paper is \"Augmentative and Alternative Communication: Management of Severe Communication Disorders in Children and Adults\".",
+    "reasoning": "Based on the context provided, the paper's title can be inferred from the reference list. The paper is listed as [13] Beukelman and Mirenda, which indicates that it is the thirteenth paper in a list of references related to augmentative and alternative communication."
   },
   {
-    "answer": "The lead author of the paper is __________."
+    "paperID": 25,
+    "question": "Who is the lead author of the paper?",
+    "answer": "The lead author of the paper is A. McCabe.",
+    "reasoning": "Based on the information provided in the passage, the lead author of the paper is A. McCabe. This is indicated by the format of the publication, which lists the authors' names in the order of their contribution to the book. Additionally, the passage mentions that the paper was edited by McCabe and Peterson, further confirming McCabe as the lead author."
   },
   {
-    "answer": "The paper was published in 2017."
+    "paperID": 25,
+    "question": "What year was this paper published?",
+    "answer": "The paper was published in 2011.",
+    "reasoning": "The publication date of the paper can be found in the copyright information at the bottom of the page, which reads \"Copyright 2011 ACM 978-1-4503-0919-6/11/10...$10.00.\" The year 2011 is present in the copyright information, indicating that the paper was published in that year."
   },
   {
-    "answer": "The paper is 4 pages long."
+    "paperID": 25,
+    "question": "How many pages long is this paper?",
+    "answer": "The paper is 4 pages long.",
+    "reasoning": "Based on the information provided in the context, the paper has 4 pages."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
+    "answer": "(2) mostly fun first.",
+    "reasoning": "Based on the information provided in the passage, it seems that the design of the system in the study prioritized fun and engagement for the users, particularly for the parents who were also given a questionnaire to gather feedback. The passage mentions that the initial prototype was developed with the intention of addressing the need for access to older narratives, as well as the desire for smaller devices with better battery power and the ability to print generated narratives. These features suggest that the design was focused on providing an enjoyable experience for the users, rather than solely prioritizing utility. Additionally, the passage notes that the development process involved working with the users and their carers, which further supports the idea that fun and engagement were a priority in the design."
   },
   {
-    "answer": "3"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
+    "answer": "(3) flexible structure with rules.",
+    "reasoning": "The study described in the passage involves developing an assistive technology system for children with autism to support personal narrative. The design process involved user-centered design methods, including iterative prototyping and evaluation, to ensure that the system would be practical and useful for staff and users. While the original proof of concept prototype was successful in supporting personal narrative, it was not practical for daily use without extensive support from researchers. The design process aimed to address these issues by incorporating feedback from users and their carers and focusing on flexible structure with rules, rather than structured play or rigid game systems."
   },
   {
-    "answer": "3"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "answer": "(3) equally skill and chance-based.",
+    "reasoning": "The design of the system in the study involves presenting a personalized selection of narratives based on user preferences, which suggests that both skill and chance play a role in the selection process. While users can select their favorite narratives or link to related narratives with similar content, the overall design is not solely based on skill or chance. The system is designed to provide a personalized experience for each user, taking into account their individual preferences and interests. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "3"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The study describes the design as aiming to personalize stories through editing and then sharing them with adults and peers. This suggests that the system has both solo and social affordances, as it allows users to edit and share their own stories independently, but also shares them with others. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "5"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
+    "answer": "(2) follows a set of steps",
+    "reasoning": "The study used recordings to design the narrative structuring algorithm for automatic narrative generation. This suggests that the design was not entirely turn-based, as there were specific steps involved in the process. Therefore, option (2) follows a set of steps is the best answer."
   },
   {
-    "answer": "5"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
+    "answer": "(3) equal mix of synchronous and asynchronous affordances.",
+    "reasoning": "Based on the information provided in the passage, the design of the system in the study involved presenting stories as sequentially played back messages to selecting individual messages via the touchscreen. This suggests that the system had both synchronous and asynchronous components, as users could select individual messages to play back at their own pace. The passage does not mention any real-time strategy game or league of legends-like elements, which further supports the conclusion that the design was an equal mix of synchronous and asynchronous affordances."
   },
   {
-    "answer": "I would classify the experiential play value as \"construction.\""
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
+    "answer": "(3) mix of competitive and collaborative.",
+    "reasoning": "The study involved personalizing stories through editing and sharing them with adults and peers, which suggests a mix of competitive and collaborative elements. While the participants were required to work together to collect and tell stories, there was also a technical aspect to the system that needed substantial support, indicating a competitive element. Therefore, option (3) best applies to the design of the study."
   },
   {
-    "answer": "* Field study\n* Case study"
+    "paperID": 25,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
+    "answer": "(3) both symmetrical and asymmetrical",
+    "reasoning": "The study describes the design of a system for supporting personal narratives in children with complex needs, including those with autism. The system is designed to be used by staff in a school environment, and it includes features such as the ability to print the generated narratives. While the system is intended to be practical for staff to use on a day-to-day basis, it also includes features that are not symmetrical, such as the ability to generate personalized narratives based on the child's individual needs and experiences. Therefore, option (3) best applies to the design in the study."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
+    "answer": "Construction",
+    "reasoning": "The experiential play value in the context of the paper is classified as construction because it involves the use of a system to support personal narrative and storytelling among children. This aligns with the definition of construction play, which involves creating or manipulating objects or symbols to express ideas or emotions. While other options such as sensority, fantasy, and challenge may also be present in the game/play system, the primary focus is on the creative and constructive aspects of play."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
+    "answer": "The study method that applies to this paper is (b) field study.",
+    "reasoning": "The paper describes a study in which different methods for data collection were trialed, including interaction with people and objects, location data, and voice recordings. This suggests that the study was conducted in a real-world setting, rather than in a controlled laboratory environment. Additionally, the paper mentions collecting feedback from staff and parents, which further supports the conclusion that a field study was conducted."
   },
   {
-    "answer": "* Ethnography\n* Diary study"
+    "paperID": 25,
+    "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
+    "answer": "The staff and parents were looking for the ability to access older narratives than just the previous day.",
+    "reasoning": "Based on the information provided in the passage, it seems that the staff and parents were not satisfied with the limited access to narratives in the initial prototype. They wanted the ability to access older narratives, which suggests that they may have been using the device for longer periods of time or for more complex tasks than what was initially designed for. This also highlights the importance of considering the needs and expectations of users when designing and testing assistive technology devices."
   },
   {
-    "answer": "* Participatory design\n* Heuristic analysis"
+    "paperID": 25,
+    "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
+    "answer": "The workshop methodologies used were cooperative method development, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, and prototyping.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the workshop sessions involved a combination of techniques to facilitate user-centered design. Cooperative method development involves working together with users and other stakeholders to develop a method or approach. Affinity diagram is a technique used to group similar ideas or concepts together. Ideation involves generating new ideas or solutions, while user journey mapping involves understanding the user's experience and identifying opportunities for improvement. Brainstorming and bodystorming are techniques used to generate ideas and prototype solutions. Design probe is a method used to gather feedback and insights from users on a design concept. Prototyping involves creating a preliminary version of a product or service, while mock-up and sketching involve creating visual representations of an idea or concept. Card sorting and storyboarding are techniques used to help designers understand user needs and preferences. Use case theater and object theater are methods used to role-play and act out scenarios involving users and products or services."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
+    "answer": "(a), (b), and (c) field study methodologies were used.",
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the following field study methodologies were used during the design of the original proof of concept prototype:"
   },
   {
-    "answer": "The context of the study was:\n\n* Clinic\n* Home\n* School\n* Research lab\n* Social media\n* Disability community space (i.e. Day program)"
+    "paperID": 25,
+    "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
+    "answer": "User-centered design and heuristic analysis.",
+    "reasoning": "Based on the given context, it can be inferred that the usability methodologies used in developing systems and interfaces for assistive technology were user-centered design and heuristic analysis. The passage highlights the importance of working with the users and their carers to develop something that works for them, which is a key principle of user-centered design. Additionally, heuristic analysis, which involves evaluating a system based on a set of predefined rules or heuristics, is also likely to have been used in this context. Expert analysis, think aloud, and cognitive walkthrough may not have been used or are not mentioned in the passage."
   },
   {
-    "answer": "The community of focus in the given context is:\n\n* Autism\n* Intellectual or developmental disability (IDD)\n* Cognitive impairment\n* Other (please specify)"
+    "paperID": 25,
+    "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
+    "answer": "(a), (b), (c), and (e)",
+    "reasoning": "Based on the context provided, it appears that the device used was a mobile phone with touchscreen capabilities, which supports switch-like access for users with reduced dexterity through whole screen buttons. Additionally, the device had audio recording and playback capabilities with sufficient playback volume, and data transfer via Wifi or 3G (UMTS) mobile phone network. These features are consistent with the options listed in (a), (b), (c), and (e)."
   },
   {
-    "answer": "The participant groups included in the study are:\n\n* People with disabilities (mentioned in both studies)\n* Caregivers (mentioned in Study 1)\n* Specialists (mentioned in Study 2, including dentists and neuropsychiatrists)\n\nTherefore, the answer is: People with disabilities, caregivers, specialists."
+    "paperID": 25,
+    "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
+    "answer": "The context of the study was school and home/school diaries.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study took place in a school setting and involved the use of home/school diaries for information transfer between school and parents. The passage mentions that the researchers spent several weeks at the new special school to establish routines and identify possible participants for the evaluation, which suggests that the study occurred in a single location (the school) over an extended period of time. Additionally, the passage states that staff handled the mobile phone for data collection and selection of voice message sets for playback, which further indicates that the study took place in a structured environment with designated personnel involved in the data collection process."
   },
   {
-    "answer": "The best option to describe user involvement in the study is:\n\n* Participatory design with stakeholders without disabilities."
+    "paperID": 25,
+    "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
+    "answer": "Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, intellectual or developmental disability (IDD), communication/speech.",
+    "reasoning": "Based on the information provided in the passage, the community of focus is a group of children with various disabilities, including blindness or low vision, deafness or hard of hearing, autism, intellectual or developmental disability, and communication or speech impairments. The passage mentions that the children use a combination of un-aided AAC (such as Makaton) and \"low-tech\" AAC (such as symbols or photographs) for communication, and that some of the children exhibit a desire to share their experiences. This suggests that the community of focus is a group of individuals with diverse disabilities who may benefit from the use of assistive technology to support their communication and interaction."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
+    "answer": "The participant groups included in the study were:",
+    "reasoning": "Based on the information provided in the passage, it is clear that the participants in the study were individuals with social, emotional, and behavioural difficulties, as well as profound or complex learning needs. The passage also mentions that the school caters to children with these types of impairments, which suggests that the participants were likely drawn from this population. Additionally, the research team worked closely with staff at the school to identify potential participants, which further supports the conclusion that the study included individuals with disabilities."
   },
   {
-    "answer": "I don't know."
+    "paperID": 25,
+    "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
+    "answer": "Participatory design with stakeholders with disabilities.",
+    "reasoning": "The passage highlights the importance of working with the intended user groups, specifically individuals with communication and/or intellectual impairments, in the development of assistive technologies. It emphasizes that it is crucial to involve these users in the design process to ensure that the system meets their needs and preferences. Additionally, the passage mentions that staff at the school identified eight possible participants based on their communication and intellectual impairments, indicating that the users were actively involved in the selection process. Therefore, option (b) - Participatory design with stakeholders with disabilities best describes the user involvement in the study."
   },
   {
-    "answer": "The type of contribution the study makes is:\n\n* Empirical: The study collects and analyzes data through observational recordings and a questionnaire completed by parents.\n* Dataset: The study provides a dataset of observational data and a questionnaire response.\n* Survey: The study uses a questionnaire to collect data from parents."
+    "paperID": 25,
+    "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
+    "answer": "Phone and convenience sampling (Day program)",
+    "reasoning": "Based on the context provided, it appears that the researchers used both phone and convenience sampling (Day program) to recruit participants for the study. The one-page manuals handed out to the class explained the handling of the phone, and participants took their phones home with them to record new messages about interesting events at home. This suggests that the researchers used the phone as a means of recruitment, by distributing the phones to the participants and encouraging them to use it to collect data. Additionally, the mention of a \"short training session on what kind of stories to record\" for parents of the participants suggests that convenience sampling (Day program) was also used to recruit participants."
+  },
+  {
+    "paperID": 25,
+    "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
+    "answer": "(a), (b), (c), and (e) were addressed in the study.",
+    "reasoning": "The study aimed to develop a user-centered design process for assistive technology, specifically for individuals with reduced dexterity and communication difficulties. The issues addressed include:"
+  },
+  {
+    "paperID": 25,
+    "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
+    "answer": "The study contributes an empirical and methodological contribution.",
+    "reasoning": "Based on the information provided in the passage, the study involves collecting feedback from staff and parents through questionnaires, which is an empirical contribution. Additionally, the study's methods for identifying participants and conducting the evaluation are also a methodological contribution. The study does not make any theoretical or dataset contributions, as it does not provide new theories or data beyond what was already known in the field of AAC. Finally, the study does not constitute a survey contribution, as it is not a large-scale survey of a population but rather a small-scale evaluation of a specific group of participants."
   }
 ]

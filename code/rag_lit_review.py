@@ -9,31 +9,14 @@
 ## BEFORE RUNNING: Have ollama installed locally, run "ollama serve" in another terminal
 
 ## import libraries and modules
-import pymupdf
-import langchain
-from langchain_community.document_loaders import PyMuPDFLoader
-import pymupdf4llm
-import pathlib
-from langchain.text_splitter import MarkdownTextSplitter
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from langchain_community.embeddings.ollama import OllamaEmbeddings
-from langchain.chains import LLMChain
-from langchain.llms.base import LLM
-from typing import Optional, List, Mapping
-from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-import subprocess
 import json
-from typing import TypedDict
+import pathlib
+import re
+import pymupdf4llm
 from langchain_core.vectorstores import InMemoryVectorStore
-import langchain_community.vectorstores
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_core.vectorstores import InMemoryVectorStore
-from typing_extensions import List, TypedDict
-from langchain_core.documents import Document
 from langchain_community.llms import Ollama
 from langchain_huggingface import HuggingFaceEmbeddings
-import re
 
 
 ## declare global variables
@@ -95,7 +78,7 @@ pht_framework = [
     (4) flexible game (i.e., board game with house rules),
     (5) game with rigid rules (i.e., video game)""",
     
-    """"Please answer this question with a number--which of the following best apply to the design in the study: 
+    """Please answer this question with a number--which of the following best apply to the design in the study: 
     (1) entirely skill-based (i.e., trivia, sports),
     (2) mostly skill-based (i.e., mario kart),
     (3) equally skill and chance-based (i.e., catan),
@@ -316,7 +299,7 @@ def generate_json(annotation_list, file_num):
 ## main function
 def main():
     # load file path (will set up to iterate over list of file paths later)
-    file_num = 0
+    file_num = 1
     for file in file_path_list:
         file_path = f"../papers/{file}"
         # break data into chunks

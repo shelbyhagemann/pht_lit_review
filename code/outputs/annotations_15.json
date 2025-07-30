@@ -1,137 +1,164 @@
 [
   {
+    "paperID": 15,
     "question": "What is the DOI for this paper?",
-    "answer": "The DOI for the paper \"Accessible park environments and facilities for the visually impaired\" by Kin Wai Michael Siu is 10.1108/f-10-2011-0079.",
-    "reasoning": "The DOI (Digital Object Identifier) is a unique identifier assigned to a digital object, such as a research paper, to identify and track it in digital repositories and databases. In this case, the DOI for the paper \"Accessible park environments and facilities for the visually impaired\" by Kin Wai Michael Siu can be found on the Emerald Insight website, where the paper was published."
+    "answer": "The DOI (Digital Object Identifier) for this paper is 10.5959/159593-159-7/05/0010.",
+    "reasoning": "Based on the information provided in the passage, the DOI for the paper being referred to is 10.5959/159593-159-7/05/0010. This is indicated at the bottom of the page where it says \"Copyright 2005 ACM $5.00\" and the DOI number is listed after the copyright information."
   },
   {
+    "paperID": 15,
     "question": "What is the title of the paper?",
-    "answer": "The title of the paper is \"Interdependency (exerpts from several talks)\" by Mia Mingus.",
-    "reasoning": "Based on the context provided, the title of the paper can be inferred from the excerpts shared in the passage. The passage mentions Mia Mingus' talk and refers to the paper as \"Interdependency (exerpts from several talks)\" multiple times, indicating that the title of the paper is \"Interdependency.\""
+    "answer": "The title of the paper is \"ARTUR: A Study on the Use of Iconic Faces for Expressing Opinions.\"",
+    "reasoning": "Based on the context provided, the title of the paper can be determined by analyzing the text. The paper is titled \"ARTUR\" and it is a study on the use of iconic faces for expressing opinions. This information can be found in the introduction, where the authors mention that they are presenting a study on the use of iconic faces for expressing opinions, and in the reference list, where the title of the paper is listed."
   },
   {
+    "paperID": 15,
     "question": "Who is the lead author of the paper?",
-    "answer": "The lead author of the paper is Mia Mingus.",
-    "reasoning": "Based on the context provided, the lead author of the paper is identified as Mia Mingus in several talks and publications mentioned in the passage."
+    "answer": "The lead author of the paper is not explicitly stated in the provided context.",
+    "reasoning": "The paper does not provide any information about the lead author, and there is no indication of who the lead author might be based on the content of the text."
   },
   {
+    "paperID": 15,
     "question": "What year was this paper published?",
-    "answer": "The paper \"The NavBelt - A computerized travel aid for the blind based on mobile robotics technology\" was published in 1998.",
-    "reasoning": "The paper was published in the _IEEE Transactions on Biomedical Engineering_ journal, and the latest issue available at the time of searching was from 1998. Additionally, the paper's abstract mentions that it was presented at the ASSETS '20 conference, which took place in October 2020, indicating that it was published at least 22 years ago."
+    "answer": "The paper was published in 2005.",
+    "reasoning": "The copyright notice at the end of the paper indicates that it is (C) 2005 ACM, which means that the paper was published in 2005."
   },
   {
+    "paperID": 15,
     "question": "How many pages long is this paper?",
-    "answer": "The paper \"Interdependency\" by Mia Mingus has 7 pages.",
-    "reasoning": "I counted the number of pages in the PDF version of the paper provided in the reference. There are a total of 7 pages in the paper, including the cover page and the final page."
+    "answer": "The paper is 5 pages long.",
+    "reasoning": "Based on the information provided in the passage, we can determine that the paper has 5 pages."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) totally fun first (i.e., Entertainment game reappropriated), \n    (2) mostly fun first (i.e., design workshop with disabled stakeholders),\n    (3) both fun and utility first (i.e., design workshop with diverse stakeholders), \n    (4) mostly utility first (i.e., primary utilitarian mechanic designed first),\n    (5) totally utility first (i.e., made by clinicians or specialists, fun incorporated later)",
-    "answer": "(3) Both fun and utility first.",
-    "reasoning": "The study found that the design for BPSP involved both fun and utility aspects. The participants were involved in a design workshop with diverse stakeholders, including disabled individuals, which suggests that the design was not solely focused on entertainment but also considered practicality and functionality. The interdependence of these interactions and the validation of contributions from all stakeholders indicate that the design was designed to be both fun and useful for everyone involved."
+    "answer": "(3) Both fun and utility first",
+    "reasoning": "The study design involves a computer-assisted learning system that provides feedback based on classifications similar to those described in Table 1. While the primary goal is to provide feedback, the design also incorporates game-like features to make it more engaging for children. This suggests that both fun and utility were considered important in the design, with a focus on creating an enjoyable experience while also providing useful feedback."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) unstructured play (i.e., no rules, making art),\n    (2) semi-structured play (i.e., playground activities),\n    (3) flexible structure with rules (i.e., improv),\n    (4) flexible game (i.e., board game with house rules),\n    (5) game with rigid rules (i.e., video game)",
-    "answer": "(3) flexible structure with rules.",
-    "reasoning": "The study by Hammitt [31] focuses on outdoor recreation and the multi-phase experience of leisure activities. While the C&K model [19] proposes a linear progression through phases, the study by Harada et al. [32] acknowledges that leisure experiences can be structured or unstructured, with varying degrees of structure. The framework developed in the study considers the perspective of BPSP (Breadth, Depth, Pace, and Spontaneity) to overcome the limitations of the C&K model."
+    "answer": "(4) flexible game (i.e., board game with house rules)",
+    "reasoning": "The study describes the design of the ARTUR system, which is intended for younger children aged 4-7 years old. The design includes elements of playfulness and games, such as reward systems, feedback, and a variety of activities to keep the child engaged. While the system does have some structure, it is flexible and allows for creativity and improvisation, similar to how one would play a board game with house rules. Therefore, option (4) best applies to the design in the study."
   },
   {
-    "question": "\"Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
+    "paperID": 15,
+    "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely skill-based (i.e., trivia, sports),\n    (2) mostly skill-based (i.e., mario kart),\n    (3) equally skill and chance-based (i.e., catan),\n    (4) mostly chance-based (i.e., Uno),\n    (5) entirely chance-based (i.e., all dice)",
     "answer": "(3) equally skill and chance-based.",
-    "reasoning": "The study focused on the design of leisure experiences, particularly in the context of nature. The authors used a thematic analysis approach to generate themes from open-ended survey questions, interviews, and focus group data. They identified four major stages of leisure experience: planning, accessing, engaging, and sharing and recollection. Within these stages, they found that technology use was a significant factor in enhancing the leisure experience. However, they also noted that the use of technology should be balanced with the need for skill-based and chance-based elements to create an equitable and enjoyable experience for all participants. This suggests that the design should aim to provide a mix of both skill-based and chance-based elements, rather than relying solely on one or the other. Therefore, option (3) equally skill and chance-based best applies to the design in the study."
+    "reasoning": "The study describes the design of a computer-assisted learning system for children, which involves using iconic faces to express opinions. The system is designed to provide motivation and engagement for the children through gameplay. While the interviews suggest that there is a need for motivating factors in the program, the study does not focus solely on skill-based or chance-based activities. Instead, it combines both skill and chance elements to create a more engaging and interactive learning experience. Therefore, option (3) best applies to the design of the study."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely solo (i.e., solitaire),\n    (2) mostly solo (i.e., playing against AI in single-player StarCraft),\n    (3) mix of solo and social affordances (i.e., animal crossing),\n    (4) mostly social, but aspects are independent (i.e., house on hill haunt transition),\n    (5) entirely social (i.e., tag)",
-    "answer": "(3) mix of solo and social affordances.",
-    "reasoning": "The study describes the design as having both solo and social affordances, allowing players to choose between playing alone or with others. This suggests that the design does not prioritize either solo or social play, but rather offers a mix of both for players to choose from."
+    "answer": "(3) mix of solo and social affordances",
+    "reasoning": "The design of the study involves providing children with a mixed experience of both solo and social activities. While some tasks are done individually, others involve playing against AI or other players in a multiplayer setting. This allows for a more comprehensive assessment of the children's abilities and provides opportunities for social interaction and collaboration. The design does not appear to be entirely solo (option 1), as there are multiple activities that require interaction with others, nor is it entirely social (option 5), as there are some tasks that can be done independently. Therefore, option (3) best applies to the design of the study."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely turn-based (i.e., tic tac toe),\n    (2) follows a set of steps (i.e., viticulture's dynamic turn ordering),\n    (3) turns are taken, but some actions can be taken at any time (i.e., pandemic),\n    (4) most actions can be taken at any time, but there are some phases (i.e., PvP death reset timer),\n    (5) entirely simultaneous (i.e., race)",
     "answer": "(3) turns are taken, but some actions can be taken at any time.",
-    "reasoning": "The study describes the design of a recreational activity as involving phases with set durations and timings, but also allowing for some flexibility in terms of when actions can be taken. For example, participants were given the freedom to choose their own path layout and terrain type in the park, and some participants adapted their long cane techniques to navigate irregular terrain while hiking. This suggests that the design allows for some degree of player agency and decision-making, but also has set phases and timings that must be followed. Therefore, option (3) best applies to the design of the study."
+    "reasoning": "The study design involves providing feedback to participants on their articulation of words based on the training word they are given. The feedback is provided in the form of instructions on how to improve their articulation, and the same instructions are given each time a specific error occurs. This suggests that the design is not entirely turn-based, as there is no fixed order of actions or turns, but rather actions can be taken at any time within a phase. However, there are some limitations on when certain actions can be taken, such as the feedback instructions being given only when an error occurs. Therefore, option (3) best applies to the design in the study."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely synchronous (i.e., real time strategy game),\n    (2) mostly synchronous with a few asynchronous affordances (i.e., league of legends),\n    (3) equal mix of synchronous and asynchronous affordances (i.e., helldivers 2),\n    (4) mostly asynchronous with few synchronous affordances (i.e. cookie clicker),\n    (5) entirely asynchronous (i.e., chess by postage mail)",
     "answer": "(3) equal mix of synchronous and asynchronous affordances.",
-    "reasoning": "The study describes the design as involving \"planning, executing, and reminiscing about leisure experiences,\" which suggests a mix of synchronous and asynchronous activities. The use of technology is also mentioned to enhance the experience of visitors by enabling interaction, exploration, and engagement with nature, which implies a design that allows for both real-time and offline interactions. Additionally, the study cites several sources that mention the importance of anticipation in recreational experiences, which suggests that the design should allow for some degree of asynchronous affordances. Overall, the design described in the study appears to have an equal mix of synchronous and asynchronous affordances."
+    "reasoning": "The study design involves a mix of synchronous and asynchronous activities, with the children playing games that require both real-time strategy and turn-based gameplay. For example, the study mentions using \"commercial pedagogical computer games\" that have motivational features, but also notes that the goal is to create a training situation where the child is playing a game rather than focusing hard on the articulation. This suggests that the design involves a mix of both synchronous and asynchronous elements, with the goal of creating a more engaging and stimulating learning experience for the children."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely competitive (i.e., spit card game),\n    (2) mostly competitive, but sometimes collaboration is important (i.e., forbidden island),\n    (3) mix of competitive and collaborative (i.e., mario party 2 vs 2 mini-games),\n    (4) mostly collaborative (i.e., animal crossing),\n    (5) entirely collaborative (i.e., pandemic)",
     "answer": "(3) mix of competitive and collaborative.",
-    "reasoning": "The study involved designing a leisure experience for blind and visually impaired individuals, which involved gathering detailed information to understand the environment and collaborating with their companions. While there were elements of competition (e.g., planning a leisure experience), there were also opportunities for collaboration (e.g., validating each other's contributions) throughout the process. Therefore, the design was a mix of competitive and collaborative elements."
+    "reasoning": "The study describes the design of ARTUR, a computer-assisted learning system for young children, as having a mix of competitive and collaborative elements. The interviews with children in the study and in [11] highlighted the need for motivating factors in the program to inspire enthusiasm for the training, and the goal is to create a training situation where the child is playing a game rather than focusing hard on the articulation. This suggests that the design of ARTUR includes both competitive and collaborative elements, such as mini-games in Mario Party 2 vs 2, to keep the child engaged and motivated throughout the training."
   },
   {
+    "paperID": 15,
     "question": "Please answer this question with a number--which of the following best apply to the design in the study: \n    (1) entirely symmetrical (i.e., tic tac toe),\n    (2) mostly symmetrical (i.e., undertale's differing NPC behaviors based on previous playthroughs),\n    (3) both symmetrical and asymmetrical (i.e., pandemic with its similar turn structure but different character abilities),\n    (4) mostly asymmetrical (i.e., tag),\n    (5) entirely asymmetrical (i.e., keep talking, nobody explodes)",
     "answer": "(3) Both symmetrical and asymmetrical.",
-    "reasoning": "Not found"
+    "reasoning": "The design of the study's system, as described in the passage, involves a combination of both symmetrical and asymmetrical elements. While the system has a consistent structure and layout, the NPC behaviors are different based on previous playthroughs, which adds an element of asymmetry to the gameplay. This allows for more varied and challenging experiences for the players, as they encounter different NPC behaviors each time they play."
   },
   {
+    "paperID": 15,
     "question": "How would you classify the experiential play value? Do not add additional context or reasoning in your response: \n    sensority (i.e. kaleidoscope, experiencing art), \n    fantasy (i.e. role-playing), \n    construction (i.e. music, painting, building), \n    challenge (testing physical or mental abilities against others or self), \n    undisclosed/unknown, but the paper does include a game/play system or experience, \n    not applicable",
-    "answer": "Construction",
-    "reasoning": "The paper discusses the multi-sensory immersive experience of being around nature, which suggests that the experiential play value is related to construction. The participants appreciated the immersive experience of being around nature and described feeling relaxed, happy, and excited. This suggests that they were engaged in a creative and constructive activity, such as music, painting, or building, which is consistent with the classification of construction."
+    "answer": "I would classify the experiential play value as \"construction\" based on the context provided in the paper. The authors mention that they will carry out a study of motivational features in commercial pedagogical computer games and test the most promising features in the system, which suggests that the game/play system will be an integral part of the training.",
+    "reasoning": "The authors are focused on creating a stimulating training situation for children, where they can spend more time practicing and improving their skills. Construction activities, such as building or creating something, have been shown to be engaging and motivating for children [1]. By incorporating game-like features into the system, the authors aim to create an enjoyable and interactive learning experience for the children."
   },
   {
+    "paperID": 15,
     "question": "Which of the following study methods applies to this paper? Please select all that apply:\n    workshop or design session, \n    field study, \n    usability testing, \n    case study, \n    focus group,\n    controlled experiment, \n    survey, \n    telemetry/big data/cscw, \n    secondary analysis, \n    no data collected,\n    other (please specify)",
-    "answer": "The study method that applies to this paper is:",
-    "reasoning": "The paper describes the use of a deductive thematic analysis approach to generate themes from open-ended survey questions, interviews, and focus group data. This suggests that the data was collected through a combination of qualitative methods, including field studies, usability testing, and case studies. Additionally, the authors mention using NVivo to organize the codes and categorize them into four major stages of analysis, which is a common step in qualitative data analysis. Therefore, all three study methods are applicable to this paper."
+    "answer": "The study method that applies to this paper is usability testing.",
+    "reasoning": "Based on the context provided in the passage, it is clear that the study involved observing and interviewing children after they used a system called ARTUR. This is a classic example of usability testing, where the goal is to evaluate the user experience of a product or system by observing and interacting with users in a controlled environment. The use of semi-structured interviews and open-ended questions also suggests that the study was focused on gathering qualitative data about the children's experiences and opinions related to the system."
   },
   {
+    "paperID": 15,
     "question": "Which of the following interview methodologies was used? Select all that apply: \n    structured interview,\n    semi-structured interview, \n    contextual inquiry, \n    not applicable, \n    other (please specifcy)",
     "answer": "Semi-structured interview.",
-    "reasoning": "Based on the information provided in the passage, it is clear that the interviews conducted with BPSP were not structured interviews, as they were not conducted according to a pre-determined set of questions. Instead, the interviews were semi-structured, meaning that they had some structure but also allowed for flexibility and exploration of new topics. This is further supported by the fact that the interviews lasted between 30 and 80 minutes, which is a longer duration than typical structured interviews."
+    "reasoning": "Based on the information provided in the passage, it can be inferred that the interview methodology used was a semi-structured interview. This is because the passage mentions that the interviews were \"semi-structured\" and that they used an interview script with open-ended questions, but also had the possibility to probe the interviewee further if needed. This suggests that while there was some structure to the interviews, they were not highly structured and allowed for flexibility and adaptability during the conversation. In contrast, a fully structured interview would have followed a rigidly defined set of questions with no room for deviation or follow-up questions, while a completely unstructured interview would have had no predetermined questions or framework at all."
   },
   {
+    "paperID": 15,
     "question": "Which of the following workshop methodologies were used? Select all that apply:\n     action research, cooperative method development, speculative design, persona, scenario, role playing, \n     affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up,\n     sketching, wireframing, card sotring, storyboarding, use case theater, object theater, not applicable,\n     other (please specify)",
-    "answer": "The workshop methodologies used were action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, use case theater, and object theater.",
-    "reasoning": "Based on the abstract provided, it is clear that the researchers used a variety of workshop methodologies to generate themes and address their research questions. The methodologies listed in the abstract include action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, prototyping, mock-up, sketching, wireframing, card sorting, storyboarding, use case theater, and object theater. These methodologies are commonly used in workshops to encourage creativity, collaboration, and idea generation among participants."
+    "answer": "The workshop methodologies used were action research, cooperative method development, speculative design, persona, scenario, role playing, affinity diagram, ideation, user journey, brainstorming, bodystorming, design probe, and prototyping.",
+    "reasoning": "Based on the context provided in the passage, it can be inferred that the workshop methodologies used included a combination of traditional design thinking techniques such as brainstorming, ideation, and user journey mapping, as well as more unconventional methods like speculative design and bodystorming. The passage mentions that the researchers used an \"informal discussion\" with the remaining project members to debrief the training session, which suggests that they may have also employed cooperative method development techniques. Additionally, the use of personas, scenarios, and role-playing are common practices in workshops focused on user experience design."
   },
   {
+    "paperID": 15,
     "question": "Which of the following field study methodologies where used? Please select all that apply: autoethnography,\n     ethnography, diary study, cultural, Wizard of Oz, not applicable, other (please specify)",
-    "answer": "Autoethnography and ethnography.",
-    "reasoning": "Based on the context provided, it can be inferred that the researchers used autoethnography and ethnography to study the experiences of blind individuals in outdoor nature. The use of these methodologies is evident from the references given, where the authors mention conducting interviews and focus groups with blind participants to explore their experiences (autoethnography) and observing the ways in which blind individuals interact with their environment (ethnography)."
+    "answer": "Autoethnography and Ethnography were used in the field study.",
+    "reasoning": "The study involved collecting data through interviews with children who used a computer-based speech training system, which is an example of autoethnography. Additionally, the researchers observed the children's behavior and interactions with the system, which is an aspect of ethnography."
   },
   {
+    "paperID": 15,
     "question": "Which of the following usability methodologies were used? Please select all that apply: expert analysis, think \n     aloud, cognative walkthrough, heuristic analysis, not applicable, other (please specify)",
-    "answer": "The usability methodology used in the study was expert analysis and think aloud.",
-    "reasoning": "Based on the information provided in the passage, it is clear that the researchers used an expert analysis approach to generate themes for their deductive thematic analysis. They also used think aloud protocols to gather data on participants' cognitive processes while navigating through a city. These two methodologies are the most relevant options listed in the question, and therefore, the answer is (a) Expert analysis and (b) Think aloud."
+    "answer": "The usability methodologies used in the study were expert analysis and think-aloud.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the researchers involved in the study conducted an expert analysis of the interface to identify any potential issues or areas for improvement. Additionally, they had the test participant think aloud as they used the system, which allowed the researchers to observe and record any usability issues or concerns the participant may have had. These two methodologies were the primary methods used in the study to evaluate the usability of the computer-based speech training system."
   },
   {
+    "paperID": 15,
     "question": "Which of the following technology modalities were used? Please select all that apply: mobile, tablet, wearable, IoT, \n     assistive devices, robot, tangible interface, PC, virtual reality, augmented reality, game console, no technology, other (please specify)",
-    "answer": "Mobile, tablet, wearable, assistive devices, and virtual reality.",
-    "reasoning": "Based on the provided context, it can be inferred that the participants in both studies used mobile and tablet devices for various purposes related to accessibility. In Study 1, the smartphone text-to-speech feature was used by participants to access computers and technology. In Study 2, navigation apps such as BlindSquare and Soundscape were used when travelling in the city. Additionally, wearable technology was mentioned as a tool used by participants for outdoor mobility. Finally, virtual reality was mentioned as a technology modality used in Study 2 for exploring a city."
+    "answer": "The following technology modalities were used:",
+    "reasoning": "Based on the passage, it is clear that ARTUR is a computer-based speech training system that uses augmented reality to provide feedback to users. Additionally, the passage mentions the use of game-like features in the interface, which suggests that a game console may have been used as well. However, it does not specify whether any other technologies were used."
   },
   {
+    "paperID": 15,
     "question": "What was the context of the study? Please select all that apply: clinic, public space (i.e. bowling alley), home, school, research lab, \n     social media, disability community space (i.e. Day program), remote/Zoom, not applicable, other (please specify)",
-    "answer": "The study took place in a research lab setting.",
-    "reasoning": "Based on the description of the study in the provided text, it is clear that the research was conducted in a controlled laboratory environment. The authors mention that they conducted interviews with participants in a \"research lab,\" which suggests that the study took place in a dedicated space for conducting research rather than in a public space or other location. Therefore, the answer is (A) Research lab."
+    "answer": "The context of the study was a research laboratory.",
+    "reasoning": "Based on the information provided in the passage, it is clear that the study took place in a controlled research environment, specifically a laboratory setting. This is evident from the description of the test and interview taking place in a separate room from the test laboratory, as well as the mention of the interviewer being an interface researcher. Additionally, the passage notes that the children were prepared for the study by visiting the interviewer in an environment familiar to them, which suggests that the study was conducted in a designated space rather than in a more public or uncontrolled setting."
   },
   {
+    "paperID": 15,
     "question": "What was the community of focus? Please select all that apply: Blind or low vision (BLV), Deaf or hard of hearing (DHH), Autism, \n     intellectual or developmental disability (IDD), motor of physical impairment, communication/speech, cognitive impairment, older adult, \n     general disability or accessability, other (please specifiy)",
-    "answer": "The community of focus was Blind or low vision (BLV).",
-    "reasoning": "Based on the information provided in the passage, it is clear that the focus group discussion involved participants who were blind or had low vision. The passage states that \"all participants were active users of smartphones and other digital technology,\" which suggests that they were able to communicate and participate in the discussion despite their visual impairments. Additionally, the passage notes that many of the participants were above 75 years old, which further supports the conclusion that the community of focus was Blind or low vision (BLV)."
+    "answer": "The community of focus in the ARTUR project was Deaf or hard of hearing (DHH).",
+    "reasoning": "Based on the information provided in the passage, it is clear that the main focus of the ARTUR project is on children with hearing impairments. The passage states that \"a main focus group of the project is hearing-impaired children with residual hearing,\" and that the program is designed to benefit from audiovisual feedback in speech training. Additionally, the passage mentions that the program involves several subtasks, including those related to speech training, but does not mention any other disability groups. Therefore, the answer is DHH."
   },
   {
+    "paperID": 15,
     "question": "What were the participant groups included in the study? Please select all that apply: People with disabilities, older adults, caregivers, \n    specialists (e.g. therapists, teachers), people without disabilities, no user involvement, other (please specify)",
-    "answer": "Participant groups included in the study were people with disabilities and older adults.",
-    "reasoning": "Based on the information provided in the passage, it is clear that the study focused on individuals with disabilities, specifically those who are blind or have visual impairments. The passage mentions that the study included participants from \"diferent disabilities\" and that one participant commented on the potential for people with different disabilities to help each other. Additionally, the study was conducted in a park setting, which suggests that the participants were individuals who may not have been able to access or navigate traditional indoor or outdoor spaces due to their disability. Therefore, it can be inferred that the participant groups included in the study were people with disabilities and older adults."
+    "answer": "The participant groups included in the study were children aged 9-14 with extensive experience of speech training and CBST systems, and three children aged six in the beginning of their speech training with limited or no experience of CBST systems.",
+    "reasoning": "Based on the context provided, the participant groups included in the study were children who had experience with speech training and CBST systems, as well as children who were just starting their speech training with limited or no experience of CBST systems."
   },
   {
+    "paperID": 15,
     "question": "Please select the option(s) that best describe user involevment in the study: participatory design with stakeholders without disabilities, \n    participatory design with stakeholders with disabilities, user evaluation with stakeholders without disabilities, user evaluation with stakeholders \n    with disabilities, no representative user involvement, not applicable",
-    "answer": "Participatory design with stakeholders with disabilities.",
-    "reasoning": "The study involved people with disabilities as stakeholders in the planning phase, which is consistent with the concept of interdependence within disability theory. This approach recognizes that people with disabilities are not just passive recipients of design solutions but are active participants in the design process. By involving people with disabilities in the planning stage, the study ensured that their needs and perspectives were taken into account, leading to a more inclusive and accessible design."
+    "answer": "Participatory design with stakeholders without disabilities.",
+    "reasoning": "Based on the context provided, it is clear that the study involved participatory design with stakeholders who do not have disabilities. The passage states that \"the main goal with this study was to get early feedback from the potential users of CBST,\" which suggests that the users were actively involved in the design process. Additionally, the study involved testing the system with a small group of children aged 9-14 who had extensive experience with speech training and CBST systems, which further supports the conclusion that user involvement was a key aspect of the study."
   },
   {
+    "paperID": 15,
     "question": "Which methods of participant recruitment were used? Please select all that apply: phone, mail, email, convienience sampling (i.e. Day program), \n    snowball, word of mouth, flier, social media, clinic, no user involvement, undisclosed, other (please specify)",
-    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. Day program), snowball, word of mouth, flier, social media, and clinic.",
-    "reasoning": "Based on the information provided in the context, it can be inferred that the researchers used a combination of methods to recruit participants for their survey and focus groups. These methods include phone, mail, email, convenience sampling (where participants were recruited from a designated location), snowball (where existing participants recruited new ones), word of mouth (where participants were invited by friends or family), flier (where participants were invited through flyers distributed in public areas), social media (where participants were invited through social media platforms), and clinic (where participants were recruited from a medical clinic). It is possible that other methods were used as well, but these are the ones mentioned in the context."
+    "answer": "The methods of participant recruitment used were phone, mail, email, convenience sampling (i.e. day program), snowball, word of mouth, flier, social media, and clinic.",
+    "reasoning": "Based on the passage, it is clear that the researchers used a combination of methods to recruit participants for the study. They first visited the children in their homes or schools to explain the purpose of the test and to prepare them for the study. This was done to make the child more relaxed and comfortable during the test and interview. Additionally, the speech therapist sat next to the child during the test to provide support and to help them follow the instructions given by the Artur system."
   },
   {
+    "paperID": 15,
     "question": "Which of the following issues were addressed in the study? Please select all that apply: increasing independence, increasing digital access, \n    increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior,\n    education, increasing opportunities for enrichment, other",
-    "answer": "increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior.",
-    "reasoning": "The study focused on the use of mobile phones by people with visual impairments in Kibera, Kenya. Participants described different ways technology could enhance their leisure experiences in parks, including having accessible information available on a website and through screen readers. This highlights the need for tailoring technological solutions to the personalities and preferences of individual BPSP (Blind and Partially Sighted People) and for being flexible in making information accessible both inside and outside of the natural environment."
+    "answer": "Increasing independence, increasing digital access, increasing physical access, increasing understanding of users, supporting communication, personal informatics and changing behavior, education.",
+    "reasoning": "Based on the context provided in the passage, it can be inferred that the study aimed to address various issues related to children's use of technology, including their independence, digital access, physical access, understanding of users, communication, personal informatics, and changing behavior. The study also touched on the topic of education, as it involved testing children with extensive experience of speech training and CBST systems, as well as children who were just beginning their speech training."
   },
   {
+    "paperID": 15,
     "question": "What is the type of contribution the study makes? Please select all that apply: empirical, artifact, methodological, theoretical, dataset, survey",
-    "answer": "The study contributes an overarching concept of \"contribution\" across four stages of leisure experiences.",
-    "reasoning": "The study uses qualitative data analysis to identify themes and patterns in the data collected through interviews with participants. The concept of contribution is a theoretical framework that emerged from the data, indicating that participants desired to contribute to each stage of the leisure experience, including planning, accessing, engaging, and sharing. Therefore, the study contributes theoretically by providing a new perspective on how people want to participate in the planning and execution of their leisure experiences."
+    "answer": "The study contributes an empirical and methodological contribution.",
+    "reasoning": "The study involves a small-scale investigation with a limited number of participants, which is typical of empirical studies. Additionally, the researchers describe their methodology for conducting the interviews and testing the ARTUR system, providing details on how they collected and analyzed data, which is also characteristic of methodological contributions."
   }
 ]
