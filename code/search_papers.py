@@ -8,6 +8,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 
 ## declare global vars here
 
@@ -19,7 +22,7 @@ chrome_options = Options()
 #chrome_options.add_arguments("--verbose")
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-url = "url.com"
+url = "https://dl.acm.org/"
 
 ## initialize LLM here
 
@@ -29,22 +32,37 @@ def bypass_cookies():
     try:
         # try loading pickle cookies file if exists
         with open("cookies.pkl", "rb") as f:
+            print("Using existing cookie info.")
             cookies = pickle.load(f) # loads cookies from file
             for cookie in cookies:
                 driver.add_cookie(cookie) # sets cookies already created
             driver.get(url) # now nav to url
     except FileNotFoundError: # will be the case the first time this runs
-        print("No cookies found.")
-        time.sleep(2) # wait for this to load, happens quick
-        cookie_button = driver.find_element("xpath", "//input[@type='submit']") # change to match ACM DL HTML
-        cookie_button.click()
-        time.sleep(2)
+        print("No cookies found. Clicking 'Use necessary cookies only'...")
+        try:
+            # wait for iframe to appear
+            iframe = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "iframe[src*='Cookiebot']"))
+            )
+            driver.switch_to.frame(iframe)
+
+            # wait for the button inside iframe
+            cookie_button = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.ID, "CybotCookiebotDialogBodyButtonDecline"))
+            )
+            cookie_button.click()
+            print("Cookie button clicked.")
+            time.sleep(2)
+            driver.switch_to.default_content()  # back to main page
+        except Exception as e:
+            print("Could not click cookie button:", e)
     
     with open('cookies.pkl', 'wb') as f:
         pickle.dump(driver.get_cookies(), f) # dumps all cookies into filestream
     
     driver.get(url) # just here to see results, can prob remove later
     time.sleep(5)
+    print("Done.")
 
 ## For each result in query results, get title and abstract
 
