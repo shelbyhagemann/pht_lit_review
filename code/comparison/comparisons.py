@@ -8,13 +8,48 @@ from sklearn.metrics import cohen_kappa_score
 ## Declare global variables here
 
 # list of all papers being compared
+# replace this with convidence IDs OR clean up study IDs in convidence doc
 papers = ["alankus11", "alaseem19", "asakawa21", "baloian02", "bandukdta20", "brule16", "butler19",
           "carrington18", "cavasosquero18", "chibaudel20", "dragomir18", "fan12", "fell03", "franz21",
           "galbraith14", "gerling13", "gizatdinova22", "gleason20", "hoey10", "hossain22", "hossain23",
           "india19", "jack00", "jiang23", "keate94", "kim13", "koushik17", "kuwahara06", "lobo21", "lu22",
           "madeo11", "mahmud06", "mai22", "miao17", "montague", "myers02", "nair22", "obryen12", "oretega15",
           "payne23", "piper10", "raman98", "ravers23", "rello15", "rubin16", "sanchez10", "sharma18", "strangl15",
-          "sturm17", "torrente12", "uchida18", "valencia19", "wilson17", "ye12", "zhang23"]
+          "sturm17", "torrente12", "uchida18", "valencia19", "wilson17", "ye12"]
+
+# names of each of the metrics as presented in dfs to make it easier to locate and compare
+framework_metrics = ["FunVsUtility", "PlayVsGame", "SkillVsChance", "SocialVsSolo", "SequentialVsSimultaneous",
+                "SynchronousVsAsynchronous", "CompetitiveVsCollaborative", "SymmeticalVsAsymmetrical", "ExperientalPlayClassificationSensory",
+                "ExperientalPlayClassificationFantasy", "ExperientalPlayClassificationConstruction", "ExperientalPlayClassificationChallenge",
+                "ExperientalPlayClassificationUnknown", "ExperientalPlayClassificationNA"]
+
+# dividing up based on sub-sections of study characteristics because of how GPT is generating json files
+
+study_char_methods = ["Interview", "WorkshopOrDesignSession", "FieldStudy", "UsabilityTesting", "CaseStudy",
+                      "FocusGroup", "ControlledExperiment", "Survey", "TelemetryBigDataCSCW", "SecondaryAnalysis",
+                      "Other"]
+
+study_char_interview = ["Structured", "Semi-structured", "ContextualInquiry", "NotApplicable", "Other"]
+
+study_char_workshop = ["ActionResearch", "CooperativeMethodDevelopment", "SpeculativeDesign", "Persona",
+                       "Scenario", "RolePlaying", "AffinityDiagram", "Ideation", "UserJourney", "Brainstorming",
+                       "Bodystorming", "DesignProbe", "Prototyping", "Mock-up", "Wireframe", "CardSorting", 
+                       "Storyboarding", "UseCaseTheater", "ObjectTheater", "NotApplicable", "Other"]
+
+study_char_field_study = ["Ethnography", "DiaryStudy", "CulturalProbe", "WizardOfOz", "NotApplicable", "Other"]
+
+study_char_usability = ["ExpertAnalysis", "ThinkAloud", "CognativeWalkthrough", "HeuristicAnalysis", "NotApplicable", "Other"]
+
+study_char_modality = ["Mobile", "Tablet", "Wearable", "IoT", "AssistiveDevice", "Robot", "TangibleInterface", "PC", "VR",
+                       "AR", "Game Console", "NotTechnology", "Other"]
+
+study_char_context = ["Clinic", "PublicSpace", "Home", "School", "ResearchLab", "SocialMedia", "DisabilitySpace",
+                      "RemoteZoom", "Unknown", "NotApplicable", "Other"]
+
+study_char_issue = ["IncreasingIndependence", "IncreasingDigitalAccess", "IncreasingPhysicalAccess", "IncreasingUnderstandingOfUsers",
+                    "SupportingCommunication", "PersonalInformaticsChangingBehavior", "IncreasingOpportunitiesForEnrichment", "Other"]
+
+# number of papers to review, will randomly select this number of papers
 
 ## Delcare functions here
 
