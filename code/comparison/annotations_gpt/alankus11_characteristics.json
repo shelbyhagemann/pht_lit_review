@@ -1,0 +1,173 @@
+{
+  "StudyCharacteristics": {
+    "FundingSources": "National Institutes of Health (NIH)",
+    "StudyMethod": {
+      "Interview": false,
+      "WorkshopOrDesignSession": false,
+      "FieldStudy": true,
+      "UsabilityTesting": true,
+      "CaseStudy": false,
+      "FocusGroup": false,
+      "ControlledExperiment": true,
+      "Survey": false,
+      "TelemetryBigDataCSCW": false,
+      "SecondaryAnalysis": false,
+      "Other": false
+    },
+    "StudyMethodRationale": {
+      "InterviewRationale": "",
+      "WorkshopOrDesignSession": "",
+      "FieldStudyRationale": "Games were deployed in the context of stroke rehabilitation with real patients.",
+      "UsabilityTestingRationale": "The paper describes evaluating whether stroke survivors could use the customizable games effectively.",
+      "CaseStudyRationale": "",
+      "FocusGroupRationale": "",
+      "ControlledExperimentRationale": "The authors conducted controlled experiments to evaluate the effectiveness of the games.",
+      "SurveyRationale": "",
+      "TelemetryBigDataCSCWRationale": "",
+      "SecondaryAnalysisRationale": "",
+      "OtherRationale": ""
+    },
+    "InterviewMethodology": {
+      "Structured": false,
+      "Semi-structured": false,
+      "ContextualInquiry": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "InterviewMethodologyRationale": {
+      "StructuredRationale": "",
+      "Semi-StructuredRationale": "",
+      "ContextualInquiryRationale": "",
+      "NotApplicableRationale": "No interviews were reported in the study.",
+      "OtherRationale": ""
+    },
+    "WorkshopMethodology": {
+      "ActionResearch": false,
+      "CooperativeMethodDevelopment": false,
+      "SpeculativeDesign": false,
+      "Persona": false,
+      "Scenario": false,
+      "RolePlaying": false,
+      "AffinityDiagram": false,
+      "Ideation": false,
+      "UserJourney": false,
+      "Brainstorming": false,
+      "Bodystorming": false,
+      "DesignProbe": false,
+      "Prototyping": false,
+      "Mock-up": false,
+      "Wireframe": false,
+      "CardSorting": false,
+      "Storyboarding": false,
+      "UseCaseTheater": false,
+      "ObjectTheater": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "WorkshopMethodologyRationale": {
+      "ActionResearchRationale": "",
+      "CooperativeMethodDevelopmentRationaale": "",
+      "SpeculativeDesignRationale": "",
+      "PersonaRationale": "",
+      "ScenarioRationale": "",
+      "RolePlayingRationale": "",
+      "BrainstormingRationale": "",
+      "DesignProbeRationale": "",
+      "BodystormingRationale": "",
+      "PrototypingRationale": "",
+      "Mock-UpRationale": "",
+      "WireframeRationale": "",
+      "CardSortingRationale": "",
+      "StoryboardingRationale": "",
+      "NotApplicableRationale": "No workshops or design sessions were part of the methodology.",
+      "OtherRationale": ""
+    },
+    "FieldStudyMethodology": {
+      "Ethnography": false,
+      "DiaryStudy": false,
+      "CulturalProbe": false,
+      "WizardOfOz": false,
+      "NotApplicable": false,
+      "Other": true
+    },
+    "FieldStudyMethodologyRationale": {
+      "AutoethnographyRationale": "",
+      "EthnographyRationale": "",
+      "DiaryStudyRationale": "",
+      "CulturalProbeRationaale": "",
+      "WizardOfOzRational": "",
+      "NotApplicableRation": "",
+      "OtherRationale": "Deployment of rehabilitation games with stroke patients in clinical settings does not fit neatly into standard categories."
+    },
+    "UsabilityStudyMethodology": {
+      "ExpertAnalysis": false,
+      "ThinkAloud": false,
+      "CognativeWalkthrough": false,
+      "HeuristicAnalysis": false,
+      "NotApplicable": false,
+      "Other": true
+    },
+    "UsabilityStudyMethodologyRationale": {
+      "ExpertAnalysisRationale": "",
+      "ThinkAloudRationale": "",
+      "CognativeWalkthrough": "",
+      "HeuristicAnalysisRationale": "",
+      "NotApplicableRationale": "",
+      "OtherRationale": "Usability was evaluated through direct playtesting with stroke survivors rather than formal HCI heuristics."
+    },
+    "TechnologyModality": {
+      "Mobile": false,
+      "Tablet": false,
+      "Wearable": false,
+      "IoT": false,
+      "AssistiveDevice": true,
+      "Robot": false,
+      "TangibleInterface": true,
+      "PC": true,
+      "VR": false,
+      "AR": false,
+      "Game Console": false,
+      "NotTechnology": false,
+      "Other": false
+    },
+    "TechnologyModalityRationale": {
+      "MobileRationale": "",
+      "TabletRationale": "",
+      "WearableRationa": "",
+      "IoTRatioanle": "",
+      "AssistiveDeviceRationa": "The games were designed specifically as therapeutic tools for stroke rehabilitation.",
+      "RobotRationale": "",
+      "TangibleInterfaceRationale": "The games required physical movements mapped to tangible interfaces for rehabilitation.",
+      "PCRationale": "Games were implemented and played on a standard PC platform.",
+      "VRRationale": "",
+      "ARRationale": "",
+      "GameConsoleRationale": "",
+      "NoTechnologyRationale": "",
+      "OtherRationale": ""
+    },
+    "Context": {
+      "Clinic": true,
+      "PublicSpace": false,
+      "Home": false,
+      "School": false,
+      "ResearchLab": true,
+      "SocialMedia": false,
+      "DisabilitySpace": false,
+      "RemoteZoom": false,
+      "Unknown": false,
+      "NotApplicable": false,
+      "Other": false
+    },
+    "IssueAddressed": {
+      "IncreasingIndependence": true,
+      "IncreasingDigitalAccess": false,
+      "IncreasingPhysicalAccess": true,
+      "IncreasingUnderstandingOfUsers": true,
+      "SupportingCommunication": false,
+      "PersonalInformaticsChangingBehavior": false,
+      "Education": false,
+      "IncreasingOpportunitiesForEnrichment": false,
+      "Other": false
+    }
+  }
+}

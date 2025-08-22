@@ -1,0 +1,173 @@
+{
+  "StudyCharacteristics": {
+    "FundingSources": "",
+    "StudyMethod": {
+      "Interview": false,
+      "WorkshopOrDesignSession": false,
+      "FieldStudy": false,
+      "UsabilityTesting": false,
+      "CaseStudy": false,
+      "FocusGroup": false,
+      "ControlledExperiment": false,
+      "Survey": false,
+      "TelemetryBigDataCSCW": false,
+      "SecondaryAnalysis": true,
+      "Other": false
+    },
+    "StudyMethodRationale": {
+      "InterviewRationale": "",
+      "WorkshopOrDesignSession": "",
+      "FieldStudyRationale": "",
+      "UsabilityTestingRationale": "",
+      "CaseStudyRationale": "",
+      "FocusGroupRationale": "",
+      "ControlledExperimentRationale": "",
+      "SurveyRationale": "",
+      "TelemetryBigDataCSCWRationale": "",
+      "SecondaryAnalysisRationale": "The study is an analysis of existing mobile games for accessibility, not primary data collection.",
+      "OtherRationale": ""
+    },
+    "InterviewMethodology": {
+      "Structured": false,
+      "Semi-structured": false,
+      "ContextualInquiry": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "InterviewMethodologyRationale": {
+      "StructuredRationale": "",
+      "Semi-StructuredRationale": "",
+      "ContextualInquiryRationale": "",
+      "NotApplicableRationale": "No interviews were conducted as this was a game analysis study.",
+      "OtherRationale": ""
+    },
+    "WorkshopMethodology": {
+      "ActionResearch": false,
+      "CooperativeMethodDevelopment": false,
+      "SpeculativeDesign": false,
+      "Persona": false,
+      "Scenario": false,
+      "RolePlaying": false,
+      "AffinityDiagram": false,
+      "Ideation": false,
+      "UserJourney": false,
+      "Brainstorming": false,
+      "Bodystorming": false,
+      "DesignProbe": false,
+      "Prototyping": false,
+      "Mock-up": false,
+      "Wireframe": false,
+      "CardSorting": false,
+      "Storyboarding": false,
+      "UseCaseTheater": false,
+      "ObjectTheater": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "WorkshopMethodologyRationale": {
+      "ActionResearchRationale": "",
+      "CooperativeMethodDevelopmentRationaale": "",
+      "SpeculativeDesignRationale": "",
+      "PersonaRationale": "",
+      "ScenarioRationale": "",
+      "RolePlayingRationale": "",
+      "BrainstormingRationale": "",
+      "DesignProbeRationale": "",
+      "BodystormingRationale": "",
+      "PrototypingRationale": "",
+      "Mock-UpRationale": "",
+      "WireframeRationale": "",
+      "CardSortingRationale": "",
+      "StoryboardingRationale": "",
+      "NotApplicableRationale": "No workshops or design sessions were conducted for this paper.",
+      "OtherRationale": ""
+    },
+    "FieldStudyMethodology": {
+      "Ethnography": false,
+      "DiaryStudy": false,
+      "CulturalProbe": false,
+      "WizardOfOz": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "FieldStudyMethodologyRationale": {
+      "AutoethnographyRationale": "",
+      "EthnographyRationale": "",
+      "DiaryStudyRationale": "",
+      "CulturalProbeRationaale": "",
+      "WizardOfOzRational": "",
+      "NotApplicableRation": "No field study was included since this was a secondary analysis of games.",
+      "OtherRationale": ""
+    },
+    "UsabilityStudyMethodology": {
+      "ExpertAnalysis": false,
+      "ThinkAloud": false,
+      "CognativeWalkthrough": false,
+      "HeuristicAnalysis": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "UsabilityStudyMethodologyRationale": {
+      "ExpertAnalysisRationale": "",
+      "ThinkAloudRationale": "",
+      "CognativeWalkthrough": "",
+      "HeuristicAnalysisRationale": "",
+      "NotApplicableRationale": "The work did not involve usability studies; it focused on reviewing existing games.",
+      "OtherRationale": ""
+    },
+    "TechnologyModality": {
+      "Mobile": true,
+      "Tablet": false,
+      "Wearable": false,
+      "IoT": false,
+      "AssistiveDevice": false,
+      "Robot": false,
+      "TangibleInterface": false,
+      "PC": false,
+      "VR": false,
+      "AR": false,
+      "Game Console": false,
+      "NotTechnology": false,
+      "Other": false
+    },
+    "TechnologyModalityRationale": {
+      "MobileRationale": "The study analyzed mobile games designed for accessibility.",
+      "TabletRationale": "",
+      "WearableRationa": "",
+      "IoTRatioanle": "",
+      "AssistiveDeviceRationa": "",
+      "RobotRationale": "",
+      "TangibleInterfaceRationale": "",
+      "PCRationale": "",
+      "VRRationale": "",
+      "ARRationale": "",
+      "GameConsoleRationale": "",
+      "NoTechnologyRationale": "",
+      "OtherRationale": ""
+    },
+    "Context": {
+      "Clinic": false,
+      "PublicSpace": false,
+      "Home": false,
+      "School": false,
+      "ResearchLab": false,
+      "SocialMedia": false,
+      "DisabilitySpace": false,
+      "RemoteZoom": false,
+      "Unknown": false,
+      "NotApplicable": true,
+      "Other": false
+    },
+    "IssueAddressed": {
+      "IncreasingIndependence": true,
+      "IncreasingDigitalAccess": true,
+      "IncreasingPhysicalAccess": false,
+      "IncreasingUnderstandingOfUsers": true,
+      "SupportingCommunication": false,
+      "PersonalInformaticsChangingBehavior": false,
+      "Education": false,
+      "IncreasingOpportunitiesForEnrichment": true,
+      "Other": false
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "StudyCharacteristics": {
+    "FundingSources": "NYU Ability Project, National Federation of the Blind (NFB)",
+    "StudyMethod": {
+      "Interview": true,
+      "WorkshopOrDesignSession": false,
+      "FieldStudy": false,
+      "UsabilityTesting": false,
+      "CaseStudy": false,
+      "FocusGroup": false,
+      "ControlledExperiment": false,
+      "Survey": false,
+      "TelemetryBigDataCSCW": false,
+      "SecondaryAnalysis": false,
+      "Other": false
+    },
+    "StudyMethodRationale": {
+      "InterviewRationale": "The study is based on interviews with 43 people with vision impairments about their experiences watching sports."
+    },
+    "InterviewMethodology": {
+      "Structured": false,
+      "Semi-structured": true,
+      "ContextualInquiry": false,
+      "NotApplicable": false,
+      "Other": false
+    },
+    "InterviewMethodologyRationale": {
+      "Semi-StructuredRationale": "The interviews followed a set of guiding questions but allowed for open-ended responses."
+    },
+    "WorkshopMethodology": {
+      "NotApplicable": true
+    },
+    "WorkshopMethodologyRationale": {
+      "NotApplicableRationale": "No workshops or design sessions were conducted for this study."
+    },
+    "FieldStudyMethodology": {
+      "NotApplicable": true
+    },
+    "FieldStudyMethodologyRationale": {
+      "NotApplicableRation": "The study did not involve field deployments; it focused on remote interviews."
+    },
+    "UsabilityStudyMethodology": {
+      "NotApplicable": true
+    },
+    "UsabilityStudyMethodologyRationale": {
+      "NotApplicableRationale": "No usability testing was reported in this study."
+    },
+    "TechnologyModality": {
+      "NotTechnology": true
+    },
+    "TechnologyModalityRationale": {
+      "NoTechnologyRationale": "This work focused on the experience of watching sports rather than testing or developing technology."
+    },
+    "Context": {
+      "Clinic": false,
+      "PublicSpace": true,
+      "Home": true,
+      "School": false,
+      "ResearchLab": false,
+      "SocialMedia": false,
+      "DisabilitySpace": false,
+      "RemoteZoom": true,
+      "Unknown": false,
+      "NotApplicable": false,
+      "Other": false
+    },
+    "IssueAddressed": {
+      "IncreasingIndependence": true,
+      "IncreasingDigitalAccess": true,
+      "IncreasingPhysicalAccess": false,
+      "IncreasingUnderstandingOfUsers": true,
+      "SupportingCommunication": true,
+      "PersonalInformaticsChangingBehavior": false,
+      "Education": false,
+      "IncreasingOpportunitiesForEnrichment": true,
+      "Other": false
+    }
+  }
+}

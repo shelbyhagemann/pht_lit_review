@@ -1,0 +1,31 @@
+{
+  "Framework": {
+    "FunVsUtility": 4,
+    "FunVsUtilityRationale": "The study focuses on the enjoyment and accessibility of watching sports for people with vision impairments, emphasizing entertainment over utility.",
+    "PlayVsGame": 1,
+    "PlayVsGameRationale": "This work does not focus on structured gameplay but on the broader play-like experience of watching sports.",
+    "SkillVsChance": 1,
+    "SkillVsChanceRationale": "Watching sports is not contingent on player skill or chance elements in the traditional sense.",
+    "SocialVsSolo": 4,
+    "SocialVsSoloRationale": "The experience is often social, involving watching sports with friends, family, or communities, though it can also be solo.",
+    "SequentialVsSimultaneous": 1,
+    "SequentialVsSimultaneousRationale": "Spectating unfolds sequentially in real-time as sports events progress.",
+    "SynchronousVsAsynchronous": 1,
+    "SynchronousVsAsynchronousRationale": "The primary focus is synchronous engagement, watching sports live in real-time.",
+    "CompetitiveVsCollaborative": 2,
+    "CompetitiveVsCollaborativeRationale": "While fans identify with teams competitively, the activity of spectating itself is more communal and collaborative.",
+    "SymmeticalVsAsymmetrical": 3,
+    "ExperientalPlayClassificationSensory": true,
+    "ExperientalPlayClassificationSensoryRationale": "The study centers on sensory engagement (audio, atmosphere, crowd sounds) for people with vision impairments.",
+    "ExperientalPlayClassificationFantasy": false,
+    "ExperientalPlayClassificationFantasyRationale": "The focus is not on fantasy role-play elements.",
+    "ExperientalPlayClassificationConstruction": false,
+    "ExperientalPlayClassificationConstructionRationale": "There is no constructive or creative play component.",
+    "ExperientalPlayClassificationChallenge": false,
+    "ExperientalPlayClassificationChallengeRationale": "Spectating sports is not structured as a challenge to the viewer.",
+    "ExperientalPlayClassificationUnknown": false,
+    "ExperientalPlayClassificationUnknownRationale": "",
+    "ExperientalPlayClassificationNA": false,
+    "ExperientalPlayClassificationNARationale": ""
+  }
+}

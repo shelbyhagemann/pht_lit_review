@@ -1,0 +1,31 @@
+{
+  "Framework": {
+    "FunVsUtility": 5,
+    "FunVsUtilityRationale": "The games were developed primarily as a rehabilitation tool by clinicians and researchers, with fun incorporated later to increase engagement.",
+    "PlayVsGame": 5,
+    "PlayVsGameRationale": "The interventions are structured video games with rigid rules designed to support rehabilitation exercises.",
+    "SkillVsChance": 1,
+    "SkillVsChanceRationale": "Gameplay is entirely skill-based, requiring motor performance rather than chance mechanics.",
+    "SocialVsSolo": 1,
+    "SocialVsSoloRationale": "The games are designed for individual stroke survivors to play alone as part of therapy.",
+    "SequentialVsSimultaneous": 1,
+    "SequentialVsSimultaneousRationale": "The games progress in a turn-based or sequential structure rather than simultaneous play.",
+    "SynchronousVsAsynchronous": 1,
+    "SynchronousVsAsynchronousRationale": "Players interact with the system synchronously during real-time gameplay.",
+    "CompetitiveVsCollaborative": 5,
+    "CompetitiveVsCollaborativeRationale": "The games are fully collaborative with the therapeutic process, not competitive.",
+    "SymmeticalVsAsymmetrical": 3,
+    "ExperientalPlayClassificationSensory": true,
+    "ExperientalPlayClassificationSensoryRationale": "Games rely on visual and motion feedback to engage players.",
+    "ExperientalPlayClassificationFantasy": false,
+    "ExperientalPlayClassificationFantasyRationale": "The games do not use fantasy role-play elements.",
+    "ExperientalPlayClassificationConstruction": false,
+    "ExperientalPlayClassificationConstructionRationale": "There are no creative or constructive play elements.",
+    "ExperientalPlayClassificationChallenge": true,
+    "ExperientalPlayClassificationChallengeRationale": "Games test and improve motor skills, providing challenge through rehabilitation tasks.",
+    "ExperientalPlayClassificationUnknown": false,
+    "ExperientalPlayClassificationUnknownRationale": "",
+    "ExperientalPlayClassificationNA": false,
+    "ExperientalPlayClassificationNARationale": ""
+  }
+}

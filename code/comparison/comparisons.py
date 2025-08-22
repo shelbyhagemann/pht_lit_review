@@ -67,6 +67,8 @@ def load_file(file_path, status):
         df = pd.DataFrame([data["Framework"]])
     elif status == 1:
         df = pd.json_normalize(data["StudyCharacteristics"], sep="_")
+    elif status == -1:
+        df = pd.DataFrame(data)
     # return df
     return df
 
@@ -80,13 +82,12 @@ def load_file(file_path, status):
 def whole_cohens_kappa(df1, df2):
     pass
 
-## Name: measure_accuracy
-## Inputs: two pandas dfs, one for human annotations and one for llm annotations
-## Outputs: double value, accuracy score
+## Name: calculate_dist
+## Inputs: 
+## Outputs: 
 ## Dependencies: 
-## Description: calculates number of correct annotations, computes proportion to total annotations
-        ## planning to do on metric-by-metric and whole dataset scales
-def measure_accuracy(df1, df2):
+## Description: 
+def measure_accuracy(val1, val2):
     pass
 
 ## Name: metric_cohens_kappa
@@ -117,17 +118,30 @@ def generate_results(paper, results_list):
 
 ## Main function
 def main():
+    # load all human annotations
+    status = -1
+    human_annotations = load_file("convidence_results.csv", status)
+    paper_num = 0
     for paper in papers:
+        # List to keep track of kappas
         results_list = pd.DataFrame(columns = ["metric", "cohens_kappa"])
+
         # review framework annotations first
         status = 0
-        human_annotations_fr = load_file(f"comparison_human/{paper}_framework.json", status)
         gpt_annotations_fr = load_file(f"comparison_gpt/{paper}_framework.json", status)
         #entire_cohens_kappa = whole_cohens_kappa(human_annotations, gpt_annotations)
-        for col in human_annotations_fr:
-            cohens_kappa_results = metric_cohens_kappa(human_annotations_fr, gpt_annotations_fr, col)
-            kappa_value = cohens_kappa_results["cohens_kappa"].iloc[0]
-            results_list.loc[len(results_list)] = [col, kappa_value]
+        #for col in human_annotations_fr:
+         #   cohens_kappa_results = metric_cohens_kappa(human_annotations_fr, gpt_annotations_fr, col)
+          #  kappa_value = cohens_kappa_results["cohens_kappa"].iloc[0]
+           # results_list.loc[len(results_list)] = [col, kappa_value]
+
+        for metric in framework_metrics:
+            # get corresponding column for metric
+            gpt_col = gpt_annotations_fr.loc[metric]
+            human_col = human_annotations.loc[metric]
+
+            # get value at row for given paper
+
         # review study characteristic annotations
         status = 1
         human_annotations_sc = load_file(f"comparison_human/{paper}_characteristics.json", status)

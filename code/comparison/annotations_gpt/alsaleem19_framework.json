@@ -1,0 +1,31 @@
+{
+  "Framework": {
+    "FunVsUtility": 4,
+    "FunVsUtilityRationale": "The work focuses on entertainment games made accessible to blind players, with some utility in promoting inclusion.",
+    "PlayVsGame": 5,
+    "PlayVsGameRationale": "The focus is on structured mobile games, analyzed for accessibility features.",
+    "SkillVsChance": 3,
+    "SkillVsChanceRationale": "Games incorporate both skill (memory, navigation, auditory cues) and chance mechanics.",
+    "SocialVsSolo": 2,
+    "SocialVsSoloRationale": "Primarily designed for individual play, though some games can include social elements.",
+    "SequentialVsSimultaneous": 1,
+    "SequentialVsSimultaneousRationale": "Gameplay unfolds sequentially, not in simultaneous interactions.",
+    "SynchronousVsAsynchronous": 1,
+    "SynchronousVsAsynchronousRationale": "Players engage in real-time, synchronous interaction with mobile games.",
+    "CompetitiveVsCollaborative": 2,
+    "CompetitiveVsCollaborativeRationale": "Games can involve competition against the system or others, but collaboration is minimal.",
+    "SymmeticalVsAsymmetrical": 2,
+    "ExperientalPlayClassificationSensory": true,
+    "ExperientalPlayClassificationSensoryRationale": "Games rely heavily on auditory cues and tactile interfaces for blind players.",
+    "ExperientalPlayClassificationFantasy": false,
+    "ExperientalPlayClassificationFantasyRationale": "Fantasy role-play elements are not a focus of the analyzed games.",
+    "ExperientalPlayClassificationConstruction": false,
+    "ExperientalPlayClassificationConstructionRationale": "No construction-based or creative mechanics are emphasized.",
+    "ExperientalPlayClassificationChallenge": true,
+    "ExperientalPlayClassificationChallengeRationale": "Games incorporate challenges for players, testing memory and spatial reasoning.",
+    "ExperientalPlayClassificationUnknown": false,
+    "ExperientalPlayClassificationUnknownRationale": "",
+    "ExperientalPlayClassificationNA": false,
+    "ExperientalPlayClassificationNARationale": ""
+  }
+}
